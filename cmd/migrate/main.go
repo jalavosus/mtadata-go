@@ -11,6 +11,7 @@ import (
 	"github.com/urfave/cli/v2"
 	"gorm.io/gorm"
 
+	"github.com/jalavosus/mtadata/internal/database"
 	"github.com/jalavosus/mtadata/internal/database/connection"
 	"github.com/jalavosus/mtadata/models"
 	"github.com/jalavosus/mtadata/models/borough"
@@ -38,52 +39,36 @@ var (
 	}
 )
 
+var dbModels = []database.CustomDbTyper{
+	borough.Borough(""),
+	structure.Structure(""),
+	division.Division(""),
+	routes.Route(""),
+	models.GtfsLocation{},
+	models.DirectionLabels{},
+}
+
 func migrateCmdAction(c *cli.Context) error {
 	ctx, cancel := context.WithTimeout(c.Context, 30*time.Second)
 	defer cancel()
 
 	conn := connection.ConnectionContext(ctx)
 
-	var (
-		boroughModel         = borough.Borough("")
-		structureModel       = structure.Structure("")
-		divisionModel        = division.Division("")
-		routeModel           = routes.Route("")
-		gtfsLocationModel    = models.GtfsLocation{}
-		directionLabelsModel = models.DirectionLabels{}
-		// routesModel          = routes.Routes{}
-	)
-
-	dropAll(conn)
-
-	cmd := boroughModel.CreateDbType()
-	if err := conn.Exec(cmd).Error; err != nil {
-		return errors.WithMessagef(err, "error executing sql '%[1]s'", cmd)
+	if err := conn.Exec("DROP TABLE stations;").Error; err != nil {
+		log.Println(err)
 	}
 
-	cmd = structureModel.CreateDbType()
-	if err := conn.Exec(cmd).Error; err != nil {
-		return errors.WithMessagef(err, "error executing sql '%[1]s'", cmd)
+	for _, dbModel := range dbModels {
+		if err := dropType(conn, dbModel.GormDataType()); err != nil {
+			log.Println(err)
+		}
 	}
 
-	cmd = divisionModel.CreateDbType()
-	if err := conn.Exec(cmd).Error; err != nil {
-		return errors.WithMessagef(err, "error executing sql '%[1]s'", cmd)
-	}
-
-	cmd = routeModel.CreateDbType()
-	if err := conn.Exec(cmd).Error; err != nil {
-		return errors.WithMessagef(err, "error executing sql '%[1]s'", cmd)
-	}
-
-	cmd = gtfsLocationModel.CreateDbType()
-	if err := conn.Exec(cmd).Error; err != nil {
-		return errors.WithMessagef(err, "error executing sql '%[1]s'", cmd)
-	}
-
-	cmd = directionLabelsModel.CreateDbType()
-	if err := conn.Exec(cmd).Error; err != nil {
-		return errors.WithMessagef(err, "error executing sql '%[1]s'", cmd)
+	for _, dbModel := range dbModels {
+		cmd := dbModel.CreateDbType()
+		if err := conn.Exec(cmd).Error; err != nil {
+			return errors.WithMessagef(err, "error executing sql '%[1]s'", cmd)
+		}
 	}
 
 	if err := conn.AutoMigrate(&models.Station{}); err != nil {
@@ -99,49 +84,17 @@ func dropAllCmdAction(c *cli.Context) error {
 
 	conn := connection.ConnectionContext(ctx)
 
-	dropAll(conn)
+	if err := conn.Exec("DROP TABLE stations;").Error; err != nil {
+		return err
+	}
+
+	for _, dbModel := range dbModels {
+		if err := dropType(conn, dbModel.GormDataType()); err != nil {
+			return err
+		}
+	}
 
 	return nil
-}
-
-func dropAll(conn *gorm.DB) {
-	var (
-		boroughModel         = borough.Borough("")
-		structureModel       = structure.Structure("")
-		divisionModel        = division.Division("")
-		routeModel           = routes.Route("")
-		gtfsLocationModel    = models.GtfsLocation{}
-		directionLabelsModel = models.DirectionLabels{}
-		// routesModel          = routes.Routes{}
-	)
-
-	if err := conn.Exec("DROP TABLE stations;").Error; err != nil {
-		log.Println(err)
-	}
-
-	if err := dropType(conn, boroughModel.GormDataType()); err != nil {
-		log.Println(err)
-	}
-
-	if err := dropType(conn, structureModel.GormDataType()); err != nil {
-		log.Println(err)
-	}
-
-	if err := dropType(conn, divisionModel.GormDataType()); err != nil {
-		log.Println(err)
-	}
-
-	if err := dropType(conn, routeModel.GormDataType()); err != nil {
-		log.Println(err)
-	}
-
-	if err := dropType(conn, gtfsLocationModel.GormDataType()); err != nil {
-		log.Println(err)
-	}
-
-	if err := dropType(conn, directionLabelsModel.GormDataType()); err != nil {
-		log.Println(err)
-	}
 }
 
 func dropType(conn *gorm.DB, typeName string) error {
