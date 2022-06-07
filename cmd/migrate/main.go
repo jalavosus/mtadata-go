@@ -25,12 +25,24 @@ func makeDropTypeCmd(typeName string) string {
 	return fmt.Sprintf("DROP TYPE public.%[1]s;", typeName)
 }
 
+var (
+	runMigrateCmd = cli.Command{
+		Name:   "run-all",
+		Usage:  "Run all migrations",
+		Action: migrateCmdAction,
+	}
+	dropAllCmd = cli.Command{
+		Name:   "drop-all",
+		Usage:  "Drop all tables and types",
+		Action: dropAllCmdAction,
+	}
+)
+
 func migrateCmdAction(c *cli.Context) error {
 	ctx, cancel := context.WithTimeout(c.Context, 30*time.Second)
 	defer cancel()
 
-	conn := connection.Connection()
-	conn = conn.WithContext(ctx)
+	conn := connection.ConnectionContext(ctx)
 
 	var (
 		boroughModel         = borough.Borough("")
@@ -42,33 +54,7 @@ func migrateCmdAction(c *cli.Context) error {
 		// routesModel          = routes.Routes{}
 	)
 
-	if err := conn.Exec("DROP TABLE stations;").Error; err != nil {
-		log.Println(err)
-	}
-
-	if err := dropType(conn, boroughModel.GormDataType()); err != nil {
-		log.Println(err)
-	}
-
-	if err := dropType(conn, structureModel.GormDataType()); err != nil {
-		log.Println(err)
-	}
-
-	if err := dropType(conn, divisionModel.GormDataType()); err != nil {
-		log.Println(err)
-	}
-
-	if err := dropType(conn, routeModel.GormDataType()); err != nil {
-		log.Println(err)
-	}
-
-	if err := dropType(conn, gtfsLocationModel.GormDataType()); err != nil {
-		log.Println(err)
-	}
-
-	if err := dropType(conn, directionLabelsModel.GormDataType()); err != nil {
-		log.Println(err)
-	}
+	dropAll(conn)
 
 	cmd := boroughModel.CreateDbType()
 	if err := conn.Exec(cmd).Error; err != nil {
@@ -107,6 +93,57 @@ func migrateCmdAction(c *cli.Context) error {
 	return nil
 }
 
+func dropAllCmdAction(c *cli.Context) error {
+	ctx, cancel := context.WithTimeout(c.Context, 30*time.Second)
+	defer cancel()
+
+	conn := connection.ConnectionContext(ctx)
+
+	dropAll(conn)
+
+	return nil
+}
+
+func dropAll(conn *gorm.DB) {
+	var (
+		boroughModel         = borough.Borough("")
+		structureModel       = structure.Structure("")
+		divisionModel        = division.Division("")
+		routeModel           = routes.Route("")
+		gtfsLocationModel    = models.GtfsLocation{}
+		directionLabelsModel = models.DirectionLabels{}
+		// routesModel          = routes.Routes{}
+	)
+
+	if err := conn.Exec("DROP TABLE stations;").Error; err != nil {
+		log.Println(err)
+	}
+
+	if err := dropType(conn, boroughModel.GormDataType()); err != nil {
+		log.Println(err)
+	}
+
+	if err := dropType(conn, structureModel.GormDataType()); err != nil {
+		log.Println(err)
+	}
+
+	if err := dropType(conn, divisionModel.GormDataType()); err != nil {
+		log.Println(err)
+	}
+
+	if err := dropType(conn, routeModel.GormDataType()); err != nil {
+		log.Println(err)
+	}
+
+	if err := dropType(conn, gtfsLocationModel.GormDataType()); err != nil {
+		log.Println(err)
+	}
+
+	if err := dropType(conn, directionLabelsModel.GormDataType()); err != nil {
+		log.Println(err)
+	}
+}
+
 func dropType(conn *gorm.DB, typeName string) error {
 	cmd := makeDropTypeCmd(typeName)
 	if err := conn.Exec(cmd).Error; err != nil {
@@ -118,9 +155,12 @@ func dropType(conn *gorm.DB, typeName string) error {
 
 func main() {
 	app := &cli.App{
-		Name:   "migrate",
-		Usage:  "Run database migrations",
-		Action: migrateCmdAction,
+		Name:  "migrate",
+		Usage: "Run database migrations",
+		Commands: []*cli.Command{
+			&runMigrateCmd,
+			&dropAllCmd,
+		},
 	}
 
 	if err := app.Run(os.Args); err != nil {
