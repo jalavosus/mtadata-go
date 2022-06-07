@@ -107,8 +107,8 @@ func (s *Stations) Scan(value any) error {
 				GtfsStopId: station["gtfs_stop_id"].(string),
 				StopName:   station["stop_name"].(string),
 				Line:       station["line"].(string),
-				Division:   division.DivisionFromString(station["division"].(string)),
-				Structure:  structure.StructureFromString(station["structure"].(string)),
+				Division:   division.FromString(station["division"].(string)),
+				Structure:  structure.FromString(station["structure"].(string)),
 				DirectionLabels: DirectionLabels{
 					North: directionLabels["north"].(string),
 					South: directionLabels["south"].(string),
@@ -120,7 +120,7 @@ func (s *Stations) Scan(value any) error {
 			}
 
 			for _, d := range daytimeRoutes {
-				s.DaytimeRoutes = append(s.DaytimeRoutes, routes.RouteFromString(d.(string)))
+				s.DaytimeRoutes = append(s.DaytimeRoutes, routes.FromString(d.(string)))
 			}
 
 			stations = append(stations, s)

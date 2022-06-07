@@ -42,19 +42,19 @@ func parseCsvRecord(record []string) models.Station {
 	daytimeRoutes := make(routes.Routes, len(daytimeRoutesRaw))
 
 	for i, rt := range daytimeRoutesRaw {
-		daytimeRoutes[i] = routes.RouteFromString(rt)
+		daytimeRoutes[i] = routes.FromString(rt)
 	}
 
 	return models.Station{
 		StationId:     parseInt(record[0]),
 		ComplexId:     parseInt(record[1]),
 		GtfsStopId:    record[2],
-		Division:      division.DivisionFromString(record[3]),
+		Division:      division.FromString(record[3]),
 		Line:          record[4],
 		StopName:      record[5],
-		Borough:       borough.BoroughFromMtaCsv(record[6]),
+		Borough:       borough.FromMtaCsv(record[6]),
 		DaytimeRoutes: daytimeRoutes,
-		Structure:     structure.StructureFromString(record[8]),
+		Structure:     structure.FromString(record[8]),
 		GtfsLocation: models.GtfsLocation{
 			Latitude:  parseFloat(record[9]),
 			Longitude: parseFloat(record[10]),
