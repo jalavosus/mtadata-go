@@ -98,29 +98,29 @@ func (s *Stations) Scan(value any) error {
 		}
 
 		for _, station := range stationMaps {
-			directionLabels := station["direction_labels"].(map[string]any)
-			gtfsLocation := station["gtfs_location"].(map[string]any)
+			directionLabels := mapFromAny(station["direction_labels"])
+			gtfsLocation := mapFromAny(station["gtfs_location"])
 			daytimeRoutes := station["daytime_routes"].([]any)
 
 			s := Station{
-				StationId:  int(station["station_id"].(float64)),
-				GtfsStopId: station["gtfs_stop_id"].(string),
-				StopName:   station["stop_name"].(string),
-				Line:       station["line"].(string),
-				Division:   division.FromString(station["division"].(string)),
-				Structure:  structure.FromString(station["structure"].(string)),
+				StationId:  int(floatFromAny(station["station_id"])),
+				GtfsStopId: stringFromAny(station["gtfs_stop_id"]),
+				StopName:   stringFromAny(station["stop_name"]),
+				Line:       stringFromAny(station["line"]),
+				Division:   division.FromString(stringFromAny(station["division"])),
+				Structure:  structure.FromString(stringFromAny(station["structure"])),
 				DirectionLabels: DirectionLabels{
-					North: directionLabels["north"].(string),
-					South: directionLabels["south"].(string),
+					North: stringFromAny(directionLabels["north"]),
+					South: stringFromAny(directionLabels["south"]),
 				},
 				GtfsLocation: GtfsLocation{
-					Latitude:  gtfsLocation["latitude"].(float64),
-					Longitude: gtfsLocation["longitude"].(float64),
+					Latitude:  floatFromAny(gtfsLocation["latitude"]),
+					Longitude: floatFromAny(gtfsLocation["longitude"]),
 				},
 			}
 
 			for _, d := range daytimeRoutes {
-				s.DaytimeRoutes = append(s.DaytimeRoutes, routes.FromString(d.(string)))
+				s.DaytimeRoutes = append(s.DaytimeRoutes, routes.FromString(stringFromAny(d)))
 			}
 
 			stations = append(stations, s)
