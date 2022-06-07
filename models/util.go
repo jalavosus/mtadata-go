@@ -54,6 +54,7 @@ func stationFromMap(m map[string]any) Station {
 	daytimeRoutes := m["daytime_routes"].([]any)
 
 	return Station{
+		ComplexId:  int(floatFromAny(m["complex_id"])),
 		StationId:  int(floatFromAny(m["station_id"])),
 		GtfsStopId: stringFromAny(m["gtfs_stop_id"]),
 		StopName:   stringFromAny(m["stop_name"]),
