@@ -22,13 +22,13 @@ type Station struct {
 	GtfsStopId      string              `json:"gtfs_stop_id" yaml:"gtfs_stop_id" gorm:"primaryKey"`
 	StopName        string              `json:"stop_name" yaml:"stop_name" gorm:"type:text"`
 	Line            string              `json:"line" yaml:"line" gorm:"type:text"`
+	Division        division.Division   `json:"division" yaml:"division" gorm:"index;type:division"`
+	Borough         borough.Borough     `json:"borough" yaml:"borough" gorm:"index;type:borough"`
+	Structure       structure.Structure `json:"structure" yaml:"structure" gorm:"type:structure"`
 	DaytimeRoutes   routes.Routes       `json:"daytime_routes" yaml:"daytime_routes" gorm:"type:route[]"`
 	GtfsLocation    GtfsLocation        `json:"gtfs_location" yaml:"gtfs_location" gorm:"type:gtfs_location"`
 	StationId       int                 `json:"station_id" yaml:"station_id" gorm:"type:smallint;index"`
-	Borough         borough.Borough     `json:"borough" yaml:"borough" gorm:"index;type:borough"`
 	ComplexId       int                 `json:"complex_id" yaml:"complex_id" gorm:"type:smallint"`
-	Structure       structure.Structure `json:"structure" yaml:"structure" gorm:"type:structure"`
-	Division        division.Division   `json:"division" yaml:"division" gorm:"index;type:division"`
 }
 
 func (Station) GormDataType() string {
