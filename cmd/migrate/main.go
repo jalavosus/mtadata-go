@@ -33,10 +33,10 @@ func migrateCmdAction(c *cli.Context) error {
 	conn = conn.WithContext(ctx)
 
 	var (
-		boroughModel         = borough.Borough(0)
-		structureModel       = structure.Structure(0)
-		divisionModel        = division.Division(0)
-		routeModel           = routes.Route(0)
+		boroughModel         = borough.Borough("")
+		structureModel       = structure.Structure("")
+		divisionModel        = division.Division("")
+		routeModel           = routes.Route("")
 		gtfsLocationModel    = models.GtfsLocation{}
 		directionLabelsModel = models.DirectionLabels{}
 		// routesModel          = routes.Routes{}
