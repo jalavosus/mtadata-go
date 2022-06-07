@@ -4,7 +4,6 @@ import (
 	"database/sql/driver"
 	"encoding/json"
 	"fmt"
-	"strings"
 
 	"github.com/lib/pq"
 	"gorm.io/gorm"
@@ -43,6 +42,14 @@ func (Station) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	default:
 		return Station{}.GormDataType()
 	}
+}
+
+func (s Station) PrettyPrint() {
+	fmt.Println(utils.PrettyPrintStruct(
+		s,
+		"models",
+		"Station", "GtfsLocation", "DirectionLabels",
+	))
 }
 
 type Stations []Station
@@ -129,101 +136,4 @@ func (s *Stations) Scan(value any) error {
 
 func (s Stations) Value() (driver.Value, error) {
 	return json.Marshal(s)
-}
-
-type StationComplex struct {
-	DaytimeRoutes routes.Routes   `json:"daytime_routes" yaml:"daytime_routes" gorm:"type:route[]"`
-	Stations      Stations        `json:"stations" yaml:"stations" gorm:"type:station[]"`
-	ComplexId     int             `json:"complex_id" yaml:"complex_id"`
-	Borough       borough.Borough `json:"borough" yaml:"borough" gorm:"type:borough"`
-}
-
-type GtfsLocation struct {
-	Latitude  float64 `json:"latitude" yaml:"latitude"`
-	Longitude float64 `json:"longitude" yaml:"longitude"`
-}
-
-func (GtfsLocation) GormDataType() string {
-	return "gtfs_location"
-}
-
-func (GtfsLocation) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
-	switch db.Dialector.Name() {
-	case dialectors.Postgres:
-		return GtfsLocation{}.GormDataType()
-	default:
-		return GtfsLocation{}.GormDataType()
-	}
-}
-
-func (GtfsLocation) CreateDbType() string {
-	return fmt.Sprintf(`CREATE TYPE public.%[1]s AS (
-	latitude DOUBLE PRECISION,
-	longitude DOUBLE PRECISION
-);`, GtfsLocation{}.GormDataType())
-}
-
-func (g *GtfsLocation) Scan(value any) error {
-	val := value.(string)
-	val = utils.TrimParens(val)
-
-	split := utils.TrimWhitespaceSlice(strings.Split(val, ","))
-
-	g.Latitude = utils.ParseFloat(split[0])
-	g.Longitude = utils.ParseFloat(split[1])
-
-	return nil
-}
-
-func (g GtfsLocation) Value() (driver.Value, error) {
-	return fmt.Sprintf("(%[1]f, %[2]f)", g.Latitude, g.Longitude), nil
-}
-
-type DirectionLabels struct {
-	North string `json:"north" yaml:"north"`
-	South string `json:"south" yaml:"south"`
-}
-
-func (DirectionLabels) GormDataType() string {
-	return "direction_labels"
-}
-
-func (DirectionLabels) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
-	switch db.Dialector.Name() {
-	case dialectors.Postgres:
-		return DirectionLabels{}.GormDataType()
-	default:
-		return DirectionLabels{}.GormDataType()
-	}
-}
-
-func (DirectionLabels) CreateDbType() string {
-	return fmt.Sprintf(`CREATE TYPE public.%[1]s AS (
-	north TEXT,
-	south TEXT
-);`, DirectionLabels{}.GormDataType())
-}
-
-func (d *DirectionLabels) Scan(value any) error {
-	val := value.(string)
-	val = utils.TrimParens(val)
-
-	split := utils.TrimWhitespaceSlice(strings.Split(val, ","))
-
-	d.North = strings.TrimSpace(strings.ReplaceAll(split[0], `"`, ""))
-	d.South = strings.TrimSpace(strings.ReplaceAll(split[1], `"`, ""))
-
-	return nil
-}
-
-func (d DirectionLabels) Value() (driver.Value, error) {
-	return fmt.Sprintf(`("%[1]s", "%[2]s")`, d.North, d.South), nil
-}
-
-func (s Station) PrettyPrint() {
-	fmt.Println(utils.PrettyPrintStruct(
-		s,
-		"models",
-		"Station", "GtfsLocation", "DirectionLabels",
-	))
 }
