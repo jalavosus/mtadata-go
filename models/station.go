@@ -86,47 +86,19 @@ func (s *Stations) Scan(value any) error {
 			return err
 		}
 
-		var stationMaps []map[string]any
+		var stationMaps = make([]map[string]any, len(*ga))
 
-		for _, g := range *ga {
+		for i, g := range *ga {
 			var station map[string]any
+
 			if err := json.Unmarshal([]byte(g), &station); err != nil {
 				return err
 			}
 
-			stationMaps = append(stationMaps, station)
+			stationMaps[i] = station
 		}
 
-		for _, station := range stationMaps {
-			directionLabels := mapFromAny(station["direction_labels"])
-			gtfsLocation := mapFromAny(station["gtfs_location"])
-			daytimeRoutes := station["daytime_routes"].([]any)
-
-			s := Station{
-				StationId:  int(floatFromAny(station["station_id"])),
-				GtfsStopId: stringFromAny(station["gtfs_stop_id"]),
-				StopName:   stringFromAny(station["stop_name"]),
-				Line:       stringFromAny(station["line"]),
-				Division:   division.FromString(stringFromAny(station["division"])),
-				Structure:  structure.FromString(stringFromAny(station["structure"])),
-				DirectionLabels: DirectionLabels{
-					North: stringFromAny(directionLabels["north"]),
-					South: stringFromAny(directionLabels["south"]),
-				},
-				GtfsLocation: GtfsLocation{
-					Latitude:  floatFromAny(gtfsLocation["latitude"]),
-					Longitude: floatFromAny(gtfsLocation["longitude"]),
-				},
-			}
-
-			for _, d := range daytimeRoutes {
-				s.DaytimeRoutes = append(s.DaytimeRoutes, routes.FromString(stringFromAny(d)))
-			}
-
-			stations = append(stations, s)
-		}
-
-		*s = stations
+		*s = mapSliceWithCast(stationMaps, stationFromMap)
 	default:
 		fmt.Printf("%T\n", value)
 	}
