@@ -131,7 +131,7 @@ func (s Stations) Value() (driver.Value, error) {
 	return json.Marshal(s)
 }
 
-type Complex struct {
+type StationComplex struct {
 	DaytimeRoutes routes.Routes   `json:"daytime_routes" yaml:"daytime_routes" gorm:"type:route[]"`
 	Stations      Stations        `json:"stations" yaml:"stations" gorm:"type:station[]"`
 	ComplexId     int             `json:"complex_id" yaml:"complex_id"`
@@ -210,8 +210,8 @@ func (d *DirectionLabels) Scan(value any) error {
 
 	split := utils.TrimWhitespaceSlice(strings.Split(val, ","))
 
-	d.North = split[0]
-	d.South = split[1]
+	d.North = strings.TrimSpace(strings.ReplaceAll(split[0], `"`, ""))
+	d.South = strings.TrimSpace(strings.ReplaceAll(split[1], `"`, ""))
 
 	return nil
 }
