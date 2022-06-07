@@ -11,39 +11,37 @@ import (
 
 	"github.com/jalavosus/mtadata/internal/database/dialectors"
 	"github.com/jalavosus/mtadata/internal/utils"
-	"github.com/jalavosus/mtadata/models/basiciota"
+	"github.com/jalavosus/mtadata/models/enums"
 )
 
-//go:generate stringer -type Route -linecomment
-
-type Route basiciota.BasicIota
+type Route enums.StringEnum
 
 const (
-	Line1        Route = iota // 1
-	Line2                     // 2
-	Line3                     // 3
-	Line4                     // 4
-	Line5                     // 5
-	Line6                     // 6
-	Line7                     // 7
-	LineA                     // A
-	LineB                     // B
-	LineC                     // C
-	LineD                     // D
-	LineE                     // E
-	LineF                     // F
-	LineG                     // G
-	LineJ                     // J
-	LineL                     // L
-	LineM                     // M
-	LineN                     // N
-	LineQ                     // Q
-	LineR                     // R
-	LineS                     // S
-	SIR                       // SIR
-	LineW                     // W
-	LineZ                     // Z
-	UnknownRoute              // Unknown
+	Line1   = Route("1")
+	Line2   = Route("2")
+	Line3   = Route("3")
+	Line4   = Route("4")
+	Line5   = Route("5")
+	Line6   = Route("6")
+	Line7   = Route("7")
+	LineA   = Route("A")
+	LineB   = Route("B")
+	LineC   = Route("C")
+	LineD   = Route("D")
+	LineE   = Route("E")
+	LineF   = Route("F")
+	LineG   = Route("G")
+	LineJ   = Route("J")
+	LineL   = Route("L")
+	LineM   = Route("M")
+	LineN   = Route("N")
+	LineQ   = Route("Q")
+	LineR   = Route("R")
+	LineS   = Route("S")
+	SIR     = Route("SIR")
+	LineW   = Route("W")
+	LineZ   = Route("Z")
+	Unknown = Route("Unknown")
 )
 
 var validRoutes = []Route{
@@ -73,12 +71,16 @@ var validRoutes = []Route{
 	LineZ,
 }
 
-func RouteFromString(s string) Route {
-	return utils.IotaFromString(s, validRoutes, UnknownRoute)
+func FromString(s string) Route {
+	return utils.IotaFromString(s, validRoutes, Unknown)
+}
+
+func (r Route) String() string {
+	return string(r)
 }
 
 func (r *Route) Deserialize(data []byte) error {
-	*r = utils.DeserializeIota(data, RouteFromString)
+	*r = utils.DeserializeIota(data, FromString)
 	return nil
 }
 
@@ -89,9 +91,9 @@ func (Route) GormDataType() string {
 func (Route) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return UnknownRoute.GormDataType()
+		return Unknown.GormDataType()
 	default:
-		return UnknownRoute.GormDataType()
+		return Unknown.GormDataType()
 	}
 }
 
@@ -121,14 +123,14 @@ func (Route) CreateDbType() string {
 	'SIR',
 	'W',
 	'Z'
-);`, UnknownRoute.GormDataType())
+);`, Unknown.GormDataType())
 }
 
 // Scan implements sql.Scanner.
 // Sets the driver.Value represenation of Route.String
 // into a Route variable.
 func (r *Route) Scan(value any) error {
-	*r = utils.DbValueToIota(value.(string), validRoutes, UnknownRoute)
+	*r = utils.DbValueToIota(value.(string), validRoutes, Unknown)
 	return nil
 }
 
@@ -170,7 +172,7 @@ func (r *Routes) Scan(value any) error {
 
 	routes := make(Routes, len(*sa))
 	for i, rt := range *sa {
-		routes[i] = utils.DbValueToIota(rt, validRoutes, UnknownRoute)
+		routes[i] = utils.DbValueToIota(rt, validRoutes, Unknown)
 	}
 
 	*r = routes

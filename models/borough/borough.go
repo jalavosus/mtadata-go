@@ -10,20 +10,18 @@ import (
 
 	"github.com/jalavosus/mtadata/internal/database/dialectors"
 	"github.com/jalavosus/mtadata/internal/utils"
-	"github.com/jalavosus/mtadata/models/basiciota"
+	"github.com/jalavosus/mtadata/models/enums"
 )
 
-//go:generate stringer -type Borough -linecomment
-
-type Borough basiciota.BasicIota
+type Borough enums.StringEnum
 
 const (
-	Manhattan      Borough = iota // Manhattan
-	Brooklyn                      // Brooklyn
-	Bronx                         // Bronx
-	Queens                        // Queens
-	StatenIsland                  // Staten Island
-	UnknownBorough                // Unknown
+	Manhattan    Borough = "Manhattan"
+	Brooklyn     Borough = "Brooklyn"
+	Bronx        Borough = "Bronx"
+	Queens       Borough = "Queens"
+	StatenIsland Borough = "Staten Island"
+	Unknown      Borough = "Unknown"
 )
 
 var validBoroughs = []Borough{
@@ -34,7 +32,7 @@ var validBoroughs = []Borough{
 	StatenIsland,
 }
 
-func BoroughFromMtaCsv(s string) Borough {
+func FromMtaCsv(s string) Borough {
 	switch strings.ToUpper(s) {
 	case "M":
 		return Manhattan
@@ -47,16 +45,20 @@ func BoroughFromMtaCsv(s string) Borough {
 	case "SI":
 		return StatenIsland
 	default:
-		return UnknownBorough
+		return Unknown
 	}
 }
 
-func BoroughFromString(s string) Borough {
-	return utils.IotaFromString(s, validBoroughs, UnknownBorough)
+func FromString(s string) Borough {
+	return utils.IotaFromString(s, validBoroughs, Unknown)
+}
+
+func (b Borough) String() string {
+	return string(b)
 }
 
 func (b *Borough) Deserialize(data []byte) error {
-	*b = utils.DeserializeIota(data, BoroughFromString)
+	*b = utils.DeserializeIota(data, FromString)
 	return nil
 }
 
@@ -67,9 +69,9 @@ func (Borough) GormDataType() string {
 func (Borough) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return UnknownBorough.GormDataType()
+		return Unknown.GormDataType()
 	default:
-		return UnknownBorough.GormDataType()
+		return Unknown.GormDataType()
 	}
 }
 
@@ -80,14 +82,14 @@ func (Borough) CreateDbType() string {
 	'BRONX',
 	'QUEENS',
 	'STATEN_ISLAND'
-);`, UnknownBorough.GormDataType())
+);`, Unknown.GormDataType())
 }
 
 // Scan implements sql.Scanner.
 // Sets the driver.Value represenation of Borough.String
 // into a Borough variable.
 func (b *Borough) Scan(value any) error {
-	*b = utils.DbValueToIota(value.(string), validBoroughs, UnknownBorough)
+	*b = utils.DbValueToIota(value.(string), validBoroughs, Unknown)
 	return nil
 }
 

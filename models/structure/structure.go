@@ -9,38 +9,40 @@ import (
 
 	"github.com/jalavosus/mtadata/internal/database/dialectors"
 	"github.com/jalavosus/mtadata/internal/utils"
-	"github.com/jalavosus/mtadata/models/basiciota"
+	"github.com/jalavosus/mtadata/models/enums"
 )
 
-//go:generate stringer -type Structure -linecomment
-
-type Structure basiciota.BasicIota
+type Structure enums.StringEnum
 
 const (
-	StructureAtGrade    Structure = iota // At Grade
-	StructureElevated                    // Elevated
-	StructureEmbankment                  // Embankment
-	StructureOpenCut                     // Open Cut
-	StructureSubway                      // Subway
-	StructureViaduct                     // Viaduct
-	UnknownStructure                     // Unknown
+	AtGrade    = Structure("At Grade")
+	Elevated   = Structure("Elevated")
+	Embankment = Structure("Embankment")
+	OpenCut    = Structure("Open Cut")
+	Subway     = Structure("Subway")
+	Viaduct    = Structure("Viaduct")
+	Unknown    = Structure("Unknown")
 )
 
 var validStructures = []Structure{
-	StructureAtGrade,
-	StructureElevated,
-	StructureEmbankment,
-	StructureOpenCut,
-	StructureSubway,
-	StructureViaduct,
+	AtGrade,
+	Elevated,
+	Embankment,
+	OpenCut,
+	Subway,
+	Viaduct,
 }
 
-func StructureFromString(s string) Structure {
-	return utils.IotaFromString(s, validStructures, UnknownStructure)
+func FromString(s string) Structure {
+	return utils.IotaFromString(s, validStructures, Unknown)
+}
+
+func (s Structure) String() string {
+	return string(s)
 }
 
 func (s *Structure) Deserialize(data []byte) error {
-	*s = utils.DeserializeIota(data, StructureFromString)
+	*s = utils.DeserializeIota(data, FromString)
 	return nil
 }
 
@@ -51,9 +53,9 @@ func (Structure) GormDataType() string {
 func (Structure) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return UnknownStructure.GormDataType()
+		return Unknown.GormDataType()
 	default:
-		return UnknownStructure.GormDataType()
+		return Unknown.GormDataType()
 	}
 }
 
@@ -65,14 +67,14 @@ func (Structure) CreateDbType() string {
 	'OPEN_CUT',
 	'SUBWAY',
 	'VIADUCT'
-);`, UnknownStructure.GormDataType())
+);`, Unknown.GormDataType())
 }
 
 // Scan implements sql.Scanner.
 // Sets the driver.Value represenation of BasicIota.String
 // into a Division variable.
 func (s *Structure) Scan(value any) error {
-	*s = utils.DbValueToIota(value.(string), validStructures, UnknownStructure)
+	*s = utils.DbValueToIota(value.(string), validStructures, Unknown)
 	return nil
 }
 

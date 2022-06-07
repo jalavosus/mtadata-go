@@ -9,34 +9,36 @@ import (
 
 	"github.com/jalavosus/mtadata/internal/database/dialectors"
 	"github.com/jalavosus/mtadata/internal/utils"
-	"github.com/jalavosus/mtadata/models/basiciota"
+	"github.com/jalavosus/mtadata/models/enums"
 )
 
-//go:generate stringer -type Division -linecomment
-
-type Division basiciota.BasicIota
+type Division enums.StringEnum
 
 const (
-	DivisionBMT     Division = iota // BMT
-	DivisionIND                     // IND
-	DivisionIRT                     // IRT
-	DivisionSIR                     // SIR
-	UnknownDivision                 // unknown
+	BMT     = Division("BMT")
+	IND     = Division("IND")
+	IRT     = Division("IRT")
+	SIR     = Division("SIR")
+	Unknown = Division("unknown")
 )
 
 var validDivisions = []Division{
-	DivisionBMT,
-	DivisionIND,
-	DivisionIRT,
-	DivisionSIR,
+	BMT,
+	IND,
+	IRT,
+	SIR,
 }
 
-func DivisionFromString(s string) Division {
-	return utils.IotaFromString(s, validDivisions, UnknownDivision)
+func FromString(s string) Division {
+	return utils.IotaFromString(s, validDivisions, Unknown)
+}
+
+func (d Division) String() string {
+	return string(d)
 }
 
 func (d *Division) Deserialize(data []byte) error {
-	*d = utils.DeserializeIota(data, DivisionFromString)
+	*d = utils.DeserializeIota(data, FromString)
 	return nil
 }
 
@@ -47,9 +49,9 @@ func (Division) GormDataType() string {
 func (Division) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return UnknownDivision.GormDataType()
+		return Unknown.GormDataType()
 	default:
-		return UnknownDivision.GormDataType()
+		return Unknown.GormDataType()
 	}
 }
 
@@ -59,14 +61,14 @@ func (Division) CreateDbType() string {
 	'IND',
 	'IRT',
 	'SIR'
-);`, UnknownDivision.GormDataType())
+);`, Unknown.GormDataType())
 }
 
 // Scan implements sql.Scanner.
 // Sets the driver.Value represenation of BasicIota.String
 // into a Division variable.
 func (d *Division) Scan(value any) error {
-	*d = utils.DbValueToIota(value.(string), validDivisions, UnknownDivision)
+	*d = utils.DbValueToIota(value.(string), validDivisions, Unknown)
 	return nil
 }
 
