@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"os"
 	"time"
@@ -29,12 +28,14 @@ func getComplexCmdAction(c *cli.Context) error {
 	ctx, cancel := context.WithTimeout(c.Context, 30*time.Second)
 	defer cancel()
 
-	res, err := database.ComplexById(ctx, complexId)
+	res, err := database.StationsByComplexId(ctx, complexId)
 	if err != nil {
 		return err
 	}
 
-	fmt.Printf("%v\n", res)
+	for _, r := range res {
+		r.PrettyPrint()
+	}
 
 	return nil
 }

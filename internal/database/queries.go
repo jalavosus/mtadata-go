@@ -5,6 +5,7 @@ import (
 
 	"github.com/jalavosus/mtadata/internal/database/connection"
 	"github.com/jalavosus/mtadata/models"
+	"github.com/jalavosus/mtadata/models/routes"
 )
 
 const (
@@ -133,7 +134,8 @@ FROM
     GROUP BY complex_id
 ) a
 RIGHT JOIN stations b USING (complex_id)
-ORDER BY complex_id;`
+WHERE a.complex_id = ?
+ORDER BY complex_id, gtfs_stop_id;`
 
 	StationByComplexIdQuery string = `SELECT DISTINCT ON (a.station_id)
     a.station_id,
@@ -169,41 +171,29 @@ RIGHT JOIN stations b USING (station_id)
 WHERE a.complex_id = ?
 ORDER BY station_id;`
 
-	StationsByComplexIdQuery string = `SELECT
-    complex_id,
-    gtfs_stop_id,
-    station_id,
-    stop_name,
-    division
+	StationsByComplexIdQuery string = `SELECT *
 FROM stations
-WHERE complex_id = ?;`
+WHERE complex_id = ?
+ORDER BY gtfs_stop_id;`
 
-	StationByRouteAndComplexIdQuery string = `SELECT
-    complex_id,
-    gtfs_stop_id,
-    station_id,
-    stop_name,
-    division
+	StationsByRouteAndComplexIdQuery string = `SELECT *
 FROM stations
 WHERE ? = ANY(daytime_routes)
-AND complex_id = ?;`
+AND complex_id = ?
+ORDER BY gtfs_stop_id;`
 
-	StationsByRouteQuery string = `SELECT
-    complex_id,
-    gtfs_stop_id,
-    station_id,
-    stop_name,
-    division
+	StationsByRouteQuery string = `SELECT *
 FROM stations
-WHERE ? = ANY(daytime_routes);`
+WHERE ? = ANY(daytime_routes)
+ORDER BY gtfs_stop_id;`
 )
 
-func ComplexById(ctx context.Context, complexId int) (*models.Complex, error) {
-	var res models.Complex
+func StationComplexes(ctx context.Context) ([]models.StationComplex, error) {
+	var res []models.StationComplex
 
 	conn := connection.ConnectionContext(ctx)
 
-	tx := conn.Raw(ComplexByIdQuery, complexId)
+	tx := conn.Raw(AllComplexesQuery)
 	if err := tx.Error; err != nil {
 		return nil, err
 	}
@@ -212,5 +202,80 @@ func ComplexById(ctx context.Context, complexId int) (*models.Complex, error) {
 		return nil, err
 	}
 
+	return res, nil
+}
+
+// func StationsForComplex(ctx context.Context, complexId int) (*models.StationComplex, error) {
+// 	var res *models.StationComplex
+//
+// 	if err := fetchFromRawQuery(ctx, AllStationsByComplexQuery, &res, complexId); err != nil {
+// 		return nil, err
+// 	}
+//
+// 	return res, nil
+// }
+
+func StationComplexById(ctx context.Context, complexId int) (*models.StationComplex, error) {
+	var res models.StationComplex
+
+	if err := fetchFromRawQuery(ctx, ComplexByIdQuery, &res, complexId); err != nil {
+		return nil, err
+	}
+
 	return &res, nil
+}
+
+// func StationByComplexId(ctx context.Context, complexId int) (*models.Station, error) {
+// 	var res models.Station
+//
+// 	if err := fetchFromRawQuery(ctx, StationByComplexIdQuery, &res, complexId); err != nil {
+// 		return nil, err
+// 	}
+//
+// 	return &res, nil
+// }
+
+func StationsByComplexId(ctx context.Context, complexId int) (models.Stations, error) {
+	var res models.Stations
+
+	if err := fetchFromRawQuery(ctx, StationsByComplexIdQuery, &res, complexId); err != nil {
+		return nil, err
+	}
+
+	return res, nil
+}
+
+func StationsByRoute(ctx context.Context, route routes.Route) (models.Stations, error) {
+	var res models.Stations
+
+	if err := fetchFromRawQuery(ctx, StationsByRouteQuery, &res, route); err != nil {
+		return nil, err
+	}
+
+	return res, nil
+}
+
+func StationsByRouteAndComplexId(ctx context.Context, complexId int, route routes.Route) (models.Stations, error) {
+	var res models.Stations
+
+	if err := fetchFromRawQuery(ctx, StationsByRouteAndComplexIdQuery, &res, complexId, route); err != nil {
+		return nil, err
+	}
+
+	return res, nil
+}
+
+func fetchFromRawQuery(ctx context.Context, rawQuery string, out any, args ...any) error {
+	conn := connection.ConnectionContext(ctx)
+
+	err := conn.
+		Raw(rawQuery, args...).
+		Scan(out).
+		Error
+
+	if err != nil {
+		return err
+	}
+
+	return nil
 }
