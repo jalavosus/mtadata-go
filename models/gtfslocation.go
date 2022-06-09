@@ -12,21 +12,36 @@ import (
 	"github.com/jalavosus/mtadata/internal/utils"
 )
 
+const (
+	gtfsLocationGormDataTypePostgres string = "gtfs_location"
+)
+
 type GtfsLocation struct {
 	Latitude  float64 `json:"latitude" yaml:"latitude"`
 	Longitude float64 `json:"longitude" yaml:"longitude"`
 }
 
+func NewGtfsLocation(lat, long float64) GtfsLocation {
+	return GtfsLocation{
+		Latitude:  lat,
+		Longitude: long,
+	}
+}
+
+func GtfsLocationFromString(lat, long string) GtfsLocation {
+	return NewGtfsLocation(utils.ParseFloat64(lat), utils.ParseFloat64(long))
+}
+
 func (GtfsLocation) GormDataType() string {
-	return "gtfs_location"
+	return gtfsLocationGormDataTypePostgres
 }
 
 func (GtfsLocation) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return GtfsLocation{}.GormDataType()
+		return gtfsLocationGormDataTypePostgres
 	default:
-		return GtfsLocation{}.GormDataType()
+		return gtfsLocationGormDataTypePostgres
 	}
 }
 
@@ -34,7 +49,7 @@ func (GtfsLocation) CreateDbType() string {
 	return fmt.Sprintf(`CREATE TYPE public.%[1]s AS (
 	latitude DOUBLE PRECISION,
 	longitude DOUBLE PRECISION
-);`, GtfsLocation{}.GormDataType())
+);`, gtfsLocationGormDataTypePostgres)
 }
 
 func (g *GtfsLocation) Scan(value any) error {
@@ -43,8 +58,8 @@ func (g *GtfsLocation) Scan(value any) error {
 
 	split := utils.TrimWhitespaceSlice(strings.Split(val, ","))
 
-	g.Latitude = utils.ParseFloat(split[0])
-	g.Longitude = utils.ParseFloat(split[1])
+	g.Latitude = utils.ParseFloat64(split[0])
+	g.Longitude = utils.ParseFloat64(split[1])
 
 	return nil
 }
