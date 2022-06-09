@@ -14,10 +14,10 @@ import (
 	"github.com/jalavosus/mtadata/internal/database"
 	"github.com/jalavosus/mtadata/internal/database/connection"
 	"github.com/jalavosus/mtadata/models"
-	"github.com/jalavosus/mtadata/models/borough"
-	"github.com/jalavosus/mtadata/models/division"
+	"github.com/jalavosus/mtadata/models/boroughs"
+	"github.com/jalavosus/mtadata/models/divisions"
 	"github.com/jalavosus/mtadata/models/routes"
-	"github.com/jalavosus/mtadata/models/structure"
+	"github.com/jalavosus/mtadata/models/structures"
 
 	_ "github.com/joho/godotenv/autoload"
 )
@@ -40,9 +40,9 @@ var (
 )
 
 var dbModels = []database.CustomDbTyper{
-	borough.Borough(""),
-	structure.Structure(""),
-	division.Division(""),
+	boroughs.Borough(""),
+	structures.Structure(""),
+	divisions.Division(""),
 	routes.Route(""),
 	models.GtfsLocation{},
 	models.DirectionLabels{},
