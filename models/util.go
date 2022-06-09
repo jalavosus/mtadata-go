@@ -1,74 +1,61 @@
 package models
 
 import (
-	"github.com/jalavosus/mtadata/models/division"
+	"github.com/jalavosus/mtadata/internal/utils"
+	"github.com/jalavosus/mtadata/models/divisions"
 	"github.com/jalavosus/mtadata/models/routes"
-	"github.com/jalavosus/mtadata/models/structure"
+	"github.com/jalavosus/mtadata/models/structures"
 )
 
-func stringFromAny(val any) string {
+func castString(val any) string {
 	return val.(string)
 }
 
-func floatFromAny(val any) float64 {
+func castFloat(val any) float64 {
 	return val.(float64)
 }
 
-func mapFromAny(val any) map[string]any {
+func castMap(val any) map[string]any {
 	return val.(map[string]any)
 }
 
-func mapSliceWithCast[T, U any](data []T, mapFn func(val T) U) (res []U) {
-	res = make([]U, len(data))
+type fromStringFn[T any] func(string) T
 
-	for i := range data {
-		res[i] = mapFn(data[i])
-	}
-
-	return
+func castFromString[T any](val any, fn fromStringFn[T]) T {
+	return fn(castString(val))
 }
 
-func sliceFromAny[T any](vals []any, mapFn func(val any) T) (res []T) {
-	res = make([]T, len(vals))
-
-	for i := range vals {
-		res[i] = mapFn(vals[i])
+func newCastTypeFn[T any](fn fromStringFn[T]) func(any) T {
+	return func(val any) T {
+		return castFromString(val, fn)
 	}
-
-	return
-}
-
-func stringSliceFromAny[T any](vals []any, mapFn func(val string) T) (res []T) {
-	res = make([]T, len(vals))
-
-	for i := range vals {
-		res[i] = mapFn(stringFromAny(vals[i]))
-	}
-
-	return
 }
 
 func stationFromMap(m map[string]any) Station {
-	directionLabels := mapFromAny(m["direction_labels"])
-	gtfsLocation := mapFromAny(m["gtfs_location"])
+	var (
+		directionLabels = castMap(m["direction_labels"])
+		northLabel      = castString(directionLabels["north"])
+		southLabel      = castString(directionLabels["south"])
+	)
+
+	var (
+		gtfsLocation = castMap(m["gtfs_location"])
+		gtfsLat      = castFloat(gtfsLocation["latitude"])
+		gtfsLong     = castFloat(gtfsLocation["longitude"])
+	)
+
 	daytimeRoutes := m["daytime_routes"].([]any)
 
 	return Station{
-		ComplexId:  int(floatFromAny(m["complex_id"])),
-		StationId:  int(floatFromAny(m["station_id"])),
-		GtfsStopId: stringFromAny(m["gtfs_stop_id"]),
-		StopName:   stringFromAny(m["stop_name"]),
-		Line:       stringFromAny(m["line"]),
-		Division:   division.FromString(stringFromAny(m["division"])),
-		Structure:  structure.FromString(stringFromAny(m["structure"])),
-		DirectionLabels: DirectionLabels{
-			North: stringFromAny(directionLabels["north"]),
-			South: stringFromAny(directionLabels["south"]),
-		},
-		GtfsLocation: GtfsLocation{
-			Latitude:  floatFromAny(gtfsLocation["latitude"]),
-			Longitude: floatFromAny(gtfsLocation["longitude"]),
-		},
-		DaytimeRoutes: stringSliceFromAny(daytimeRoutes, routes.FromString),
+		ComplexId:       int(castFloat(m["complex_id"])),
+		StationId:       int(castFloat(m["station_id"])),
+		GtfsStopId:      castString(m["gtfs_stop_id"]),
+		StopName:        castString(m["stop_name"]),
+		Line:            castString(m["line"]),
+		Division:        castFromString(m["division"], divisions.FromString),
+		Structure:       castFromString(m["structure"], structures.FromString),
+		DirectionLabels: NewDirectionLabels(northLabel, southLabel),
+		GtfsLocation:    NewGtfsLocation(gtfsLat, gtfsLong),
+		DaytimeRoutes:   utils.MapSlice(daytimeRoutes, newCastTypeFn(routes.FromString)),
 	}
 }
