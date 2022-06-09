@@ -19,11 +19,11 @@ const (
 	SerializeBytes
 )
 
-func SerializeIota(data fmt.Stringer, serializeType SerializeType) ([]byte, error) {
+func SerializeEnum(data fmt.Stringer, serializeType SerializeType) ([]byte, error) {
 	return SerializeString(data.String(), serializeType)
 }
 
-func DeserializeIota[T any](data []byte, fromStringFn IotaFromStringFn[T]) T {
+func DeserializeEnum[T any](data []byte, fromStringFn IotaFromStringFn[T]) T {
 	s := fmt.Sprintf("%x", data)
 	return fromStringFn(s)
 }
