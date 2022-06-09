@@ -22,6 +22,10 @@ const (
 	Unknown = Division("Unknown")
 )
 
+const (
+	gormDataTypePostgres string = "division"
+)
+
 var validDivisions = []Division{
 	BMT,
 	IND,
@@ -30,7 +34,7 @@ var validDivisions = []Division{
 }
 
 func FromString(s string) Division {
-	return utils.IotaFromString(s, validDivisions, Unknown)
+	return utils.EnumFromString(s, validDivisions, Unknown)
 }
 
 func (d Division) String() string {
@@ -38,20 +42,20 @@ func (d Division) String() string {
 }
 
 func (d *Division) Deserialize(data []byte) error {
-	*d = utils.DeserializeIota(data, FromString)
+	*d = utils.DeserializeEnum(data, FromString)
 	return nil
 }
 
 func (Division) GormDataType() string {
-	return "division"
+	return gormDataTypePostgres
 }
 
 func (Division) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return Unknown.GormDataType()
+		return gormDataTypePostgres
 	default:
-		return Unknown.GormDataType()
+		return gormDataTypePostgres
 	}
 }
 
@@ -61,19 +65,19 @@ func (Division) CreateDbType() string {
 	'IND',
 	'IRT',
 	'SIR'
-);`, Unknown.GormDataType())
+);`, gormDataTypePostgres)
 }
 
 // Scan implements sql.Scanner.
 // Sets the driver.Value represenation of BasicIota.String
 // into a Division variable.
 func (d *Division) Scan(value any) error {
-	*d = utils.DbValueToIota(value.(string), validDivisions, Unknown)
+	*d = utils.DbValueToEnum(value.(string), validDivisions, Unknown)
 	return nil
 }
 
 // Value implements driver.Valuer.
 // Returns the result of Division.String, and no error.
 func (d Division) Value() (driver.Value, error) {
-	return utils.IotaToDbValue(d), nil
+	return utils.EnumToDbValue(d), nil
 }

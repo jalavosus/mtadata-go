@@ -24,6 +24,10 @@ const (
 	Unknown      Borough = "Unknown"
 )
 
+const (
+	gormDataTypePostgres string = "borough"
+)
+
 var validBoroughs = []Borough{
 	Manhattan,
 	Brooklyn,
@@ -32,7 +36,7 @@ var validBoroughs = []Borough{
 	StatenIsland,
 }
 
-func BoroughFromMtaCsv(s string) Borough {
+func FromMtaCsvString(s string) Borough {
 	switch strings.ToUpper(s) {
 	case "M":
 		return Manhattan
@@ -49,8 +53,8 @@ func BoroughFromMtaCsv(s string) Borough {
 	}
 }
 
-func BoroughFromString(s string) Borough {
-	return utils.IotaFromString(s, validBoroughs, Unknown)
+func FromString(s string) Borough {
+	return utils.EnumFromString(s, validBoroughs, Unknown)
 }
 
 func (b Borough) String() string {
@@ -58,20 +62,20 @@ func (b Borough) String() string {
 }
 
 func (b *Borough) Deserialize(data []byte) error {
-	*b = utils.DeserializeIota(data, BoroughFromString)
+	*b = utils.DeserializeEnum(data, FromString)
 	return nil
 }
 
 func (Borough) GormDataType() string {
-	return "borough"
+	return gormDataTypePostgres
 }
 
 func (Borough) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return Unknown.GormDataType()
+		return gormDataTypePostgres
 	default:
-		return Unknown.GormDataType()
+		return gormDataTypePostgres
 	}
 }
 
@@ -82,19 +86,19 @@ func (Borough) CreateDbType() string {
 	'BRONX',
 	'QUEENS',
 	'STATEN_ISLAND'
-);`, Unknown.GormDataType())
+);`, gormDataTypePostgres)
 }
 
 // Scan implements sql.Scanner.
 // Sets the driver.Value represenation of Borough.String
 // into a Borough variable.
 func (b *Borough) Scan(value any) error {
-	*b = utils.DbValueToIota(value.(string), validBoroughs, Unknown)
+	*b = utils.DbValueToEnum(value.(string), validBoroughs, Unknown)
 	return nil
 }
 
 // Value implements driver.Valuer.
 // Returns the result of Borough.String, and no error.
 func (b Borough) Value() (driver.Value, error) {
-	return utils.IotaToDbValue(b), nil
+	return utils.EnumToDbValue(b), nil
 }
