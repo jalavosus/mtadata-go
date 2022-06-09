@@ -45,5 +45,5 @@ func BoolFromEnv(envKey string, fallback bool) bool {
 }
 
 func Float64FromEnv(envKey string, fallback float64) float64 {
-	return fromEnvFallback(envKey, fallback, utils.ParseFloat)
+	return fromEnvFallback(envKey, fallback, utils.ParseFloat64)
 }
