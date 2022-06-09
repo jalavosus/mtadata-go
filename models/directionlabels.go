@@ -12,21 +12,29 @@ import (
 	"github.com/jalavosus/mtadata/internal/utils"
 )
 
+const (
+	directionLabelsGormDataTypePostgres string = "direction_labels"
+)
+
 type DirectionLabels struct {
 	North string `json:"north" yaml:"north"`
 	South string `json:"south" yaml:"south"`
 }
 
+func NewDirectionLabels(north, south string) DirectionLabels {
+	return DirectionLabels{North: north, South: south}
+}
+
 func (DirectionLabels) GormDataType() string {
-	return "direction_labels"
+	return directionLabelsGormDataTypePostgres
 }
 
 func (DirectionLabels) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return DirectionLabels{}.GormDataType()
+		return directionLabelsGormDataTypePostgres
 	default:
-		return DirectionLabels{}.GormDataType()
+		return directionLabelsGormDataTypePostgres
 	}
 }
 
@@ -34,7 +42,7 @@ func (DirectionLabels) CreateDbType() string {
 	return fmt.Sprintf(`CREATE TYPE public.%[1]s AS (
 	north TEXT,
 	south TEXT
-);`, DirectionLabels{}.GormDataType())
+);`, directionLabelsGormDataTypePostgres)
 }
 
 func (d *DirectionLabels) Scan(value any) error {
