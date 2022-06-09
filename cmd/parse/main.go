@@ -26,10 +26,6 @@ var (
 		Name:   "parse-stations",
 		Usage:  "Parse a raw Stations.csv file",
 		Action: parseStationsCmdAction,
-		Subcommands: []*cli.Command{
-			&readStationsJsonCmd,
-			&insertStationsDbCmd,
-		},
 	}
 	readStationsJsonCmd = cli.Command{
 		Name:   "read-parsed",
@@ -102,6 +98,8 @@ func main() {
 		Authors: []*cli.Author{&cliutil.AppAuthor},
 		Commands: []*cli.Command{
 			&parseStationsCmd,
+			&readStationsJsonCmd,
+			&insertStationsDbCmd,
 		},
 	}
 
