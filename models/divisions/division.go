@@ -1,4 +1,4 @@
-package division
+package divisions
 
 import (
 	"database/sql/driver"
@@ -19,7 +19,7 @@ const (
 	IND     = Division("IND")
 	IRT     = Division("IRT")
 	SIR     = Division("SIR")
-	Unknown = Division("unknown")
+	Unknown = Division("Unknown")
 )
 
 var validDivisions = []Division{

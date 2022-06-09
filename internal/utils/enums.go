@@ -2,11 +2,12 @@ package utils
 
 import (
 	"database/sql/driver"
-	"fmt"
 	"strings"
+
+	"github.com/jalavosus/mtadata/models/enums"
 )
 
-func IotaFromString[T fmt.Stringer](s string, validValues []T, unknown T) T {
+func EnumFromString[T enums.StringEnum](s string, validValues []T, unknown T) T {
 	var (
 		iotaVal T
 		ok      bool
@@ -27,7 +28,7 @@ func IotaFromString[T fmt.Stringer](s string, validValues []T, unknown T) T {
 	return iotaVal
 }
 
-func IotaToDbValue(val fmt.Stringer) driver.Value {
+func EnumToDbValue(val enums.StringEnum) driver.Value {
 	s := val.String()
 	s = strings.ToUpper(s)
 	s = strings.ReplaceAll(s, " ", "_")
@@ -35,7 +36,7 @@ func IotaToDbValue(val fmt.Stringer) driver.Value {
 	return s
 }
 
-func DbValueToIota[T fmt.Stringer](value string, validValues []T, unknown T) T {
+func DbValueToEnum[T enums.StringEnum](value string, validValues []T, unknown T) T {
 	value = strings.ReplaceAll(value, "_", " ")
-	return IotaFromString[T](value, validValues, unknown)
+	return EnumFromString[T](value, validValues, unknown)
 }

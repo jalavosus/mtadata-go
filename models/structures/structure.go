@@ -1,4 +1,4 @@
-package structure
+package structures
 
 import (
 	"database/sql/driver"
@@ -15,13 +15,13 @@ import (
 type Structure enums.StringEnum
 
 const (
-	AtGrade    = Structure("At Grade")
-	Elevated   = Structure("Elevated")
-	Embankment = Structure("Embankment")
-	OpenCut    = Structure("Open Cut")
-	Subway     = Structure("Subway")
-	Viaduct    = Structure("Viaduct")
-	Unknown    = Structure("Unknown")
+	AtGrade          = Structure("At Grade")
+	Elevated         = Structure("Elevated")
+	Embankment       = Structure("Embankment")
+	OpenCut          = Structure("Open Cut")
+	Subway           = Structure("Subway")
+	Viaduct          = Structure("Viaduct")
+	UnknownStructure = Structure("Unknown")
 )
 
 var validStructures = []Structure{
@@ -33,8 +33,8 @@ var validStructures = []Structure{
 	Viaduct,
 }
 
-func FromString(s string) Structure {
-	return utils.IotaFromString(s, validStructures, Unknown)
+func StructureFromString(s string) Structure {
+	return utils.IotaFromString(s, validStructures, UnknownStructure)
 }
 
 func (s Structure) String() string {
@@ -42,7 +42,7 @@ func (s Structure) String() string {
 }
 
 func (s *Structure) Deserialize(data []byte) error {
-	*s = utils.DeserializeIota(data, FromString)
+	*s = utils.DeserializeIota(data, StructureFromString)
 	return nil
 }
 
@@ -53,9 +53,9 @@ func (Structure) GormDataType() string {
 func (Structure) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return Unknown.GormDataType()
+		return UnknownStructure.GormDataType()
 	default:
-		return Unknown.GormDataType()
+		return UnknownStructure.GormDataType()
 	}
 }
 
@@ -67,14 +67,14 @@ func (Structure) CreateDbType() string {
 	'OPEN_CUT',
 	'SUBWAY',
 	'VIADUCT'
-);`, Unknown.GormDataType())
+);`, UnknownStructure.GormDataType())
 }
 
 // Scan implements sql.Scanner.
 // Sets the driver.Value represenation of BasicIota.String
 // into a Division variable.
 func (s *Structure) Scan(value any) error {
-	*s = utils.DbValueToIota(value.(string), validStructures, Unknown)
+	*s = utils.DbValueToIota(value.(string), validStructures, UnknownStructure)
 	return nil
 }
 

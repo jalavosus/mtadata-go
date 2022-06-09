@@ -1,4 +1,4 @@
-package borough
+package boroughs
 
 import (
 	"database/sql/driver"
@@ -32,7 +32,7 @@ var validBoroughs = []Borough{
 	StatenIsland,
 }
 
-func FromMtaCsv(s string) Borough {
+func BoroughFromMtaCsv(s string) Borough {
 	switch strings.ToUpper(s) {
 	case "M":
 		return Manhattan
@@ -49,7 +49,7 @@ func FromMtaCsv(s string) Borough {
 	}
 }
 
-func FromString(s string) Borough {
+func BoroughFromString(s string) Borough {
 	return utils.IotaFromString(s, validBoroughs, Unknown)
 }
 
@@ -58,7 +58,7 @@ func (b Borough) String() string {
 }
 
 func (b *Borough) Deserialize(data []byte) error {
-	*b = utils.DeserializeIota(data, FromString)
+	*b = utils.DeserializeIota(data, BoroughFromString)
 	return nil
 }
 

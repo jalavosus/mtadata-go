@@ -17,31 +17,31 @@ import (
 type Route enums.StringEnum
 
 const (
-	Line1   = Route("1")
-	Line2   = Route("2")
-	Line3   = Route("3")
-	Line4   = Route("4")
-	Line5   = Route("5")
-	Line6   = Route("6")
-	Line7   = Route("7")
-	LineA   = Route("A")
-	LineB   = Route("B")
-	LineC   = Route("C")
-	LineD   = Route("D")
-	LineE   = Route("E")
-	LineF   = Route("F")
-	LineG   = Route("G")
-	LineJ   = Route("J")
-	LineL   = Route("L")
-	LineM   = Route("M")
-	LineN   = Route("N")
-	LineQ   = Route("Q")
-	LineR   = Route("R")
-	LineS   = Route("S")
-	SIR     = Route("SIR")
-	LineW   = Route("W")
-	LineZ   = Route("Z")
-	Unknown = Route("Unknown")
+	Line1        = Route("1")
+	Line2        = Route("2")
+	Line3        = Route("3")
+	Line4        = Route("4")
+	Line5        = Route("5")
+	Line6        = Route("6")
+	Line7        = Route("7")
+	LineA        = Route("A")
+	LineB        = Route("B")
+	LineC        = Route("C")
+	LineD        = Route("D")
+	LineE        = Route("E")
+	LineF        = Route("F")
+	LineG        = Route("G")
+	LineJ        = Route("J")
+	LineL        = Route("L")
+	LineM        = Route("M")
+	LineN        = Route("N")
+	LineQ        = Route("Q")
+	LineR        = Route("R")
+	LineS        = Route("S")
+	LineSIR      = Route("SIR")
+	LineW        = Route("W")
+	LineZ        = Route("Z")
+	UnknownRoute = Route("Unknown")
 )
 
 var validRoutes = []Route{
@@ -66,13 +66,13 @@ var validRoutes = []Route{
 	LineQ,
 	LineR,
 	LineS,
-	SIR,
+	LineSIR,
 	LineW,
 	LineZ,
 }
 
-func FromString(s string) Route {
-	return utils.IotaFromString(s, validRoutes, Unknown)
+func RouteFromString(s string) Route {
+	return utils.IotaFromString(s, validRoutes, UnknownRoute)
 }
 
 func (r Route) String() string {
@@ -80,7 +80,7 @@ func (r Route) String() string {
 }
 
 func (r *Route) Deserialize(data []byte) error {
-	*r = utils.DeserializeIota(data, FromString)
+	*r = utils.DeserializeIota(data, RouteFromString)
 	return nil
 }
 
@@ -91,9 +91,9 @@ func (Route) GormDataType() string {
 func (Route) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return Unknown.GormDataType()
+		return UnknownRoute.GormDataType()
 	default:
-		return Unknown.GormDataType()
+		return UnknownRoute.GormDataType()
 	}
 }
 
@@ -120,17 +120,17 @@ func (Route) CreateDbType() string {
 	'Q',
 	'R',
 	'S',
-	'SIR',
+	'LineSIR',
 	'W',
 	'Z'
-);`, Unknown.GormDataType())
+);`, UnknownRoute.GormDataType())
 }
 
 // Scan implements sql.Scanner.
 // Sets the driver.Value represenation of Route.String
 // into a Route variable.
 func (r *Route) Scan(value any) error {
-	*r = utils.DbValueToIota(value.(string), validRoutes, Unknown)
+	*r = utils.DbValueToIota(value.(string), validRoutes, UnknownRoute)
 	return nil
 }
 
@@ -172,7 +172,7 @@ func (r *Routes) Scan(value any) error {
 
 	routes := make(Routes, len(*sa))
 	for i, rt := range *sa {
-		routes[i] = utils.DbValueToIota(rt, validRoutes, Unknown)
+		routes[i] = utils.DbValueToIota(rt, validRoutes, UnknownRoute)
 	}
 
 	*r = routes
