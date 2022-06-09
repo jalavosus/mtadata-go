@@ -3,75 +3,73 @@ package parser
 import (
 	"encoding/csv"
 	"os"
-	"strconv"
 	"strings"
 
+	"github.com/jalavosus/mtadata/internal/utils"
 	"github.com/jalavosus/mtadata/models"
-	"github.com/jalavosus/mtadata/models/borough"
-	"github.com/jalavosus/mtadata/models/division"
+	"github.com/jalavosus/mtadata/models/boroughs"
+	"github.com/jalavosus/mtadata/models/divisions"
 	"github.com/jalavosus/mtadata/models/routes"
-	"github.com/jalavosus/mtadata/models/structure"
+	"github.com/jalavosus/mtadata/models/structures"
 )
 
-func ParseStationsCsv(csvPath string) ([]models.Station, error) {
-	f, err := os.Open(csvPath)
+func ParseStationsCsv(csvPath string) (stations []models.Station, err error) {
+	csvLines, err := readCsv(csvPath, true)
 	if err != nil {
-		return nil, err
+		return
 	}
 
-	defer func() { _ = f.Close() }()
+	stations = make([]models.Station, len(csvLines))
 
-	records, err := csv.NewReader(f).ReadAll()
-	if err != nil {
-		return nil, err
+	for i, record := range csvLines {
+		stations[i] = parseStationFromCsv(record)
 	}
 
-	records = records[1:]
-
-	parsed := make([]models.Station, len(records))
-
-	for i, record := range records {
-		parsed[i] = parseCsvRecord(record)
-	}
-
-	return parsed, nil
+	return
 }
 
-func parseCsvRecord(record []string) models.Station {
-	daytimeRoutesRaw := strings.Split(record[7], " ")
-	daytimeRoutes := make(routes.Routes, len(daytimeRoutesRaw))
-
-	for i, rt := range daytimeRoutesRaw {
-		daytimeRoutes[i] = routes.FromString(rt)
-	}
-
+func parseStationFromCsv(record []string) models.Station {
 	return models.Station{
-		StationId:     parseInt(record[0]),
-		ComplexId:     parseInt(record[1]),
-		GtfsStopId:    record[2],
-		Division:      division.FromString(record[3]),
-		Line:          record[4],
-		StopName:      record[5],
-		Borough:       borough.FromMtaCsv(record[6]),
-		DaytimeRoutes: daytimeRoutes,
-		Structure:     structure.FromString(record[8]),
-		GtfsLocation: models.GtfsLocation{
-			Latitude:  parseFloat(record[9]),
-			Longitude: parseFloat(record[10]),
-		},
-		DirectionLabels: models.DirectionLabels{
-			North: record[11],
-			South: record[12],
-		},
+		StationId:       utils.ParseInt(record[0]),
+		ComplexId:       utils.ParseInt(record[1]),
+		GtfsStopId:      record[2],
+		Division:        divisions.FromString(record[3]),
+		Line:            record[4],
+		StopName:        record[5],
+		Borough:         boroughs.FromMtaCsvString(record[6]),
+		DaytimeRoutes:   utils.MapSlice(strings.Split(record[7], " "), routes.FromString),
+		Structure:       structures.FromString(record[8]),
+		GtfsLocation:    models.GtfsLocationFromString(record[9], record[10]),
+		DirectionLabels: models.NewDirectionLabels(record[11], record[12]),
 	}
 }
 
-func parseInt(s string) int {
-	n, _ := strconv.ParseInt(s, 10, 64)
-	return int(n)
-}
+func readCsv(csvPath string, removeHeader bool) (records [][]string, err error) {
+	var f *os.File
 
-func parseFloat(s string) float64 {
-	f, _ := strconv.ParseFloat(s, 64)
-	return f
+	f, err = utils.OpenFileRead(utils.AbsolutePath(csvPath))
+	if err != nil {
+		return
+	}
+
+	defer func() {
+		_ = f.Close()
+	}()
+
+	reader := csv.NewReader(f)
+	reader.TrimLeadingSpace = true
+
+	records, err = reader.ReadAll()
+	if err != nil {
+		return
+	}
+
+	// remove first row from result slice
+	// if removeHeader is true, as it's
+	// (likely) a header row and contains nothing useful to us.
+	if removeHeader {
+		records = records[1:]
+	}
+
+	return
 }
