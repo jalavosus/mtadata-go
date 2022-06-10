@@ -2,7 +2,6 @@ package structures
 
 import (
 	"database/sql/driver"
-	"fmt"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
@@ -64,14 +63,7 @@ func (Structure) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 }
 
 func (Structure) CreateDbType() string {
-	return fmt.Sprintf(`CREATE TYPE public.%[1]s AS ENUM (
-	'AT_GRADE',
-	'ELEVATED',
-	'EMBANKMENT',
-	'OPEN_CUT',
-	'SUBWAY',
-	'VIADUCT'
-);`, gormDataTypePg)
+	return utils.MakeCreateEnumTypeCommand(AllStructures, gormDataTypePg)
 }
 
 // Scan implements sql.Scanner.

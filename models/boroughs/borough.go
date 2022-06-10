@@ -2,7 +2,6 @@ package boroughs
 
 import (
 	"database/sql/driver"
-	"fmt"
 	"strings"
 
 	"gorm.io/gorm"
@@ -80,13 +79,7 @@ func (Borough) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 }
 
 func (Borough) CreateDbType() string {
-	return fmt.Sprintf(`CREATE TYPE public.%[1]s AS ENUM (
-	'MANHATTAN',
-	'BROOKLYN',
-	'BRONX',
-	'QUEENS',
-	'STATEN_ISLAND'
-);`, gormDataTypePg)
+	return utils.MakeCreateEnumTypeCommand(AllBoroughs, gormDataTypePg)
 }
 
 // Scan implements sql.Scanner.

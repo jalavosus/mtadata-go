@@ -2,7 +2,6 @@ package routes
 
 import (
 	"database/sql/driver"
-	"fmt"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
@@ -100,32 +99,7 @@ func (Route) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 }
 
 func (Route) CreateDbType() string {
-	return fmt.Sprintf(`CREATE TYPE public.%[1]s AS ENUM (
-	'1',
-	'2',
-	'3',
-	'4',
-	'5',
-	'6',
-	'7',
-	'A',
-	'B',
-	'C',
-	'D',
-	'E',
-	'F',
-	'G',
-	'J',
-	'L',
-	'M',
-	'N',
-	'Q',
-	'R',
-	'S',
-	'SIR',
-	'W',
-	'Z'
-);`, gormDataTypePg)
+	return utils.MakeCreateEnumTypeCommand(AllRoutes, gormDataTypePg)
 }
 
 // Scan implements sql.Scanner.

@@ -2,7 +2,6 @@ package divisions
 
 import (
 	"database/sql/driver"
-	"fmt"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
@@ -60,12 +59,7 @@ func (Division) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 }
 
 func (Division) CreateDbType() string {
-	return fmt.Sprintf(`CREATE TYPE public.%[1]s AS ENUM (
-	'BMT',
-	'IND',
-	'IRT',
-	'SIR'
-);`, gormDataTypePg)
+	return utils.MakeCreateEnumTypeCommand(AllDivisions, gormDataTypePg)
 }
 
 // Scan implements sql.Scanner.
