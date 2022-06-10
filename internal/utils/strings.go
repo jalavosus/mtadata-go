@@ -5,6 +5,20 @@ import (
 	"strings"
 )
 
+func String(s fmt.Stringer) string {
+	return s.String()
+}
+
+func ToStringSlice[T fmt.Stringer](data []T) (res []string) {
+	res = make([]string, len(data))
+
+	for i, s := range data {
+		res[i] = s.String()
+	}
+
+	return
+}
+
 func StringerToUpper(s fmt.Stringer) string {
 	return strings.ToUpper(s.String())
 }

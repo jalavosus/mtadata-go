@@ -3,7 +3,7 @@ package utils
 import (
 	"bytes"
 
-	"github.com/k0kubun/pp"
+	"github.com/k0kubun/pp/v3"
 )
 
 func init() {
@@ -16,15 +16,29 @@ func init() {
 	pp.PrintMapTypes = false
 }
 
-func PrettyPrintStruct(val any, pkgPrefix string, structNames ...string) string {
+type PrettyPrintParam struct {
+	PkgPrefix string
+	TypeNames []string
+}
+
+func NewPrettyPrintParam(pkgPrefix string, typeNames ...string) PrettyPrintParam {
+	return PrettyPrintParam{
+		PkgPrefix: pkgPrefix,
+		TypeNames: typeNames,
+	}
+}
+
+func PrettyPrintStruct(val any, params ...PrettyPrintParam) string {
 	out := new(bytes.Buffer)
 	_, _ = pp.Fprint(out, val)
 
 	var b = out.Bytes()
 
-	for _, rep := range structNames {
-		repStr := []byte(pkgPrefix + ".\x1b[32m" + rep + "\x1b[0m")
-		b = bytes.ReplaceAll(b, repStr, []byte(""))
+	for _, p := range params {
+		for _, typeName := range p.TypeNames {
+			repStr := []byte(p.PkgPrefix + ".\x1b[32m" + typeName + "\x1b[0m")
+			b = bytes.ReplaceAll(b, repStr, []byte(""))
+		}
 	}
 
 	return string(b)

@@ -25,10 +25,10 @@ const (
 )
 
 const (
-	gormDataTypePostgres string = "structure"
+	gormDataTypePg string = "structure"
 )
 
-var validStructures = []Structure{
+var AllStructures = []Structure{
 	AtGrade,
 	Elevated,
 	Embankment,
@@ -38,7 +38,7 @@ var validStructures = []Structure{
 }
 
 func FromString(s string) Structure {
-	return utils.EnumFromString(s, validStructures, Unknown)
+	return utils.EnumFromString(s, AllStructures, Unknown)
 }
 
 func (s Structure) String() string {
@@ -51,15 +51,15 @@ func (s *Structure) Deserialize(data []byte) error {
 }
 
 func (Structure) GormDataType() string {
-	return gormDataTypePostgres
+	return gormDataTypePg
 }
 
 func (Structure) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return gormDataTypePostgres
+		return gormDataTypePg
 	default:
-		return gormDataTypePostgres
+		return gormDataTypePg
 	}
 }
 
@@ -71,14 +71,14 @@ func (Structure) CreateDbType() string {
 	'OPEN_CUT',
 	'SUBWAY',
 	'VIADUCT'
-);`, gormDataTypePostgres)
+);`, gormDataTypePg)
 }
 
 // Scan implements sql.Scanner.
 // Sets the driver.Value represenation of BasicIota.String
 // into a Division variable.
 func (s *Structure) Scan(value any) error {
-	*s = utils.DbValueToEnum(value.(string), validStructures, Unknown)
+	*s = utils.DbValueToEnum(value.(string), AllStructures, Unknown)
 	return nil
 }
 
@@ -86,4 +86,25 @@ func (s *Structure) Scan(value any) error {
 // Returns the result of Division.String, and no error.
 func (s Structure) Value() (driver.Value, error) {
 	return utils.EnumToDbValue(s), nil
+}
+
+func (*Structure) QueryClause() string {
+	return "structure = ?"
+}
+
+func (s *Structure) Arg() *any {
+	if s != nil {
+		var a any = *s
+		return &a
+	}
+
+	return nil
+}
+
+func (s *Structure) Invalid() bool {
+	if s == nil {
+		return true
+	}
+
+	return *s == Unknown
 }

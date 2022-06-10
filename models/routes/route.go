@@ -39,14 +39,14 @@ const (
 	SIR     = Route("SIR")
 	W       = Route("W")
 	Z       = Route("Z")
-	Unknown = Route("Unknown")
+	Unknown = Route("")
 )
 
 const (
-	gormDataTypePostgres string = "route"
+	gormDataTypePg string = "route"
 )
 
-var validRoutes = []Route{
+var AllRoutes = []Route{
 	One,
 	Two,
 	Three,
@@ -74,7 +74,7 @@ var validRoutes = []Route{
 }
 
 func FromString(s string) Route {
-	return utils.EnumFromString(s, validRoutes, Unknown)
+	return utils.EnumFromString(s, AllRoutes, Unknown)
 }
 
 func (r Route) String() string {
@@ -87,15 +87,15 @@ func (r *Route) Deserialize(data []byte) error {
 }
 
 func (Route) GormDataType() string {
-	return gormDataTypePostgres
+	return gormDataTypePg
 }
 
 func (Route) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return gormDataTypePostgres
+		return gormDataTypePg
 	default:
-		return gormDataTypePostgres
+		return gormDataTypePg
 	}
 }
 
@@ -125,14 +125,14 @@ func (Route) CreateDbType() string {
 	'SIR',
 	'W',
 	'Z'
-);`, gormDataTypePostgres)
+);`, gormDataTypePg)
 }
 
 // Scan implements sql.Scanner.
 // Sets the driver.Value represenation of Route.String
 // into a Route variable.
 func (r *Route) Scan(value any) error {
-	*r = utils.DbValueToEnum(value.(string), validRoutes, Unknown)
+	*r = utils.DbValueToEnum(value.(string), AllRoutes, Unknown)
 	return nil
 }
 
@@ -140,4 +140,25 @@ func (r *Route) Scan(value any) error {
 // Returns the result of Route.String, and no error.
 func (r Route) Value() (driver.Value, error) {
 	return utils.EnumToDbValue(r), nil
+}
+
+func (r *Route) QueryClause() string {
+	return "? = ANY(daytime_routes)"
+}
+
+func (r *Route) Arg() *any {
+	if r != nil {
+		var a any = *r
+		return &a
+	}
+
+	return nil
+}
+
+func (r *Route) Invalid() bool {
+	if r == nil {
+		return true
+	}
+
+	return *r == Unknown
 }

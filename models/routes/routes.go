@@ -12,6 +12,10 @@ import (
 	"github.com/jalavosus/mtadata/internal/utils"
 )
 
+const (
+	routesGormDataTypePg string = "route[]"
+)
+
 type Routes []Route
 
 func (r *Routes) UnmarshalJSON(data []byte) error {
@@ -44,7 +48,7 @@ func (r *Routes) Scan(value any) error {
 
 	routes := make(Routes, len(*sa))
 	for i, rt := range *sa {
-		routes[i] = utils.DbValueToEnum(rt, validRoutes, Unknown)
+		routes[i] = utils.DbValueToEnum(rt, AllRoutes, Unknown)
 	}
 
 	*r = routes
@@ -53,14 +57,14 @@ func (r *Routes) Scan(value any) error {
 }
 
 func (Routes) GormDataType() string {
-	return "route[]"
+	return routesGormDataTypePg
 }
 
 func (Routes) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return Routes{}.GormDataType()
+		return routesGormDataTypePg
 	default:
-		return Routes{}.GormDataType()
+		return routesGormDataTypePg
 	}
 }

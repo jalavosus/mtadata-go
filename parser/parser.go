@@ -30,8 +30,8 @@ func ParseStationsCsv(csvPath string) (stations []models.Station, err error) {
 
 func parseStationFromCsv(record []string) models.Station {
 	return models.Station{
-		StationId:       utils.ParseInt(record[0]),
-		ComplexId:       utils.ParseInt(record[1]),
+		StationId:       record[0],
+		ComplexId:       record[1],
 		GtfsStopId:      record[2],
 		Division:        divisions.FromString(record[3]),
 		Line:            record[4],

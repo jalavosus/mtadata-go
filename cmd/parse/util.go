@@ -6,13 +6,10 @@ import (
 	"path/filepath"
 
 	"github.com/jalavosus/mtadata/internal/utils"
-	"github.com/jalavosus/mtadata/models"
 )
 
-func readOutputJson() ([]models.Station, error) {
-	var parsed []models.Station
-
-	fp, fpErr := buildParsedFilePath(stationsOutFilename)
+func readOutputJson[T any](filename string) (parsed []T, err error) {
+	fp, fpErr := buildParsedFilePath(filename)
 	if fpErr != nil {
 		return nil, fpErr
 	}

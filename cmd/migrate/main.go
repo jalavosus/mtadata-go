@@ -11,6 +11,8 @@ import (
 	"github.com/urfave/cli/v2"
 	"gorm.io/gorm"
 
+	_ "github.com/joho/godotenv/autoload"
+
 	"github.com/jalavosus/mtadata/internal/database"
 	"github.com/jalavosus/mtadata/internal/database/connection"
 	"github.com/jalavosus/mtadata/models"
@@ -18,8 +20,6 @@ import (
 	"github.com/jalavosus/mtadata/models/divisions"
 	"github.com/jalavosus/mtadata/models/routes"
 	"github.com/jalavosus/mtadata/models/structures"
-
-	_ "github.com/joho/godotenv/autoload"
 )
 
 func makeDropTypeCmd(typeName string) string {
@@ -46,6 +46,17 @@ var dbModels = []database.CustomDbTyper{
 	routes.Route(""),
 	models.GtfsLocation{},
 	models.DirectionLabels{},
+	models.StationInfo{},
+}
+
+var tableNames = []string{
+	"stations",
+	"station_complexes",
+}
+
+var typeMigrations = []any{
+	models.Station{},
+	models.StationComplex{},
 }
 
 func migrateCmdAction(c *cli.Context) error {
@@ -54,8 +65,11 @@ func migrateCmdAction(c *cli.Context) error {
 
 	conn := connection.ConnectionContext(ctx)
 
-	if err := conn.Exec("DROP TABLE stations;").Error; err != nil {
-		log.Println(err)
+	for _, tableName := range tableNames {
+		cmd := "DROP TABLE " + tableName
+		if err := conn.Exec(cmd).Error; err != nil {
+			log.Println(err)
+		}
 	}
 
 	for _, dbModel := range dbModels {
@@ -71,8 +85,10 @@ func migrateCmdAction(c *cli.Context) error {
 		}
 	}
 
-	if err := conn.AutoMigrate(&models.Station{}); err != nil {
-		return err
+	for _, tm := range typeMigrations {
+		if err := conn.AutoMigrate(&tm); err != nil {
+			return err
+		}
 	}
 
 	return nil
@@ -84,8 +100,11 @@ func dropAllCmdAction(c *cli.Context) error {
 
 	conn := connection.ConnectionContext(ctx)
 
-	if err := conn.Exec("DROP TABLE stations;").Error; err != nil {
-		return err
+	for _, tableName := range tableNames {
+		cmd := "DROP TABLE " + tableName
+		if err := conn.Exec(cmd).Error; err != nil {
+			return err
+		}
 	}
 
 	for _, dbModel := range dbModels {

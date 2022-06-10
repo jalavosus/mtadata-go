@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	gtfsLocationGormDataTypePostgres string = "gtfs_location"
+	gtfsLocationGormDataTypePg string = "gtfs_location"
 )
 
 type GtfsLocation struct {
@@ -33,15 +33,15 @@ func GtfsLocationFromString(lat, long string) GtfsLocation {
 }
 
 func (GtfsLocation) GormDataType() string {
-	return gtfsLocationGormDataTypePostgres
+	return gtfsLocationGormDataTypePg
 }
 
 func (GtfsLocation) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 	switch db.Dialector.Name() {
 	case dialectors.Postgres:
-		return gtfsLocationGormDataTypePostgres
+		return gtfsLocationGormDataTypePg
 	default:
-		return gtfsLocationGormDataTypePostgres
+		return gtfsLocationGormDataTypePg
 	}
 }
 
@@ -49,7 +49,7 @@ func (GtfsLocation) CreateDbType() string {
 	return fmt.Sprintf(`CREATE TYPE public.%[1]s AS (
 	latitude DOUBLE PRECISION,
 	longitude DOUBLE PRECISION
-);`, gtfsLocationGormDataTypePostgres)
+);`, gtfsLocationGormDataTypePg)
 }
 
 func (g *GtfsLocation) Scan(value any) error {
