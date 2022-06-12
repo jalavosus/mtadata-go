@@ -10,6 +10,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "1",
+    "complex_id": "1",
     "daytime_routes": [
       "N",
       "W"
@@ -17,9 +19,7 @@
     "gtfs_location": {
       "latitude": 40.775036,
       "longitude": -73.912034
-    },
-    "station_id": "1",
-    "complex_id": "1"
+    }
   },
   {
     "direction_labels": {
@@ -32,6 +32,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "2",
+    "complex_id": "2",
     "daytime_routes": [
       "N",
       "W"
@@ -39,9 +41,7 @@
     "gtfs_location": {
       "latitude": 40.770258,
       "longitude": -73.917843
-    },
-    "station_id": "2",
-    "complex_id": "2"
+    }
   },
   {
     "direction_labels": {
@@ -54,6 +54,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "3",
+    "complex_id": "3",
     "daytime_routes": [
       "N",
       "W"
@@ -61,9 +63,7 @@
     "gtfs_location": {
       "latitude": 40.766779,
       "longitude": -73.921479
-    },
-    "station_id": "3",
-    "complex_id": "3"
+    }
   },
   {
     "direction_labels": {
@@ -76,6 +76,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "4",
+    "complex_id": "4",
     "daytime_routes": [
       "N",
       "W"
@@ -83,9 +85,7 @@
     "gtfs_location": {
       "latitude": 40.76182,
       "longitude": -73.925508
-    },
-    "station_id": "4",
-    "complex_id": "4"
+    }
   },
   {
     "direction_labels": {
@@ -98,6 +98,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "5",
+    "complex_id": "5",
     "daytime_routes": [
       "N",
       "W"
@@ -105,9 +107,7 @@
     "gtfs_location": {
       "latitude": 40.756804,
       "longitude": -73.929575
-    },
-    "station_id": "5",
-    "complex_id": "5"
+    }
   },
   {
     "direction_labels": {
@@ -120,6 +120,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "6",
+    "complex_id": "6",
     "daytime_routes": [
       "N",
       "W"
@@ -127,9 +129,7 @@
     "gtfs_location": {
       "latitude": 40.752882,
       "longitude": -73.932755
-    },
-    "station_id": "6",
-    "complex_id": "6"
+    }
   },
   {
     "direction_labels": {
@@ -142,6 +142,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "7",
+    "complex_id": "613",
     "daytime_routes": [
       "N",
       "W",
@@ -150,9 +152,7 @@
     "gtfs_location": {
       "latitude": 40.76266,
       "longitude": -73.967258
-    },
-    "station_id": "7",
-    "complex_id": "613"
+    }
   },
   {
     "direction_labels": {
@@ -165,6 +165,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "8",
+    "complex_id": "8",
     "daytime_routes": [
       "N",
       "W",
@@ -173,9 +175,7 @@
     "gtfs_location": {
       "latitude": 40.764811,
       "longitude": -73.973347
-    },
-    "station_id": "8",
-    "complex_id": "8"
+    }
   },
   {
     "direction_labels": {
@@ -188,6 +188,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "9",
+    "complex_id": "9",
     "daytime_routes": [
       "N",
       "Q",
@@ -197,9 +199,7 @@
     "gtfs_location": {
       "latitude": 40.764664,
       "longitude": -73.980658
-    },
-    "station_id": "9",
-    "complex_id": "9"
+    }
   },
   {
     "direction_labels": {
@@ -212,6 +212,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "10",
+    "complex_id": "10",
     "daytime_routes": [
       "N",
       "R",
@@ -220,9 +222,7 @@
     "gtfs_location": {
       "latitude": 40.759901,
       "longitude": -73.984139
-    },
-    "station_id": "10",
-    "complex_id": "10"
+    }
   },
   {
     "direction_labels": {
@@ -235,6 +235,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "11",
+    "complex_id": "611",
     "daytime_routes": [
       "N",
       "Q",
@@ -244,9 +246,7 @@
     "gtfs_location": {
       "latitude": 40.754672,
       "longitude": -73.986754
-    },
-    "station_id": "11",
-    "complex_id": "611"
+    }
   },
   {
     "direction_labels": {
@@ -259,6 +259,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "12",
+    "complex_id": "607",
     "daytime_routes": [
       "N",
       "Q",
@@ -268,9 +270,7 @@
     "gtfs_location": {
       "latitude": 40.749567,
       "longitude": -73.98795
-    },
-    "station_id": "12",
-    "complex_id": "607"
+    }
   },
   {
     "direction_labels": {
@@ -283,6 +283,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "13",
+    "complex_id": "13",
     "daytime_routes": [
       "R",
       "W"
@@ -290,9 +292,7 @@
     "gtfs_location": {
       "latitude": 40.745494,
       "longitude": -73.988691
-    },
-    "station_id": "13",
-    "complex_id": "13"
+    }
   },
   {
     "direction_labels": {
@@ -305,6 +305,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "14",
+    "complex_id": "14",
     "daytime_routes": [
       "R",
       "W"
@@ -312,9 +314,7 @@
     "gtfs_location": {
       "latitude": 40.741303,
       "longitude": -73.989344
-    },
-    "station_id": "14",
-    "complex_id": "14"
+    }
   },
   {
     "direction_labels": {
@@ -327,6 +327,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "15",
+    "complex_id": "602",
     "daytime_routes": [
       "N",
       "Q",
@@ -336,9 +338,7 @@
     "gtfs_location": {
       "latitude": 40.735736,
       "longitude": -73.990568
-    },
-    "station_id": "15",
-    "complex_id": "602"
+    }
   },
   {
     "direction_labels": {
@@ -351,6 +351,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "16",
+    "complex_id": "16",
     "daytime_routes": [
       "R",
       "W"
@@ -358,9 +360,7 @@
     "gtfs_location": {
       "latitude": 40.730328,
       "longitude": -73.992629
-    },
-    "station_id": "16",
-    "complex_id": "16"
+    }
   },
   {
     "direction_labels": {
@@ -373,6 +373,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "17",
+    "complex_id": "17",
     "daytime_routes": [
       "R",
       "W"
@@ -380,9 +382,7 @@
     "gtfs_location": {
       "latitude": 40.724329,
       "longitude": -73.997702
-    },
-    "station_id": "17",
-    "complex_id": "17"
+    }
   },
   {
     "direction_labels": {
@@ -395,6 +395,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "18",
+    "complex_id": "623",
     "daytime_routes": [
       "R",
       "W"
@@ -402,9 +404,7 @@
     "gtfs_location": {
       "latitude": 40.719527,
       "longitude": -74.001775
-    },
-    "station_id": "18",
-    "complex_id": "623"
+    }
   },
   {
     "direction_labels": {
@@ -417,6 +417,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "19",
+    "complex_id": "623",
     "daytime_routes": [
       "N",
       "Q"
@@ -424,9 +426,7 @@
     "gtfs_location": {
       "latitude": 40.718383,
       "longitude": -74.00046
-    },
-    "station_id": "19",
-    "complex_id": "623"
+    }
   },
   {
     "direction_labels": {
@@ -439,6 +439,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "20",
+    "complex_id": "20",
     "daytime_routes": [
       "R",
       "W"
@@ -446,9 +448,7 @@
     "gtfs_location": {
       "latitude": 40.713282,
       "longitude": -74.006978
-    },
-    "station_id": "20",
-    "complex_id": "20"
+    }
   },
   {
     "direction_labels": {
@@ -461,6 +461,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "21",
+    "complex_id": "624",
     "daytime_routes": [
       "R",
       "W"
@@ -468,9 +470,7 @@
     "gtfs_location": {
       "latitude": 40.710668,
       "longitude": -74.011029
-    },
-    "station_id": "21",
-    "complex_id": "624"
+    }
   },
   {
     "direction_labels": {
@@ -483,6 +483,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "22",
+    "complex_id": "22",
     "daytime_routes": [
       "R",
       "W"
@@ -490,9 +492,7 @@
     "gtfs_location": {
       "latitude": 40.70722,
       "longitude": -74.013342
-    },
-    "station_id": "22",
-    "complex_id": "22"
+    }
   },
   {
     "direction_labels": {
@@ -505,6 +505,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "23",
+    "complex_id": "635",
     "daytime_routes": [
       "R",
       "W"
@@ -512,9 +514,7 @@
     "gtfs_location": {
       "latitude": 40.703087,
       "longitude": -74.012994
-    },
-    "station_id": "23",
-    "complex_id": "635"
+    }
   },
   {
     "direction_labels": {
@@ -527,15 +527,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "24",
+    "complex_id": "620",
     "daytime_routes": [
       "R"
     ],
     "gtfs_location": {
       "latitude": 40.6941,
       "longitude": -73.991777
-    },
-    "station_id": "24",
-    "complex_id": "620"
+    }
   },
   {
     "direction_labels": {
@@ -548,15 +548,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "25",
+    "complex_id": "636",
     "daytime_routes": [
       "R"
     ],
     "gtfs_location": {
       "latitude": 40.69218,
       "longitude": -73.985942
-    },
-    "station_id": "25",
-    "complex_id": "636"
+    }
   },
   {
     "direction_labels": {
@@ -569,6 +569,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "26",
+    "complex_id": "26",
     "daytime_routes": [
       "B",
       "Q",
@@ -577,9 +579,7 @@
     "gtfs_location": {
       "latitude": 40.690635,
       "longitude": -73.981824
-    },
-    "station_id": "26",
-    "complex_id": "26"
+    }
   },
   {
     "direction_labels": {
@@ -592,6 +592,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "27",
+    "complex_id": "617",
     "daytime_routes": [
       "D",
       "N",
@@ -600,9 +602,7 @@
     "gtfs_location": {
       "latitude": 40.683666,
       "longitude": -73.97881
-    },
-    "station_id": "27",
-    "complex_id": "617"
+    }
   },
   {
     "direction_labels": {
@@ -615,15 +615,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "28",
+    "complex_id": "28",
     "daytime_routes": [
       "R"
     ],
     "gtfs_location": {
       "latitude": 40.677316,
       "longitude": -73.98311
-    },
-    "station_id": "28",
-    "complex_id": "28"
+    }
   },
   {
     "direction_labels": {
@@ -636,15 +636,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "29",
+    "complex_id": "608",
     "daytime_routes": [
       "R"
     ],
     "gtfs_location": {
       "latitude": 40.670847,
       "longitude": -73.988302
-    },
-    "station_id": "29",
-    "complex_id": "608"
+    }
   },
   {
     "direction_labels": {
@@ -657,15 +657,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "30",
+    "complex_id": "30",
     "daytime_routes": [
       "R"
     ],
     "gtfs_location": {
       "latitude": 40.665414,
       "longitude": -73.992872
-    },
-    "station_id": "30",
-    "complex_id": "30"
+    }
   },
   {
     "direction_labels": {
@@ -678,15 +678,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "31",
+    "complex_id": "31",
     "daytime_routes": [
       "R"
     ],
     "gtfs_location": {
       "latitude": 40.660397,
       "longitude": -73.998091
-    },
-    "station_id": "31",
-    "complex_id": "31"
+    }
   },
   {
     "direction_labels": {
@@ -699,6 +699,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "32",
+    "complex_id": "32",
     "daytime_routes": [
       "D",
       "N",
@@ -707,9 +709,7 @@
     "gtfs_location": {
       "latitude": 40.655144,
       "longitude": -74.003549
-    },
-    "station_id": "32",
-    "complex_id": "32"
+    }
   },
   {
     "direction_labels": {
@@ -722,15 +722,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "33",
+    "complex_id": "33",
     "daytime_routes": [
       "R"
     ],
     "gtfs_location": {
       "latitude": 40.648939,
       "longitude": -74.010006
-    },
-    "station_id": "33",
-    "complex_id": "33"
+    }
   },
   {
     "direction_labels": {
@@ -743,15 +743,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "34",
+    "complex_id": "34",
     "daytime_routes": [
       "R"
     ],
     "gtfs_location": {
       "latitude": 40.645069,
       "longitude": -74.014034
-    },
-    "station_id": "34",
-    "complex_id": "34"
+    }
   },
   {
     "direction_labels": {
@@ -764,6 +764,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "35",
+    "complex_id": "35",
     "daytime_routes": [
       "N",
       "R"
@@ -771,9 +773,7 @@
     "gtfs_location": {
       "latitude": 40.641362,
       "longitude": -74.017881
-    },
-    "station_id": "35",
-    "complex_id": "35"
+    }
   },
   {
     "direction_labels": {
@@ -786,15 +786,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "36",
+    "complex_id": "36",
     "daytime_routes": [
       "R"
     ],
     "gtfs_location": {
       "latitude": 40.634967,
       "longitude": -74.023377
-    },
-    "station_id": "36",
-    "complex_id": "36"
+    }
   },
   {
     "direction_labels": {
@@ -807,15 +807,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "37",
+    "complex_id": "37",
     "daytime_routes": [
       "R"
     ],
     "gtfs_location": {
       "latitude": 40.629742,
       "longitude": -74.02551
-    },
-    "station_id": "37",
-    "complex_id": "37"
+    }
   },
   {
     "direction_labels": {
@@ -828,15 +828,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "38",
+    "complex_id": "38",
     "daytime_routes": [
       "R"
     ],
     "gtfs_location": {
       "latitude": 40.622687,
       "longitude": -74.028398
-    },
-    "station_id": "38",
-    "complex_id": "38"
+    }
   },
   {
     "direction_labels": {
@@ -849,15 +849,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "39",
+    "complex_id": "39",
     "daytime_routes": [
       "R"
     ],
     "gtfs_location": {
       "latitude": 40.616622,
       "longitude": -74.030876
-    },
-    "station_id": "39",
-    "complex_id": "39"
+    }
   },
   {
     "direction_labels": {
@@ -870,6 +870,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "40",
+    "complex_id": "617",
     "daytime_routes": [
       "B",
       "Q"
@@ -877,9 +879,7 @@
     "gtfs_location": {
       "latitude": 40.68446,
       "longitude": -73.97689
-    },
-    "station_id": "40",
-    "complex_id": "617"
+    }
   },
   {
     "direction_labels": {
@@ -892,6 +892,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "41",
+    "complex_id": "41",
     "daytime_routes": [
       "B",
       "Q"
@@ -899,9 +901,7 @@
     "gtfs_location": {
       "latitude": 40.67705,
       "longitude": -73.972367
-    },
-    "station_id": "41",
-    "complex_id": "41"
+    }
   },
   {
     "direction_labels": {
@@ -914,6 +914,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "42",
+    "complex_id": "42",
     "daytime_routes": [
       "B",
       "Q",
@@ -922,9 +924,7 @@
     "gtfs_location": {
       "latitude": 40.661614,
       "longitude": -73.962246
-    },
-    "station_id": "42",
-    "complex_id": "42"
+    }
   },
   {
     "direction_labels": {
@@ -937,6 +937,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "43",
+    "complex_id": "43",
     "daytime_routes": [
       "B",
       "Q"
@@ -944,9 +946,7 @@
     "gtfs_location": {
       "latitude": 40.655292,
       "longitude": -73.961495
-    },
-    "station_id": "43",
-    "complex_id": "43"
+    }
   },
   {
     "direction_labels": {
@@ -959,6 +959,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "44",
+    "complex_id": "44",
     "daytime_routes": [
       "B",
       "Q"
@@ -966,9 +968,7 @@
     "gtfs_location": {
       "latitude": 40.650527,
       "longitude": -73.962982
-    },
-    "station_id": "44",
-    "complex_id": "44"
+    }
   },
   {
     "direction_labels": {
@@ -981,15 +981,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "45",
+    "complex_id": "45",
     "daytime_routes": [
       "Q"
     ],
     "gtfs_location": {
       "latitude": 40.644031,
       "longitude": -73.964492
-    },
-    "station_id": "45",
-    "complex_id": "45"
+    }
   },
   {
     "direction_labels": {
@@ -1002,15 +1002,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "46",
+    "complex_id": "46",
     "daytime_routes": [
       "Q"
     ],
     "gtfs_location": {
       "latitude": 40.640927,
       "longitude": -73.963891
-    },
-    "station_id": "46",
-    "complex_id": "46"
+    }
   },
   {
     "direction_labels": {
@@ -1023,6 +1023,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "47",
+    "complex_id": "47",
     "daytime_routes": [
       "B",
       "Q"
@@ -1030,9 +1032,7 @@
     "gtfs_location": {
       "latitude": 40.635082,
       "longitude": -73.962793
-    },
-    "station_id": "47",
-    "complex_id": "47"
+    }
   },
   {
     "direction_labels": {
@@ -1045,15 +1045,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "48",
+    "complex_id": "48",
     "daytime_routes": [
       "Q"
     ],
     "gtfs_location": {
       "latitude": 40.62927,
       "longitude": -73.961639
-    },
-    "station_id": "48",
-    "complex_id": "48"
+    }
   },
   {
     "direction_labels": {
@@ -1066,15 +1066,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "49",
+    "complex_id": "49",
     "daytime_routes": [
       "Q"
     ],
     "gtfs_location": {
       "latitude": 40.625039,
       "longitude": -73.960803
-    },
-    "station_id": "49",
-    "complex_id": "49"
+    }
   },
   {
     "direction_labels": {
@@ -1087,15 +1087,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "50",
+    "complex_id": "50",
     "daytime_routes": [
       "Q"
     ],
     "gtfs_location": {
       "latitude": 40.617618,
       "longitude": -73.959399
-    },
-    "station_id": "50",
-    "complex_id": "50"
+    }
   },
   {
     "direction_labels": {
@@ -1108,6 +1108,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "51",
+    "complex_id": "51",
     "daytime_routes": [
       "B",
       "Q"
@@ -1115,9 +1117,7 @@
     "gtfs_location": {
       "latitude": 40.60867,
       "longitude": -73.957734
-    },
-    "station_id": "51",
-    "complex_id": "51"
+    }
   },
   {
     "direction_labels": {
@@ -1130,15 +1130,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "52",
+    "complex_id": "52",
     "daytime_routes": [
       "Q"
     ],
     "gtfs_location": {
       "latitude": 40.5993,
       "longitude": -73.955929
-    },
-    "station_id": "52",
-    "complex_id": "52"
+    }
   },
   {
     "direction_labels": {
@@ -1151,15 +1151,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "53",
+    "complex_id": "53",
     "daytime_routes": [
       "Q"
     ],
     "gtfs_location": {
       "latitude": 40.595246,
       "longitude": -73.955161
-    },
-    "station_id": "53",
-    "complex_id": "53"
+    }
   },
   {
     "direction_labels": {
@@ -1172,6 +1172,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "54",
+    "complex_id": "54",
     "daytime_routes": [
       "B",
       "Q"
@@ -1179,9 +1181,7 @@
     "gtfs_location": {
       "latitude": 40.586896,
       "longitude": -73.954155
-    },
-    "station_id": "54",
-    "complex_id": "54"
+    }
   },
   {
     "direction_labels": {
@@ -1194,6 +1194,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "55",
+    "complex_id": "55",
     "daytime_routes": [
       "B",
       "Q"
@@ -1201,9 +1203,7 @@
     "gtfs_location": {
       "latitude": 40.577621,
       "longitude": -73.961376
-    },
-    "station_id": "55",
-    "complex_id": "55"
+    }
   },
   {
     "direction_labels": {
@@ -1216,15 +1216,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "56",
+    "complex_id": "56",
     "daytime_routes": [
       "Q"
     ],
     "gtfs_location": {
       "latitude": 40.576312,
       "longitude": -73.968501
-    },
-    "station_id": "56",
-    "complex_id": "56"
+    }
   },
   {
     "direction_labels": {
@@ -1237,6 +1237,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "57",
+    "complex_id": "57",
     "daytime_routes": [
       "F",
       "Q"
@@ -1244,9 +1246,7 @@
     "gtfs_location": {
       "latitude": 40.576127,
       "longitude": -73.975939
-    },
-    "station_id": "57",
-    "complex_id": "57"
+    }
   },
   {
     "direction_labels": {
@@ -1259,6 +1259,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Viaduct",
+    "station_id": "58",
+    "complex_id": "58",
     "daytime_routes": [
       "D",
       "F",
@@ -1268,9 +1270,7 @@
     "gtfs_location": {
       "latitude": 40.577422,
       "longitude": -73.981233
-    },
-    "station_id": "58",
-    "complex_id": "58"
+    }
   },
   {
     "direction_labels": {
@@ -1283,15 +1283,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "59",
+    "complex_id": "59",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.646292,
       "longitude": -73.994324
-    },
-    "station_id": "59",
-    "complex_id": "59"
+    }
   },
   {
     "direction_labels": {
@@ -1304,15 +1304,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "60",
+    "complex_id": "60",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.640914,
       "longitude": -73.994304
-    },
-    "station_id": "60",
-    "complex_id": "60"
+    }
   },
   {
     "direction_labels": {
@@ -1325,15 +1325,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "61",
+    "complex_id": "61",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.63626,
       "longitude": -73.994791
-    },
-    "station_id": "61",
-    "complex_id": "61"
+    }
   },
   {
     "direction_labels": {
@@ -1346,15 +1346,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "62",
+    "complex_id": "62",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.631435,
       "longitude": -73.995476
-    },
-    "station_id": "62",
-    "complex_id": "62"
+    }
   },
   {
     "direction_labels": {
@@ -1367,15 +1367,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "63",
+    "complex_id": "615",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.626472,
       "longitude": -73.996895
-    },
-    "station_id": "63",
-    "complex_id": "615"
+    }
   },
   {
     "direction_labels": {
@@ -1388,15 +1388,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "64",
+    "complex_id": "64",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.619589,
       "longitude": -73.998864
-    },
-    "station_id": "64",
-    "complex_id": "64"
+    }
   },
   {
     "direction_labels": {
@@ -1409,15 +1409,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "65",
+    "complex_id": "65",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.613501,
       "longitude": -74.00061
-    },
-    "station_id": "65",
-    "complex_id": "65"
+    }
   },
   {
     "direction_labels": {
@@ -1430,15 +1430,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "66",
+    "complex_id": "66",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.607954,
       "longitude": -74.001736
-    },
-    "station_id": "66",
-    "complex_id": "66"
+    }
   },
   {
     "direction_labels": {
@@ -1451,15 +1451,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "67",
+    "complex_id": "67",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.604556,
       "longitude": -73.998168
-    },
-    "station_id": "67",
-    "complex_id": "67"
+    }
   },
   {
     "direction_labels": {
@@ -1472,15 +1472,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "68",
+    "complex_id": "68",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.601875,
       "longitude": -73.993728
-    },
-    "station_id": "68",
-    "complex_id": "68"
+    }
   },
   {
     "direction_labels": {
@@ -1493,15 +1493,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "69",
+    "complex_id": "69",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.597704,
       "longitude": -73.986829
-    },
-    "station_id": "69",
-    "complex_id": "69"
+    }
   },
   {
     "direction_labels": {
@@ -1514,15 +1514,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "70",
+    "complex_id": "70",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.588841,
       "longitude": -73.983765
-    },
-    "station_id": "70",
-    "complex_id": "70"
+    }
   },
   {
     "direction_labels": {
@@ -1535,15 +1535,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "71",
+    "complex_id": "71",
     "daytime_routes": [
       "N"
     ],
     "gtfs_location": {
       "latitude": 40.635064,
       "longitude": -74.011719
-    },
-    "station_id": "71",
-    "complex_id": "71"
+    }
   },
   {
     "direction_labels": {
@@ -1556,15 +1556,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "72",
+    "complex_id": "72",
     "daytime_routes": [
       "N"
     ],
     "gtfs_location": {
       "latitude": 40.631386,
       "longitude": -74.005351
-    },
-    "station_id": "72",
-    "complex_id": "72"
+    }
   },
   {
     "direction_labels": {
@@ -1577,15 +1577,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "73",
+    "complex_id": "615",
     "daytime_routes": [
       "N"
     ],
     "gtfs_location": {
       "latitude": 40.624842,
       "longitude": -73.996353
-    },
-    "station_id": "73",
-    "complex_id": "615"
+    }
   },
   {
     "direction_labels": {
@@ -1598,15 +1598,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "74",
+    "complex_id": "74",
     "daytime_routes": [
       "N"
     ],
     "gtfs_location": {
       "latitude": 40.620671,
       "longitude": -73.990414
-    },
-    "station_id": "74",
-    "complex_id": "74"
+    }
   },
   {
     "direction_labels": {
@@ -1619,15 +1619,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "75",
+    "complex_id": "75",
     "daytime_routes": [
       "N"
     ],
     "gtfs_location": {
       "latitude": 40.61741,
       "longitude": -73.985026
-    },
-    "station_id": "75",
-    "complex_id": "75"
+    }
   },
   {
     "direction_labels": {
@@ -1640,15 +1640,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "76",
+    "complex_id": "76",
     "daytime_routes": [
       "N"
     ],
     "gtfs_location": {
       "latitude": 40.611815,
       "longitude": -73.981848
-    },
-    "station_id": "76",
-    "complex_id": "76"
+    }
   },
   {
     "direction_labels": {
@@ -1661,15 +1661,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "77",
+    "complex_id": "77",
     "daytime_routes": [
       "N"
     ],
     "gtfs_location": {
       "latitude": 40.603923,
       "longitude": -73.980353
-    },
-    "station_id": "77",
-    "complex_id": "77"
+    }
   },
   {
     "direction_labels": {
@@ -1682,15 +1682,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "78",
+    "complex_id": "78",
     "daytime_routes": [
       "N"
     ],
     "gtfs_location": {
       "latitude": 40.597473,
       "longitude": -73.979137
-    },
-    "station_id": "78",
-    "complex_id": "78"
+    }
   },
   {
     "direction_labels": {
@@ -1703,15 +1703,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "79",
+    "complex_id": "79",
     "daytime_routes": [
       "N"
     ],
     "gtfs_location": {
       "latitude": 40.592721,
       "longitude": -73.97823
-    },
-    "station_id": "79",
-    "complex_id": "79"
+    }
   },
   {
     "direction_labels": {
@@ -1724,6 +1724,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "80",
+    "complex_id": "80",
     "daytime_routes": [
       "J",
       "Z"
@@ -1731,9 +1733,7 @@
     "gtfs_location": {
       "latitude": 40.700492,
       "longitude": -73.828294
-    },
-    "station_id": "80",
-    "complex_id": "80"
+    }
   },
   {
     "direction_labels": {
@@ -1746,15 +1746,15 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "81",
+    "complex_id": "81",
     "daytime_routes": [
       "J"
     ],
     "gtfs_location": {
       "latitude": 40.697418,
       "longitude": -73.836345
-    },
-    "station_id": "81",
-    "complex_id": "81"
+    }
   },
   {
     "direction_labels": {
@@ -1767,6 +1767,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "82",
+    "complex_id": "82",
     "daytime_routes": [
       "J",
       "Z"
@@ -1774,9 +1776,7 @@
     "gtfs_location": {
       "latitude": 40.695178,
       "longitude": -73.84433
-    },
-    "station_id": "82",
-    "complex_id": "82"
+    }
   },
   {
     "direction_labels": {
@@ -1789,6 +1789,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "83",
+    "complex_id": "83",
     "daytime_routes": [
       "J",
       "Z"
@@ -1796,9 +1798,7 @@
     "gtfs_location": {
       "latitude": 40.693879,
       "longitude": -73.851576
-    },
-    "station_id": "83",
-    "complex_id": "83"
+    }
   },
   {
     "direction_labels": {
@@ -1811,15 +1811,15 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "84",
+    "complex_id": "84",
     "daytime_routes": [
       "J"
     ],
     "gtfs_location": {
       "latitude": 40.692435,
       "longitude": -73.86001
-    },
-    "station_id": "84",
-    "complex_id": "84"
+    }
   },
   {
     "direction_labels": {
@@ -1832,6 +1832,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "85",
+    "complex_id": "85",
     "daytime_routes": [
       "J",
       "Z"
@@ -1839,9 +1841,7 @@
     "gtfs_location": {
       "latitude": 40.691324,
       "longitude": -73.867139
-    },
-    "station_id": "85",
-    "complex_id": "85"
+    }
   },
   {
     "direction_labels": {
@@ -1854,15 +1854,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "86",
+    "complex_id": "86",
     "daytime_routes": [
       "J"
     ],
     "gtfs_location": {
       "latitude": 40.689941,
       "longitude": -73.87255
-    },
-    "station_id": "86",
-    "complex_id": "86"
+    }
   },
   {
     "direction_labels": {
@@ -1875,6 +1875,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "87",
+    "complex_id": "87",
     "daytime_routes": [
       "J",
       "Z"
@@ -1882,9 +1884,7 @@
     "gtfs_location": {
       "latitude": 40.683194,
       "longitude": -73.873785
-    },
-    "station_id": "87",
-    "complex_id": "87"
+    }
   },
   {
     "direction_labels": {
@@ -1897,6 +1897,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "88",
+    "complex_id": "88",
     "daytime_routes": [
       "J",
       "Z"
@@ -1904,9 +1906,7 @@
     "gtfs_location": {
       "latitude": 40.68141,
       "longitude": -73.880039
-    },
-    "station_id": "88",
-    "complex_id": "88"
+    }
   },
   {
     "direction_labels": {
@@ -1919,15 +1919,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "89",
+    "complex_id": "89",
     "daytime_routes": [
       "J"
     ],
     "gtfs_location": {
       "latitude": 40.679947,
       "longitude": -73.884639
-    },
-    "station_id": "89",
-    "complex_id": "89"
+    }
   },
   {
     "direction_labels": {
@@ -1940,6 +1940,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "90",
+    "complex_id": "90",
     "daytime_routes": [
       "J",
       "Z"
@@ -1947,9 +1949,7 @@
     "gtfs_location": {
       "latitude": 40.678024,
       "longitude": -73.891688
-    },
-    "station_id": "90",
-    "complex_id": "90"
+    }
   },
   {
     "direction_labels": {
@@ -1962,15 +1962,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "91",
+    "complex_id": "91",
     "daytime_routes": [
       "J"
     ],
     "gtfs_location": {
       "latitude": 40.676992,
       "longitude": -73.898654
-    },
-    "station_id": "91",
-    "complex_id": "91"
+    }
   },
   {
     "direction_labels": {
@@ -1983,6 +1983,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "92",
+    "complex_id": "621",
     "daytime_routes": [
       "J",
       "Z"
@@ -1990,9 +1992,7 @@
     "gtfs_location": {
       "latitude": 40.679498,
       "longitude": -73.904512
-    },
-    "station_id": "92",
-    "complex_id": "621"
+    }
   },
   {
     "direction_labels": {
@@ -2005,6 +2005,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "93",
+    "complex_id": "93",
     "daytime_routes": [
       "J",
       "Z"
@@ -2012,9 +2014,7 @@
     "gtfs_location": {
       "latitude": 40.682893,
       "longitude": -73.910456
-    },
-    "station_id": "93",
-    "complex_id": "93"
+    }
   },
   {
     "direction_labels": {
@@ -2027,15 +2027,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "94",
+    "complex_id": "94",
     "daytime_routes": [
       "J"
     ],
     "gtfs_location": {
       "latitude": 40.68637,
       "longitude": -73.916559
-    },
-    "station_id": "94",
-    "complex_id": "94"
+    }
   },
   {
     "direction_labels": {
@@ -2048,6 +2048,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "95",
+    "complex_id": "95",
     "daytime_routes": [
       "J",
       "Z"
@@ -2055,9 +2057,7 @@
     "gtfs_location": {
       "latitude": 40.68963,
       "longitude": -73.92227
-    },
-    "station_id": "95",
-    "complex_id": "95"
+    }
   },
   {
     "direction_labels": {
@@ -2070,15 +2070,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "96",
+    "complex_id": "96",
     "daytime_routes": [
       "J"
     ],
     "gtfs_location": {
       "latitude": 40.693342,
       "longitude": -73.928814
-    },
-    "station_id": "96",
-    "complex_id": "96"
+    }
   },
   {
     "direction_labels": {
@@ -2091,6 +2091,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "97",
+    "complex_id": "97",
     "daytime_routes": [
       "J",
       "M",
@@ -2099,9 +2101,7 @@
     "gtfs_location": {
       "latitude": 40.697207,
       "longitude": -73.935657
-    },
-    "station_id": "97",
-    "complex_id": "97"
+    }
   },
   {
     "direction_labels": {
@@ -2114,6 +2114,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "98",
+    "complex_id": "98",
     "daytime_routes": [
       "J",
       "M"
@@ -2121,9 +2123,7 @@
     "gtfs_location": {
       "latitude": 40.70026,
       "longitude": -73.941126
-    },
-    "station_id": "98",
-    "complex_id": "98"
+    }
   },
   {
     "direction_labels": {
@@ -2136,6 +2136,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "99",
+    "complex_id": "99",
     "daytime_routes": [
       "J",
       "M"
@@ -2143,9 +2145,7 @@
     "gtfs_location": {
       "latitude": 40.703869,
       "longitude": -73.947408
-    },
-    "station_id": "99",
-    "complex_id": "99"
+    }
   },
   {
     "direction_labels": {
@@ -2158,6 +2158,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "100",
+    "complex_id": "100",
     "daytime_routes": [
       "J",
       "M"
@@ -2165,9 +2167,7 @@
     "gtfs_location": {
       "latitude": 40.70687,
       "longitude": -73.953431
-    },
-    "station_id": "100",
-    "complex_id": "100"
+    }
   },
   {
     "direction_labels": {
@@ -2180,6 +2180,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "101",
+    "complex_id": "101",
     "daytime_routes": [
       "J",
       "M",
@@ -2188,9 +2190,7 @@
     "gtfs_location": {
       "latitude": 40.708359,
       "longitude": -73.957757
-    },
-    "station_id": "101",
-    "complex_id": "101"
+    }
   },
   {
     "direction_labels": {
@@ -2203,6 +2203,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "102",
+    "complex_id": "625",
     "daytime_routes": [
       "J",
       "M",
@@ -2211,9 +2213,7 @@
     "gtfs_location": {
       "latitude": 40.718315,
       "longitude": -73.987437
-    },
-    "station_id": "102",
-    "complex_id": "625"
+    }
   },
   {
     "direction_labels": {
@@ -2226,6 +2226,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "103",
+    "complex_id": "103",
     "daytime_routes": [
       "J",
       "Z"
@@ -2233,9 +2235,7 @@
     "gtfs_location": {
       "latitude": 40.72028,
       "longitude": -73.993915
-    },
-    "station_id": "103",
-    "complex_id": "103"
+    }
   },
   {
     "direction_labels": {
@@ -2248,6 +2248,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "104",
+    "complex_id": "623",
     "daytime_routes": [
       "J",
       "Z"
@@ -2255,9 +2257,7 @@
     "gtfs_location": {
       "latitude": 40.718092,
       "longitude": -73.999892
-    },
-    "station_id": "104",
-    "complex_id": "623"
+    }
   },
   {
     "direction_labels": {
@@ -2270,6 +2270,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "105",
+    "complex_id": "622",
     "daytime_routes": [
       "J",
       "Z"
@@ -2277,9 +2279,7 @@
     "gtfs_location": {
       "latitude": 40.713243,
       "longitude": -74.003401
-    },
-    "station_id": "105",
-    "complex_id": "622"
+    }
   },
   {
     "direction_labels": {
@@ -2292,6 +2292,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "106",
+    "complex_id": "628",
     "daytime_routes": [
       "J",
       "Z"
@@ -2299,9 +2301,7 @@
     "gtfs_location": {
       "latitude": 40.710374,
       "longitude": -74.007582
-    },
-    "station_id": "106",
-    "complex_id": "628"
+    }
   },
   {
     "direction_labels": {
@@ -2314,6 +2314,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "107",
+    "complex_id": "107",
     "daytime_routes": [
       "J",
       "Z"
@@ -2321,9 +2323,7 @@
     "gtfs_location": {
       "latitude": 40.706476,
       "longitude": -74.011056
-    },
-    "station_id": "107",
-    "complex_id": "107"
+    }
   },
   {
     "direction_labels": {
@@ -2336,15 +2336,15 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "108",
+    "complex_id": "108",
     "daytime_routes": [
       "M"
     ],
     "gtfs_location": {
       "latitude": 40.711396,
       "longitude": -73.889601
-    },
-    "station_id": "108",
-    "complex_id": "108"
+    }
   },
   {
     "direction_labels": {
@@ -2357,15 +2357,15 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "109",
+    "complex_id": "109",
     "daytime_routes": [
       "M"
     ],
     "gtfs_location": {
       "latitude": 40.706186,
       "longitude": -73.895877
-    },
-    "station_id": "109",
-    "complex_id": "109"
+    }
   },
   {
     "direction_labels": {
@@ -2378,15 +2378,15 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "110",
+    "complex_id": "110",
     "daytime_routes": [
       "M"
     ],
     "gtfs_location": {
       "latitude": 40.704423,
       "longitude": -73.903077
-    },
-    "station_id": "110",
-    "complex_id": "110"
+    }
   },
   {
     "direction_labels": {
@@ -2399,15 +2399,15 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "111",
+    "complex_id": "111",
     "daytime_routes": [
       "M"
     ],
     "gtfs_location": {
       "latitude": 40.702762,
       "longitude": -73.90774
-    },
-    "station_id": "111",
-    "complex_id": "111"
+    }
   },
   {
     "direction_labels": {
@@ -2420,15 +2420,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "112",
+    "complex_id": "630",
     "daytime_routes": [
       "M"
     ],
     "gtfs_location": {
       "latitude": 40.69943,
       "longitude": -73.912385
-    },
-    "station_id": "112",
-    "complex_id": "630"
+    }
   },
   {
     "direction_labels": {
@@ -2441,15 +2441,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "113",
+    "complex_id": "113",
     "daytime_routes": [
       "M"
     ],
     "gtfs_location": {
       "latitude": 40.698664,
       "longitude": -73.919711
-    },
-    "station_id": "113",
-    "complex_id": "113"
+    }
   },
   {
     "direction_labels": {
@@ -2462,15 +2462,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "114",
+    "complex_id": "114",
     "daytime_routes": [
       "M"
     ],
     "gtfs_location": {
       "latitude": 40.697857,
       "longitude": -73.927397
-    },
-    "station_id": "114",
-    "complex_id": "114"
+    }
   },
   {
     "direction_labels": {
@@ -2483,15 +2483,15 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "115",
+    "complex_id": "618",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.739777,
       "longitude": -74.002578
-    },
-    "station_id": "115",
-    "complex_id": "618"
+    }
   },
   {
     "direction_labels": {
@@ -2504,15 +2504,15 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "116",
+    "complex_id": "601",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.737335,
       "longitude": -73.996786
-    },
-    "station_id": "116",
-    "complex_id": "601"
+    }
   },
   {
     "direction_labels": {
@@ -2525,15 +2525,15 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "117",
+    "complex_id": "602",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.734789,
       "longitude": -73.99073
-    },
-    "station_id": "117",
-    "complex_id": "602"
+    }
   },
   {
     "direction_labels": {
@@ -2546,15 +2546,15 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "118",
+    "complex_id": "118",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.732849,
       "longitude": -73.986122
-    },
-    "station_id": "118",
-    "complex_id": "118"
+    }
   },
   {
     "direction_labels": {
@@ -2567,15 +2567,15 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "119",
+    "complex_id": "119",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.730953,
       "longitude": -73.981628
-    },
-    "station_id": "119",
-    "complex_id": "119"
+    }
   },
   {
     "direction_labels": {
@@ -2588,15 +2588,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "120",
+    "complex_id": "120",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.717304,
       "longitude": -73.956872
-    },
-    "station_id": "120",
-    "complex_id": "120"
+    }
   },
   {
     "direction_labels": {
@@ -2609,15 +2609,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "121",
+    "complex_id": "629",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.714063,
       "longitude": -73.950275
-    },
-    "station_id": "121",
-    "complex_id": "629"
+    }
   },
   {
     "direction_labels": {
@@ -2630,15 +2630,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "122",
+    "complex_id": "122",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.714565,
       "longitude": -73.944053
-    },
-    "station_id": "122",
-    "complex_id": "122"
+    }
   },
   {
     "direction_labels": {
@@ -2651,15 +2651,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "123",
+    "complex_id": "123",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.711926,
       "longitude": -73.94067
-    },
-    "station_id": "123",
-    "complex_id": "123"
+    }
   },
   {
     "direction_labels": {
@@ -2672,15 +2672,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "124",
+    "complex_id": "124",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.707739,
       "longitude": -73.93985
-    },
-    "station_id": "124",
-    "complex_id": "124"
+    }
   },
   {
     "direction_labels": {
@@ -2693,15 +2693,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "125",
+    "complex_id": "125",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.706152,
       "longitude": -73.933147
-    },
-    "station_id": "125",
-    "complex_id": "125"
+    }
   },
   {
     "direction_labels": {
@@ -2714,15 +2714,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "126",
+    "complex_id": "126",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.706607,
       "longitude": -73.922913
-    },
-    "station_id": "126",
-    "complex_id": "126"
+    }
   },
   {
     "direction_labels": {
@@ -2735,15 +2735,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "127",
+    "complex_id": "127",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.703811,
       "longitude": -73.918425
-    },
-    "station_id": "127",
-    "complex_id": "127"
+    }
   },
   {
     "direction_labels": {
@@ -2756,15 +2756,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "128",
+    "complex_id": "630",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.699814,
       "longitude": -73.911586
-    },
-    "station_id": "128",
-    "complex_id": "630"
+    }
   },
   {
     "direction_labels": {
@@ -2777,15 +2777,15 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "129",
+    "complex_id": "129",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.695602,
       "longitude": -73.904084
-    },
-    "station_id": "129",
-    "complex_id": "129"
+    }
   },
   {
     "direction_labels": {
@@ -2798,15 +2798,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "130",
+    "complex_id": "130",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.688764,
       "longitude": -73.904046
-    },
-    "station_id": "130",
-    "complex_id": "130"
+    }
   },
   {
     "direction_labels": {
@@ -2819,15 +2819,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "131",
+    "complex_id": "131",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.682829,
       "longitude": -73.905249
-    },
-    "station_id": "131",
-    "complex_id": "131"
+    }
   },
   {
     "direction_labels": {
@@ -2840,15 +2840,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "132",
+    "complex_id": "621",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.678856,
       "longitude": -73.90324
-    },
-    "station_id": "132",
-    "complex_id": "621"
+    }
   },
   {
     "direction_labels": {
@@ -2861,15 +2861,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "133",
+    "complex_id": "133",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.675345,
       "longitude": -73.903097
-    },
-    "station_id": "133",
-    "complex_id": "133"
+    }
   },
   {
     "direction_labels": {
@@ -2882,15 +2882,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "134",
+    "complex_id": "134",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.669367,
       "longitude": -73.901975
-    },
-    "station_id": "134",
-    "complex_id": "134"
+    }
   },
   {
     "direction_labels": {
@@ -2903,15 +2903,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "135",
+    "complex_id": "135",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.664038,
       "longitude": -73.900571
-    },
-    "station_id": "135",
-    "complex_id": "135"
+    }
   },
   {
     "direction_labels": {
@@ -2924,15 +2924,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "136",
+    "complex_id": "136",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.658733,
       "longitude": -73.899232
-    },
-    "station_id": "136",
-    "complex_id": "136"
+    }
   },
   {
     "direction_labels": {
@@ -2945,15 +2945,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "At Grade",
+    "station_id": "137",
+    "complex_id": "137",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.650573,
       "longitude": -73.899485
-    },
-    "station_id": "137",
-    "complex_id": "137"
+    }
   },
   {
     "direction_labels": {
@@ -2966,15 +2966,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "At Grade",
+    "station_id": "138",
+    "complex_id": "138",
     "daytime_routes": [
       "L"
     ],
     "gtfs_location": {
       "latitude": 40.646654,
       "longitude": -73.90185
-    },
-    "station_id": "138",
-    "complex_id": "138"
+    }
   },
   {
     "direction_labels": {
@@ -2987,15 +2987,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "139",
+    "complex_id": "627",
     "daytime_routes": [
       "S"
     ],
     "gtfs_location": {
       "latitude": 40.680596,
       "longitude": -73.955827
-    },
-    "station_id": "139",
-    "complex_id": "627"
+    }
   },
   {
     "direction_labels": {
@@ -3008,15 +3008,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "141",
+    "complex_id": "141",
     "daytime_routes": [
       "S"
     ],
     "gtfs_location": {
       "latitude": 40.674772,
       "longitude": -73.957624
-    },
-    "station_id": "141",
-    "complex_id": "141"
+    }
   },
   {
     "direction_labels": {
@@ -3029,15 +3029,15 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
+    "station_id": "142",
+    "complex_id": "626",
     "daytime_routes": [
       "S"
     ],
     "gtfs_location": {
       "latitude": 40.670343,
       "longitude": -73.959245
-    },
-    "station_id": "142",
-    "complex_id": "626"
+    }
   },
   {
     "direction_labels": {
@@ -3050,15 +3050,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "143",
+    "complex_id": "143",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.868072,
       "longitude": -73.919899
-    },
-    "station_id": "143",
-    "complex_id": "143"
+    }
   },
   {
     "direction_labels": {
@@ -3071,15 +3071,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "144",
+    "complex_id": "144",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.865491,
       "longitude": -73.927271
-    },
-    "station_id": "144",
-    "complex_id": "144"
+    }
   },
   {
     "direction_labels": {
@@ -3092,15 +3092,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "145",
+    "complex_id": "145",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.859022,
       "longitude": -73.93418
-    },
-    "station_id": "145",
-    "complex_id": "145"
+    }
   },
   {
     "direction_labels": {
@@ -3113,15 +3113,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "146",
+    "complex_id": "146",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.851695,
       "longitude": -73.937969
-    },
-    "station_id": "146",
-    "complex_id": "146"
+    }
   },
   {
     "direction_labels": {
@@ -3134,15 +3134,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "147",
+    "complex_id": "147",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.847391,
       "longitude": -73.939704
-    },
-    "station_id": "147",
-    "complex_id": "147"
+    }
   },
   {
     "direction_labels": {
@@ -3155,6 +3155,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "148",
+    "complex_id": "605",
     "daytime_routes": [
       "A",
       "C"
@@ -3162,9 +3164,7 @@
     "gtfs_location": {
       "latitude": 40.840719,
       "longitude": -73.939561
-    },
-    "station_id": "148",
-    "complex_id": "605"
+    }
   },
   {
     "direction_labels": {
@@ -3177,15 +3177,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "149",
+    "complex_id": "149",
     "daytime_routes": [
       "C"
     ],
     "gtfs_location": {
       "latitude": 40.836013,
       "longitude": -73.939892
-    },
-    "station_id": "149",
-    "complex_id": "149"
+    }
   },
   {
     "direction_labels": {
@@ -3198,15 +3198,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "150",
+    "complex_id": "150",
     "daytime_routes": [
       "C"
     ],
     "gtfs_location": {
       "latitude": 40.830518,
       "longitude": -73.941514
-    },
-    "station_id": "150",
-    "complex_id": "150"
+    }
   },
   {
     "direction_labels": {
@@ -3219,6 +3219,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "151",
+    "complex_id": "151",
     "daytime_routes": [
       "A",
       "C"
@@ -3226,9 +3228,7 @@
     "gtfs_location": {
       "latitude": 40.824783,
       "longitude": -73.944216
-    },
-    "station_id": "151",
-    "complex_id": "151"
+    }
   },
   {
     "direction_labels": {
@@ -3241,6 +3241,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "151",
+    "complex_id": "151",
     "daytime_routes": [
       "B",
       "D"
@@ -3248,9 +3250,7 @@
     "gtfs_location": {
       "latitude": 40.824783,
       "longitude": -73.944216
-    },
-    "station_id": "151",
-    "complex_id": "151"
+    }
   },
   {
     "direction_labels": {
@@ -3263,6 +3263,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "152",
+    "complex_id": "152",
     "daytime_routes": [
       "B",
       "C"
@@ -3270,9 +3272,7 @@
     "gtfs_location": {
       "latitude": 40.817894,
       "longitude": -73.947649
-    },
-    "station_id": "152",
-    "complex_id": "152"
+    }
   },
   {
     "direction_labels": {
@@ -3285,6 +3285,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "153",
+    "complex_id": "153",
     "daytime_routes": [
       "A",
       "B",
@@ -3294,9 +3296,7 @@
     "gtfs_location": {
       "latitude": 40.811109,
       "longitude": -73.952343
-    },
-    "station_id": "153",
-    "complex_id": "153"
+    }
   },
   {
     "direction_labels": {
@@ -3309,6 +3309,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "154",
+    "complex_id": "154",
     "daytime_routes": [
       "B",
       "C"
@@ -3316,9 +3318,7 @@
     "gtfs_location": {
       "latitude": 40.805085,
       "longitude": -73.954882
-    },
-    "station_id": "154",
-    "complex_id": "154"
+    }
   },
   {
     "direction_labels": {
@@ -3331,6 +3331,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "155",
+    "complex_id": "155",
     "daytime_routes": [
       "B",
       "C"
@@ -3338,9 +3340,7 @@
     "gtfs_location": {
       "latitude": 40.800603,
       "longitude": -73.958161
-    },
-    "station_id": "155",
-    "complex_id": "155"
+    }
   },
   {
     "direction_labels": {
@@ -3353,6 +3353,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "156",
+    "complex_id": "156",
     "daytime_routes": [
       "B",
       "C"
@@ -3360,9 +3362,7 @@
     "gtfs_location": {
       "latitude": 40.796092,
       "longitude": -73.961454
-    },
-    "station_id": "156",
-    "complex_id": "156"
+    }
   },
   {
     "direction_labels": {
@@ -3375,6 +3375,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "157",
+    "complex_id": "157",
     "daytime_routes": [
       "B",
       "C"
@@ -3382,9 +3384,7 @@
     "gtfs_location": {
       "latitude": 40.791642,
       "longitude": -73.964696
-    },
-    "station_id": "157",
-    "complex_id": "157"
+    }
   },
   {
     "direction_labels": {
@@ -3397,6 +3397,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "158",
+    "complex_id": "158",
     "daytime_routes": [
       "B",
       "C"
@@ -3404,9 +3406,7 @@
     "gtfs_location": {
       "latitude": 40.785868,
       "longitude": -73.968916
-    },
-    "station_id": "158",
-    "complex_id": "158"
+    }
   },
   {
     "direction_labels": {
@@ -3419,6 +3419,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "159",
+    "complex_id": "159",
     "daytime_routes": [
       "B",
       "C"
@@ -3426,9 +3428,7 @@
     "gtfs_location": {
       "latitude": 40.781433,
       "longitude": -73.972143
-    },
-    "station_id": "159",
-    "complex_id": "159"
+    }
   },
   {
     "direction_labels": {
@@ -3441,6 +3441,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "160",
+    "complex_id": "160",
     "daytime_routes": [
       "B",
       "C"
@@ -3448,9 +3450,7 @@
     "gtfs_location": {
       "latitude": 40.775594,
       "longitude": -73.97641
-    },
-    "station_id": "160",
-    "complex_id": "160"
+    }
   },
   {
     "direction_labels": {
@@ -3463,6 +3463,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "161",
+    "complex_id": "614",
     "daytime_routes": [
       "A",
       "B",
@@ -3472,9 +3474,7 @@
     "gtfs_location": {
       "latitude": 40.768296,
       "longitude": -73.981736
-    },
-    "station_id": "161",
-    "complex_id": "614"
+    }
   },
   {
     "direction_labels": {
@@ -3487,6 +3487,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "162",
+    "complex_id": "162",
     "daytime_routes": [
       "C",
       "E"
@@ -3494,9 +3496,7 @@
     "gtfs_location": {
       "latitude": 40.762456,
       "longitude": -73.985984
-    },
-    "station_id": "162",
-    "complex_id": "162"
+    }
   },
   {
     "direction_labels": {
@@ -3509,6 +3509,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "163",
+    "complex_id": "611",
     "daytime_routes": [
       "A",
       "C",
@@ -3517,9 +3519,7 @@
     "gtfs_location": {
       "latitude": 40.757308,
       "longitude": -73.989735
-    },
-    "station_id": "163",
-    "complex_id": "611"
+    }
   },
   {
     "direction_labels": {
@@ -3532,6 +3532,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "164",
+    "complex_id": "164",
     "daytime_routes": [
       "A",
       "C",
@@ -3540,9 +3542,7 @@
     "gtfs_location": {
       "latitude": 40.752287,
       "longitude": -73.993391
-    },
-    "station_id": "164",
-    "complex_id": "164"
+    }
   },
   {
     "direction_labels": {
@@ -3555,6 +3555,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "165",
+    "complex_id": "165",
     "daytime_routes": [
       "C",
       "E"
@@ -3562,9 +3564,7 @@
     "gtfs_location": {
       "latitude": 40.745906,
       "longitude": -73.998041
-    },
-    "station_id": "165",
-    "complex_id": "165"
+    }
   },
   {
     "direction_labels": {
@@ -3577,6 +3577,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "166",
+    "complex_id": "618",
     "daytime_routes": [
       "A",
       "C",
@@ -3585,9 +3587,7 @@
     "gtfs_location": {
       "latitude": 40.740893,
       "longitude": -74.00169
-    },
-    "station_id": "166",
-    "complex_id": "618"
+    }
   },
   {
     "direction_labels": {
@@ -3600,6 +3600,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "167",
+    "complex_id": "167",
     "daytime_routes": [
       "A",
       "C",
@@ -3608,9 +3610,7 @@
     "gtfs_location": {
       "latitude": 40.732338,
       "longitude": -74.000495
-    },
-    "station_id": "167",
-    "complex_id": "167"
+    }
   },
   {
     "direction_labels": {
@@ -3623,6 +3623,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "167",
+    "complex_id": "167",
     "daytime_routes": [
       "B",
       "D",
@@ -3632,9 +3634,7 @@
     "gtfs_location": {
       "latitude": 40.732338,
       "longitude": -74.000495
-    },
-    "station_id": "167",
-    "complex_id": "167"
+    }
   },
   {
     "direction_labels": {
@@ -3647,6 +3647,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "168",
+    "complex_id": "168",
     "daytime_routes": [
       "C",
       "E"
@@ -3654,9 +3656,7 @@
     "gtfs_location": {
       "latitude": 40.726227,
       "longitude": -74.003739
-    },
-    "station_id": "168",
-    "complex_id": "168"
+    }
   },
   {
     "direction_labels": {
@@ -3669,6 +3669,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "169",
+    "complex_id": "169",
     "daytime_routes": [
       "A",
       "C",
@@ -3677,9 +3679,7 @@
     "gtfs_location": {
       "latitude": 40.720824,
       "longitude": -74.005229
-    },
-    "station_id": "169",
-    "complex_id": "169"
+    }
   },
   {
     "direction_labels": {
@@ -3692,6 +3692,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "170",
+    "complex_id": "624",
     "daytime_routes": [
       "A",
       "C"
@@ -3699,9 +3701,7 @@
     "gtfs_location": {
       "latitude": 40.714111,
       "longitude": -74.008585
-    },
-    "station_id": "170",
-    "complex_id": "624"
+    }
   },
   {
     "direction_labels": {
@@ -3714,15 +3714,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "171",
+    "complex_id": "624",
     "daytime_routes": [
       "E"
     ],
     "gtfs_location": {
       "latitude": 40.712582,
       "longitude": -74.009781
-    },
-    "station_id": "171",
-    "complex_id": "624"
+    }
   },
   {
     "direction_labels": {
@@ -3735,6 +3735,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "172",
+    "complex_id": "628",
     "daytime_routes": [
       "A",
       "C"
@@ -3742,9 +3744,7 @@
     "gtfs_location": {
       "latitude": 40.710197,
       "longitude": -74.007691
-    },
-    "station_id": "172",
-    "complex_id": "628"
+    }
   },
   {
     "direction_labels": {
@@ -3757,6 +3757,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "173",
+    "complex_id": "173",
     "daytime_routes": [
       "A",
       "C"
@@ -3764,9 +3766,7 @@
     "gtfs_location": {
       "latitude": 40.699337,
       "longitude": -73.990531
-    },
-    "station_id": "173",
-    "complex_id": "173"
+    }
   },
   {
     "direction_labels": {
@@ -3779,6 +3779,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "174",
+    "complex_id": "636",
     "daytime_routes": [
       "A",
       "C",
@@ -3787,9 +3789,7 @@
     "gtfs_location": {
       "latitude": 40.692338,
       "longitude": -73.987342
-    },
-    "station_id": "174",
-    "complex_id": "636"
+    }
   },
   {
     "direction_labels": {
@@ -3802,6 +3802,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "175",
+    "complex_id": "175",
     "daytime_routes": [
       "A",
       "C",
@@ -3810,9 +3812,7 @@
     "gtfs_location": {
       "latitude": 40.688484,
       "longitude": -73.985001
-    },
-    "station_id": "175",
-    "complex_id": "175"
+    }
   },
   {
     "direction_labels": {
@@ -3825,15 +3825,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "176",
+    "complex_id": "176",
     "daytime_routes": [
       "C"
     ],
     "gtfs_location": {
       "latitude": 40.686113,
       "longitude": -73.973946
-    },
-    "station_id": "176",
-    "complex_id": "176"
+    }
   },
   {
     "direction_labels": {
@@ -3846,15 +3846,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "177",
+    "complex_id": "177",
     "daytime_routes": [
       "C"
     ],
     "gtfs_location": {
       "latitude": 40.683263,
       "longitude": -73.965838
-    },
-    "station_id": "177",
-    "complex_id": "177"
+    }
   },
   {
     "direction_labels": {
@@ -3867,15 +3867,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "178",
+    "complex_id": "627",
     "daytime_routes": [
       "C"
     ],
     "gtfs_location": {
       "latitude": 40.68138,
       "longitude": -73.956848
-    },
-    "station_id": "178",
-    "complex_id": "627"
+    }
   },
   {
     "direction_labels": {
@@ -3888,6 +3888,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "179",
+    "complex_id": "179",
     "daytime_routes": [
       "A",
       "C"
@@ -3895,9 +3897,7 @@
     "gtfs_location": {
       "latitude": 40.680438,
       "longitude": -73.950426
-    },
-    "station_id": "179",
-    "complex_id": "179"
+    }
   },
   {
     "direction_labels": {
@@ -3910,15 +3910,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "180",
+    "complex_id": "180",
     "daytime_routes": [
       "C"
     ],
     "gtfs_location": {
       "latitude": 40.679921,
       "longitude": -73.940858
-    },
-    "station_id": "180",
-    "complex_id": "180"
+    }
   },
   {
     "direction_labels": {
@@ -3931,6 +3931,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "181",
+    "complex_id": "181",
     "daytime_routes": [
       "A",
       "C"
@@ -3938,9 +3940,7 @@
     "gtfs_location": {
       "latitude": 40.679364,
       "longitude": -73.930729
-    },
-    "station_id": "181",
-    "complex_id": "181"
+    }
   },
   {
     "direction_labels": {
@@ -3953,15 +3953,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "182",
+    "complex_id": "182",
     "daytime_routes": [
       "C"
     ],
     "gtfs_location": {
       "latitude": 40.678822,
       "longitude": -73.920786
-    },
-    "station_id": "182",
-    "complex_id": "182"
+    }
   },
   {
     "direction_labels": {
@@ -3974,15 +3974,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "183",
+    "complex_id": "183",
     "daytime_routes": [
       "C"
     ],
     "gtfs_location": {
       "latitude": 40.67834,
       "longitude": -73.911946
-    },
-    "station_id": "183",
-    "complex_id": "183"
+    }
   },
   {
     "direction_labels": {
@@ -3995,6 +3995,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "184",
+    "complex_id": "621",
     "daytime_routes": [
       "A",
       "C"
@@ -4002,9 +4004,7 @@
     "gtfs_location": {
       "latitude": 40.678334,
       "longitude": -73.905316
-    },
-    "station_id": "184",
-    "complex_id": "621"
+    }
   },
   {
     "direction_labels": {
@@ -4017,15 +4017,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "185",
+    "complex_id": "185",
     "daytime_routes": [
       "C"
     ],
     "gtfs_location": {
       "latitude": 40.674542,
       "longitude": -73.896548
-    },
-    "station_id": "185",
-    "complex_id": "185"
+    }
   },
   {
     "direction_labels": {
@@ -4038,15 +4038,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "186",
+    "complex_id": "186",
     "daytime_routes": [
       "C"
     ],
     "gtfs_location": {
       "latitude": 40.67271,
       "longitude": -73.890358
-    },
-    "station_id": "186",
-    "complex_id": "186"
+    }
   },
   {
     "direction_labels": {
@@ -4059,15 +4059,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "187",
+    "complex_id": "187",
     "daytime_routes": [
       "C"
     ],
     "gtfs_location": {
       "latitude": 40.67413,
       "longitude": -73.88075
-    },
-    "station_id": "187",
-    "complex_id": "187"
+    }
   },
   {
     "direction_labels": {
@@ -4080,6 +4080,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "188",
+    "complex_id": "188",
     "daytime_routes": [
       "A",
       "C"
@@ -4087,9 +4089,7 @@
     "gtfs_location": {
       "latitude": 40.675377,
       "longitude": -73.872106
-    },
-    "station_id": "188",
-    "complex_id": "188"
+    }
   },
   {
     "direction_labels": {
@@ -4102,15 +4102,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "189",
+    "complex_id": "189",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.677044,
       "longitude": -73.86505
-    },
-    "station_id": "189",
-    "complex_id": "189"
+    }
   },
   {
     "direction_labels": {
@@ -4123,15 +4123,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "190",
+    "complex_id": "190",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.679371,
       "longitude": -73.858992
-    },
-    "station_id": "190",
-    "complex_id": "190"
+    }
   },
   {
     "direction_labels": {
@@ -4144,15 +4144,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "191",
+    "complex_id": "191",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.679843,
       "longitude": -73.85147
-    },
-    "station_id": "191",
-    "complex_id": "191"
+    }
   },
   {
     "direction_labels": {
@@ -4165,15 +4165,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "192",
+    "complex_id": "192",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.680429,
       "longitude": -73.843853
-    },
-    "station_id": "192",
-    "complex_id": "192"
+    }
   },
   {
     "direction_labels": {
@@ -4186,15 +4186,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "193",
+    "complex_id": "193",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.681711,
       "longitude": -73.837683
-    },
-    "station_id": "193",
-    "complex_id": "193"
+    }
   },
   {
     "direction_labels": {
@@ -4207,15 +4207,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "194",
+    "complex_id": "194",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.684331,
       "longitude": -73.832163
-    },
-    "station_id": "194",
-    "complex_id": "194"
+    }
   },
   {
     "direction_labels": {
@@ -4228,15 +4228,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "195",
+    "complex_id": "195",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.685951,
       "longitude": -73.825798
-    },
-    "station_id": "195",
-    "complex_id": "195"
+    }
   },
   {
     "direction_labels": {
@@ -4249,15 +4249,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "At Grade",
+    "station_id": "196",
+    "complex_id": "196",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.672097,
       "longitude": -73.835919
-    },
-    "station_id": "196",
-    "complex_id": "196"
+    }
   },
   {
     "direction_labels": {
@@ -4270,15 +4270,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "At Grade",
+    "station_id": "197",
+    "complex_id": "197",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.668234,
       "longitude": -73.834058
-    },
-    "station_id": "197",
-    "complex_id": "197"
+    }
   },
   {
     "direction_labels": {
@@ -4291,15 +4291,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "At Grade",
+    "station_id": "198",
+    "complex_id": "198",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.660476,
       "longitude": -73.830301
-    },
-    "station_id": "198",
-    "complex_id": "198"
+    }
   },
   {
     "direction_labels": {
@@ -4312,6 +4312,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "At Grade",
+    "station_id": "199",
+    "complex_id": "199",
     "daytime_routes": [
       "A",
       "S"
@@ -4319,9 +4321,7 @@
     "gtfs_location": {
       "latitude": 40.608382,
       "longitude": -73.815925
-    },
-    "station_id": "199",
-    "complex_id": "199"
+    }
   },
   {
     "direction_labels": {
@@ -4334,6 +4334,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
+    "station_id": "200",
+    "complex_id": "200",
     "daytime_routes": [
       "A",
       "S"
@@ -4341,9 +4343,7 @@
     "gtfs_location": {
       "latitude": 40.588034,
       "longitude": -73.813641
-    },
-    "station_id": "200",
-    "complex_id": "200"
+    }
   },
   {
     "direction_labels": {
@@ -4356,6 +4356,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
+    "station_id": "201",
+    "complex_id": "201",
     "daytime_routes": [
       "A",
       "S"
@@ -4363,9 +4365,7 @@
     "gtfs_location": {
       "latitude": 40.585307,
       "longitude": -73.820558
-    },
-    "station_id": "201",
-    "complex_id": "201"
+    }
   },
   {
     "direction_labels": {
@@ -4378,6 +4378,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
+    "station_id": "202",
+    "complex_id": "202",
     "daytime_routes": [
       "A",
       "S"
@@ -4385,9 +4387,7 @@
     "gtfs_location": {
       "latitude": 40.583209,
       "longitude": -73.827559
-    },
-    "station_id": "202",
-    "complex_id": "202"
+    }
   },
   {
     "direction_labels": {
@@ -4400,6 +4400,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "At Grade",
+    "station_id": "203",
+    "complex_id": "203",
     "daytime_routes": [
       "A",
       "S"
@@ -4407,9 +4409,7 @@
     "gtfs_location": {
       "latitude": 40.580903,
       "longitude": -73.835592
-    },
-    "station_id": "203",
-    "complex_id": "203"
+    }
   },
   {
     "direction_labels": {
@@ -4422,15 +4422,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
+    "station_id": "204",
+    "complex_id": "204",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.590927,
       "longitude": -73.796924
-    },
-    "station_id": "204",
-    "complex_id": "204"
+    }
   },
   {
     "direction_labels": {
@@ -4443,15 +4443,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
+    "station_id": "205",
+    "complex_id": "205",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.592374,
       "longitude": -73.788522
-    },
-    "station_id": "205",
-    "complex_id": "205"
+    }
   },
   {
     "direction_labels": {
@@ -4464,15 +4464,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
+    "station_id": "206",
+    "complex_id": "206",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.592943,
       "longitude": -73.776013
-    },
-    "station_id": "206",
-    "complex_id": "206"
+    }
   },
   {
     "direction_labels": {
@@ -4485,15 +4485,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
+    "station_id": "207",
+    "complex_id": "207",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.595398,
       "longitude": -73.768175
-    },
-    "station_id": "207",
-    "complex_id": "207"
+    }
   },
   {
     "direction_labels": {
@@ -4506,15 +4506,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
+    "station_id": "208",
+    "complex_id": "208",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.600066,
       "longitude": -73.761353
-    },
-    "station_id": "208",
-    "complex_id": "208"
+    }
   },
   {
     "direction_labels": {
@@ -4527,15 +4527,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
+    "station_id": "209",
+    "complex_id": "209",
     "daytime_routes": [
       "A"
     ],
     "gtfs_location": {
       "latitude": 40.603995,
       "longitude": -73.755405
-    },
-    "station_id": "209",
-    "complex_id": "209"
+    }
   },
   {
     "direction_labels": {
@@ -4548,15 +4548,15 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "210",
+    "complex_id": "210",
     "daytime_routes": [
       "D"
     ],
     "gtfs_location": {
       "latitude": 40.874811,
       "longitude": -73.878855
-    },
-    "station_id": "210",
-    "complex_id": "210"
+    }
   },
   {
     "direction_labels": {
@@ -4569,6 +4569,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "211",
+    "complex_id": "211",
     "daytime_routes": [
       "B",
       "D"
@@ -4576,9 +4578,7 @@
     "gtfs_location": {
       "latitude": 40.873244,
       "longitude": -73.887138
-    },
-    "station_id": "211",
-    "complex_id": "211"
+    }
   },
   {
     "direction_labels": {
@@ -4591,6 +4591,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "212",
+    "complex_id": "212",
     "daytime_routes": [
       "B",
       "D"
@@ -4598,9 +4600,7 @@
     "gtfs_location": {
       "latitude": 40.866978,
       "longitude": -73.893509
-    },
-    "station_id": "212",
-    "complex_id": "212"
+    }
   },
   {
     "direction_labels": {
@@ -4613,6 +4613,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "213",
+    "complex_id": "213",
     "daytime_routes": [
       "B",
       "D"
@@ -4620,9 +4622,7 @@
     "gtfs_location": {
       "latitude": 40.861296,
       "longitude": -73.897749
-    },
-    "station_id": "213",
-    "complex_id": "213"
+    }
   },
   {
     "direction_labels": {
@@ -4635,6 +4635,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "214",
+    "complex_id": "214",
     "daytime_routes": [
       "B",
       "D"
@@ -4642,9 +4644,7 @@
     "gtfs_location": {
       "latitude": 40.856093,
       "longitude": -73.900741
-    },
-    "station_id": "214",
-    "complex_id": "214"
+    }
   },
   {
     "direction_labels": {
@@ -4657,6 +4657,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "215",
+    "complex_id": "215",
     "daytime_routes": [
       "B",
       "D"
@@ -4664,9 +4666,7 @@
     "gtfs_location": {
       "latitude": 40.85041,
       "longitude": -73.905227
-    },
-    "station_id": "215",
-    "complex_id": "215"
+    }
   },
   {
     "direction_labels": {
@@ -4679,6 +4679,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "216",
+    "complex_id": "216",
     "daytime_routes": [
       "B",
       "D"
@@ -4686,9 +4688,7 @@
     "gtfs_location": {
       "latitude": 40.8459,
       "longitude": -73.910136
-    },
-    "station_id": "216",
-    "complex_id": "216"
+    }
   },
   {
     "direction_labels": {
@@ -4701,6 +4701,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "217",
+    "complex_id": "217",
     "daytime_routes": [
       "B",
       "D"
@@ -4708,9 +4710,7 @@
     "gtfs_location": {
       "latitude": 40.839306,
       "longitude": -73.9134
-    },
-    "station_id": "217",
-    "complex_id": "217"
+    }
   },
   {
     "direction_labels": {
@@ -4723,6 +4723,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "218",
+    "complex_id": "218",
     "daytime_routes": [
       "B",
       "D"
@@ -4730,9 +4732,7 @@
     "gtfs_location": {
       "latitude": 40.833771,
       "longitude": -73.91844
-    },
-    "station_id": "218",
-    "complex_id": "218"
+    }
   },
   {
     "direction_labels": {
@@ -4745,6 +4745,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "219",
+    "complex_id": "604",
     "daytime_routes": [
       "B",
       "D"
@@ -4752,9 +4754,7 @@
     "gtfs_location": {
       "latitude": 40.827905,
       "longitude": -73.925651
-    },
-    "station_id": "219",
-    "complex_id": "604"
+    }
   },
   {
     "direction_labels": {
@@ -4767,6 +4767,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "220",
+    "complex_id": "220",
     "daytime_routes": [
       "B",
       "D"
@@ -4774,9 +4776,7 @@
     "gtfs_location": {
       "latitude": 40.830135,
       "longitude": -73.938209
-    },
-    "station_id": "220",
-    "complex_id": "220"
+    }
   },
   {
     "direction_labels": {
@@ -4789,15 +4789,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "221",
+    "complex_id": "221",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.754203,
       "longitude": -73.942836
-    },
-    "station_id": "221",
-    "complex_id": "221"
+    }
   },
   {
     "direction_labels": {
@@ -4810,15 +4810,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "222",
+    "complex_id": "222",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.759145,
       "longitude": -73.95326
-    },
-    "station_id": "222",
-    "complex_id": "222"
+    }
   },
   {
     "direction_labels": {
@@ -4831,6 +4831,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "223",
+    "complex_id": "223",
     "daytime_routes": [
       "F",
       "Q"
@@ -4838,9 +4840,7 @@
     "gtfs_location": {
       "latitude": 40.764629,
       "longitude": -73.966113
-    },
-    "station_id": "223",
-    "complex_id": "223"
+    }
   },
   {
     "direction_labels": {
@@ -4853,15 +4853,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "224",
+    "complex_id": "224",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.763972,
       "longitude": -73.97745
-    },
-    "station_id": "224",
-    "complex_id": "224"
+    }
   },
   {
     "direction_labels": {
@@ -4874,6 +4874,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "225",
+    "complex_id": "225",
     "daytime_routes": [
       "B",
       "D",
@@ -4883,9 +4885,7 @@
     "gtfs_location": {
       "latitude": 40.758663,
       "longitude": -73.981329
-    },
-    "station_id": "225",
-    "complex_id": "225"
+    }
   },
   {
     "direction_labels": {
@@ -4898,6 +4898,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "226",
+    "complex_id": "609",
     "daytime_routes": [
       "B",
       "D",
@@ -4907,9 +4909,7 @@
     "gtfs_location": {
       "latitude": 40.754222,
       "longitude": -73.984569
-    },
-    "station_id": "226",
-    "complex_id": "609"
+    }
   },
   {
     "direction_labels": {
@@ -4922,6 +4922,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "227",
+    "complex_id": "607",
     "daytime_routes": [
       "B",
       "D",
@@ -4931,9 +4933,7 @@
     "gtfs_location": {
       "latitude": 40.749719,
       "longitude": -73.987823
-    },
-    "station_id": "227",
-    "complex_id": "607"
+    }
   },
   {
     "direction_labels": {
@@ -4946,6 +4946,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "228",
+    "complex_id": "228",
     "daytime_routes": [
       "F",
       "M"
@@ -4953,9 +4955,7 @@
     "gtfs_location": {
       "latitude": 40.742878,
       "longitude": -73.992821
-    },
-    "station_id": "228",
-    "complex_id": "228"
+    }
   },
   {
     "direction_labels": {
@@ -4968,6 +4968,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "229",
+    "complex_id": "601",
     "daytime_routes": [
       "F",
       "M"
@@ -4975,9 +4977,7 @@
     "gtfs_location": {
       "latitude": 40.738228,
       "longitude": -73.996209
-    },
-    "station_id": "229",
-    "complex_id": "601"
+    }
   },
   {
     "direction_labels": {
@@ -4990,6 +4990,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "230",
+    "complex_id": "619",
     "daytime_routes": [
       "B",
       "D",
@@ -4999,9 +5001,7 @@
     "gtfs_location": {
       "latitude": 40.725297,
       "longitude": -73.996204
-    },
-    "station_id": "230",
-    "complex_id": "619"
+    }
   },
   {
     "direction_labels": {
@@ -5014,6 +5014,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "231",
+    "complex_id": "231",
     "daytime_routes": [
       "B",
       "D"
@@ -5021,9 +5023,7 @@
     "gtfs_location": {
       "latitude": 40.718267,
       "longitude": -73.993753
-    },
-    "station_id": "231",
-    "complex_id": "231"
+    }
   },
   {
     "direction_labels": {
@@ -5036,15 +5036,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "232",
+    "complex_id": "232",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.723402,
       "longitude": -73.989938
-    },
-    "station_id": "232",
-    "complex_id": "232"
+    }
   },
   {
     "direction_labels": {
@@ -5057,15 +5057,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "233",
+    "complex_id": "625",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.718611,
       "longitude": -73.988114
-    },
-    "station_id": "233",
-    "complex_id": "625"
+    }
   },
   {
     "direction_labels": {
@@ -5078,15 +5078,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "234",
+    "complex_id": "234",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.713715,
       "longitude": -73.990173
-    },
-    "station_id": "234",
-    "complex_id": "234"
+    }
   },
   {
     "direction_labels": {
@@ -5099,15 +5099,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "235",
+    "complex_id": "235",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.701397,
       "longitude": -73.986751
-    },
-    "station_id": "235",
-    "complex_id": "235"
+    }
   },
   {
     "direction_labels": {
@@ -5120,6 +5120,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "236",
+    "complex_id": "236",
     "daytime_routes": [
       "F",
       "G"
@@ -5127,9 +5129,7 @@
     "gtfs_location": {
       "latitude": 40.686145,
       "longitude": -73.990862
-    },
-    "station_id": "236",
-    "complex_id": "236"
+    }
   },
   {
     "direction_labels": {
@@ -5142,6 +5142,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "237",
+    "complex_id": "237",
     "daytime_routes": [
       "F",
       "G"
@@ -5149,9 +5151,7 @@
     "gtfs_location": {
       "latitude": 40.680303,
       "longitude": -73.995048
-    },
-    "station_id": "237",
-    "complex_id": "237"
+    }
   },
   {
     "direction_labels": {
@@ -5164,6 +5164,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Viaduct",
+    "station_id": "238",
+    "complex_id": "238",
     "daytime_routes": [
       "F",
       "G"
@@ -5171,9 +5173,7 @@
     "gtfs_location": {
       "latitude": 40.67358,
       "longitude": -73.995959
-    },
-    "station_id": "238",
-    "complex_id": "238"
+    }
   },
   {
     "direction_labels": {
@@ -5186,6 +5186,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Viaduct",
+    "station_id": "239",
+    "complex_id": "608",
     "daytime_routes": [
       "F",
       "G"
@@ -5193,9 +5195,7 @@
     "gtfs_location": {
       "latitude": 40.670272,
       "longitude": -73.989779
-    },
-    "station_id": "239",
-    "complex_id": "608"
+    }
   },
   {
     "direction_labels": {
@@ -5208,6 +5208,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "240",
+    "complex_id": "240",
     "daytime_routes": [
       "F",
       "G"
@@ -5215,9 +5217,7 @@
     "gtfs_location": {
       "latitude": 40.666271,
       "longitude": -73.980305
-    },
-    "station_id": "240",
-    "complex_id": "240"
+    }
   },
   {
     "direction_labels": {
@@ -5230,6 +5230,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "241",
+    "complex_id": "241",
     "daytime_routes": [
       "F",
       "G"
@@ -5237,9 +5239,7 @@
     "gtfs_location": {
       "latitude": 40.660365,
       "longitude": -73.979493
-    },
-    "station_id": "241",
-    "complex_id": "241"
+    }
   },
   {
     "direction_labels": {
@@ -5252,6 +5252,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "242",
+    "complex_id": "242",
     "daytime_routes": [
       "F",
       "G"
@@ -5259,9 +5261,7 @@
     "gtfs_location": {
       "latitude": 40.650782,
       "longitude": -73.975776
-    },
-    "station_id": "242",
-    "complex_id": "242"
+    }
   },
   {
     "direction_labels": {
@@ -5274,15 +5274,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "243",
+    "complex_id": "243",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.644041,
       "longitude": -73.979678
-    },
-    "station_id": "243",
-    "complex_id": "243"
+    }
   },
   {
     "direction_labels": {
@@ -5295,15 +5295,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "244",
+    "complex_id": "244",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.636119,
       "longitude": -73.978172
-    },
-    "station_id": "244",
-    "complex_id": "244"
+    }
   },
   {
     "direction_labels": {
@@ -5316,15 +5316,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "245",
+    "complex_id": "245",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.629755,
       "longitude": -73.976971
-    },
-    "station_id": "245",
-    "complex_id": "245"
+    }
   },
   {
     "direction_labels": {
@@ -5337,15 +5337,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "246",
+    "complex_id": "246",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.625322,
       "longitude": -73.976127
-    },
-    "station_id": "246",
-    "complex_id": "246"
+    }
   },
   {
     "direction_labels": {
@@ -5358,15 +5358,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "247",
+    "complex_id": "247",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.620769,
       "longitude": -73.975264
-    },
-    "station_id": "247",
-    "complex_id": "247"
+    }
   },
   {
     "direction_labels": {
@@ -5379,15 +5379,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "248",
+    "complex_id": "248",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.61514,
       "longitude": -73.974197
-    },
-    "station_id": "248",
-    "complex_id": "248"
+    }
   },
   {
     "direction_labels": {
@@ -5400,15 +5400,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "249",
+    "complex_id": "249",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.608944,
       "longitude": -73.973022
-    },
-    "station_id": "249",
-    "complex_id": "249"
+    }
   },
   {
     "direction_labels": {
@@ -5421,15 +5421,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "250",
+    "complex_id": "250",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.603217,
       "longitude": -73.972361
-    },
-    "station_id": "250",
-    "complex_id": "250"
+    }
   },
   {
     "direction_labels": {
@@ -5442,15 +5442,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "251",
+    "complex_id": "251",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.596063,
       "longitude": -73.973357
-    },
-    "station_id": "251",
-    "complex_id": "251"
+    }
   },
   {
     "direction_labels": {
@@ -5463,15 +5463,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "252",
+    "complex_id": "252",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.58962,
       "longitude": -73.97425
-    },
-    "station_id": "252",
-    "complex_id": "252"
+    }
   },
   {
     "direction_labels": {
@@ -5484,15 +5484,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "253",
+    "complex_id": "253",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.581011,
       "longitude": -73.974574
-    },
-    "station_id": "253",
-    "complex_id": "253"
+    }
   },
   {
     "direction_labels": {
@@ -5505,15 +5505,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "254",
+    "complex_id": "254",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.712646,
       "longitude": -73.783817
-    },
-    "station_id": "254",
-    "complex_id": "254"
+    }
   },
   {
     "direction_labels": {
@@ -5526,15 +5526,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "255",
+    "complex_id": "255",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.71047,
       "longitude": -73.793604
-    },
-    "station_id": "255",
-    "complex_id": "255"
+    }
   },
   {
     "direction_labels": {
@@ -5547,15 +5547,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "256",
+    "complex_id": "256",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.707564,
       "longitude": -73.803326
-    },
-    "station_id": "256",
-    "complex_id": "256"
+    }
   },
   {
     "direction_labels": {
@@ -5568,15 +5568,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "257",
+    "complex_id": "257",
     "daytime_routes": [
       "F"
     ],
     "gtfs_location": {
       "latitude": 40.70546,
       "longitude": -73.810708
-    },
-    "station_id": "257",
-    "complex_id": "257"
+    }
   },
   {
     "direction_labels": {
@@ -5589,6 +5589,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "258",
+    "complex_id": "258",
     "daytime_routes": [
       "E",
       "F"
@@ -5596,9 +5598,7 @@
     "gtfs_location": {
       "latitude": 40.709179,
       "longitude": -73.820574
-    },
-    "station_id": "258",
-    "complex_id": "258"
+    }
   },
   {
     "direction_labels": {
@@ -5611,6 +5611,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "259",
+    "complex_id": "259",
     "daytime_routes": [
       "E",
       "F"
@@ -5618,9 +5620,7 @@
     "gtfs_location": {
       "latitude": 40.714441,
       "longitude": -73.831008
-    },
-    "station_id": "259",
-    "complex_id": "259"
+    }
   },
   {
     "direction_labels": {
@@ -5633,6 +5633,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "260",
+    "complex_id": "260",
     "daytime_routes": [
       "E",
       "F"
@@ -5640,9 +5642,7 @@
     "gtfs_location": {
       "latitude": 40.718331,
       "longitude": -73.837324
-    },
-    "station_id": "260",
-    "complex_id": "260"
+    }
   },
   {
     "direction_labels": {
@@ -5655,6 +5655,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "261",
+    "complex_id": "261",
     "daytime_routes": [
       "E",
       "F",
@@ -5664,9 +5666,7 @@
     "gtfs_location": {
       "latitude": 40.721691,
       "longitude": -73.844521
-    },
-    "station_id": "261",
-    "complex_id": "261"
+    }
   },
   {
     "direction_labels": {
@@ -5679,6 +5679,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "262",
+    "complex_id": "262",
     "daytime_routes": [
       "M",
       "R"
@@ -5686,9 +5688,7 @@
     "gtfs_location": {
       "latitude": 40.726523,
       "longitude": -73.852719
-    },
-    "station_id": "262",
-    "complex_id": "262"
+    }
   },
   {
     "direction_labels": {
@@ -5701,6 +5701,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "263",
+    "complex_id": "263",
     "daytime_routes": [
       "M",
       "R"
@@ -5708,9 +5710,7 @@
     "gtfs_location": {
       "latitude": 40.729846,
       "longitude": -73.861604
-    },
-    "station_id": "263",
-    "complex_id": "263"
+    }
   },
   {
     "direction_labels": {
@@ -5723,6 +5723,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "264",
+    "complex_id": "264",
     "daytime_routes": [
       "M",
       "R"
@@ -5730,9 +5732,7 @@
     "gtfs_location": {
       "latitude": 40.733106,
       "longitude": -73.869229
-    },
-    "station_id": "264",
-    "complex_id": "264"
+    }
   },
   {
     "direction_labels": {
@@ -5745,6 +5745,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "265",
+    "complex_id": "265",
     "daytime_routes": [
       "M",
       "R"
@@ -5752,9 +5754,7 @@
     "gtfs_location": {
       "latitude": 40.737015,
       "longitude": -73.877223
-    },
-    "station_id": "265",
-    "complex_id": "265"
+    }
   },
   {
     "direction_labels": {
@@ -5767,6 +5767,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "266",
+    "complex_id": "266",
     "daytime_routes": [
       "M",
       "R"
@@ -5774,9 +5776,7 @@
     "gtfs_location": {
       "latitude": 40.742454,
       "longitude": -73.882017
-    },
-    "station_id": "266",
-    "complex_id": "266"
+    }
   },
   {
     "direction_labels": {
@@ -5789,6 +5789,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "267",
+    "complex_id": "616",
     "daytime_routes": [
       "E",
       "F",
@@ -5798,9 +5800,7 @@
     "gtfs_location": {
       "latitude": 40.746644,
       "longitude": -73.891338
-    },
-    "station_id": "267",
-    "complex_id": "616"
+    }
   },
   {
     "direction_labels": {
@@ -5813,6 +5813,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "268",
+    "complex_id": "268",
     "daytime_routes": [
       "M",
       "R"
@@ -5820,9 +5822,7 @@
     "gtfs_location": {
       "latitude": 40.749669,
       "longitude": -73.898453
-    },
-    "station_id": "268",
-    "complex_id": "268"
+    }
   },
   {
     "direction_labels": {
@@ -5835,6 +5835,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "269",
+    "complex_id": "269",
     "daytime_routes": [
       "M",
       "R"
@@ -5842,9 +5844,7 @@
     "gtfs_location": {
       "latitude": 40.752885,
       "longitude": -73.906006
-    },
-    "station_id": "269",
-    "complex_id": "269"
+    }
   },
   {
     "direction_labels": {
@@ -5857,6 +5857,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "270",
+    "complex_id": "270",
     "daytime_routes": [
       "M",
       "R"
@@ -5864,9 +5866,7 @@
     "gtfs_location": {
       "latitude": 40.756312,
       "longitude": -73.913333
-    },
-    "station_id": "270",
-    "complex_id": "270"
+    }
   },
   {
     "direction_labels": {
@@ -5879,6 +5879,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "271",
+    "complex_id": "271",
     "daytime_routes": [
       "M",
       "R"
@@ -5886,9 +5888,7 @@
     "gtfs_location": {
       "latitude": 40.756879,
       "longitude": -73.92074
-    },
-    "station_id": "271",
-    "complex_id": "271"
+    }
   },
   {
     "direction_labels": {
@@ -5901,6 +5901,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "272",
+    "complex_id": "272",
     "daytime_routes": [
       "M",
       "R"
@@ -5908,9 +5910,7 @@
     "gtfs_location": {
       "latitude": 40.752039,
       "longitude": -73.928781
-    },
-    "station_id": "272",
-    "complex_id": "272"
+    }
   },
   {
     "direction_labels": {
@@ -5923,6 +5923,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "273",
+    "complex_id": "273",
     "daytime_routes": [
       "E",
       "M",
@@ -5931,9 +5933,7 @@
     "gtfs_location": {
       "latitude": 40.748973,
       "longitude": -73.937243
-    },
-    "station_id": "273",
-    "complex_id": "273"
+    }
   },
   {
     "direction_labels": {
@@ -5946,6 +5946,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "274",
+    "complex_id": "606",
     "daytime_routes": [
       "E",
       "M"
@@ -5953,9 +5955,7 @@
     "gtfs_location": {
       "latitude": 40.747846,
       "longitude": -73.946
-    },
-    "station_id": "274",
-    "complex_id": "606"
+    }
   },
   {
     "direction_labels": {
@@ -5968,6 +5968,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "275",
+    "complex_id": "612",
     "daytime_routes": [
       "E",
       "M"
@@ -5975,9 +5977,7 @@
     "gtfs_location": {
       "latitude": 40.757552,
       "longitude": -73.969055
-    },
-    "station_id": "275",
-    "complex_id": "612"
+    }
   },
   {
     "direction_labels": {
@@ -5990,6 +5990,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "276",
+    "complex_id": "276",
     "daytime_routes": [
       "E",
       "M"
@@ -5997,9 +5999,7 @@
     "gtfs_location": {
       "latitude": 40.760167,
       "longitude": -73.975224
-    },
-    "station_id": "276",
-    "complex_id": "276"
+    }
   },
   {
     "direction_labels": {
@@ -6012,6 +6012,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "277",
+    "complex_id": "277",
     "daytime_routes": [
       "B",
       "D",
@@ -6020,9 +6022,7 @@
     "gtfs_location": {
       "latitude": 40.762862,
       "longitude": -73.981637
-    },
-    "station_id": "277",
-    "complex_id": "277"
+    }
   },
   {
     "direction_labels": {
@@ -6035,6 +6035,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "278",
+    "complex_id": "278",
     "daytime_routes": [
       "E",
       "J",
@@ -6043,9 +6045,7 @@
     "gtfs_location": {
       "latitude": 40.702147,
       "longitude": -73.801109
-    },
-    "station_id": "278",
-    "complex_id": "278"
+    }
   },
   {
     "direction_labels": {
@@ -6058,6 +6058,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "279",
+    "complex_id": "279",
     "daytime_routes": [
       "E",
       "J",
@@ -6066,9 +6068,7 @@
     "gtfs_location": {
       "latitude": 40.700486,
       "longitude": -73.807969
-    },
-    "station_id": "279",
-    "complex_id": "279"
+    }
   },
   {
     "direction_labels": {
@@ -6081,15 +6081,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "280",
+    "complex_id": "280",
     "daytime_routes": [
       "E"
     ],
     "gtfs_location": {
       "latitude": 40.702566,
       "longitude": -73.816859
-    },
-    "station_id": "280",
-    "complex_id": "280"
+    }
   },
   {
     "direction_labels": {
@@ -6102,15 +6102,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "281",
+    "complex_id": "606",
     "daytime_routes": [
       "G"
     ],
     "gtfs_location": {
       "latitude": 40.746554,
       "longitude": -73.943832
-    },
-    "station_id": "281",
-    "complex_id": "606"
+    }
   },
   {
     "direction_labels": {
@@ -6123,15 +6123,15 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "282",
+    "complex_id": "282",
     "daytime_routes": [
       "G"
     ],
     "gtfs_location": {
       "latitude": 40.744065,
       "longitude": -73.949724
-    },
-    "station_id": "282",
-    "complex_id": "282"
+    }
   },
   {
     "direction_labels": {
@@ -6144,15 +6144,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "283",
+    "complex_id": "283",
     "daytime_routes": [
       "G"
     ],
     "gtfs_location": {
       "latitude": 40.731352,
       "longitude": -73.954449
-    },
-    "station_id": "283",
-    "complex_id": "283"
+    }
   },
   {
     "direction_labels": {
@@ -6165,15 +6165,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "284",
+    "complex_id": "284",
     "daytime_routes": [
       "G"
     ],
     "gtfs_location": {
       "latitude": 40.724635,
       "longitude": -73.951277
-    },
-    "station_id": "284",
-    "complex_id": "284"
+    }
   },
   {
     "direction_labels": {
@@ -6186,15 +6186,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "285",
+    "complex_id": "629",
     "daytime_routes": [
       "G"
     ],
     "gtfs_location": {
       "latitude": 40.712792,
       "longitude": -73.951418
-    },
-    "station_id": "285",
-    "complex_id": "629"
+    }
   },
   {
     "direction_labels": {
@@ -6207,15 +6207,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "286",
+    "complex_id": "286",
     "daytime_routes": [
       "G"
     ],
     "gtfs_location": {
       "latitude": 40.706092,
       "longitude": -73.950308
-    },
-    "station_id": "286",
-    "complex_id": "286"
+    }
   },
   {
     "direction_labels": {
@@ -6228,15 +6228,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "287",
+    "complex_id": "287",
     "daytime_routes": [
       "G"
     ],
     "gtfs_location": {
       "latitude": 40.700377,
       "longitude": -73.950234
-    },
-    "station_id": "287",
-    "complex_id": "287"
+    }
   },
   {
     "direction_labels": {
@@ -6249,15 +6249,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "288",
+    "complex_id": "288",
     "daytime_routes": [
       "G"
     ],
     "gtfs_location": {
       "latitude": 40.694568,
       "longitude": -73.949046
-    },
-    "station_id": "288",
-    "complex_id": "288"
+    }
   },
   {
     "direction_labels": {
@@ -6270,15 +6270,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "289",
+    "complex_id": "289",
     "daytime_routes": [
       "G"
     ],
     "gtfs_location": {
       "latitude": 40.689627,
       "longitude": -73.953522
-    },
-    "station_id": "289",
-    "complex_id": "289"
+    }
   },
   {
     "direction_labels": {
@@ -6291,15 +6291,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "290",
+    "complex_id": "290",
     "daytime_routes": [
       "G"
     ],
     "gtfs_location": {
       "latitude": 40.688873,
       "longitude": -73.96007
-    },
-    "station_id": "290",
-    "complex_id": "290"
+    }
   },
   {
     "direction_labels": {
@@ -6312,15 +6312,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "291",
+    "complex_id": "291",
     "daytime_routes": [
       "G"
     ],
     "gtfs_location": {
       "latitude": 40.688089,
       "longitude": -73.966839
-    },
-    "station_id": "291",
-    "complex_id": "291"
+    }
   },
   {
     "direction_labels": {
@@ -6333,15 +6333,15 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "292",
+    "complex_id": "292",
     "daytime_routes": [
       "G"
     ],
     "gtfs_location": {
       "latitude": 40.687119,
       "longitude": -73.975375
-    },
-    "station_id": "292",
-    "complex_id": "292"
+    }
   },
   {
     "direction_labels": {
@@ -6354,15 +6354,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "293",
+    "complex_id": "293",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.889248,
       "longitude": -73.898583
-    },
-    "station_id": "293",
-    "complex_id": "293"
+    }
   },
   {
     "direction_labels": {
@@ -6375,15 +6375,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "294",
+    "complex_id": "294",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.884667,
       "longitude": -73.90087
-    },
-    "station_id": "294",
-    "complex_id": "294"
+    }
   },
   {
     "direction_labels": {
@@ -6396,15 +6396,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "295",
+    "complex_id": "295",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.878856,
       "longitude": -73.904834
-    },
-    "station_id": "295",
-    "complex_id": "295"
+    }
   },
   {
     "direction_labels": {
@@ -6417,15 +6417,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Elevated",
+    "station_id": "296",
+    "complex_id": "296",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.874561,
       "longitude": -73.909831
-    },
-    "station_id": "296",
-    "complex_id": "296"
+    }
   },
   {
     "direction_labels": {
@@ -6438,15 +6438,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Elevated",
+    "station_id": "297",
+    "complex_id": "297",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.869444,
       "longitude": -73.915279
-    },
-    "station_id": "297",
-    "complex_id": "297"
+    }
   },
   {
     "direction_labels": {
@@ -6459,15 +6459,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Elevated",
+    "station_id": "298",
+    "complex_id": "298",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.864621,
       "longitude": -73.918822
-    },
-    "station_id": "298",
-    "complex_id": "298"
+    }
   },
   {
     "direction_labels": {
@@ -6480,15 +6480,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Elevated",
+    "station_id": "299",
+    "complex_id": "299",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.860531,
       "longitude": -73.925536
-    },
-    "station_id": "299",
-    "complex_id": "299"
+    }
   },
   {
     "direction_labels": {
@@ -6501,15 +6501,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "300",
+    "complex_id": "300",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.855225,
       "longitude": -73.929412
-    },
-    "station_id": "300",
-    "complex_id": "300"
+    }
   },
   {
     "direction_labels": {
@@ -6522,15 +6522,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "301",
+    "complex_id": "301",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.849505,
       "longitude": -73.933596
-    },
-    "station_id": "301",
-    "complex_id": "301"
+    }
   },
   {
     "direction_labels": {
@@ -6543,15 +6543,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "302",
+    "complex_id": "605",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.840556,
       "longitude": -73.940133
-    },
-    "station_id": "302",
-    "complex_id": "605"
+    }
   },
   {
     "direction_labels": {
@@ -6564,15 +6564,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "303",
+    "complex_id": "303",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.834041,
       "longitude": -73.94489
-    },
-    "station_id": "303",
-    "complex_id": "303"
+    }
   },
   {
     "direction_labels": {
@@ -6585,15 +6585,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "304",
+    "complex_id": "304",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.826551,
       "longitude": -73.95036
-    },
-    "station_id": "304",
-    "complex_id": "304"
+    }
   },
   {
     "direction_labels": {
@@ -6606,15 +6606,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "305",
+    "complex_id": "305",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.822008,
       "longitude": -73.953676
-    },
-    "station_id": "305",
-    "complex_id": "305"
+    }
   },
   {
     "direction_labels": {
@@ -6627,15 +6627,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Elevated",
+    "station_id": "306",
+    "complex_id": "306",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.815581,
       "longitude": -73.958372
-    },
-    "station_id": "306",
-    "complex_id": "306"
+    }
   },
   {
     "direction_labels": {
@@ -6648,15 +6648,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "307",
+    "complex_id": "307",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.807722,
       "longitude": -73.96411
-    },
-    "station_id": "307",
-    "complex_id": "307"
+    }
   },
   {
     "direction_labels": {
@@ -6669,15 +6669,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "308",
+    "complex_id": "308",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.803967,
       "longitude": -73.966847
-    },
-    "station_id": "308",
-    "complex_id": "308"
+    }
   },
   {
     "direction_labels": {
@@ -6690,15 +6690,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "309",
+    "complex_id": "309",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.799446,
       "longitude": -73.968379
-    },
-    "station_id": "309",
-    "complex_id": "309"
+    }
   },
   {
     "direction_labels": {
@@ -6711,6 +6711,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "310",
+    "complex_id": "310",
     "daytime_routes": [
       "1",
       "2",
@@ -6719,9 +6721,7 @@
     "gtfs_location": {
       "latitude": 40.793919,
       "longitude": -73.972323
-    },
-    "station_id": "310",
-    "complex_id": "310"
+    }
   },
   {
     "direction_labels": {
@@ -6734,15 +6734,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "311",
+    "complex_id": "311",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.788644,
       "longitude": -73.976218
-    },
-    "station_id": "311",
-    "complex_id": "311"
+    }
   },
   {
     "direction_labels": {
@@ -6755,15 +6755,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "312",
+    "complex_id": "312",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.783934,
       "longitude": -73.979917
-    },
-    "station_id": "312",
-    "complex_id": "312"
+    }
   },
   {
     "direction_labels": {
@@ -6776,6 +6776,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "313",
+    "complex_id": "313",
     "daytime_routes": [
       "1",
       "2",
@@ -6784,9 +6786,7 @@
     "gtfs_location": {
       "latitude": 40.778453,
       "longitude": -73.98197
-    },
-    "station_id": "313",
-    "complex_id": "313"
+    }
   },
   {
     "direction_labels": {
@@ -6799,15 +6799,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "314",
+    "complex_id": "314",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.77344,
       "longitude": -73.982209
-    },
-    "station_id": "314",
-    "complex_id": "314"
+    }
   },
   {
     "direction_labels": {
@@ -6820,15 +6820,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "315",
+    "complex_id": "614",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.768247,
       "longitude": -73.981929
-    },
-    "station_id": "315",
-    "complex_id": "614"
+    }
   },
   {
     "direction_labels": {
@@ -6841,15 +6841,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "316",
+    "complex_id": "316",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.761728,
       "longitude": -73.983849
-    },
-    "station_id": "316",
-    "complex_id": "316"
+    }
   },
   {
     "direction_labels": {
@@ -6862,6 +6862,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "317",
+    "complex_id": "611",
     "daytime_routes": [
       "1",
       "2",
@@ -6870,9 +6872,7 @@
     "gtfs_location": {
       "latitude": 40.75529,
       "longitude": -73.987495
-    },
-    "station_id": "317",
-    "complex_id": "611"
+    }
   },
   {
     "direction_labels": {
@@ -6885,6 +6885,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "318",
+    "complex_id": "318",
     "daytime_routes": [
       "1",
       "2",
@@ -6893,9 +6895,7 @@
     "gtfs_location": {
       "latitude": 40.750373,
       "longitude": -73.991057
-    },
-    "station_id": "318",
-    "complex_id": "318"
+    }
   },
   {
     "direction_labels": {
@@ -6908,15 +6908,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "319",
+    "complex_id": "319",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.747215,
       "longitude": -73.993365
-    },
-    "station_id": "319",
-    "complex_id": "319"
+    }
   },
   {
     "direction_labels": {
@@ -6929,15 +6929,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "320",
+    "complex_id": "320",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.744081,
       "longitude": -73.995657
-    },
-    "station_id": "320",
-    "complex_id": "320"
+    }
   },
   {
     "direction_labels": {
@@ -6950,15 +6950,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "321",
+    "complex_id": "321",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.74104,
       "longitude": -73.997871
-    },
-    "station_id": "321",
-    "complex_id": "321"
+    }
   },
   {
     "direction_labels": {
@@ -6971,6 +6971,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "322",
+    "complex_id": "601",
     "daytime_routes": [
       "1",
       "2",
@@ -6979,9 +6981,7 @@
     "gtfs_location": {
       "latitude": 40.737826,
       "longitude": -74.000201
-    },
-    "station_id": "322",
-    "complex_id": "601"
+    }
   },
   {
     "direction_labels": {
@@ -6994,15 +6994,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "323",
+    "complex_id": "323",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.733422,
       "longitude": -74.002906
-    },
-    "station_id": "323",
-    "complex_id": "323"
+    }
   },
   {
     "direction_labels": {
@@ -7015,15 +7015,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "324",
+    "complex_id": "324",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.728251,
       "longitude": -74.005367
-    },
-    "station_id": "324",
-    "complex_id": "324"
+    }
   },
   {
     "direction_labels": {
@@ -7036,15 +7036,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "325",
+    "complex_id": "325",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.722854,
       "longitude": -74.006277
-    },
-    "station_id": "325",
-    "complex_id": "325"
+    }
   },
   {
     "direction_labels": {
@@ -7057,15 +7057,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "326",
+    "complex_id": "326",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.719318,
       "longitude": -74.006886
-    },
-    "station_id": "326",
-    "complex_id": "326"
+    }
   },
   {
     "direction_labels": {
@@ -7078,6 +7078,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "327",
+    "complex_id": "327",
     "daytime_routes": [
       "1",
       "2",
@@ -7086,9 +7088,7 @@
     "gtfs_location": {
       "latitude": 40.715478,
       "longitude": -74.009266
-    },
-    "station_id": "327",
-    "complex_id": "327"
+    }
   },
   {
     "direction_labels": {
@@ -7101,15 +7101,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "328",
+    "complex_id": "328",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.711835,
       "longitude": -74.012188
-    },
-    "station_id": "328",
-    "complex_id": "328"
+    }
   },
   {
     "direction_labels": {
@@ -7122,15 +7122,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "329",
+    "complex_id": "329",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.707513,
       "longitude": -74.013783
-    },
-    "station_id": "329",
-    "complex_id": "329"
+    }
   },
   {
     "direction_labels": {
@@ -7143,15 +7143,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "330",
+    "complex_id": "635",
     "daytime_routes": [
       "1"
     ],
     "gtfs_location": {
       "latitude": 40.702068,
       "longitude": -74.013664
-    },
-    "station_id": "330",
-    "complex_id": "635"
+    }
   },
   {
     "direction_labels": {
@@ -7164,6 +7164,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "331",
+    "complex_id": "624",
     "daytime_routes": [
       "2",
       "3"
@@ -7171,9 +7173,7 @@
     "gtfs_location": {
       "latitude": 40.713051,
       "longitude": -74.008811
-    },
-    "station_id": "331",
-    "complex_id": "624"
+    }
   },
   {
     "direction_labels": {
@@ -7186,6 +7186,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "332",
+    "complex_id": "628",
     "daytime_routes": [
       "2",
       "3"
@@ -7193,9 +7195,7 @@
     "gtfs_location": {
       "latitude": 40.709416,
       "longitude": -74.006571
-    },
-    "station_id": "332",
-    "complex_id": "628"
+    }
   },
   {
     "direction_labels": {
@@ -7208,6 +7208,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "333",
+    "complex_id": "333",
     "daytime_routes": [
       "2",
       "3"
@@ -7215,9 +7217,7 @@
     "gtfs_location": {
       "latitude": 40.706821,
       "longitude": -74.0091
-    },
-    "station_id": "333",
-    "complex_id": "333"
+    }
   },
   {
     "direction_labels": {
@@ -7230,6 +7230,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "334",
+    "complex_id": "334",
     "daytime_routes": [
       "2",
       "3"
@@ -7237,9 +7239,7 @@
     "gtfs_location": {
       "latitude": 40.697466,
       "longitude": -73.993086
-    },
-    "station_id": "334",
-    "complex_id": "334"
+    }
   },
   {
     "direction_labels": {
@@ -7252,6 +7252,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "335",
+    "complex_id": "620",
     "daytime_routes": [
       "2",
       "3"
@@ -7259,9 +7261,7 @@
     "gtfs_location": {
       "latitude": 40.693219,
       "longitude": -73.989998
-    },
-    "station_id": "335",
-    "complex_id": "620"
+    }
   },
   {
     "direction_labels": {
@@ -7274,6 +7274,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "336",
+    "complex_id": "336",
     "daytime_routes": [
       "2",
       "3"
@@ -7281,9 +7283,7 @@
     "gtfs_location": {
       "latitude": 40.690545,
       "longitude": -73.985065
-    },
-    "station_id": "336",
-    "complex_id": "336"
+    }
   },
   {
     "direction_labels": {
@@ -7296,6 +7296,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "337",
+    "complex_id": "337",
     "daytime_routes": [
       "2",
       "3",
@@ -7305,9 +7307,7 @@
     "gtfs_location": {
       "latitude": 40.688246,
       "longitude": -73.980492
-    },
-    "station_id": "337",
-    "complex_id": "337"
+    }
   },
   {
     "direction_labels": {
@@ -7320,6 +7320,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "338",
+    "complex_id": "617",
     "daytime_routes": [
       "2",
       "3",
@@ -7329,9 +7331,7 @@
     "gtfs_location": {
       "latitude": 40.684359,
       "longitude": -73.977666
-    },
-    "station_id": "338",
-    "complex_id": "617"
+    }
   },
   {
     "direction_labels": {
@@ -7344,6 +7344,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "339",
+    "complex_id": "339",
     "daytime_routes": [
       "2",
       "3"
@@ -7351,9 +7353,7 @@
     "gtfs_location": {
       "latitude": 40.680829,
       "longitude": -73.975098
-    },
-    "station_id": "339",
-    "complex_id": "339"
+    }
   },
   {
     "direction_labels": {
@@ -7366,6 +7366,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "340",
+    "complex_id": "340",
     "daytime_routes": [
       "2",
       "3"
@@ -7373,9 +7375,7 @@
     "gtfs_location": {
       "latitude": 40.675235,
       "longitude": -73.971046
-    },
-    "station_id": "340",
-    "complex_id": "340"
+    }
   },
   {
     "direction_labels": {
@@ -7388,6 +7388,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "341",
+    "complex_id": "341",
     "daytime_routes": [
       "2",
       "3"
@@ -7395,9 +7397,7 @@
     "gtfs_location": {
       "latitude": 40.671987,
       "longitude": -73.964375
-    },
-    "station_id": "341",
-    "complex_id": "341"
+    }
   },
   {
     "direction_labels": {
@@ -7410,6 +7410,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "342",
+    "complex_id": "626",
     "daytime_routes": [
       "2",
       "3",
@@ -7419,9 +7421,7 @@
     "gtfs_location": {
       "latitude": 40.670682,
       "longitude": -73.958131
-    },
-    "station_id": "342",
-    "complex_id": "626"
+    }
   },
   {
     "direction_labels": {
@@ -7434,15 +7434,15 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "343",
+    "complex_id": "343",
     "daytime_routes": [
       "3"
     ],
     "gtfs_location": {
       "latitude": 40.669847,
       "longitude": -73.950466
-    },
-    "station_id": "343",
-    "complex_id": "343"
+    }
   },
   {
     "direction_labels": {
@@ -7455,15 +7455,15 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "344",
+    "complex_id": "344",
     "daytime_routes": [
       "3"
     ],
     "gtfs_location": {
       "latitude": 40.669399,
       "longitude": -73.942161
-    },
-    "station_id": "344",
-    "complex_id": "344"
+    }
   },
   {
     "direction_labels": {
@@ -7476,6 +7476,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "345",
+    "complex_id": "345",
     "daytime_routes": [
       "3",
       "4"
@@ -7483,9 +7485,7 @@
     "gtfs_location": {
       "latitude": 40.668897,
       "longitude": -73.932942
-    },
-    "station_id": "345",
-    "complex_id": "345"
+    }
   },
   {
     "direction_labels": {
@@ -7498,15 +7498,15 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "346",
+    "complex_id": "346",
     "daytime_routes": [
       "3"
     ],
     "gtfs_location": {
       "latitude": 40.664717,
       "longitude": -73.92261
-    },
-    "station_id": "346",
-    "complex_id": "346"
+    }
   },
   {
     "direction_labels": {
@@ -7519,15 +7519,15 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "347",
+    "complex_id": "347",
     "daytime_routes": [
       "3"
     ],
     "gtfs_location": {
       "latitude": 40.661453,
       "longitude": -73.916327
-    },
-    "station_id": "347",
-    "complex_id": "347"
+    }
   },
   {
     "direction_labels": {
@@ -7540,15 +7540,15 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "348",
+    "complex_id": "348",
     "daytime_routes": [
       "3"
     ],
     "gtfs_location": {
       "latitude": 40.662549,
       "longitude": -73.908946
-    },
-    "station_id": "348",
-    "complex_id": "348"
+    }
   },
   {
     "direction_labels": {
@@ -7561,15 +7561,15 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "349",
+    "complex_id": "349",
     "daytime_routes": [
       "3"
     ],
     "gtfs_location": {
       "latitude": 40.663515,
       "longitude": -73.902447
-    },
-    "station_id": "349",
-    "complex_id": "349"
+    }
   },
   {
     "direction_labels": {
@@ -7582,15 +7582,15 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "350",
+    "complex_id": "350",
     "daytime_routes": [
       "3"
     ],
     "gtfs_location": {
       "latitude": 40.664635,
       "longitude": -73.894895
-    },
-    "station_id": "350",
-    "complex_id": "350"
+    }
   },
   {
     "direction_labels": {
@@ -7603,15 +7603,15 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "351",
+    "complex_id": "351",
     "daytime_routes": [
       "3"
     ],
     "gtfs_location": {
       "latitude": 40.665449,
       "longitude": -73.889395
-    },
-    "station_id": "351",
-    "complex_id": "351"
+    }
   },
   {
     "direction_labels": {
@@ -7624,15 +7624,15 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
+    "station_id": "352",
+    "complex_id": "352",
     "daytime_routes": [
       "3"
     ],
     "gtfs_location": {
       "latitude": 40.666235,
       "longitude": -73.884079
-    },
-    "station_id": "352",
-    "complex_id": "352"
+    }
   },
   {
     "direction_labels": {
@@ -7645,6 +7645,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "353",
+    "complex_id": "353",
     "daytime_routes": [
       "2",
       "5"
@@ -7652,9 +7654,7 @@
     "gtfs_location": {
       "latitude": 40.667883,
       "longitude": -73.950683
-    },
-    "station_id": "353",
-    "complex_id": "353"
+    }
   },
   {
     "direction_labels": {
@@ -7667,6 +7667,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "354",
+    "complex_id": "354",
     "daytime_routes": [
       "2",
       "5"
@@ -7674,9 +7676,7 @@
     "gtfs_location": {
       "latitude": 40.662742,
       "longitude": -73.95085
-    },
-    "station_id": "354",
-    "complex_id": "354"
+    }
   },
   {
     "direction_labels": {
@@ -7689,6 +7689,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "355",
+    "complex_id": "355",
     "daytime_routes": [
       "2",
       "5"
@@ -7696,9 +7698,7 @@
     "gtfs_location": {
       "latitude": 40.656652,
       "longitude": -73.9502
-    },
-    "station_id": "355",
-    "complex_id": "355"
+    }
   },
   {
     "direction_labels": {
@@ -7711,6 +7711,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "356",
+    "complex_id": "356",
     "daytime_routes": [
       "2",
       "5"
@@ -7718,9 +7720,7 @@
     "gtfs_location": {
       "latitude": 40.650843,
       "longitude": -73.949575
-    },
-    "station_id": "356",
-    "complex_id": "356"
+    }
   },
   {
     "direction_labels": {
@@ -7733,6 +7733,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "357",
+    "complex_id": "357",
     "daytime_routes": [
       "2",
       "5"
@@ -7740,9 +7742,7 @@
     "gtfs_location": {
       "latitude": 40.645098,
       "longitude": -73.948959
-    },
-    "station_id": "357",
-    "complex_id": "357"
+    }
   },
   {
     "direction_labels": {
@@ -7755,6 +7755,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "358",
+    "complex_id": "358",
     "daytime_routes": [
       "2",
       "5"
@@ -7762,9 +7764,7 @@
     "gtfs_location": {
       "latitude": 40.639967,
       "longitude": -73.948411
-    },
-    "station_id": "358",
-    "complex_id": "358"
+    }
   },
   {
     "direction_labels": {
@@ -7777,6 +7777,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "359",
+    "complex_id": "359",
     "daytime_routes": [
       "2",
       "5"
@@ -7784,9 +7786,7 @@
     "gtfs_location": {
       "latitude": 40.632836,
       "longitude": -73.947642
-    },
-    "station_id": "359",
-    "complex_id": "359"
+    }
   },
   {
     "direction_labels": {
@@ -7799,15 +7799,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "360",
+    "complex_id": "360",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.852462,
       "longitude": -73.828121
-    },
-    "station_id": "360",
-    "complex_id": "360"
+    }
   },
   {
     "direction_labels": {
@@ -7820,15 +7820,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "361",
+    "complex_id": "361",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.84681,
       "longitude": -73.832569
-    },
-    "station_id": "361",
-    "complex_id": "361"
+    }
   },
   {
     "direction_labels": {
@@ -7841,15 +7841,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "362",
+    "complex_id": "362",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.843863,
       "longitude": -73.836322
-    },
-    "station_id": "362",
-    "complex_id": "362"
+    }
   },
   {
     "direction_labels": {
@@ -7862,15 +7862,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "363",
+    "complex_id": "363",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.839892,
       "longitude": -73.842952
-    },
-    "station_id": "363",
-    "complex_id": "363"
+    }
   },
   {
     "direction_labels": {
@@ -7883,15 +7883,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "364",
+    "complex_id": "364",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.836488,
       "longitude": -73.847036
-    },
-    "station_id": "364",
-    "complex_id": "364"
+    }
   },
   {
     "direction_labels": {
@@ -7904,15 +7904,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "365",
+    "complex_id": "365",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.834255,
       "longitude": -73.851222
-    },
-    "station_id": "365",
-    "complex_id": "365"
+    }
   },
   {
     "direction_labels": {
@@ -7925,15 +7925,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "366",
+    "complex_id": "366",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.833226,
       "longitude": -73.860816
-    },
-    "station_id": "366",
-    "complex_id": "366"
+    }
   },
   {
     "direction_labels": {
@@ -7946,15 +7946,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "367",
+    "complex_id": "367",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.831509,
       "longitude": -73.867618
-    },
-    "station_id": "367",
-    "complex_id": "367"
+    }
   },
   {
     "direction_labels": {
@@ -7967,15 +7967,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "368",
+    "complex_id": "368",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.829521,
       "longitude": -73.874516
-    },
-    "station_id": "368",
-    "complex_id": "368"
+    }
   },
   {
     "direction_labels": {
@@ -7988,15 +7988,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "369",
+    "complex_id": "369",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.828584,
       "longitude": -73.879159
-    },
-    "station_id": "369",
-    "complex_id": "369"
+    }
   },
   {
     "direction_labels": {
@@ -8009,15 +8009,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "370",
+    "complex_id": "370",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.826525,
       "longitude": -73.886283
-    },
-    "station_id": "370",
-    "complex_id": "370"
+    }
   },
   {
     "direction_labels": {
@@ -8030,15 +8030,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "371",
+    "complex_id": "371",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.820948,
       "longitude": -73.890549
-    },
-    "station_id": "371",
-    "complex_id": "371"
+    }
   },
   {
     "direction_labels": {
@@ -8051,15 +8051,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "372",
+    "complex_id": "372",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.816104,
       "longitude": -73.896435
-    },
-    "station_id": "372",
-    "complex_id": "372"
+    }
   },
   {
     "direction_labels": {
@@ -8072,15 +8072,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "373",
+    "complex_id": "373",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.812118,
       "longitude": -73.904098
-    },
-    "station_id": "373",
-    "complex_id": "373"
+    }
   },
   {
     "direction_labels": {
@@ -8093,15 +8093,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "374",
+    "complex_id": "374",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.808719,
       "longitude": -73.907657
-    },
-    "station_id": "374",
-    "complex_id": "374"
+    }
   },
   {
     "direction_labels": {
@@ -8114,15 +8114,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "375",
+    "complex_id": "375",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.805368,
       "longitude": -73.914042
-    },
-    "station_id": "375",
-    "complex_id": "375"
+    }
   },
   {
     "direction_labels": {
@@ -8135,15 +8135,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "376",
+    "complex_id": "376",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.807566,
       "longitude": -73.91924
-    },
-    "station_id": "376",
-    "complex_id": "376"
+    }
   },
   {
     "direction_labels": {
@@ -8156,15 +8156,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "377",
+    "complex_id": "377",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.810476,
       "longitude": -73.926138
-    },
-    "station_id": "377",
-    "complex_id": "377"
+    }
   },
   {
     "direction_labels": {
@@ -8177,15 +8177,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "378",
+    "complex_id": "378",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.886037,
       "longitude": -73.878751
-    },
-    "station_id": "378",
-    "complex_id": "378"
+    }
   },
   {
     "direction_labels": {
@@ -8198,15 +8198,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "379",
+    "complex_id": "379",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.87975,
       "longitude": -73.884655
-    },
-    "station_id": "379",
-    "complex_id": "379"
+    }
   },
   {
     "direction_labels": {
@@ -8219,15 +8219,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "380",
+    "complex_id": "380",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.873412,
       "longitude": -73.890064
-    },
-    "station_id": "380",
-    "complex_id": "380"
+    }
   },
   {
     "direction_labels": {
@@ -8240,15 +8240,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "381",
+    "complex_id": "381",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.86776,
       "longitude": -73.897174
-    },
-    "station_id": "381",
-    "complex_id": "381"
+    }
   },
   {
     "direction_labels": {
@@ -8261,15 +8261,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "382",
+    "complex_id": "382",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.862803,
       "longitude": -73.901034
-    },
-    "station_id": "382",
-    "complex_id": "382"
+    }
   },
   {
     "direction_labels": {
@@ -8282,15 +8282,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "383",
+    "complex_id": "383",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.858407,
       "longitude": -73.903879
-    },
-    "station_id": "383",
-    "complex_id": "383"
+    }
   },
   {
     "direction_labels": {
@@ -8303,15 +8303,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "384",
+    "complex_id": "384",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.853453,
       "longitude": -73.907684
-    },
-    "station_id": "384",
-    "complex_id": "384"
+    }
   },
   {
     "direction_labels": {
@@ -8324,15 +8324,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "385",
+    "complex_id": "385",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.84848,
       "longitude": -73.911794
-    },
-    "station_id": "385",
-    "complex_id": "385"
+    }
   },
   {
     "direction_labels": {
@@ -8345,15 +8345,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "386",
+    "complex_id": "386",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.844434,
       "longitude": -73.914685
-    },
-    "station_id": "386",
-    "complex_id": "386"
+    }
   },
   {
     "direction_labels": {
@@ -8366,15 +8366,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "387",
+    "complex_id": "387",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.840075,
       "longitude": -73.917791
-    },
-    "station_id": "387",
-    "complex_id": "387"
+    }
   },
   {
     "direction_labels": {
@@ -8387,15 +8387,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "388",
+    "complex_id": "388",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.835537,
       "longitude": -73.9214
-    },
-    "station_id": "388",
-    "complex_id": "388"
+    }
   },
   {
     "direction_labels": {
@@ -8408,15 +8408,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "389",
+    "complex_id": "604",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.827994,
       "longitude": -73.925831
-    },
-    "station_id": "389",
-    "complex_id": "604"
+    }
   },
   {
     "direction_labels": {
@@ -8429,15 +8429,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "390",
+    "complex_id": "603",
     "daytime_routes": [
       "4"
     ],
     "gtfs_location": {
       "latitude": 40.818375,
       "longitude": -73.927351
-    },
-    "station_id": "390",
-    "complex_id": "603"
+    }
   },
   {
     "direction_labels": {
@@ -8450,6 +8450,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "391",
+    "complex_id": "391",
     "daytime_routes": [
       "4",
       "5"
@@ -8457,9 +8459,7 @@
     "gtfs_location": {
       "latitude": 40.813224,
       "longitude": -73.929849
-    },
-    "station_id": "391",
-    "complex_id": "391"
+    }
   },
   {
     "direction_labels": {
@@ -8472,6 +8472,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "392",
+    "complex_id": "392",
     "daytime_routes": [
       "4",
       "5",
@@ -8480,9 +8482,7 @@
     "gtfs_location": {
       "latitude": 40.804138,
       "longitude": -73.937594
-    },
-    "station_id": "392",
-    "complex_id": "392"
+    }
   },
   {
     "direction_labels": {
@@ -8495,15 +8495,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "393",
+    "complex_id": "393",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.798629,
       "longitude": -73.941617
-    },
-    "station_id": "393",
-    "complex_id": "393"
+    }
   },
   {
     "direction_labels": {
@@ -8516,15 +8516,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "394",
+    "complex_id": "394",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.79502,
       "longitude": -73.94425
-    },
-    "station_id": "394",
-    "complex_id": "394"
+    }
   },
   {
     "direction_labels": {
@@ -8537,15 +8537,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "395",
+    "complex_id": "395",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.7906,
       "longitude": -73.947478
-    },
-    "station_id": "395",
-    "complex_id": "395"
+    }
   },
   {
     "direction_labels": {
@@ -8558,15 +8558,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "396",
+    "complex_id": "396",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.785672,
       "longitude": -73.95107
-    },
-    "station_id": "396",
-    "complex_id": "396"
+    }
   },
   {
     "direction_labels": {
@@ -8579,6 +8579,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "397",
+    "complex_id": "397",
     "daytime_routes": [
       "4",
       "5",
@@ -8587,9 +8589,7 @@
     "gtfs_location": {
       "latitude": 40.779492,
       "longitude": -73.955589
-    },
-    "station_id": "397",
-    "complex_id": "397"
+    }
   },
   {
     "direction_labels": {
@@ -8602,15 +8602,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "398",
+    "complex_id": "398",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.77362,
       "longitude": -73.959874
-    },
-    "station_id": "398",
-    "complex_id": "398"
+    }
   },
   {
     "direction_labels": {
@@ -8623,15 +8623,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "399",
+    "complex_id": "399",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.768141,
       "longitude": -73.96387
-    },
-    "station_id": "399",
-    "complex_id": "399"
+    }
   },
   {
     "direction_labels": {
@@ -8644,6 +8644,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "400",
+    "complex_id": "613",
     "daytime_routes": [
       "4",
       "5",
@@ -8652,9 +8654,7 @@
     "gtfs_location": {
       "latitude": 40.762526,
       "longitude": -73.967967
-    },
-    "station_id": "400",
-    "complex_id": "613"
+    }
   },
   {
     "direction_labels": {
@@ -8667,15 +8667,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "401",
+    "complex_id": "612",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.757107,
       "longitude": -73.97192
-    },
-    "station_id": "401",
-    "complex_id": "612"
+    }
   },
   {
     "direction_labels": {
@@ -8688,6 +8688,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "402",
+    "complex_id": "610",
     "daytime_routes": [
       "4",
       "5",
@@ -8696,9 +8698,7 @@
     "gtfs_location": {
       "latitude": 40.751776,
       "longitude": -73.976848
-    },
-    "station_id": "402",
-    "complex_id": "610"
+    }
   },
   {
     "direction_labels": {
@@ -8711,15 +8711,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "403",
+    "complex_id": "403",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.746081,
       "longitude": -73.982076
-    },
-    "station_id": "403",
-    "complex_id": "403"
+    }
   },
   {
     "direction_labels": {
@@ -8732,15 +8732,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "404",
+    "complex_id": "404",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.74307,
       "longitude": -73.984264
-    },
-    "station_id": "404",
-    "complex_id": "404"
+    }
   },
   {
     "direction_labels": {
@@ -8753,15 +8753,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "405",
+    "complex_id": "405",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.739864,
       "longitude": -73.986599
-    },
-    "station_id": "405",
-    "complex_id": "405"
+    }
   },
   {
     "direction_labels": {
@@ -8774,6 +8774,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "406",
+    "complex_id": "602",
     "daytime_routes": [
       "4",
       "5",
@@ -8782,9 +8784,7 @@
     "gtfs_location": {
       "latitude": 40.734673,
       "longitude": -73.989951
-    },
-    "station_id": "406",
-    "complex_id": "602"
+    }
   },
   {
     "direction_labels": {
@@ -8797,15 +8797,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "407",
+    "complex_id": "407",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.730054,
       "longitude": -73.99107
-    },
-    "station_id": "407",
-    "complex_id": "407"
+    }
   },
   {
     "direction_labels": {
@@ -8818,15 +8818,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "408",
+    "complex_id": "619",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.725915,
       "longitude": -73.994659
-    },
-    "station_id": "408",
-    "complex_id": "619"
+    }
   },
   {
     "direction_labels": {
@@ -8839,15 +8839,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "409",
+    "complex_id": "409",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.722301,
       "longitude": -73.997141
-    },
-    "station_id": "409",
-    "complex_id": "409"
+    }
   },
   {
     "direction_labels": {
@@ -8860,15 +8860,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "410",
+    "complex_id": "623",
     "daytime_routes": [
       "6"
     ],
     "gtfs_location": {
       "latitude": 40.718803,
       "longitude": -74.000193
-    },
-    "station_id": "410",
-    "complex_id": "623"
+    }
   },
   {
     "direction_labels": {
@@ -8881,6 +8881,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "411",
+    "complex_id": "622",
     "daytime_routes": [
       "4",
       "5",
@@ -8889,9 +8891,7 @@
     "gtfs_location": {
       "latitude": 40.713065,
       "longitude": -74.004131
-    },
-    "station_id": "411",
-    "complex_id": "622"
+    }
   },
   {
     "direction_labels": {
@@ -8904,6 +8904,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "412",
+    "complex_id": "628",
     "daytime_routes": [
       "4",
       "5"
@@ -8911,9 +8913,7 @@
     "gtfs_location": {
       "latitude": 40.710368,
       "longitude": -74.009509
-    },
-    "station_id": "412",
-    "complex_id": "628"
+    }
   },
   {
     "direction_labels": {
@@ -8926,6 +8926,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "413",
+    "complex_id": "413",
     "daytime_routes": [
       "4",
       "5"
@@ -8933,9 +8935,7 @@
     "gtfs_location": {
       "latitude": 40.707557,
       "longitude": -74.011862
-    },
-    "station_id": "413",
-    "complex_id": "413"
+    }
   },
   {
     "direction_labels": {
@@ -8948,6 +8948,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "414",
+    "complex_id": "414",
     "daytime_routes": [
       "4",
       "5"
@@ -8955,9 +8957,7 @@
     "gtfs_location": {
       "latitude": 40.704817,
       "longitude": -74.014065
-    },
-    "station_id": "414",
-    "complex_id": "414"
+    }
   },
   {
     "direction_labels": {
@@ -8970,6 +8970,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
+    "station_id": "415",
+    "complex_id": "620",
     "daytime_routes": [
       "4",
       "5"
@@ -8977,9 +8979,7 @@
     "gtfs_location": {
       "latitude": 40.692404,
       "longitude": -73.990151
-    },
-    "station_id": "415",
-    "complex_id": "620"
+    }
   },
   {
     "direction_labels": {
@@ -8992,15 +8992,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "416",
+    "complex_id": "416",
     "daytime_routes": [
       "2"
     ],
     "gtfs_location": {
       "latitude": 40.903125,
       "longitude": -73.85062
-    },
-    "station_id": "416",
-    "complex_id": "416"
+    }
   },
   {
     "direction_labels": {
@@ -9013,6 +9013,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "417",
+    "complex_id": "417",
     "daytime_routes": [
       "2",
       "5"
@@ -9020,9 +9022,7 @@
     "gtfs_location": {
       "latitude": 40.898379,
       "longitude": -73.854376
-    },
-    "station_id": "417",
-    "complex_id": "417"
+    }
   },
   {
     "direction_labels": {
@@ -9035,6 +9035,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "418",
+    "complex_id": "418",
     "daytime_routes": [
       "2",
       "5"
@@ -9042,9 +9044,7 @@
     "gtfs_location": {
       "latitude": 40.893193,
       "longitude": -73.857473
-    },
-    "station_id": "418",
-    "complex_id": "418"
+    }
   },
   {
     "direction_labels": {
@@ -9057,6 +9057,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "419",
+    "complex_id": "419",
     "daytime_routes": [
       "2",
       "5"
@@ -9064,9 +9066,7 @@
     "gtfs_location": {
       "latitude": 40.888022,
       "longitude": -73.860341
-    },
-    "station_id": "419",
-    "complex_id": "419"
+    }
   },
   {
     "direction_labels": {
@@ -9079,6 +9079,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "420",
+    "complex_id": "420",
     "daytime_routes": [
       "2",
       "5"
@@ -9086,9 +9088,7 @@
     "gtfs_location": {
       "latitude": 40.883895,
       "longitude": -73.862633
-    },
-    "station_id": "420",
-    "complex_id": "420"
+    }
   },
   {
     "direction_labels": {
@@ -9101,6 +9101,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "421",
+    "complex_id": "421",
     "daytime_routes": [
       "2",
       "5"
@@ -9108,9 +9110,7 @@
     "gtfs_location": {
       "latitude": 40.87785,
       "longitude": -73.866256
-    },
-    "station_id": "421",
-    "complex_id": "421"
+    }
   },
   {
     "direction_labels": {
@@ -9123,6 +9123,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "422",
+    "complex_id": "422",
     "daytime_routes": [
       "2",
       "5"
@@ -9130,9 +9132,7 @@
     "gtfs_location": {
       "latitude": 40.871356,
       "longitude": -73.867164
-    },
-    "station_id": "422",
-    "complex_id": "422"
+    }
   },
   {
     "direction_labels": {
@@ -9145,6 +9145,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "423",
+    "complex_id": "423",
     "daytime_routes": [
       "2",
       "5"
@@ -9152,9 +9154,7 @@
     "gtfs_location": {
       "latitude": 40.865462,
       "longitude": -73.867352
-    },
-    "station_id": "423",
-    "complex_id": "423"
+    }
   },
   {
     "direction_labels": {
@@ -9167,6 +9167,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "424",
+    "complex_id": "424",
     "daytime_routes": [
       "2",
       "5"
@@ -9174,9 +9176,7 @@
     "gtfs_location": {
       "latitude": 40.857192,
       "longitude": -73.867615
-    },
-    "station_id": "424",
-    "complex_id": "424"
+    }
   },
   {
     "direction_labels": {
@@ -9189,6 +9189,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "425",
+    "complex_id": "425",
     "daytime_routes": [
       "2",
       "5"
@@ -9196,9 +9198,7 @@
     "gtfs_location": {
       "latitude": 40.848828,
       "longitude": -73.868457
-    },
-    "station_id": "425",
-    "complex_id": "425"
+    }
   },
   {
     "direction_labels": {
@@ -9211,6 +9211,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "426",
+    "complex_id": "426",
     "daytime_routes": [
       "2",
       "5"
@@ -9218,9 +9220,7 @@
     "gtfs_location": {
       "latitude": 40.841894,
       "longitude": -73.873488
-    },
-    "station_id": "426",
-    "complex_id": "426"
+    }
   },
   {
     "direction_labels": {
@@ -9233,6 +9233,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "427",
+    "complex_id": "427",
     "daytime_routes": [
       "2",
       "5"
@@ -9240,9 +9242,7 @@
     "gtfs_location": {
       "latitude": 40.840295,
       "longitude": -73.880049
-    },
-    "station_id": "427",
-    "complex_id": "427"
+    }
   },
   {
     "direction_labels": {
@@ -9255,6 +9255,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "428",
+    "complex_id": "428",
     "daytime_routes": [
       "2",
       "5"
@@ -9262,9 +9264,7 @@
     "gtfs_location": {
       "latitude": 40.837288,
       "longitude": -73.887734
-    },
-    "station_id": "428",
-    "complex_id": "428"
+    }
   },
   {
     "direction_labels": {
@@ -9277,6 +9277,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "429",
+    "complex_id": "429",
     "daytime_routes": [
       "2",
       "5"
@@ -9284,9 +9286,7 @@
     "gtfs_location": {
       "latitude": 40.829993,
       "longitude": -73.891865
-    },
-    "station_id": "429",
-    "complex_id": "429"
+    }
   },
   {
     "direction_labels": {
@@ -9299,6 +9299,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "430",
+    "complex_id": "430",
     "daytime_routes": [
       "2",
       "5"
@@ -9306,9 +9308,7 @@
     "gtfs_location": {
       "latitude": 40.824073,
       "longitude": -73.893064
-    },
-    "station_id": "430",
-    "complex_id": "430"
+    }
   },
   {
     "direction_labels": {
@@ -9321,6 +9321,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "431",
+    "complex_id": "431",
     "daytime_routes": [
       "2",
       "5"
@@ -9328,9 +9330,7 @@
     "gtfs_location": {
       "latitude": 40.822181,
       "longitude": -73.896736
-    },
-    "station_id": "431",
-    "complex_id": "431"
+    }
   },
   {
     "direction_labels": {
@@ -9343,6 +9343,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "432",
+    "complex_id": "432",
     "daytime_routes": [
       "2",
       "5"
@@ -9350,9 +9352,7 @@
     "gtfs_location": {
       "latitude": 40.819585,
       "longitude": -73.90177
-    },
-    "station_id": "432",
-    "complex_id": "432"
+    }
   },
   {
     "direction_labels": {
@@ -9365,6 +9365,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
+    "station_id": "433",
+    "complex_id": "433",
     "daytime_routes": [
       "2",
       "5"
@@ -9372,9 +9374,7 @@
     "gtfs_location": {
       "latitude": 40.81649,
       "longitude": -73.907807
-    },
-    "station_id": "433",
-    "complex_id": "433"
+    }
   },
   {
     "direction_labels": {
@@ -9387,6 +9387,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "434",
+    "complex_id": "434",
     "daytime_routes": [
       "2",
       "5"
@@ -9394,9 +9396,7 @@
     "gtfs_location": {
       "latitude": 40.816109,
       "longitude": -73.917757
-    },
-    "station_id": "434",
-    "complex_id": "434"
+    }
   },
   {
     "direction_labels": {
@@ -9409,6 +9409,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
+    "station_id": "435",
+    "complex_id": "603",
     "daytime_routes": [
       "2",
       "5"
@@ -9416,9 +9418,7 @@
     "gtfs_location": {
       "latitude": 40.81841,
       "longitude": -73.926718
-    },
-    "station_id": "435",
-    "complex_id": "603"
+    }
   },
   {
     "direction_labels": {
@@ -9431,15 +9431,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "436",
+    "complex_id": "436",
     "daytime_routes": [
       "3"
     ],
     "gtfs_location": {
       "latitude": 40.82388,
       "longitude": -73.93647
-    },
-    "station_id": "436",
-    "complex_id": "436"
+    }
   },
   {
     "direction_labels": {
@@ -9452,15 +9452,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "437",
+    "complex_id": "437",
     "daytime_routes": [
       "3"
     ],
     "gtfs_location": {
       "latitude": 40.820421,
       "longitude": -73.936245
-    },
-    "station_id": "437",
-    "complex_id": "437"
+    }
   },
   {
     "direction_labels": {
@@ -9473,6 +9473,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "438",
+    "complex_id": "438",
     "daytime_routes": [
       "2",
       "3"
@@ -9480,9 +9482,7 @@
     "gtfs_location": {
       "latitude": 40.814229,
       "longitude": -73.94077
-    },
-    "station_id": "438",
-    "complex_id": "438"
+    }
   },
   {
     "direction_labels": {
@@ -9495,6 +9495,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "439",
+    "complex_id": "439",
     "daytime_routes": [
       "2",
       "3"
@@ -9502,9 +9504,7 @@
     "gtfs_location": {
       "latitude": 40.807754,
       "longitude": -73.945495
-    },
-    "station_id": "439",
-    "complex_id": "439"
+    }
   },
   {
     "direction_labels": {
@@ -9517,6 +9517,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "440",
+    "complex_id": "440",
     "daytime_routes": [
       "2",
       "3"
@@ -9524,9 +9526,7 @@
     "gtfs_location": {
       "latitude": 40.802098,
       "longitude": -73.949625
-    },
-    "station_id": "440",
-    "complex_id": "440"
+    }
   },
   {
     "direction_labels": {
@@ -9539,6 +9539,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "441",
+    "complex_id": "441",
     "daytime_routes": [
       "2",
       "3"
@@ -9546,9 +9548,7 @@
     "gtfs_location": {
       "latitude": 40.799075,
       "longitude": -73.951822
-    },
-    "station_id": "441",
-    "complex_id": "441"
+    }
   },
   {
     "direction_labels": {
@@ -9561,15 +9561,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "At Grade",
+    "station_id": "442",
+    "complex_id": "442",
     "daytime_routes": [
       "5"
     ],
     "gtfs_location": {
       "latitude": 40.8883,
       "longitude": -73.830834
-    },
-    "station_id": "442",
-    "complex_id": "442"
+    }
   },
   {
     "direction_labels": {
@@ -9582,15 +9582,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Open Cut",
+    "station_id": "443",
+    "complex_id": "443",
     "daytime_routes": [
       "5"
     ],
     "gtfs_location": {
       "latitude": 40.878663,
       "longitude": -73.838591
-    },
-    "station_id": "443",
-    "complex_id": "443"
+    }
   },
   {
     "direction_labels": {
@@ -9603,15 +9603,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Open Cut",
+    "station_id": "444",
+    "complex_id": "444",
     "daytime_routes": [
       "5"
     ],
     "gtfs_location": {
       "latitude": 40.869526,
       "longitude": -73.846384
-    },
-    "station_id": "444",
-    "complex_id": "444"
+    }
   },
   {
     "direction_labels": {
@@ -9624,15 +9624,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Open Cut",
+    "station_id": "445",
+    "complex_id": "445",
     "daytime_routes": [
       "5"
     ],
     "gtfs_location": {
       "latitude": 40.858985,
       "longitude": -73.855359
-    },
-    "station_id": "445",
-    "complex_id": "445"
+    }
   },
   {
     "direction_labels": {
@@ -9645,15 +9645,15 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Open Cut",
+    "station_id": "446",
+    "complex_id": "446",
     "daytime_routes": [
       "5"
     ],
     "gtfs_location": {
       "latitude": 40.854364,
       "longitude": -73.860495
-    },
-    "station_id": "446",
-    "complex_id": "446"
+    }
   },
   {
     "direction_labels": {
@@ -9666,15 +9666,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "447",
+    "complex_id": "447",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.7596,
       "longitude": -73.83003
-    },
-    "station_id": "447",
-    "complex_id": "447"
+    }
   },
   {
     "direction_labels": {
@@ -9687,15 +9687,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "448",
+    "complex_id": "448",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.754622,
       "longitude": -73.845625
-    },
-    "station_id": "448",
-    "complex_id": "448"
+    }
   },
   {
     "direction_labels": {
@@ -9708,15 +9708,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "449",
+    "complex_id": "449",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.75173,
       "longitude": -73.855334
-    },
-    "station_id": "449",
-    "complex_id": "449"
+    }
   },
   {
     "direction_labels": {
@@ -9729,15 +9729,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "450",
+    "complex_id": "450",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.749865,
       "longitude": -73.8627
-    },
-    "station_id": "450",
-    "complex_id": "450"
+    }
   },
   {
     "direction_labels": {
@@ -9750,15 +9750,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "451",
+    "complex_id": "451",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.749145,
       "longitude": -73.869527
-    },
-    "station_id": "451",
-    "complex_id": "451"
+    }
   },
   {
     "direction_labels": {
@@ -9771,15 +9771,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "452",
+    "complex_id": "452",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.748408,
       "longitude": -73.876613
-    },
-    "station_id": "452",
-    "complex_id": "452"
+    }
   },
   {
     "direction_labels": {
@@ -9792,15 +9792,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "453",
+    "complex_id": "453",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.747659,
       "longitude": -73.883697
-    },
-    "station_id": "453",
-    "complex_id": "453"
+    }
   },
   {
     "direction_labels": {
@@ -9813,15 +9813,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "454",
+    "complex_id": "616",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.746848,
       "longitude": -73.891394
-    },
-    "station_id": "454",
-    "complex_id": "616"
+    }
   },
   {
     "direction_labels": {
@@ -9834,15 +9834,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "455",
+    "complex_id": "455",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.746325,
       "longitude": -73.896403
-    },
-    "station_id": "455",
-    "complex_id": "455"
+    }
   },
   {
     "direction_labels": {
@@ -9855,15 +9855,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "456",
+    "complex_id": "456",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.74563,
       "longitude": -73.902984
-    },
-    "station_id": "456",
-    "complex_id": "456"
+    }
   },
   {
     "direction_labels": {
@@ -9876,15 +9876,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "457",
+    "complex_id": "457",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.744149,
       "longitude": -73.912549
-    },
-    "station_id": "457",
-    "complex_id": "457"
+    }
   },
   {
     "direction_labels": {
@@ -9897,15 +9897,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "458",
+    "complex_id": "458",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.743132,
       "longitude": -73.918435
-    },
-    "station_id": "458",
-    "complex_id": "458"
+    }
   },
   {
     "direction_labels": {
@@ -9918,15 +9918,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "459",
+    "complex_id": "459",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.743781,
       "longitude": -73.924016
-    },
-    "station_id": "459",
-    "complex_id": "459"
+    }
   },
   {
     "direction_labels": {
@@ -9939,15 +9939,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "460",
+    "complex_id": "460",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.744587,
       "longitude": -73.930997
-    },
-    "station_id": "460",
-    "complex_id": "460"
+    }
   },
   {
     "direction_labels": {
@@ -9960,15 +9960,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "461",
+    "complex_id": "461",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.750582,
       "longitude": -73.940202
-    },
-    "station_id": "461",
-    "complex_id": "461"
+    }
   },
   {
     "direction_labels": {
@@ -9981,6 +9981,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "461",
+    "complex_id": "461",
     "daytime_routes": [
       "N",
       "W"
@@ -9988,9 +9990,7 @@
     "gtfs_location": {
       "latitude": 40.750582,
       "longitude": -73.940202
-    },
-    "station_id": "461",
-    "complex_id": "461"
+    }
   },
   {
     "direction_labels": {
@@ -10003,15 +10003,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
+    "station_id": "462",
+    "complex_id": "606",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.747023,
       "longitude": -73.945264
-    },
-    "station_id": "462",
-    "complex_id": "606"
+    }
   },
   {
     "direction_labels": {
@@ -10024,15 +10024,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "463",
+    "complex_id": "463",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.742216,
       "longitude": -73.948916
-    },
-    "station_id": "463",
-    "complex_id": "463"
+    }
   },
   {
     "direction_labels": {
@@ -10045,15 +10045,15 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Subway",
+    "station_id": "464",
+    "complex_id": "464",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.742626,
       "longitude": -73.953581
-    },
-    "station_id": "464",
-    "complex_id": "464"
+    }
   },
   {
     "direction_labels": {
@@ -10066,15 +10066,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "465",
+    "complex_id": "610",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.751431,
       "longitude": -73.976041
-    },
-    "station_id": "465",
-    "complex_id": "610"
+    }
   },
   {
     "direction_labels": {
@@ -10087,15 +10087,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "466",
+    "complex_id": "609",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.753821,
       "longitude": -73.981963
-    },
-    "station_id": "466",
-    "complex_id": "609"
+    }
   },
   {
     "direction_labels": {
@@ -10108,15 +10108,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "467",
+    "complex_id": "611",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.755477,
       "longitude": -73.987691
-    },
-    "station_id": "467",
-    "complex_id": "611"
+    }
   },
   {
     "direction_labels": {
@@ -10129,15 +10129,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "468",
+    "complex_id": "611",
     "daytime_routes": [
       "S"
     ],
     "gtfs_location": {
       "latitude": 40.755983,
       "longitude": -73.986229
-    },
-    "station_id": "468",
-    "complex_id": "611"
+    }
   },
   {
     "direction_labels": {
@@ -10150,15 +10150,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "469",
+    "complex_id": "610",
     "daytime_routes": [
       "S"
     ],
     "gtfs_location": {
       "latitude": 40.752769,
       "longitude": -73.979189
-    },
-    "station_id": "469",
-    "complex_id": "610"
+    }
   },
   {
     "direction_labels": {
@@ -10171,15 +10171,15 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "471",
+    "complex_id": "471",
     "daytime_routes": [
       "7"
     ],
     "gtfs_location": {
       "latitude": 40.755882,
       "longitude": -74.00191
-    },
-    "station_id": "471",
-    "complex_id": "471"
+    }
   },
   {
     "direction_labels": {
@@ -10192,15 +10192,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "475",
+    "complex_id": "475",
     "daytime_routes": [
       "Q"
     ],
     "gtfs_location": {
       "latitude": 40.784318,
       "longitude": -73.947152
-    },
-    "station_id": "475",
-    "complex_id": "475"
+    }
   },
   {
     "direction_labels": {
@@ -10213,15 +10213,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "476",
+    "complex_id": "476",
     "daytime_routes": [
       "Q"
     ],
     "gtfs_location": {
       "latitude": 40.777891,
       "longitude": -73.951787
-    },
-    "station_id": "476",
-    "complex_id": "476"
+    }
   },
   {
     "direction_labels": {
@@ -10234,15 +10234,15 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
+    "station_id": "477",
+    "complex_id": "477",
     "daytime_routes": [
       "Q"
     ],
     "gtfs_location": {
       "latitude": 40.768799,
       "longitude": -73.958424
-    },
-    "station_id": "477",
-    "complex_id": "477"
+    }
   },
   {
     "direction_labels": {
@@ -10255,15 +10255,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
+    "station_id": "501",
+    "complex_id": "501",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.643748,
       "longitude": -74.073643
-    },
-    "station_id": "501",
-    "complex_id": "501"
+    }
   },
   {
     "direction_labels": {
@@ -10276,15 +10276,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "At Grade",
+    "station_id": "502",
+    "complex_id": "502",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.636949,
       "longitude": -74.074835
-    },
-    "station_id": "502",
-    "complex_id": "502"
+    }
   },
   {
     "direction_labels": {
@@ -10297,15 +10297,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Elevated",
+    "station_id": "503",
+    "complex_id": "503",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.627915,
       "longitude": -74.075162
-    },
-    "station_id": "503",
-    "complex_id": "503"
+    }
   },
   {
     "direction_labels": {
@@ -10318,15 +10318,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Elevated",
+    "station_id": "504",
+    "complex_id": "504",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.621319,
       "longitude": -74.071402
-    },
-    "station_id": "504",
-    "complex_id": "504"
+    }
   },
   {
     "direction_labels": {
@@ -10339,15 +10339,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
+    "station_id": "505",
+    "complex_id": "505",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.603117,
       "longitude": -74.084087
-    },
-    "station_id": "505",
-    "complex_id": "505"
+    }
   },
   {
     "direction_labels": {
@@ -10360,15 +10360,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Embankment",
+    "station_id": "506",
+    "complex_id": "506",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.596612,
       "longitude": -74.087368
-    },
-    "station_id": "506",
-    "complex_id": "506"
+    }
   },
   {
     "direction_labels": {
@@ -10381,15 +10381,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Embankment",
+    "station_id": "507",
+    "complex_id": "507",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.588849,
       "longitude": -74.09609
-    },
-    "station_id": "507",
-    "complex_id": "507"
+    }
   },
   {
     "direction_labels": {
@@ -10402,15 +10402,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Embankment",
+    "station_id": "508",
+    "complex_id": "508",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.583591,
       "longitude": -74.103338
-    },
-    "station_id": "508",
-    "complex_id": "508"
+    }
   },
   {
     "direction_labels": {
@@ -10423,15 +10423,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
+    "station_id": "509",
+    "complex_id": "509",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.578965,
       "longitude": -74.109704
-    },
-    "station_id": "509",
-    "complex_id": "509"
+    }
   },
   {
     "direction_labels": {
@@ -10444,15 +10444,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
+    "station_id": "510",
+    "complex_id": "510",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.57348,
       "longitude": -74.11721
-    },
-    "station_id": "510",
-    "complex_id": "510"
+    }
   },
   {
     "direction_labels": {
@@ -10465,15 +10465,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
+    "station_id": "511",
+    "complex_id": "511",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.56511,
       "longitude": -74.12632
-    },
-    "station_id": "511",
-    "complex_id": "511"
+    }
   },
   {
     "direction_labels": {
@@ -10486,15 +10486,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Embankment",
+    "station_id": "512",
+    "complex_id": "512",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.5564,
       "longitude": -74.136907
-    },
-    "station_id": "512",
-    "complex_id": "512"
+    }
   },
   {
     "direction_labels": {
@@ -10507,15 +10507,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
+    "station_id": "513",
+    "complex_id": "513",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.551231,
       "longitude": -74.151399
-    },
-    "station_id": "513",
-    "complex_id": "513"
+    }
   },
   {
     "direction_labels": {
@@ -10528,15 +10528,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Embankment",
+    "station_id": "514",
+    "complex_id": "514",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.544601,
       "longitude": -74.16457
-    },
-    "station_id": "514",
-    "complex_id": "514"
+    }
   },
   {
     "direction_labels": {
@@ -10549,15 +10549,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
+    "station_id": "515",
+    "complex_id": "515",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.54046,
       "longitude": -74.178217
-    },
-    "station_id": "515",
-    "complex_id": "515"
+    }
   },
   {
     "direction_labels": {
@@ -10570,15 +10570,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
+    "station_id": "516",
+    "complex_id": "516",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.533674,
       "longitude": -74.191794
-    },
-    "station_id": "516",
-    "complex_id": "516"
+    }
   },
   {
     "direction_labels": {
@@ -10591,15 +10591,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
+    "station_id": "517",
+    "complex_id": "517",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.525507,
       "longitude": -74.200064
-    },
-    "station_id": "517",
-    "complex_id": "517"
+    }
   },
   {
     "direction_labels": {
@@ -10612,15 +10612,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Embankment",
+    "station_id": "518",
+    "complex_id": "518",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.52241,
       "longitude": -74.217847
-    },
-    "station_id": "518",
-    "complex_id": "518"
+    }
   },
   {
     "direction_labels": {
@@ -10633,15 +10633,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
+    "station_id": "519",
+    "complex_id": "519",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.519631,
       "longitude": -74.229141
-    },
-    "station_id": "519",
-    "complex_id": "519"
+    }
   },
   {
     "direction_labels": {
@@ -10654,15 +10654,15 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "At Grade",
+    "station_id": "522",
+    "complex_id": "522",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.512764,
       "longitude": -74.251961
-    },
-    "station_id": "522",
-    "complex_id": "522"
+    }
   },
   {
     "direction_labels": {
@@ -10675,14 +10675,14 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "At Grade",
+    "station_id": "523",
+    "complex_id": "523",
     "daytime_routes": [
       "SIR"
     ],
     "gtfs_location": {
       "latitude": 40.516578,
       "longitude": -74.242096
-    },
-    "station_id": "523",
-    "complex_id": "523"
+    }
   }
 ]

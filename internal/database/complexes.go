@@ -7,6 +7,20 @@ import (
 	"github.com/jalavosus/mtadata/models"
 )
 
+func StationComplex(ctx context.Context, complexId string) (*models.StationComplex, error) {
+	var model = &models.StationComplex{
+		ComplexId: complexId,
+	}
+
+	conn := connection.ConnectionContext(ctx)
+
+	if err := conn.Find(model).Error; err != nil {
+		return nil, err
+	}
+
+	return model, nil
+}
+
 func StationComplexes(ctx context.Context, queryParams StationComplexQueryParams) (models.StationComplexes, error) {
 	var res models.StationComplexes
 

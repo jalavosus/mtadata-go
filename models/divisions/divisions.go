@@ -10,6 +10,7 @@ import (
 
 	"github.com/jalavosus/mtadata/internal/database/dialectors"
 	"github.com/jalavosus/mtadata/internal/utils"
+	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
 )
 
 const (
@@ -17,6 +18,16 @@ const (
 )
 
 type Divisions []Division
+
+func (d Divisions) Proto() (divisions []protosv1.Division) {
+	divisions = make([]protosv1.Division, len(d))
+
+	for i := range d {
+		divisions[i] = d[i].Proto()
+	}
+
+	return
+}
 
 func (d *Divisions) UnmarshalJSON(data []byte) error {
 	var divisions []Division

@@ -10,6 +10,7 @@ import (
 
 	"github.com/jalavosus/mtadata/internal/database/dialectors"
 	"github.com/jalavosus/mtadata/internal/utils"
+	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
 )
 
 const (
@@ -30,6 +31,13 @@ func NewGtfsLocation(lat, long float64) GtfsLocation {
 
 func GtfsLocationFromString(lat, long string) GtfsLocation {
 	return NewGtfsLocation(utils.ParseFloat64(lat), utils.ParseFloat64(long))
+}
+
+func (g GtfsLocation) Proto() *protosv1.GtfsLocation {
+	return &protosv1.GtfsLocation{
+		Latitude:  g.Latitude,
+		Longitude: g.Longitude,
+	}
 }
 
 func (GtfsLocation) GormDataType() string {
@@ -67,3 +75,7 @@ func (g *GtfsLocation) Scan(value any) error {
 func (g GtfsLocation) Value() (driver.Value, error) {
 	return fmt.Sprintf("(%[1]f, %[2]f)", g.Latitude, g.Longitude), nil
 }
+
+var (
+	_ ProtoMessage[protosv1.GtfsLocation] = (*GtfsLocation)(nil)
+)

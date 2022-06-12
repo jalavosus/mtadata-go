@@ -5,18 +5,12 @@ import (
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
-
-	"github.com/jalavosus/mtadata/internal/utils"
 )
 
-type StringEnum string
-
-func (b *StringEnum) Deserialize(_ []byte) error {
-	panic("not implemented")
-}
+type StringEnum uint
 
 func (b StringEnum) String() string {
-	return string(b)
+	panic("not implemented")
 }
 
 func (StringEnum) CreateDbType() string {
@@ -34,25 +28,25 @@ func (StringEnum) GormDBDataType(*gorm.DB, *schema.Field) string {
 // MarshalJSON implements json.Marshaler.
 // Returns the JSON-encoded value of BasicIota.String.
 func (b StringEnum) MarshalJSON() ([]byte, error) {
-	return utils.SerializeEnum(b, utils.SerializeJson)
+	panic("not implemented")
 }
 
-func (b *StringEnum) UnmarshalJSON(data []byte) error {
-	return b.Deserialize(data)
+func (b *StringEnum) UnmarshalJSON([]byte) error {
+	panic("not implemented")
 }
 
 func (b StringEnum) MarshalYAML() ([]byte, error) {
-	return utils.SerializeEnum(b, utils.SerializeYaml)
+	panic("not implemented")
 }
 
-func (b *StringEnum) UnmarshalYAML(data []byte) error {
-	return b.Deserialize(data)
+func (b *StringEnum) UnmarshalYAML([]byte) error {
+	panic("not implemented")
 }
 
-func (b *StringEnum) Scan(value any) error {
-	return b.Deserialize([]byte(value.(string)))
+func (b *StringEnum) Scan(any) error {
+	panic("not implemented")
 }
 
 func (b StringEnum) Value() (driver.Value, error) {
-	return b.String(), nil
+	panic("not implemented")
 }

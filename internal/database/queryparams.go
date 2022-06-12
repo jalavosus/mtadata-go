@@ -3,6 +3,9 @@ package database
 import (
 	"strings"
 
+	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
+
+	"github.com/jalavosus/mtadata/internal/utils"
 	"github.com/jalavosus/mtadata/models/boroughs"
 	"github.com/jalavosus/mtadata/models/divisions"
 	"github.com/jalavosus/mtadata/models/routes"
@@ -85,10 +88,70 @@ func (p BaseQueryParams) ToQuery(queryParams []string, args []any) (params Query
 	return
 }
 
+func (p *BaseQueryParams) FromProto(params *protosv1.BaseQueryParams, orderByStation bool) BaseQueryParams {
+	baseParams := BaseQueryParams{}
+
+	if params == nil {
+		return baseParams
+	}
+
+	if params.Borough != nil {
+		baseParams.Borough = utils.ToPointer(boroughs.FromProto(params.GetBorough()))
+	}
+
+	if params.Division != nil {
+		baseParams.Division = utils.ToPointer(divisions.FromProto(params.GetDivision()))
+	}
+
+	// if params.Route != nil {
+	// 	p.Route = utils.ToPointer(routes.)
+	// }
+
+	if params.OrderBy != nil {
+		switch params.GetOrderBy() {
+		case protosv1.QueryOrderBy_GTFS_STOP_ID:
+			baseParams.OrderBy = utils.ToPointer(OrderByGtfsStopId)
+		case protosv1.QueryOrderBy_STATION_ID:
+			baseParams.OrderBy = utils.ToPointer(OrderByStationId)
+		case protosv1.QueryOrderBy_COMPLEX_ID:
+			baseParams.OrderBy = utils.ToPointer(OrderByComplexId)
+		default:
+			if orderByStation {
+				baseParams.OrderBy = utils.ToPointer(OrderByGtfsStopId)
+			} else {
+				baseParams.OrderBy = utils.ToPointer(OrderByComplexId)
+			}
+		}
+	}
+
+	if params.Limit != nil && params.GetLimit() != 0 {
+		baseParams.Limit = utils.ToPointer(int(params.GetLimit()))
+	}
+
+	return baseParams
+}
+
 type StationQueryParams struct {
 	BaseQueryParams
-	StationId *string
-	ComplexId *string
+	StationId  *string
+	ComplexId  *string
+	GtfsStopId *string
+}
+
+func (p *StationQueryParams) FromProto(params *protosv1.StationsQuery) StationQueryParams {
+	var baseParams BaseQueryParams
+
+	if params.QueryParams != nil {
+		baseParams = new(BaseQueryParams).
+			FromProto(params.QueryParams.BaseParams, true)
+	}
+
+	return StationQueryParams{
+		BaseQueryParams: baseParams,
+		StationId:       params.QueryParams.StationId,
+		ComplexId:       params.QueryParams.ComplexId,
+		GtfsStopId:      params.QueryParams.GtfsStopId,
+	}
 }
 
 func (p StationQueryParams) ToQuery() (params QueryParams, hasParams bool) {
@@ -99,6 +162,7 @@ func (p StationQueryParams) ToQuery() (params QueryParams, hasParams bool) {
 
 	queryParams, args = checkAppendParam(p.StationId, "station_id = ?", queryParams, args)
 	queryParams, args = checkAppendParam(p.ComplexId, "complex_id = ?", queryParams, args)
+	queryParams, args = checkAppendParam(p.GtfsStopId, "gtfs_stop_id = ?", queryParams, args)
 
 	params, hasParams = p.BaseQueryParams.ToQuery(queryParams, args)
 	params.OrderBy = OrderByGtfsStopId
@@ -113,6 +177,20 @@ func (p StationQueryParams) ToQuery() (params QueryParams, hasParams bool) {
 type StationComplexQueryParams struct {
 	BaseQueryParams
 	ComplexId *string
+}
+
+func (p *StationComplexQueryParams) FromProto(params *protosv1.StationComplexesQuery) StationComplexQueryParams {
+	var baseParams BaseQueryParams
+
+	if params.QueryParams != nil {
+		baseParams = new(BaseQueryParams).
+			FromProto(params.QueryParams.BaseParams, false)
+	}
+
+	return StationComplexQueryParams{
+		BaseQueryParams: baseParams,
+		ComplexId:       params.QueryParams.ComplexId,
+	}
 }
 
 func (p StationComplexQueryParams) ToQuery() (params QueryParams, hasParams bool) {

@@ -9,18 +9,21 @@ import (
 	"github.com/jalavosus/mtadata/internal/database/dialectors"
 	"github.com/jalavosus/mtadata/internal/utils"
 	"github.com/jalavosus/mtadata/models/enums"
+	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
 )
 
-type Structure enums.StringEnum
+//go:generate stringer -type Structure -linecomment
+
+type Structure enums.GenericEnum[protosv1.Structure]
 
 const (
-	AtGrade    = Structure("At Grade")
-	Elevated   = Structure("Elevated")
-	Embankment = Structure("Embankment")
-	OpenCut    = Structure("Open Cut")
-	Subway     = Structure("Subway")
-	Viaduct    = Structure("Viaduct")
-	Unknown    = Structure("Unknown")
+	Unknown    Structure = iota // Unknown
+	AtGrade                     // At Grade
+	Elevated                    // Elevated
+	Embankment                  // Embankment
+	OpenCut                     // Open Cut
+	Subway                      // Subway
+	Viaduct                     // Viaduct
 )
 
 const (
@@ -40,13 +43,29 @@ func FromString(s string) Structure {
 	return utils.EnumFromString(s, AllStructures, Unknown)
 }
 
-func (s Structure) String() string {
-	return string(s)
+func FromProto(val protosv1.Structure) (s Structure) {
+	switch val {
+	case protosv1.Structure_AT_GRADE:
+		s = AtGrade
+	case protosv1.Structure_ELEVATED:
+		s = Elevated
+	case protosv1.Structure_EMBANKMENT:
+		s = Embankment
+	case protosv1.Structure_OPEN_CUT:
+		s = OpenCut
+	case protosv1.Structure_SUBWAY:
+		s = Subway
+	case protosv1.Structure_VIADUCT:
+		s = Viaduct
+	default:
+		s = Unknown
+	}
+
+	return
 }
 
-func (s *Structure) Deserialize(data []byte) error {
-	*s = utils.DeserializeEnum(data, FromString)
-	return nil
+func (s Structure) Proto() protosv1.Structure {
+	return protosv1.Structure(s)
 }
 
 func (Structure) GormDataType() string {
@@ -80,6 +99,24 @@ func (s Structure) Value() (driver.Value, error) {
 	return utils.EnumToDbValue(s), nil
 }
 
+// MarshalJSON implements json.Marshaler.
+// Returns the JSON-encoded value of Division.String.
+func (s Structure) MarshalJSON() ([]byte, error) {
+	return utils.SerializeEnum(s, utils.SerializeJson)
+}
+
+func (s *Structure) UnmarshalJSON(data []byte) error {
+	return utils.DeserializeEnum(data, s, utils.SerializeJson, FromString)
+}
+
+func (s Structure) MarshalYAML() ([]byte, error) {
+	return utils.SerializeEnum(s, utils.SerializeYaml)
+}
+
+func (s *Structure) UnmarshalYAML(data []byte) error {
+	return utils.DeserializeEnum(data, s, utils.SerializeYaml, FromString)
+}
+
 func (*Structure) QueryClause() string {
 	return "structure = ?"
 }
@@ -100,3 +137,7 @@ func (s *Structure) Invalid() bool {
 
 	return *s == Unknown
 }
+
+var (
+	_ enums.Enum[protosv1.Structure] = (*Structure)(nil)
+)

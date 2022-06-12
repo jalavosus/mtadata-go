@@ -12,6 +12,7 @@ import (
 	"github.com/jalavosus/mtadata/internal/utils"
 	"github.com/jalavosus/mtadata/models/boroughs"
 	"github.com/jalavosus/mtadata/models/divisions"
+	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
 	"github.com/jalavosus/mtadata/models/routes"
 )
 
@@ -23,6 +24,16 @@ type StationComplex struct {
 	Divisions     divisions.Divisions `json:"divisions" yaml:"divisions" gorm:"type:division[]"`
 	DaytimeRoutes routes.Routes       `json:"daytime_routes" yaml:"daytime_routes" gorm:"type:route[]"`
 	StationInfos  StationInfos        `json:"station_infos" yaml:"station_infos" gorm:"type:station_info[]"`
+}
+
+func (s StationComplex) Proto() *protosv1.StationComplex {
+	return &protosv1.StationComplex{
+		Borough:       s.Borough.Proto(),
+		ComplexId:     s.ComplexId,
+		Divisions:     s.Divisions.Proto(),
+		DaytimeRoutes: s.DaytimeRoutes.Proto(),
+		StationInfos:  s.StationInfos.Proto(),
+	}
 }
 
 var stationComplexStationFields = []string{
@@ -85,3 +96,17 @@ func (s StationComplex) PrettyPrint() {
 }
 
 type StationComplexes []StationComplex
+
+func (s StationComplexes) Proto() (complexes []*protosv1.StationComplex) {
+	complexes = make([]*protosv1.StationComplex, len(s))
+
+	for i := range s {
+		complexes[i] = s[i].Proto()
+	}
+
+	return
+}
+
+var (
+	_ ProtoMessage[protosv1.StationComplex] = (*StationComplex)(nil)
+)

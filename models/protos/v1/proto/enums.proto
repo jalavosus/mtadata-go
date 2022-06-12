@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+package mtadata.v1;
+
+enum Route {
+  UNKNOWN_ROUTE = 0;
+  ONE = 1;
+  TWO = 2;
+  THREE = 3;
+  FOUR = 4;
+  FIVE = 5;
+  SIX = 6;
+  SEVEN = 7;
+  A = 8;
+  B = 9;
+  C = 10;
+  D = 11;
+  E = 12;
+  F = 13;
+  G = 14;
+  J = 15;
+  L = 16;
+  M = 17;
+  N = 18;
+  Q = 19;
+  R = 20;
+  S = 21;
+  SIR = 22;
+  W = 23;
+  Z = 24;
+}
+
+enum Division {
+  UNKNOWN_DIVISION = 0;
+  BMT = 1;
+  IND = 2;
+  IRT = 3;
+  SIR_DIVISION = 4;
+}
+
+enum Borough {
+  UNKNOWN_BOROUGH = 0;
+  MANHATTAN = 1;
+  BROOKLYN = 2;
+  BRONX = 3;
+  QUEENS = 4;
+  STATEN_ISLAND = 5;
+}
+
+enum Structure {
+  UNKNOWN_STRUCTURE = 0;
+  AT_GRADE = 1;
+  ELEVATED = 2;
+  EMBANKMENT = 3;
+  OPEN_CUT = 4;
+  SUBWAY = 5;
+  VIADUCT = 6;
+}

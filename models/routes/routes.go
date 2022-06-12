@@ -10,6 +10,7 @@ import (
 
 	"github.com/jalavosus/mtadata/internal/database/dialectors"
 	"github.com/jalavosus/mtadata/internal/utils"
+	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
 )
 
 const (
@@ -17,6 +18,16 @@ const (
 )
 
 type Routes []Route
+
+func (r Routes) Proto() (routes []protosv1.Route) {
+	routes = make([]protosv1.Route, len(r))
+
+	for i := range r {
+		routes[i] = r[i].Proto()
+	}
+
+	return
+}
 
 func (r *Routes) UnmarshalJSON(data []byte) error {
 	var routes []Route

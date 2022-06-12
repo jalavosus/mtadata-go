@@ -1,6 +1,7 @@
 [
   {
     "borough": "Queens",
+    "complex_id": "1",
     "divisions": [
       "BMT"
     ],
@@ -13,11 +14,11 @@
         "station_id": "1",
         "gtfs_stop_id": "R01"
       }
-    ],
-    "complex_id": "1"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "10",
     "divisions": [
       "BMT"
     ],
@@ -31,11 +32,11 @@
         "station_id": "10",
         "gtfs_stop_id": "R15"
       }
-    ],
-    "complex_id": "10"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "100",
     "divisions": [
       "BMT"
     ],
@@ -48,11 +49,11 @@
         "station_id": "100",
         "gtfs_stop_id": "M14"
       }
-    ],
-    "complex_id": "100"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "101",
     "divisions": [
       "BMT"
     ],
@@ -66,11 +67,11 @@
         "station_id": "101",
         "gtfs_stop_id": "M16"
       }
-    ],
-    "complex_id": "101"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "103",
     "divisions": [
       "BMT"
     ],
@@ -83,11 +84,11 @@
         "station_id": "103",
         "gtfs_stop_id": "M19"
       }
-    ],
-    "complex_id": "103"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "107",
     "divisions": [
       "BMT"
     ],
@@ -100,11 +101,11 @@
         "station_id": "107",
         "gtfs_stop_id": "M23"
       }
-    ],
-    "complex_id": "107"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "108",
     "divisions": [
       "BMT"
     ],
@@ -116,11 +117,11 @@
         "station_id": "108",
         "gtfs_stop_id": "M01"
       }
-    ],
-    "complex_id": "108"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "109",
     "divisions": [
       "BMT"
     ],
@@ -132,11 +133,11 @@
         "station_id": "109",
         "gtfs_stop_id": "M04"
       }
-    ],
-    "complex_id": "109"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "110",
     "divisions": [
       "BMT"
     ],
@@ -148,11 +149,11 @@
         "station_id": "110",
         "gtfs_stop_id": "M05"
       }
-    ],
-    "complex_id": "110"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "111",
     "divisions": [
       "BMT"
     ],
@@ -164,11 +165,11 @@
         "station_id": "111",
         "gtfs_stop_id": "M06"
       }
-    ],
-    "complex_id": "111"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "113",
     "divisions": [
       "BMT"
     ],
@@ -180,11 +181,11 @@
         "station_id": "113",
         "gtfs_stop_id": "M09"
       }
-    ],
-    "complex_id": "113"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "114",
     "divisions": [
       "BMT"
     ],
@@ -196,11 +197,11 @@
         "station_id": "114",
         "gtfs_stop_id": "M10"
       }
-    ],
-    "complex_id": "114"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "118",
     "divisions": [
       "BMT"
     ],
@@ -212,11 +213,11 @@
         "station_id": "118",
         "gtfs_stop_id": "L05"
       }
-    ],
-    "complex_id": "118"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "119",
     "divisions": [
       "BMT"
     ],
@@ -228,11 +229,11 @@
         "station_id": "119",
         "gtfs_stop_id": "L06"
       }
-    ],
-    "complex_id": "119"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "120",
     "divisions": [
       "BMT"
     ],
@@ -244,11 +245,11 @@
         "station_id": "120",
         "gtfs_stop_id": "L08"
       }
-    ],
-    "complex_id": "120"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "122",
     "divisions": [
       "BMT"
     ],
@@ -260,11 +261,11 @@
         "station_id": "122",
         "gtfs_stop_id": "L11"
       }
-    ],
-    "complex_id": "122"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "123",
     "divisions": [
       "BMT"
     ],
@@ -276,11 +277,11 @@
         "station_id": "123",
         "gtfs_stop_id": "L12"
       }
-    ],
-    "complex_id": "123"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "124",
     "divisions": [
       "BMT"
     ],
@@ -292,11 +293,11 @@
         "station_id": "124",
         "gtfs_stop_id": "L13"
       }
-    ],
-    "complex_id": "124"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "125",
     "divisions": [
       "BMT"
     ],
@@ -308,11 +309,11 @@
         "station_id": "125",
         "gtfs_stop_id": "L14"
       }
-    ],
-    "complex_id": "125"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "126",
     "divisions": [
       "BMT"
     ],
@@ -324,11 +325,11 @@
         "station_id": "126",
         "gtfs_stop_id": "L15"
       }
-    ],
-    "complex_id": "126"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "127",
     "divisions": [
       "BMT"
     ],
@@ -340,11 +341,11 @@
         "station_id": "127",
         "gtfs_stop_id": "L16"
       }
-    ],
-    "complex_id": "127"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "129",
     "divisions": [
       "BMT"
     ],
@@ -356,11 +357,11 @@
         "station_id": "129",
         "gtfs_stop_id": "L19"
       }
-    ],
-    "complex_id": "129"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "13",
     "divisions": [
       "BMT"
     ],
@@ -373,11 +374,11 @@
         "station_id": "13",
         "gtfs_stop_id": "R18"
       }
-    ],
-    "complex_id": "13"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "130",
     "divisions": [
       "BMT"
     ],
@@ -389,11 +390,11 @@
         "station_id": "130",
         "gtfs_stop_id": "L20"
       }
-    ],
-    "complex_id": "130"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "131",
     "divisions": [
       "BMT"
     ],
@@ -405,11 +406,11 @@
         "station_id": "131",
         "gtfs_stop_id": "L21"
       }
-    ],
-    "complex_id": "131"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "133",
     "divisions": [
       "BMT"
     ],
@@ -421,11 +422,11 @@
         "station_id": "133",
         "gtfs_stop_id": "L24"
       }
-    ],
-    "complex_id": "133"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "134",
     "divisions": [
       "BMT"
     ],
@@ -437,11 +438,11 @@
         "station_id": "134",
         "gtfs_stop_id": "L25"
       }
-    ],
-    "complex_id": "134"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "135",
     "divisions": [
       "BMT"
     ],
@@ -453,11 +454,11 @@
         "station_id": "135",
         "gtfs_stop_id": "L26"
       }
-    ],
-    "complex_id": "135"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "136",
     "divisions": [
       "BMT"
     ],
@@ -469,11 +470,11 @@
         "station_id": "136",
         "gtfs_stop_id": "L27"
       }
-    ],
-    "complex_id": "136"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "137",
     "divisions": [
       "BMT"
     ],
@@ -485,11 +486,11 @@
         "station_id": "137",
         "gtfs_stop_id": "L28"
       }
-    ],
-    "complex_id": "137"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "138",
     "divisions": [
       "BMT"
     ],
@@ -501,11 +502,11 @@
         "station_id": "138",
         "gtfs_stop_id": "L29"
       }
-    ],
-    "complex_id": "138"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "14",
     "divisions": [
       "BMT"
     ],
@@ -518,11 +519,11 @@
         "station_id": "14",
         "gtfs_stop_id": "R19"
       }
-    ],
-    "complex_id": "14"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "141",
     "divisions": [
       "BMT"
     ],
@@ -534,11 +535,11 @@
         "station_id": "141",
         "gtfs_stop_id": "S03"
       }
-    ],
-    "complex_id": "141"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "143",
     "divisions": [
       "IND"
     ],
@@ -550,11 +551,11 @@
         "station_id": "143",
         "gtfs_stop_id": "A02"
       }
-    ],
-    "complex_id": "143"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "144",
     "divisions": [
       "IND"
     ],
@@ -566,11 +567,11 @@
         "station_id": "144",
         "gtfs_stop_id": "A03"
       }
-    ],
-    "complex_id": "144"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "145",
     "divisions": [
       "IND"
     ],
@@ -582,11 +583,11 @@
         "station_id": "145",
         "gtfs_stop_id": "A05"
       }
-    ],
-    "complex_id": "145"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "146",
     "divisions": [
       "IND"
     ],
@@ -598,11 +599,11 @@
         "station_id": "146",
         "gtfs_stop_id": "A06"
       }
-    ],
-    "complex_id": "146"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "147",
     "divisions": [
       "IND"
     ],
@@ -614,11 +615,11 @@
         "station_id": "147",
         "gtfs_stop_id": "A07"
       }
-    ],
-    "complex_id": "147"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "149",
     "divisions": [
       "IND"
     ],
@@ -630,11 +631,11 @@
         "station_id": "149",
         "gtfs_stop_id": "A10"
       }
-    ],
-    "complex_id": "149"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "150",
     "divisions": [
       "IND"
     ],
@@ -646,11 +647,11 @@
         "station_id": "150",
         "gtfs_stop_id": "A11"
       }
-    ],
-    "complex_id": "150"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "151",
     "divisions": [
       "IND"
     ],
@@ -669,11 +670,11 @@
         "station_id": "151",
         "gtfs_stop_id": "D13"
       }
-    ],
-    "complex_id": "151"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "152",
     "divisions": [
       "IND"
     ],
@@ -686,11 +687,11 @@
         "station_id": "152",
         "gtfs_stop_id": "A14"
       }
-    ],
-    "complex_id": "152"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "153",
     "divisions": [
       "IND"
     ],
@@ -705,11 +706,11 @@
         "station_id": "153",
         "gtfs_stop_id": "A15"
       }
-    ],
-    "complex_id": "153"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "154",
     "divisions": [
       "IND"
     ],
@@ -722,11 +723,11 @@
         "station_id": "154",
         "gtfs_stop_id": "A16"
       }
-    ],
-    "complex_id": "154"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "155",
     "divisions": [
       "IND"
     ],
@@ -739,11 +740,11 @@
         "station_id": "155",
         "gtfs_stop_id": "A17"
       }
-    ],
-    "complex_id": "155"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "156",
     "divisions": [
       "IND"
     ],
@@ -756,11 +757,11 @@
         "station_id": "156",
         "gtfs_stop_id": "A18"
       }
-    ],
-    "complex_id": "156"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "157",
     "divisions": [
       "IND"
     ],
@@ -773,11 +774,11 @@
         "station_id": "157",
         "gtfs_stop_id": "A19"
       }
-    ],
-    "complex_id": "157"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "158",
     "divisions": [
       "IND"
     ],
@@ -790,11 +791,11 @@
         "station_id": "158",
         "gtfs_stop_id": "A20"
       }
-    ],
-    "complex_id": "158"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "159",
     "divisions": [
       "IND"
     ],
@@ -807,11 +808,11 @@
         "station_id": "159",
         "gtfs_stop_id": "A21"
       }
-    ],
-    "complex_id": "159"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "16",
     "divisions": [
       "BMT"
     ],
@@ -824,11 +825,11 @@
         "station_id": "16",
         "gtfs_stop_id": "R21"
       }
-    ],
-    "complex_id": "16"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "160",
     "divisions": [
       "IND"
     ],
@@ -841,11 +842,11 @@
         "station_id": "160",
         "gtfs_stop_id": "A22"
       }
-    ],
-    "complex_id": "160"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "162",
     "divisions": [
       "IND"
     ],
@@ -858,11 +859,11 @@
         "station_id": "162",
         "gtfs_stop_id": "A25"
       }
-    ],
-    "complex_id": "162"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "164",
     "divisions": [
       "IND"
     ],
@@ -876,11 +877,11 @@
         "station_id": "164",
         "gtfs_stop_id": "A28"
       }
-    ],
-    "complex_id": "164"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "165",
     "divisions": [
       "IND"
     ],
@@ -893,11 +894,11 @@
         "station_id": "165",
         "gtfs_stop_id": "A30"
       }
-    ],
-    "complex_id": "165"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "167",
     "divisions": [
       "IND"
     ],
@@ -919,11 +920,11 @@
         "station_id": "167",
         "gtfs_stop_id": "D20"
       }
-    ],
-    "complex_id": "167"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "168",
     "divisions": [
       "IND"
     ],
@@ -936,11 +937,11 @@
         "station_id": "168",
         "gtfs_stop_id": "A33"
       }
-    ],
-    "complex_id": "168"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "169",
     "divisions": [
       "IND"
     ],
@@ -954,11 +955,11 @@
         "station_id": "169",
         "gtfs_stop_id": "A34"
       }
-    ],
-    "complex_id": "169"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "17",
     "divisions": [
       "BMT"
     ],
@@ -971,11 +972,11 @@
         "station_id": "17",
         "gtfs_stop_id": "R22"
       }
-    ],
-    "complex_id": "17"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "173",
     "divisions": [
       "IND"
     ],
@@ -988,11 +989,11 @@
         "station_id": "173",
         "gtfs_stop_id": "A40"
       }
-    ],
-    "complex_id": "173"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "175",
     "divisions": [
       "IND"
     ],
@@ -1006,11 +1007,11 @@
         "station_id": "175",
         "gtfs_stop_id": "A42"
       }
-    ],
-    "complex_id": "175"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "176",
     "divisions": [
       "IND"
     ],
@@ -1022,11 +1023,11 @@
         "station_id": "176",
         "gtfs_stop_id": "A43"
       }
-    ],
-    "complex_id": "176"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "177",
     "divisions": [
       "IND"
     ],
@@ -1038,11 +1039,11 @@
         "station_id": "177",
         "gtfs_stop_id": "A44"
       }
-    ],
-    "complex_id": "177"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "179",
     "divisions": [
       "IND"
     ],
@@ -1055,11 +1056,11 @@
         "station_id": "179",
         "gtfs_stop_id": "A46"
       }
-    ],
-    "complex_id": "179"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "180",
     "divisions": [
       "IND"
     ],
@@ -1071,11 +1072,11 @@
         "station_id": "180",
         "gtfs_stop_id": "A47"
       }
-    ],
-    "complex_id": "180"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "181",
     "divisions": [
       "IND"
     ],
@@ -1088,11 +1089,11 @@
         "station_id": "181",
         "gtfs_stop_id": "A48"
       }
-    ],
-    "complex_id": "181"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "182",
     "divisions": [
       "IND"
     ],
@@ -1104,11 +1105,11 @@
         "station_id": "182",
         "gtfs_stop_id": "A49"
       }
-    ],
-    "complex_id": "182"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "183",
     "divisions": [
       "IND"
     ],
@@ -1120,11 +1121,11 @@
         "station_id": "183",
         "gtfs_stop_id": "A50"
       }
-    ],
-    "complex_id": "183"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "185",
     "divisions": [
       "IND"
     ],
@@ -1136,11 +1137,11 @@
         "station_id": "185",
         "gtfs_stop_id": "A52"
       }
-    ],
-    "complex_id": "185"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "186",
     "divisions": [
       "IND"
     ],
@@ -1152,11 +1153,11 @@
         "station_id": "186",
         "gtfs_stop_id": "A53"
       }
-    ],
-    "complex_id": "186"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "187",
     "divisions": [
       "IND"
     ],
@@ -1168,11 +1169,11 @@
         "station_id": "187",
         "gtfs_stop_id": "A54"
       }
-    ],
-    "complex_id": "187"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "188",
     "divisions": [
       "IND"
     ],
@@ -1185,11 +1186,11 @@
         "station_id": "188",
         "gtfs_stop_id": "A55"
       }
-    ],
-    "complex_id": "188"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "189",
     "divisions": [
       "IND"
     ],
@@ -1201,11 +1202,11 @@
         "station_id": "189",
         "gtfs_stop_id": "A57"
       }
-    ],
-    "complex_id": "189"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "190",
     "divisions": [
       "IND"
     ],
@@ -1217,11 +1218,11 @@
         "station_id": "190",
         "gtfs_stop_id": "A59"
       }
-    ],
-    "complex_id": "190"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "191",
     "divisions": [
       "IND"
     ],
@@ -1233,11 +1234,11 @@
         "station_id": "191",
         "gtfs_stop_id": "A60"
       }
-    ],
-    "complex_id": "191"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "192",
     "divisions": [
       "IND"
     ],
@@ -1249,11 +1250,11 @@
         "station_id": "192",
         "gtfs_stop_id": "A61"
       }
-    ],
-    "complex_id": "192"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "193",
     "divisions": [
       "IND"
     ],
@@ -1265,11 +1266,11 @@
         "station_id": "193",
         "gtfs_stop_id": "A63"
       }
-    ],
-    "complex_id": "193"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "194",
     "divisions": [
       "IND"
     ],
@@ -1281,11 +1282,11 @@
         "station_id": "194",
         "gtfs_stop_id": "A64"
       }
-    ],
-    "complex_id": "194"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "195",
     "divisions": [
       "IND"
     ],
@@ -1297,11 +1298,11 @@
         "station_id": "195",
         "gtfs_stop_id": "A65"
       }
-    ],
-    "complex_id": "195"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "196",
     "divisions": [
       "IND"
     ],
@@ -1313,11 +1314,11 @@
         "station_id": "196",
         "gtfs_stop_id": "H01"
       }
-    ],
-    "complex_id": "196"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "197",
     "divisions": [
       "IND"
     ],
@@ -1329,11 +1330,11 @@
         "station_id": "197",
         "gtfs_stop_id": "H02"
       }
-    ],
-    "complex_id": "197"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "198",
     "divisions": [
       "IND"
     ],
@@ -1345,11 +1346,11 @@
         "station_id": "198",
         "gtfs_stop_id": "H03"
       }
-    ],
-    "complex_id": "198"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "199",
     "divisions": [
       "IND"
     ],
@@ -1362,11 +1363,11 @@
         "station_id": "199",
         "gtfs_stop_id": "H04"
       }
-    ],
-    "complex_id": "199"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "2",
     "divisions": [
       "BMT"
     ],
@@ -1379,11 +1380,11 @@
         "station_id": "2",
         "gtfs_stop_id": "R03"
       }
-    ],
-    "complex_id": "2"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "20",
     "divisions": [
       "BMT"
     ],
@@ -1396,11 +1397,11 @@
         "station_id": "20",
         "gtfs_stop_id": "R24"
       }
-    ],
-    "complex_id": "20"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "200",
     "divisions": [
       "IND"
     ],
@@ -1413,11 +1414,11 @@
         "station_id": "200",
         "gtfs_stop_id": "H12"
       }
-    ],
-    "complex_id": "200"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "201",
     "divisions": [
       "IND"
     ],
@@ -1430,11 +1431,11 @@
         "station_id": "201",
         "gtfs_stop_id": "H13"
       }
-    ],
-    "complex_id": "201"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "202",
     "divisions": [
       "IND"
     ],
@@ -1447,11 +1448,11 @@
         "station_id": "202",
         "gtfs_stop_id": "H14"
       }
-    ],
-    "complex_id": "202"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "203",
     "divisions": [
       "IND"
     ],
@@ -1464,11 +1465,11 @@
         "station_id": "203",
         "gtfs_stop_id": "H15"
       }
-    ],
-    "complex_id": "203"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "204",
     "divisions": [
       "IND"
     ],
@@ -1480,11 +1481,11 @@
         "station_id": "204",
         "gtfs_stop_id": "H06"
       }
-    ],
-    "complex_id": "204"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "205",
     "divisions": [
       "IND"
     ],
@@ -1496,11 +1497,11 @@
         "station_id": "205",
         "gtfs_stop_id": "H07"
       }
-    ],
-    "complex_id": "205"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "206",
     "divisions": [
       "IND"
     ],
@@ -1512,11 +1513,11 @@
         "station_id": "206",
         "gtfs_stop_id": "H08"
       }
-    ],
-    "complex_id": "206"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "207",
     "divisions": [
       "IND"
     ],
@@ -1528,11 +1529,11 @@
         "station_id": "207",
         "gtfs_stop_id": "H09"
       }
-    ],
-    "complex_id": "207"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "208",
     "divisions": [
       "IND"
     ],
@@ -1544,11 +1545,11 @@
         "station_id": "208",
         "gtfs_stop_id": "H10"
       }
-    ],
-    "complex_id": "208"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "209",
     "divisions": [
       "IND"
     ],
@@ -1560,11 +1561,11 @@
         "station_id": "209",
         "gtfs_stop_id": "H11"
       }
-    ],
-    "complex_id": "209"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "210",
     "divisions": [
       "IND"
     ],
@@ -1576,11 +1577,11 @@
         "station_id": "210",
         "gtfs_stop_id": "D01"
       }
-    ],
-    "complex_id": "210"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "211",
     "divisions": [
       "IND"
     ],
@@ -1593,11 +1594,11 @@
         "station_id": "211",
         "gtfs_stop_id": "D03"
       }
-    ],
-    "complex_id": "211"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "212",
     "divisions": [
       "IND"
     ],
@@ -1610,11 +1611,11 @@
         "station_id": "212",
         "gtfs_stop_id": "D04"
       }
-    ],
-    "complex_id": "212"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "213",
     "divisions": [
       "IND"
     ],
@@ -1627,11 +1628,11 @@
         "station_id": "213",
         "gtfs_stop_id": "D05"
       }
-    ],
-    "complex_id": "213"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "214",
     "divisions": [
       "IND"
     ],
@@ -1644,11 +1645,11 @@
         "station_id": "214",
         "gtfs_stop_id": "D06"
       }
-    ],
-    "complex_id": "214"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "215",
     "divisions": [
       "IND"
     ],
@@ -1661,11 +1662,11 @@
         "station_id": "215",
         "gtfs_stop_id": "D07"
       }
-    ],
-    "complex_id": "215"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "216",
     "divisions": [
       "IND"
     ],
@@ -1678,11 +1679,11 @@
         "station_id": "216",
         "gtfs_stop_id": "D08"
       }
-    ],
-    "complex_id": "216"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "217",
     "divisions": [
       "IND"
     ],
@@ -1695,11 +1696,11 @@
         "station_id": "217",
         "gtfs_stop_id": "D09"
       }
-    ],
-    "complex_id": "217"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "218",
     "divisions": [
       "IND"
     ],
@@ -1712,11 +1713,11 @@
         "station_id": "218",
         "gtfs_stop_id": "D10"
       }
-    ],
-    "complex_id": "218"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "22",
     "divisions": [
       "BMT"
     ],
@@ -1729,11 +1730,11 @@
         "station_id": "22",
         "gtfs_stop_id": "R26"
       }
-    ],
-    "complex_id": "22"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "220",
     "divisions": [
       "IND"
     ],
@@ -1746,11 +1747,11 @@
         "station_id": "220",
         "gtfs_stop_id": "D12"
       }
-    ],
-    "complex_id": "220"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "221",
     "divisions": [
       "IND"
     ],
@@ -1762,11 +1763,11 @@
         "station_id": "221",
         "gtfs_stop_id": "B04"
       }
-    ],
-    "complex_id": "221"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "222",
     "divisions": [
       "IND"
     ],
@@ -1778,11 +1779,11 @@
         "station_id": "222",
         "gtfs_stop_id": "B06"
       }
-    ],
-    "complex_id": "222"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "223",
     "divisions": [
       "IND"
     ],
@@ -1795,11 +1796,11 @@
         "station_id": "223",
         "gtfs_stop_id": "B08"
       }
-    ],
-    "complex_id": "223"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "224",
     "divisions": [
       "IND"
     ],
@@ -1811,11 +1812,11 @@
         "station_id": "224",
         "gtfs_stop_id": "B10"
       }
-    ],
-    "complex_id": "224"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "225",
     "divisions": [
       "IND"
     ],
@@ -1830,11 +1831,11 @@
         "station_id": "225",
         "gtfs_stop_id": "D15"
       }
-    ],
-    "complex_id": "225"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "228",
     "divisions": [
       "IND"
     ],
@@ -1847,11 +1848,11 @@
         "station_id": "228",
         "gtfs_stop_id": "D18"
       }
-    ],
-    "complex_id": "228"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "231",
     "divisions": [
       "IND"
     ],
@@ -1864,11 +1865,11 @@
         "station_id": "231",
         "gtfs_stop_id": "D22"
       }
-    ],
-    "complex_id": "231"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "232",
     "divisions": [
       "IND"
     ],
@@ -1880,11 +1881,11 @@
         "station_id": "232",
         "gtfs_stop_id": "F14"
       }
-    ],
-    "complex_id": "232"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "234",
     "divisions": [
       "IND"
     ],
@@ -1896,11 +1897,11 @@
         "station_id": "234",
         "gtfs_stop_id": "F16"
       }
-    ],
-    "complex_id": "234"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "235",
     "divisions": [
       "IND"
     ],
@@ -1912,11 +1913,11 @@
         "station_id": "235",
         "gtfs_stop_id": "F18"
       }
-    ],
-    "complex_id": "235"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "236",
     "divisions": [
       "IND"
     ],
@@ -1929,11 +1930,11 @@
         "station_id": "236",
         "gtfs_stop_id": "F20"
       }
-    ],
-    "complex_id": "236"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "237",
     "divisions": [
       "IND"
     ],
@@ -1946,11 +1947,11 @@
         "station_id": "237",
         "gtfs_stop_id": "F21"
       }
-    ],
-    "complex_id": "237"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "238",
     "divisions": [
       "IND"
     ],
@@ -1963,11 +1964,11 @@
         "station_id": "238",
         "gtfs_stop_id": "F22"
       }
-    ],
-    "complex_id": "238"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "240",
     "divisions": [
       "IND"
     ],
@@ -1980,11 +1981,11 @@
         "station_id": "240",
         "gtfs_stop_id": "F24"
       }
-    ],
-    "complex_id": "240"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "241",
     "divisions": [
       "IND"
     ],
@@ -1997,11 +1998,11 @@
         "station_id": "241",
         "gtfs_stop_id": "F25"
       }
-    ],
-    "complex_id": "241"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "242",
     "divisions": [
       "IND"
     ],
@@ -2014,11 +2015,11 @@
         "station_id": "242",
         "gtfs_stop_id": "F26"
       }
-    ],
-    "complex_id": "242"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "243",
     "divisions": [
       "IND"
     ],
@@ -2030,11 +2031,11 @@
         "station_id": "243",
         "gtfs_stop_id": "F27"
       }
-    ],
-    "complex_id": "243"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "244",
     "divisions": [
       "IND"
     ],
@@ -2046,11 +2047,11 @@
         "station_id": "244",
         "gtfs_stop_id": "F29"
       }
-    ],
-    "complex_id": "244"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "245",
     "divisions": [
       "IND"
     ],
@@ -2062,11 +2063,11 @@
         "station_id": "245",
         "gtfs_stop_id": "F30"
       }
-    ],
-    "complex_id": "245"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "246",
     "divisions": [
       "IND"
     ],
@@ -2078,11 +2079,11 @@
         "station_id": "246",
         "gtfs_stop_id": "F31"
       }
-    ],
-    "complex_id": "246"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "247",
     "divisions": [
       "IND"
     ],
@@ -2094,11 +2095,11 @@
         "station_id": "247",
         "gtfs_stop_id": "F32"
       }
-    ],
-    "complex_id": "247"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "248",
     "divisions": [
       "IND"
     ],
@@ -2110,11 +2111,11 @@
         "station_id": "248",
         "gtfs_stop_id": "F33"
       }
-    ],
-    "complex_id": "248"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "249",
     "divisions": [
       "IND"
     ],
@@ -2126,11 +2127,11 @@
         "station_id": "249",
         "gtfs_stop_id": "F34"
       }
-    ],
-    "complex_id": "249"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "250",
     "divisions": [
       "IND"
     ],
@@ -2142,11 +2143,11 @@
         "station_id": "250",
         "gtfs_stop_id": "F35"
       }
-    ],
-    "complex_id": "250"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "251",
     "divisions": [
       "IND"
     ],
@@ -2158,11 +2159,11 @@
         "station_id": "251",
         "gtfs_stop_id": "F36"
       }
-    ],
-    "complex_id": "251"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "252",
     "divisions": [
       "IND"
     ],
@@ -2174,11 +2175,11 @@
         "station_id": "252",
         "gtfs_stop_id": "F38"
       }
-    ],
-    "complex_id": "252"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "253",
     "divisions": [
       "IND"
     ],
@@ -2190,11 +2191,11 @@
         "station_id": "253",
         "gtfs_stop_id": "F39"
       }
-    ],
-    "complex_id": "253"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "254",
     "divisions": [
       "IND"
     ],
@@ -2206,11 +2207,11 @@
         "station_id": "254",
         "gtfs_stop_id": "F01"
       }
-    ],
-    "complex_id": "254"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "255",
     "divisions": [
       "IND"
     ],
@@ -2222,11 +2223,11 @@
         "station_id": "255",
         "gtfs_stop_id": "F02"
       }
-    ],
-    "complex_id": "255"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "256",
     "divisions": [
       "IND"
     ],
@@ -2238,11 +2239,11 @@
         "station_id": "256",
         "gtfs_stop_id": "F03"
       }
-    ],
-    "complex_id": "256"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "257",
     "divisions": [
       "IND"
     ],
@@ -2254,11 +2255,11 @@
         "station_id": "257",
         "gtfs_stop_id": "F04"
       }
-    ],
-    "complex_id": "257"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "258",
     "divisions": [
       "IND"
     ],
@@ -2271,11 +2272,11 @@
         "station_id": "258",
         "gtfs_stop_id": "F05"
       }
-    ],
-    "complex_id": "258"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "259",
     "divisions": [
       "IND"
     ],
@@ -2288,11 +2289,11 @@
         "station_id": "259",
         "gtfs_stop_id": "F06"
       }
-    ],
-    "complex_id": "259"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "26",
     "divisions": [
       "BMT"
     ],
@@ -2306,11 +2307,11 @@
         "station_id": "26",
         "gtfs_stop_id": "R30"
       }
-    ],
-    "complex_id": "26"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "260",
     "divisions": [
       "IND"
     ],
@@ -2323,11 +2324,11 @@
         "station_id": "260",
         "gtfs_stop_id": "F07"
       }
-    ],
-    "complex_id": "260"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "261",
     "divisions": [
       "IND"
     ],
@@ -2342,11 +2343,11 @@
         "station_id": "261",
         "gtfs_stop_id": "G08"
       }
-    ],
-    "complex_id": "261"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "262",
     "divisions": [
       "IND"
     ],
@@ -2359,11 +2360,11 @@
         "station_id": "262",
         "gtfs_stop_id": "G09"
       }
-    ],
-    "complex_id": "262"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "263",
     "divisions": [
       "IND"
     ],
@@ -2376,11 +2377,11 @@
         "station_id": "263",
         "gtfs_stop_id": "G10"
       }
-    ],
-    "complex_id": "263"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "264",
     "divisions": [
       "IND"
     ],
@@ -2393,11 +2394,11 @@
         "station_id": "264",
         "gtfs_stop_id": "G11"
       }
-    ],
-    "complex_id": "264"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "265",
     "divisions": [
       "IND"
     ],
@@ -2410,11 +2411,11 @@
         "station_id": "265",
         "gtfs_stop_id": "G12"
       }
-    ],
-    "complex_id": "265"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "266",
     "divisions": [
       "IND"
     ],
@@ -2427,11 +2428,11 @@
         "station_id": "266",
         "gtfs_stop_id": "G13"
       }
-    ],
-    "complex_id": "266"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "268",
     "divisions": [
       "IND"
     ],
@@ -2444,11 +2445,11 @@
         "station_id": "268",
         "gtfs_stop_id": "G15"
       }
-    ],
-    "complex_id": "268"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "269",
     "divisions": [
       "IND"
     ],
@@ -2461,11 +2462,11 @@
         "station_id": "269",
         "gtfs_stop_id": "G16"
       }
-    ],
-    "complex_id": "269"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "270",
     "divisions": [
       "IND"
     ],
@@ -2478,11 +2479,11 @@
         "station_id": "270",
         "gtfs_stop_id": "G18"
       }
-    ],
-    "complex_id": "270"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "271",
     "divisions": [
       "IND"
     ],
@@ -2495,11 +2496,11 @@
         "station_id": "271",
         "gtfs_stop_id": "G19"
       }
-    ],
-    "complex_id": "271"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "272",
     "divisions": [
       "IND"
     ],
@@ -2512,11 +2513,11 @@
         "station_id": "272",
         "gtfs_stop_id": "G20"
       }
-    ],
-    "complex_id": "272"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "273",
     "divisions": [
       "IND"
     ],
@@ -2530,11 +2531,11 @@
         "station_id": "273",
         "gtfs_stop_id": "G21"
       }
-    ],
-    "complex_id": "273"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "276",
     "divisions": [
       "IND"
     ],
@@ -2547,11 +2548,11 @@
         "station_id": "276",
         "gtfs_stop_id": "F12"
       }
-    ],
-    "complex_id": "276"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "277",
     "divisions": [
       "IND"
     ],
@@ -2565,11 +2566,11 @@
         "station_id": "277",
         "gtfs_stop_id": "D14"
       }
-    ],
-    "complex_id": "277"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "278",
     "divisions": [
       "IND"
     ],
@@ -2583,11 +2584,11 @@
         "station_id": "278",
         "gtfs_stop_id": "G05"
       }
-    ],
-    "complex_id": "278"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "279",
     "divisions": [
       "IND"
     ],
@@ -2601,11 +2602,11 @@
         "station_id": "279",
         "gtfs_stop_id": "G06"
       }
-    ],
-    "complex_id": "279"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "28",
     "divisions": [
       "BMT"
     ],
@@ -2617,11 +2618,11 @@
         "station_id": "28",
         "gtfs_stop_id": "R32"
       }
-    ],
-    "complex_id": "28"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "280",
     "divisions": [
       "IND"
     ],
@@ -2633,11 +2634,11 @@
         "station_id": "280",
         "gtfs_stop_id": "G07"
       }
-    ],
-    "complex_id": "280"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "282",
     "divisions": [
       "IND"
     ],
@@ -2649,11 +2650,11 @@
         "station_id": "282",
         "gtfs_stop_id": "G24"
       }
-    ],
-    "complex_id": "282"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "283",
     "divisions": [
       "IND"
     ],
@@ -2665,11 +2666,11 @@
         "station_id": "283",
         "gtfs_stop_id": "G26"
       }
-    ],
-    "complex_id": "283"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "284",
     "divisions": [
       "IND"
     ],
@@ -2681,11 +2682,11 @@
         "station_id": "284",
         "gtfs_stop_id": "G28"
       }
-    ],
-    "complex_id": "284"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "286",
     "divisions": [
       "IND"
     ],
@@ -2697,11 +2698,11 @@
         "station_id": "286",
         "gtfs_stop_id": "G30"
       }
-    ],
-    "complex_id": "286"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "287",
     "divisions": [
       "IND"
     ],
@@ -2713,11 +2714,11 @@
         "station_id": "287",
         "gtfs_stop_id": "G31"
       }
-    ],
-    "complex_id": "287"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "288",
     "divisions": [
       "IND"
     ],
@@ -2729,11 +2730,11 @@
         "station_id": "288",
         "gtfs_stop_id": "G32"
       }
-    ],
-    "complex_id": "288"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "289",
     "divisions": [
       "IND"
     ],
@@ -2745,11 +2746,11 @@
         "station_id": "289",
         "gtfs_stop_id": "G33"
       }
-    ],
-    "complex_id": "289"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "290",
     "divisions": [
       "IND"
     ],
@@ -2761,11 +2762,11 @@
         "station_id": "290",
         "gtfs_stop_id": "G34"
       }
-    ],
-    "complex_id": "290"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "291",
     "divisions": [
       "IND"
     ],
@@ -2777,11 +2778,11 @@
         "station_id": "291",
         "gtfs_stop_id": "G35"
       }
-    ],
-    "complex_id": "291"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "292",
     "divisions": [
       "IND"
     ],
@@ -2793,11 +2794,11 @@
         "station_id": "292",
         "gtfs_stop_id": "G36"
       }
-    ],
-    "complex_id": "292"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "293",
     "divisions": [
       "IRT"
     ],
@@ -2809,11 +2810,11 @@
         "station_id": "293",
         "gtfs_stop_id": "101"
       }
-    ],
-    "complex_id": "293"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "294",
     "divisions": [
       "IRT"
     ],
@@ -2825,11 +2826,11 @@
         "station_id": "294",
         "gtfs_stop_id": "103"
       }
-    ],
-    "complex_id": "294"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "295",
     "divisions": [
       "IRT"
     ],
@@ -2841,11 +2842,11 @@
         "station_id": "295",
         "gtfs_stop_id": "104"
       }
-    ],
-    "complex_id": "295"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "296",
     "divisions": [
       "IRT"
     ],
@@ -2857,11 +2858,11 @@
         "station_id": "296",
         "gtfs_stop_id": "106"
       }
-    ],
-    "complex_id": "296"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "297",
     "divisions": [
       "IRT"
     ],
@@ -2873,11 +2874,11 @@
         "station_id": "297",
         "gtfs_stop_id": "107"
       }
-    ],
-    "complex_id": "297"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "298",
     "divisions": [
       "IRT"
     ],
@@ -2889,11 +2890,11 @@
         "station_id": "298",
         "gtfs_stop_id": "108"
       }
-    ],
-    "complex_id": "298"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "299",
     "divisions": [
       "IRT"
     ],
@@ -2905,11 +2906,11 @@
         "station_id": "299",
         "gtfs_stop_id": "109"
       }
-    ],
-    "complex_id": "299"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "3",
     "divisions": [
       "BMT"
     ],
@@ -2922,11 +2923,11 @@
         "station_id": "3",
         "gtfs_stop_id": "R04"
       }
-    ],
-    "complex_id": "3"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "30",
     "divisions": [
       "BMT"
     ],
@@ -2938,11 +2939,11 @@
         "station_id": "30",
         "gtfs_stop_id": "R34"
       }
-    ],
-    "complex_id": "30"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "300",
     "divisions": [
       "IRT"
     ],
@@ -2954,11 +2955,11 @@
         "station_id": "300",
         "gtfs_stop_id": "110"
       }
-    ],
-    "complex_id": "300"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "301",
     "divisions": [
       "IRT"
     ],
@@ -2970,11 +2971,11 @@
         "station_id": "301",
         "gtfs_stop_id": "111"
       }
-    ],
-    "complex_id": "301"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "303",
     "divisions": [
       "IRT"
     ],
@@ -2986,11 +2987,11 @@
         "station_id": "303",
         "gtfs_stop_id": "113"
       }
-    ],
-    "complex_id": "303"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "304",
     "divisions": [
       "IRT"
     ],
@@ -3002,11 +3003,11 @@
         "station_id": "304",
         "gtfs_stop_id": "114"
       }
-    ],
-    "complex_id": "304"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "305",
     "divisions": [
       "IRT"
     ],
@@ -3018,11 +3019,11 @@
         "station_id": "305",
         "gtfs_stop_id": "115"
       }
-    ],
-    "complex_id": "305"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "306",
     "divisions": [
       "IRT"
     ],
@@ -3034,11 +3035,11 @@
         "station_id": "306",
         "gtfs_stop_id": "116"
       }
-    ],
-    "complex_id": "306"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "307",
     "divisions": [
       "IRT"
     ],
@@ -3050,11 +3051,11 @@
         "station_id": "307",
         "gtfs_stop_id": "117"
       }
-    ],
-    "complex_id": "307"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "308",
     "divisions": [
       "IRT"
     ],
@@ -3066,11 +3067,11 @@
         "station_id": "308",
         "gtfs_stop_id": "118"
       }
-    ],
-    "complex_id": "308"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "309",
     "divisions": [
       "IRT"
     ],
@@ -3082,11 +3083,11 @@
         "station_id": "309",
         "gtfs_stop_id": "119"
       }
-    ],
-    "complex_id": "309"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "31",
     "divisions": [
       "BMT"
     ],
@@ -3098,11 +3099,11 @@
         "station_id": "31",
         "gtfs_stop_id": "R35"
       }
-    ],
-    "complex_id": "31"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "310",
     "divisions": [
       "IRT"
     ],
@@ -3116,11 +3117,11 @@
         "station_id": "310",
         "gtfs_stop_id": "120"
       }
-    ],
-    "complex_id": "310"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "311",
     "divisions": [
       "IRT"
     ],
@@ -3132,11 +3133,11 @@
         "station_id": "311",
         "gtfs_stop_id": "121"
       }
-    ],
-    "complex_id": "311"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "312",
     "divisions": [
       "IRT"
     ],
@@ -3148,11 +3149,11 @@
         "station_id": "312",
         "gtfs_stop_id": "122"
       }
-    ],
-    "complex_id": "312"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "313",
     "divisions": [
       "IRT"
     ],
@@ -3166,11 +3167,11 @@
         "station_id": "313",
         "gtfs_stop_id": "123"
       }
-    ],
-    "complex_id": "313"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "314",
     "divisions": [
       "IRT"
     ],
@@ -3182,11 +3183,11 @@
         "station_id": "314",
         "gtfs_stop_id": "124"
       }
-    ],
-    "complex_id": "314"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "316",
     "divisions": [
       "IRT"
     ],
@@ -3198,11 +3199,11 @@
         "station_id": "316",
         "gtfs_stop_id": "126"
       }
-    ],
-    "complex_id": "316"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "318",
     "divisions": [
       "IRT"
     ],
@@ -3216,11 +3217,11 @@
         "station_id": "318",
         "gtfs_stop_id": "128"
       }
-    ],
-    "complex_id": "318"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "319",
     "divisions": [
       "IRT"
     ],
@@ -3232,11 +3233,11 @@
         "station_id": "319",
         "gtfs_stop_id": "129"
       }
-    ],
-    "complex_id": "319"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "32",
     "divisions": [
       "BMT"
     ],
@@ -3250,11 +3251,11 @@
         "station_id": "32",
         "gtfs_stop_id": "R36"
       }
-    ],
-    "complex_id": "32"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "320",
     "divisions": [
       "IRT"
     ],
@@ -3266,11 +3267,11 @@
         "station_id": "320",
         "gtfs_stop_id": "130"
       }
-    ],
-    "complex_id": "320"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "321",
     "divisions": [
       "IRT"
     ],
@@ -3282,11 +3283,11 @@
         "station_id": "321",
         "gtfs_stop_id": "131"
       }
-    ],
-    "complex_id": "321"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "323",
     "divisions": [
       "IRT"
     ],
@@ -3298,11 +3299,11 @@
         "station_id": "323",
         "gtfs_stop_id": "133"
       }
-    ],
-    "complex_id": "323"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "324",
     "divisions": [
       "IRT"
     ],
@@ -3314,11 +3315,11 @@
         "station_id": "324",
         "gtfs_stop_id": "134"
       }
-    ],
-    "complex_id": "324"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "325",
     "divisions": [
       "IRT"
     ],
@@ -3330,11 +3331,11 @@
         "station_id": "325",
         "gtfs_stop_id": "135"
       }
-    ],
-    "complex_id": "325"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "326",
     "divisions": [
       "IRT"
     ],
@@ -3346,11 +3347,11 @@
         "station_id": "326",
         "gtfs_stop_id": "136"
       }
-    ],
-    "complex_id": "326"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "327",
     "divisions": [
       "IRT"
     ],
@@ -3364,11 +3365,11 @@
         "station_id": "327",
         "gtfs_stop_id": "137"
       }
-    ],
-    "complex_id": "327"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "328",
     "divisions": [
       "IRT"
     ],
@@ -3380,11 +3381,11 @@
         "station_id": "328",
         "gtfs_stop_id": "138"
       }
-    ],
-    "complex_id": "328"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "329",
     "divisions": [
       "IRT"
     ],
@@ -3396,11 +3397,11 @@
         "station_id": "329",
         "gtfs_stop_id": "139"
       }
-    ],
-    "complex_id": "329"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "33",
     "divisions": [
       "BMT"
     ],
@@ -3412,11 +3413,11 @@
         "station_id": "33",
         "gtfs_stop_id": "R39"
       }
-    ],
-    "complex_id": "33"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "333",
     "divisions": [
       "IRT"
     ],
@@ -3429,11 +3430,11 @@
         "station_id": "333",
         "gtfs_stop_id": "230"
       }
-    ],
-    "complex_id": "333"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "334",
     "divisions": [
       "IRT"
     ],
@@ -3446,11 +3447,11 @@
         "station_id": "334",
         "gtfs_stop_id": "231"
       }
-    ],
-    "complex_id": "334"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "336",
     "divisions": [
       "IRT"
     ],
@@ -3463,11 +3464,11 @@
         "station_id": "336",
         "gtfs_stop_id": "233"
       }
-    ],
-    "complex_id": "336"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "337",
     "divisions": [
       "IRT"
     ],
@@ -3482,11 +3483,11 @@
         "station_id": "337",
         "gtfs_stop_id": "234"
       }
-    ],
-    "complex_id": "337"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "339",
     "divisions": [
       "IRT"
     ],
@@ -3499,11 +3500,11 @@
         "station_id": "339",
         "gtfs_stop_id": "236"
       }
-    ],
-    "complex_id": "339"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "34",
     "divisions": [
       "BMT"
     ],
@@ -3515,11 +3516,11 @@
         "station_id": "34",
         "gtfs_stop_id": "R40"
       }
-    ],
-    "complex_id": "34"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "340",
     "divisions": [
       "IRT"
     ],
@@ -3532,11 +3533,11 @@
         "station_id": "340",
         "gtfs_stop_id": "237"
       }
-    ],
-    "complex_id": "340"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "341",
     "divisions": [
       "IRT"
     ],
@@ -3549,11 +3550,11 @@
         "station_id": "341",
         "gtfs_stop_id": "238"
       }
-    ],
-    "complex_id": "341"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "343",
     "divisions": [
       "IRT"
     ],
@@ -3565,11 +3566,11 @@
         "station_id": "343",
         "gtfs_stop_id": "248"
       }
-    ],
-    "complex_id": "343"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "344",
     "divisions": [
       "IRT"
     ],
@@ -3581,11 +3582,11 @@
         "station_id": "344",
         "gtfs_stop_id": "249"
       }
-    ],
-    "complex_id": "344"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "345",
     "divisions": [
       "IRT"
     ],
@@ -3598,11 +3599,11 @@
         "station_id": "345",
         "gtfs_stop_id": "250"
       }
-    ],
-    "complex_id": "345"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "346",
     "divisions": [
       "IRT"
     ],
@@ -3614,11 +3615,11 @@
         "station_id": "346",
         "gtfs_stop_id": "251"
       }
-    ],
-    "complex_id": "346"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "347",
     "divisions": [
       "IRT"
     ],
@@ -3630,11 +3631,11 @@
         "station_id": "347",
         "gtfs_stop_id": "252"
       }
-    ],
-    "complex_id": "347"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "348",
     "divisions": [
       "IRT"
     ],
@@ -3646,11 +3647,11 @@
         "station_id": "348",
         "gtfs_stop_id": "253"
       }
-    ],
-    "complex_id": "348"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "349",
     "divisions": [
       "IRT"
     ],
@@ -3662,11 +3663,11 @@
         "station_id": "349",
         "gtfs_stop_id": "254"
       }
-    ],
-    "complex_id": "349"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "35",
     "divisions": [
       "BMT"
     ],
@@ -3679,11 +3680,11 @@
         "station_id": "35",
         "gtfs_stop_id": "R41"
       }
-    ],
-    "complex_id": "35"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "350",
     "divisions": [
       "IRT"
     ],
@@ -3695,11 +3696,11 @@
         "station_id": "350",
         "gtfs_stop_id": "255"
       }
-    ],
-    "complex_id": "350"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "351",
     "divisions": [
       "IRT"
     ],
@@ -3711,11 +3712,11 @@
         "station_id": "351",
         "gtfs_stop_id": "256"
       }
-    ],
-    "complex_id": "351"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "352",
     "divisions": [
       "IRT"
     ],
@@ -3727,11 +3728,11 @@
         "station_id": "352",
         "gtfs_stop_id": "257"
       }
-    ],
-    "complex_id": "352"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "353",
     "divisions": [
       "IRT"
     ],
@@ -3744,11 +3745,11 @@
         "station_id": "353",
         "gtfs_stop_id": "241"
       }
-    ],
-    "complex_id": "353"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "354",
     "divisions": [
       "IRT"
     ],
@@ -3761,11 +3762,11 @@
         "station_id": "354",
         "gtfs_stop_id": "242"
       }
-    ],
-    "complex_id": "354"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "355",
     "divisions": [
       "IRT"
     ],
@@ -3778,11 +3779,11 @@
         "station_id": "355",
         "gtfs_stop_id": "243"
       }
-    ],
-    "complex_id": "355"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "356",
     "divisions": [
       "IRT"
     ],
@@ -3795,11 +3796,11 @@
         "station_id": "356",
         "gtfs_stop_id": "244"
       }
-    ],
-    "complex_id": "356"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "357",
     "divisions": [
       "IRT"
     ],
@@ -3812,11 +3813,11 @@
         "station_id": "357",
         "gtfs_stop_id": "245"
       }
-    ],
-    "complex_id": "357"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "358",
     "divisions": [
       "IRT"
     ],
@@ -3829,11 +3830,11 @@
         "station_id": "358",
         "gtfs_stop_id": "246"
       }
-    ],
-    "complex_id": "358"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "359",
     "divisions": [
       "IRT"
     ],
@@ -3846,11 +3847,11 @@
         "station_id": "359",
         "gtfs_stop_id": "247"
       }
-    ],
-    "complex_id": "359"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "36",
     "divisions": [
       "BMT"
     ],
@@ -3862,11 +3863,11 @@
         "station_id": "36",
         "gtfs_stop_id": "R42"
       }
-    ],
-    "complex_id": "36"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "360",
     "divisions": [
       "IRT"
     ],
@@ -3878,11 +3879,11 @@
         "station_id": "360",
         "gtfs_stop_id": "601"
       }
-    ],
-    "complex_id": "360"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "361",
     "divisions": [
       "IRT"
     ],
@@ -3894,11 +3895,11 @@
         "station_id": "361",
         "gtfs_stop_id": "602"
       }
-    ],
-    "complex_id": "361"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "362",
     "divisions": [
       "IRT"
     ],
@@ -3910,11 +3911,11 @@
         "station_id": "362",
         "gtfs_stop_id": "603"
       }
-    ],
-    "complex_id": "362"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "363",
     "divisions": [
       "IRT"
     ],
@@ -3926,11 +3927,11 @@
         "station_id": "363",
         "gtfs_stop_id": "604"
       }
-    ],
-    "complex_id": "363"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "364",
     "divisions": [
       "IRT"
     ],
@@ -3942,11 +3943,11 @@
         "station_id": "364",
         "gtfs_stop_id": "606"
       }
-    ],
-    "complex_id": "364"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "365",
     "divisions": [
       "IRT"
     ],
@@ -3958,11 +3959,11 @@
         "station_id": "365",
         "gtfs_stop_id": "607"
       }
-    ],
-    "complex_id": "365"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "366",
     "divisions": [
       "IRT"
     ],
@@ -3974,11 +3975,11 @@
         "station_id": "366",
         "gtfs_stop_id": "608"
       }
-    ],
-    "complex_id": "366"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "367",
     "divisions": [
       "IRT"
     ],
@@ -3990,11 +3991,11 @@
         "station_id": "367",
         "gtfs_stop_id": "609"
       }
-    ],
-    "complex_id": "367"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "368",
     "divisions": [
       "IRT"
     ],
@@ -4006,11 +4007,11 @@
         "station_id": "368",
         "gtfs_stop_id": "610"
       }
-    ],
-    "complex_id": "368"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "369",
     "divisions": [
       "IRT"
     ],
@@ -4022,11 +4023,11 @@
         "station_id": "369",
         "gtfs_stop_id": "611"
       }
-    ],
-    "complex_id": "369"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "37",
     "divisions": [
       "BMT"
     ],
@@ -4038,11 +4039,11 @@
         "station_id": "37",
         "gtfs_stop_id": "R43"
       }
-    ],
-    "complex_id": "37"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "370",
     "divisions": [
       "IRT"
     ],
@@ -4054,11 +4055,11 @@
         "station_id": "370",
         "gtfs_stop_id": "612"
       }
-    ],
-    "complex_id": "370"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "371",
     "divisions": [
       "IRT"
     ],
@@ -4070,11 +4071,11 @@
         "station_id": "371",
         "gtfs_stop_id": "613"
       }
-    ],
-    "complex_id": "371"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "372",
     "divisions": [
       "IRT"
     ],
@@ -4086,11 +4087,11 @@
         "station_id": "372",
         "gtfs_stop_id": "614"
       }
-    ],
-    "complex_id": "372"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "373",
     "divisions": [
       "IRT"
     ],
@@ -4102,11 +4103,11 @@
         "station_id": "373",
         "gtfs_stop_id": "615"
       }
-    ],
-    "complex_id": "373"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "374",
     "divisions": [
       "IRT"
     ],
@@ -4118,11 +4119,11 @@
         "station_id": "374",
         "gtfs_stop_id": "616"
       }
-    ],
-    "complex_id": "374"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "375",
     "divisions": [
       "IRT"
     ],
@@ -4134,11 +4135,11 @@
         "station_id": "375",
         "gtfs_stop_id": "617"
       }
-    ],
-    "complex_id": "375"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "376",
     "divisions": [
       "IRT"
     ],
@@ -4150,11 +4151,11 @@
         "station_id": "376",
         "gtfs_stop_id": "618"
       }
-    ],
-    "complex_id": "376"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "377",
     "divisions": [
       "IRT"
     ],
@@ -4166,11 +4167,11 @@
         "station_id": "377",
         "gtfs_stop_id": "619"
       }
-    ],
-    "complex_id": "377"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "378",
     "divisions": [
       "IRT"
     ],
@@ -4182,11 +4183,11 @@
         "station_id": "378",
         "gtfs_stop_id": "401"
       }
-    ],
-    "complex_id": "378"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "379",
     "divisions": [
       "IRT"
     ],
@@ -4198,11 +4199,11 @@
         "station_id": "379",
         "gtfs_stop_id": "402"
       }
-    ],
-    "complex_id": "379"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "38",
     "divisions": [
       "BMT"
     ],
@@ -4214,11 +4215,11 @@
         "station_id": "38",
         "gtfs_stop_id": "R44"
       }
-    ],
-    "complex_id": "38"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "380",
     "divisions": [
       "IRT"
     ],
@@ -4230,11 +4231,11 @@
         "station_id": "380",
         "gtfs_stop_id": "405"
       }
-    ],
-    "complex_id": "380"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "381",
     "divisions": [
       "IRT"
     ],
@@ -4246,11 +4247,11 @@
         "station_id": "381",
         "gtfs_stop_id": "406"
       }
-    ],
-    "complex_id": "381"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "382",
     "divisions": [
       "IRT"
     ],
@@ -4262,11 +4263,11 @@
         "station_id": "382",
         "gtfs_stop_id": "407"
       }
-    ],
-    "complex_id": "382"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "383",
     "divisions": [
       "IRT"
     ],
@@ -4278,11 +4279,11 @@
         "station_id": "383",
         "gtfs_stop_id": "408"
       }
-    ],
-    "complex_id": "383"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "384",
     "divisions": [
       "IRT"
     ],
@@ -4294,11 +4295,11 @@
         "station_id": "384",
         "gtfs_stop_id": "409"
       }
-    ],
-    "complex_id": "384"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "385",
     "divisions": [
       "IRT"
     ],
@@ -4310,11 +4311,11 @@
         "station_id": "385",
         "gtfs_stop_id": "410"
       }
-    ],
-    "complex_id": "385"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "386",
     "divisions": [
       "IRT"
     ],
@@ -4326,11 +4327,11 @@
         "station_id": "386",
         "gtfs_stop_id": "411"
       }
-    ],
-    "complex_id": "386"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "387",
     "divisions": [
       "IRT"
     ],
@@ -4342,11 +4343,11 @@
         "station_id": "387",
         "gtfs_stop_id": "412"
       }
-    ],
-    "complex_id": "387"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "388",
     "divisions": [
       "IRT"
     ],
@@ -4358,11 +4359,11 @@
         "station_id": "388",
         "gtfs_stop_id": "413"
       }
-    ],
-    "complex_id": "388"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "39",
     "divisions": [
       "BMT"
     ],
@@ -4374,11 +4375,11 @@
         "station_id": "39",
         "gtfs_stop_id": "R45"
       }
-    ],
-    "complex_id": "39"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "391",
     "divisions": [
       "IRT"
     ],
@@ -4391,11 +4392,11 @@
         "station_id": "391",
         "gtfs_stop_id": "416"
       }
-    ],
-    "complex_id": "391"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "392",
     "divisions": [
       "IRT"
     ],
@@ -4409,11 +4410,11 @@
         "station_id": "392",
         "gtfs_stop_id": "621"
       }
-    ],
-    "complex_id": "392"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "393",
     "divisions": [
       "IRT"
     ],
@@ -4425,11 +4426,11 @@
         "station_id": "393",
         "gtfs_stop_id": "622"
       }
-    ],
-    "complex_id": "393"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "394",
     "divisions": [
       "IRT"
     ],
@@ -4441,11 +4442,11 @@
         "station_id": "394",
         "gtfs_stop_id": "623"
       }
-    ],
-    "complex_id": "394"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "395",
     "divisions": [
       "IRT"
     ],
@@ -4457,11 +4458,11 @@
         "station_id": "395",
         "gtfs_stop_id": "624"
       }
-    ],
-    "complex_id": "395"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "396",
     "divisions": [
       "IRT"
     ],
@@ -4473,11 +4474,11 @@
         "station_id": "396",
         "gtfs_stop_id": "625"
       }
-    ],
-    "complex_id": "396"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "397",
     "divisions": [
       "IRT"
     ],
@@ -4491,11 +4492,11 @@
         "station_id": "397",
         "gtfs_stop_id": "626"
       }
-    ],
-    "complex_id": "397"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "398",
     "divisions": [
       "IRT"
     ],
@@ -4507,11 +4508,11 @@
         "station_id": "398",
         "gtfs_stop_id": "627"
       }
-    ],
-    "complex_id": "398"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "399",
     "divisions": [
       "IRT"
     ],
@@ -4523,11 +4524,11 @@
         "station_id": "399",
         "gtfs_stop_id": "628"
       }
-    ],
-    "complex_id": "399"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "4",
     "divisions": [
       "BMT"
     ],
@@ -4540,11 +4541,11 @@
         "station_id": "4",
         "gtfs_stop_id": "R05"
       }
-    ],
-    "complex_id": "4"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "403",
     "divisions": [
       "IRT"
     ],
@@ -4556,11 +4557,11 @@
         "station_id": "403",
         "gtfs_stop_id": "632"
       }
-    ],
-    "complex_id": "403"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "404",
     "divisions": [
       "IRT"
     ],
@@ -4572,11 +4573,11 @@
         "station_id": "404",
         "gtfs_stop_id": "633"
       }
-    ],
-    "complex_id": "404"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "405",
     "divisions": [
       "IRT"
     ],
@@ -4588,11 +4589,11 @@
         "station_id": "405",
         "gtfs_stop_id": "634"
       }
-    ],
-    "complex_id": "405"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "407",
     "divisions": [
       "IRT"
     ],
@@ -4604,11 +4605,11 @@
         "station_id": "407",
         "gtfs_stop_id": "636"
       }
-    ],
-    "complex_id": "407"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "409",
     "divisions": [
       "IRT"
     ],
@@ -4620,11 +4621,11 @@
         "station_id": "409",
         "gtfs_stop_id": "638"
       }
-    ],
-    "complex_id": "409"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "41",
     "divisions": [
       "BMT"
     ],
@@ -4637,11 +4638,11 @@
         "station_id": "41",
         "gtfs_stop_id": "D25"
       }
-    ],
-    "complex_id": "41"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "413",
     "divisions": [
       "IRT"
     ],
@@ -4654,11 +4655,11 @@
         "station_id": "413",
         "gtfs_stop_id": "419"
       }
-    ],
-    "complex_id": "413"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "414",
     "divisions": [
       "IRT"
     ],
@@ -4671,11 +4672,11 @@
         "station_id": "414",
         "gtfs_stop_id": "420"
       }
-    ],
-    "complex_id": "414"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "416",
     "divisions": [
       "IRT"
     ],
@@ -4687,11 +4688,11 @@
         "station_id": "416",
         "gtfs_stop_id": "201"
       }
-    ],
-    "complex_id": "416"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "417",
     "divisions": [
       "IRT"
     ],
@@ -4704,11 +4705,11 @@
         "station_id": "417",
         "gtfs_stop_id": "204"
       }
-    ],
-    "complex_id": "417"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "418",
     "divisions": [
       "IRT"
     ],
@@ -4721,11 +4722,11 @@
         "station_id": "418",
         "gtfs_stop_id": "205"
       }
-    ],
-    "complex_id": "418"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "419",
     "divisions": [
       "IRT"
     ],
@@ -4738,11 +4739,11 @@
         "station_id": "419",
         "gtfs_stop_id": "206"
       }
-    ],
-    "complex_id": "419"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "42",
     "divisions": [
       "BMT"
     ],
@@ -4756,11 +4757,11 @@
         "station_id": "42",
         "gtfs_stop_id": "D26"
       }
-    ],
-    "complex_id": "42"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "420",
     "divisions": [
       "IRT"
     ],
@@ -4773,11 +4774,11 @@
         "station_id": "420",
         "gtfs_stop_id": "207"
       }
-    ],
-    "complex_id": "420"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "421",
     "divisions": [
       "IRT"
     ],
@@ -4790,11 +4791,11 @@
         "station_id": "421",
         "gtfs_stop_id": "208"
       }
-    ],
-    "complex_id": "421"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "422",
     "divisions": [
       "IRT"
     ],
@@ -4807,11 +4808,11 @@
         "station_id": "422",
         "gtfs_stop_id": "209"
       }
-    ],
-    "complex_id": "422"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "423",
     "divisions": [
       "IRT"
     ],
@@ -4824,11 +4825,11 @@
         "station_id": "423",
         "gtfs_stop_id": "210"
       }
-    ],
-    "complex_id": "423"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "424",
     "divisions": [
       "IRT"
     ],
@@ -4841,11 +4842,11 @@
         "station_id": "424",
         "gtfs_stop_id": "211"
       }
-    ],
-    "complex_id": "424"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "425",
     "divisions": [
       "IRT"
     ],
@@ -4858,11 +4859,11 @@
         "station_id": "425",
         "gtfs_stop_id": "212"
       }
-    ],
-    "complex_id": "425"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "426",
     "divisions": [
       "IRT"
     ],
@@ -4875,11 +4876,11 @@
         "station_id": "426",
         "gtfs_stop_id": "213"
       }
-    ],
-    "complex_id": "426"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "427",
     "divisions": [
       "IRT"
     ],
@@ -4892,11 +4893,11 @@
         "station_id": "427",
         "gtfs_stop_id": "214"
       }
-    ],
-    "complex_id": "427"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "428",
     "divisions": [
       "IRT"
     ],
@@ -4909,11 +4910,11 @@
         "station_id": "428",
         "gtfs_stop_id": "215"
       }
-    ],
-    "complex_id": "428"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "429",
     "divisions": [
       "IRT"
     ],
@@ -4926,11 +4927,11 @@
         "station_id": "429",
         "gtfs_stop_id": "216"
       }
-    ],
-    "complex_id": "429"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "43",
     "divisions": [
       "BMT"
     ],
@@ -4943,11 +4944,11 @@
         "station_id": "43",
         "gtfs_stop_id": "D27"
       }
-    ],
-    "complex_id": "43"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "430",
     "divisions": [
       "IRT"
     ],
@@ -4960,11 +4961,11 @@
         "station_id": "430",
         "gtfs_stop_id": "217"
       }
-    ],
-    "complex_id": "430"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "431",
     "divisions": [
       "IRT"
     ],
@@ -4977,11 +4978,11 @@
         "station_id": "431",
         "gtfs_stop_id": "218"
       }
-    ],
-    "complex_id": "431"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "432",
     "divisions": [
       "IRT"
     ],
@@ -4994,11 +4995,11 @@
         "station_id": "432",
         "gtfs_stop_id": "219"
       }
-    ],
-    "complex_id": "432"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "433",
     "divisions": [
       "IRT"
     ],
@@ -5011,11 +5012,11 @@
         "station_id": "433",
         "gtfs_stop_id": "220"
       }
-    ],
-    "complex_id": "433"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "434",
     "divisions": [
       "IRT"
     ],
@@ -5028,11 +5029,11 @@
         "station_id": "434",
         "gtfs_stop_id": "221"
       }
-    ],
-    "complex_id": "434"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "436",
     "divisions": [
       "IRT"
     ],
@@ -5044,11 +5045,11 @@
         "station_id": "436",
         "gtfs_stop_id": "301"
       }
-    ],
-    "complex_id": "436"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "437",
     "divisions": [
       "IRT"
     ],
@@ -5060,11 +5061,11 @@
         "station_id": "437",
         "gtfs_stop_id": "302"
       }
-    ],
-    "complex_id": "437"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "438",
     "divisions": [
       "IRT"
     ],
@@ -5077,11 +5078,11 @@
         "station_id": "438",
         "gtfs_stop_id": "224"
       }
-    ],
-    "complex_id": "438"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "439",
     "divisions": [
       "IRT"
     ],
@@ -5094,11 +5095,11 @@
         "station_id": "439",
         "gtfs_stop_id": "225"
       }
-    ],
-    "complex_id": "439"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "44",
     "divisions": [
       "BMT"
     ],
@@ -5111,11 +5112,11 @@
         "station_id": "44",
         "gtfs_stop_id": "D28"
       }
-    ],
-    "complex_id": "44"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "440",
     "divisions": [
       "IRT"
     ],
@@ -5128,11 +5129,11 @@
         "station_id": "440",
         "gtfs_stop_id": "226"
       }
-    ],
-    "complex_id": "440"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "441",
     "divisions": [
       "IRT"
     ],
@@ -5145,11 +5146,11 @@
         "station_id": "441",
         "gtfs_stop_id": "227"
       }
-    ],
-    "complex_id": "441"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "442",
     "divisions": [
       "IRT"
     ],
@@ -5161,11 +5162,11 @@
         "station_id": "442",
         "gtfs_stop_id": "501"
       }
-    ],
-    "complex_id": "442"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "443",
     "divisions": [
       "IRT"
     ],
@@ -5177,11 +5178,11 @@
         "station_id": "443",
         "gtfs_stop_id": "502"
       }
-    ],
-    "complex_id": "443"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "444",
     "divisions": [
       "IRT"
     ],
@@ -5193,11 +5194,11 @@
         "station_id": "444",
         "gtfs_stop_id": "503"
       }
-    ],
-    "complex_id": "444"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "445",
     "divisions": [
       "IRT"
     ],
@@ -5209,11 +5210,11 @@
         "station_id": "445",
         "gtfs_stop_id": "504"
       }
-    ],
-    "complex_id": "445"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "446",
     "divisions": [
       "IRT"
     ],
@@ -5225,11 +5226,11 @@
         "station_id": "446",
         "gtfs_stop_id": "505"
       }
-    ],
-    "complex_id": "446"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "447",
     "divisions": [
       "IRT"
     ],
@@ -5241,11 +5242,11 @@
         "station_id": "447",
         "gtfs_stop_id": "701"
       }
-    ],
-    "complex_id": "447"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "448",
     "divisions": [
       "IRT"
     ],
@@ -5257,11 +5258,11 @@
         "station_id": "448",
         "gtfs_stop_id": "702"
       }
-    ],
-    "complex_id": "448"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "449",
     "divisions": [
       "IRT"
     ],
@@ -5273,11 +5274,11 @@
         "station_id": "449",
         "gtfs_stop_id": "705"
       }
-    ],
-    "complex_id": "449"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "45",
     "divisions": [
       "BMT"
     ],
@@ -5289,11 +5290,11 @@
         "station_id": "45",
         "gtfs_stop_id": "D29"
       }
-    ],
-    "complex_id": "45"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "450",
     "divisions": [
       "IRT"
     ],
@@ -5305,11 +5306,11 @@
         "station_id": "450",
         "gtfs_stop_id": "706"
       }
-    ],
-    "complex_id": "450"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "451",
     "divisions": [
       "IRT"
     ],
@@ -5321,11 +5322,11 @@
         "station_id": "451",
         "gtfs_stop_id": "707"
       }
-    ],
-    "complex_id": "451"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "452",
     "divisions": [
       "IRT"
     ],
@@ -5337,11 +5338,11 @@
         "station_id": "452",
         "gtfs_stop_id": "708"
       }
-    ],
-    "complex_id": "452"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "453",
     "divisions": [
       "IRT"
     ],
@@ -5353,11 +5354,11 @@
         "station_id": "453",
         "gtfs_stop_id": "709"
       }
-    ],
-    "complex_id": "453"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "455",
     "divisions": [
       "IRT"
     ],
@@ -5369,11 +5370,11 @@
         "station_id": "455",
         "gtfs_stop_id": "711"
       }
-    ],
-    "complex_id": "455"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "456",
     "divisions": [
       "IRT"
     ],
@@ -5385,11 +5386,11 @@
         "station_id": "456",
         "gtfs_stop_id": "712"
       }
-    ],
-    "complex_id": "456"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "457",
     "divisions": [
       "IRT"
     ],
@@ -5401,11 +5402,11 @@
         "station_id": "457",
         "gtfs_stop_id": "713"
       }
-    ],
-    "complex_id": "457"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "458",
     "divisions": [
       "IRT"
     ],
@@ -5417,11 +5418,11 @@
         "station_id": "458",
         "gtfs_stop_id": "714"
       }
-    ],
-    "complex_id": "458"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "459",
     "divisions": [
       "IRT"
     ],
@@ -5433,11 +5434,11 @@
         "station_id": "459",
         "gtfs_stop_id": "715"
       }
-    ],
-    "complex_id": "459"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "46",
     "divisions": [
       "BMT"
     ],
@@ -5449,11 +5450,11 @@
         "station_id": "46",
         "gtfs_stop_id": "D30"
       }
-    ],
-    "complex_id": "46"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "460",
     "divisions": [
       "IRT"
     ],
@@ -5465,11 +5466,11 @@
         "station_id": "460",
         "gtfs_stop_id": "716"
       }
-    ],
-    "complex_id": "460"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "461",
     "divisions": [
       "BMT",
       "IRT"
@@ -5488,11 +5489,11 @@
         "station_id": "461",
         "gtfs_stop_id": "R09"
       }
-    ],
-    "complex_id": "461"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "463",
     "divisions": [
       "IRT"
     ],
@@ -5504,11 +5505,11 @@
         "station_id": "463",
         "gtfs_stop_id": "720"
       }
-    ],
-    "complex_id": "463"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "464",
     "divisions": [
       "IRT"
     ],
@@ -5520,11 +5521,11 @@
         "station_id": "464",
         "gtfs_stop_id": "721"
       }
-    ],
-    "complex_id": "464"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "47",
     "divisions": [
       "BMT"
     ],
@@ -5537,11 +5538,11 @@
         "station_id": "47",
         "gtfs_stop_id": "D31"
       }
-    ],
-    "complex_id": "47"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "471",
     "divisions": [
       "IRT"
     ],
@@ -5553,11 +5554,11 @@
         "station_id": "471",
         "gtfs_stop_id": "726"
       }
-    ],
-    "complex_id": "471"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "475",
     "divisions": [
       "IND"
     ],
@@ -5569,11 +5570,11 @@
         "station_id": "475",
         "gtfs_stop_id": "Q05"
       }
-    ],
-    "complex_id": "475"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "476",
     "divisions": [
       "IND"
     ],
@@ -5585,11 +5586,11 @@
         "station_id": "476",
         "gtfs_stop_id": "Q04"
       }
-    ],
-    "complex_id": "476"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "477",
     "divisions": [
       "IND"
     ],
@@ -5601,11 +5602,11 @@
         "station_id": "477",
         "gtfs_stop_id": "Q03"
       }
-    ],
-    "complex_id": "477"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "48",
     "divisions": [
       "BMT"
     ],
@@ -5617,11 +5618,11 @@
         "station_id": "48",
         "gtfs_stop_id": "D32"
       }
-    ],
-    "complex_id": "48"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "49",
     "divisions": [
       "BMT"
     ],
@@ -5633,11 +5634,11 @@
         "station_id": "49",
         "gtfs_stop_id": "D33"
       }
-    ],
-    "complex_id": "49"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "5",
     "divisions": [
       "BMT"
     ],
@@ -5650,11 +5651,11 @@
         "station_id": "5",
         "gtfs_stop_id": "R06"
       }
-    ],
-    "complex_id": "5"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "50",
     "divisions": [
       "BMT"
     ],
@@ -5666,11 +5667,11 @@
         "station_id": "50",
         "gtfs_stop_id": "D34"
       }
-    ],
-    "complex_id": "50"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "501",
     "divisions": [
       "SIR"
     ],
@@ -5682,11 +5683,11 @@
         "station_id": "501",
         "gtfs_stop_id": "S31"
       }
-    ],
-    "complex_id": "501"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "502",
     "divisions": [
       "SIR"
     ],
@@ -5698,11 +5699,11 @@
         "station_id": "502",
         "gtfs_stop_id": "S30"
       }
-    ],
-    "complex_id": "502"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "503",
     "divisions": [
       "SIR"
     ],
@@ -5714,11 +5715,11 @@
         "station_id": "503",
         "gtfs_stop_id": "S29"
       }
-    ],
-    "complex_id": "503"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "504",
     "divisions": [
       "SIR"
     ],
@@ -5730,11 +5731,11 @@
         "station_id": "504",
         "gtfs_stop_id": "S28"
       }
-    ],
-    "complex_id": "504"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "505",
     "divisions": [
       "SIR"
     ],
@@ -5746,11 +5747,11 @@
         "station_id": "505",
         "gtfs_stop_id": "S27"
       }
-    ],
-    "complex_id": "505"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "506",
     "divisions": [
       "SIR"
     ],
@@ -5762,11 +5763,11 @@
         "station_id": "506",
         "gtfs_stop_id": "S26"
       }
-    ],
-    "complex_id": "506"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "507",
     "divisions": [
       "SIR"
     ],
@@ -5778,11 +5779,11 @@
         "station_id": "507",
         "gtfs_stop_id": "S25"
       }
-    ],
-    "complex_id": "507"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "508",
     "divisions": [
       "SIR"
     ],
@@ -5794,11 +5795,11 @@
         "station_id": "508",
         "gtfs_stop_id": "S24"
       }
-    ],
-    "complex_id": "508"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "509",
     "divisions": [
       "SIR"
     ],
@@ -5810,11 +5811,11 @@
         "station_id": "509",
         "gtfs_stop_id": "S23"
       }
-    ],
-    "complex_id": "509"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "51",
     "divisions": [
       "BMT"
     ],
@@ -5827,11 +5828,11 @@
         "station_id": "51",
         "gtfs_stop_id": "D35"
       }
-    ],
-    "complex_id": "51"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "510",
     "divisions": [
       "SIR"
     ],
@@ -5843,11 +5844,11 @@
         "station_id": "510",
         "gtfs_stop_id": "S22"
       }
-    ],
-    "complex_id": "510"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "511",
     "divisions": [
       "SIR"
     ],
@@ -5859,11 +5860,11 @@
         "station_id": "511",
         "gtfs_stop_id": "S21"
       }
-    ],
-    "complex_id": "511"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "512",
     "divisions": [
       "SIR"
     ],
@@ -5875,11 +5876,11 @@
         "station_id": "512",
         "gtfs_stop_id": "S20"
       }
-    ],
-    "complex_id": "512"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "513",
     "divisions": [
       "SIR"
     ],
@@ -5891,11 +5892,11 @@
         "station_id": "513",
         "gtfs_stop_id": "S19"
       }
-    ],
-    "complex_id": "513"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "514",
     "divisions": [
       "SIR"
     ],
@@ -5907,11 +5908,11 @@
         "station_id": "514",
         "gtfs_stop_id": "S18"
       }
-    ],
-    "complex_id": "514"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "515",
     "divisions": [
       "SIR"
     ],
@@ -5923,11 +5924,11 @@
         "station_id": "515",
         "gtfs_stop_id": "S17"
       }
-    ],
-    "complex_id": "515"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "516",
     "divisions": [
       "SIR"
     ],
@@ -5939,11 +5940,11 @@
         "station_id": "516",
         "gtfs_stop_id": "S16"
       }
-    ],
-    "complex_id": "516"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "517",
     "divisions": [
       "SIR"
     ],
@@ -5955,11 +5956,11 @@
         "station_id": "517",
         "gtfs_stop_id": "S15"
       }
-    ],
-    "complex_id": "517"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "518",
     "divisions": [
       "SIR"
     ],
@@ -5971,11 +5972,11 @@
         "station_id": "518",
         "gtfs_stop_id": "S14"
       }
-    ],
-    "complex_id": "518"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "519",
     "divisions": [
       "SIR"
     ],
@@ -5987,11 +5988,11 @@
         "station_id": "519",
         "gtfs_stop_id": "S13"
       }
-    ],
-    "complex_id": "519"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "52",
     "divisions": [
       "BMT"
     ],
@@ -6003,11 +6004,11 @@
         "station_id": "52",
         "gtfs_stop_id": "D37"
       }
-    ],
-    "complex_id": "52"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "522",
     "divisions": [
       "SIR"
     ],
@@ -6019,11 +6020,11 @@
         "station_id": "522",
         "gtfs_stop_id": "S09"
       }
-    ],
-    "complex_id": "522"
+    ]
   },
   {
     "borough": "Staten Island",
+    "complex_id": "523",
     "divisions": [
       "SIR"
     ],
@@ -6035,11 +6036,11 @@
         "station_id": "523",
         "gtfs_stop_id": "S11"
       }
-    ],
-    "complex_id": "523"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "53",
     "divisions": [
       "BMT"
     ],
@@ -6051,11 +6052,11 @@
         "station_id": "53",
         "gtfs_stop_id": "D38"
       }
-    ],
-    "complex_id": "53"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "54",
     "divisions": [
       "BMT"
     ],
@@ -6068,11 +6069,11 @@
         "station_id": "54",
         "gtfs_stop_id": "D39"
       }
-    ],
-    "complex_id": "54"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "55",
     "divisions": [
       "BMT"
     ],
@@ -6085,11 +6086,11 @@
         "station_id": "55",
         "gtfs_stop_id": "D40"
       }
-    ],
-    "complex_id": "55"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "56",
     "divisions": [
       "BMT"
     ],
@@ -6101,11 +6102,11 @@
         "station_id": "56",
         "gtfs_stop_id": "D41"
       }
-    ],
-    "complex_id": "56"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "57",
     "divisions": [
       "BMT"
     ],
@@ -6118,11 +6119,11 @@
         "station_id": "57",
         "gtfs_stop_id": "D42"
       }
-    ],
-    "complex_id": "57"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "58",
     "divisions": [
       "BMT"
     ],
@@ -6137,11 +6138,11 @@
         "station_id": "58",
         "gtfs_stop_id": "D43"
       }
-    ],
-    "complex_id": "58"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "59",
     "divisions": [
       "BMT"
     ],
@@ -6153,11 +6154,11 @@
         "station_id": "59",
         "gtfs_stop_id": "B12"
       }
-    ],
-    "complex_id": "59"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "6",
     "divisions": [
       "BMT"
     ],
@@ -6170,11 +6171,11 @@
         "station_id": "6",
         "gtfs_stop_id": "R08"
       }
-    ],
-    "complex_id": "6"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "60",
     "divisions": [
       "BMT"
     ],
@@ -6186,11 +6187,11 @@
         "station_id": "60",
         "gtfs_stop_id": "B13"
       }
-    ],
-    "complex_id": "60"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "601",
     "divisions": [
       "BMT",
       "IND",
@@ -6217,11 +6218,11 @@
         "station_id": "116",
         "gtfs_stop_id": "L02"
       }
-    ],
-    "complex_id": "601"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "602",
     "divisions": [
       "BMT",
       "IRT"
@@ -6249,11 +6250,11 @@
         "station_id": "15",
         "gtfs_stop_id": "R20"
       }
-    ],
-    "complex_id": "602"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "603",
     "divisions": [
       "IRT"
     ],
@@ -6271,11 +6272,11 @@
         "station_id": "390",
         "gtfs_stop_id": "415"
       }
-    ],
-    "complex_id": "603"
+    ]
   },
   {
     "borough": "Bronx",
+    "complex_id": "604",
     "divisions": [
       "IND",
       "IRT"
@@ -6294,11 +6295,11 @@
         "station_id": "219",
         "gtfs_stop_id": "D11"
       }
-    ],
-    "complex_id": "604"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "605",
     "divisions": [
       "IND",
       "IRT"
@@ -6317,11 +6318,11 @@
         "station_id": "148",
         "gtfs_stop_id": "A09"
       }
-    ],
-    "complex_id": "605"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "606",
     "divisions": [
       "IND",
       "IRT"
@@ -6345,11 +6346,11 @@
         "station_id": "281",
         "gtfs_stop_id": "G22"
       }
-    ],
-    "complex_id": "606"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "607",
     "divisions": [
       "BMT",
       "IND"
@@ -6373,11 +6374,11 @@
         "station_id": "12",
         "gtfs_stop_id": "R17"
       }
-    ],
-    "complex_id": "607"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "608",
     "divisions": [
       "BMT",
       "IND"
@@ -6396,11 +6397,11 @@
         "station_id": "29",
         "gtfs_stop_id": "R33"
       }
-    ],
-    "complex_id": "608"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "609",
     "divisions": [
       "IND",
       "IRT"
@@ -6421,11 +6422,11 @@
         "station_id": "226",
         "gtfs_stop_id": "D16"
       }
-    ],
-    "complex_id": "609"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "61",
     "divisions": [
       "BMT"
     ],
@@ -6437,11 +6438,11 @@
         "station_id": "61",
         "gtfs_stop_id": "B14"
       }
-    ],
-    "complex_id": "61"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "610",
     "divisions": [
       "IRT"
     ],
@@ -6465,11 +6466,11 @@
         "station_id": "469",
         "gtfs_stop_id": "901"
       }
-    ],
-    "complex_id": "610"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "611",
     "divisions": [
       "BMT",
       "IND",
@@ -6510,11 +6511,11 @@
         "station_id": "11",
         "gtfs_stop_id": "R16"
       }
-    ],
-    "complex_id": "611"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "612",
     "divisions": [
       "IND",
       "IRT"
@@ -6533,11 +6534,11 @@
         "station_id": "275",
         "gtfs_stop_id": "F11"
       }
-    ],
-    "complex_id": "612"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "613",
     "divisions": [
       "BMT",
       "IRT"
@@ -6559,11 +6560,11 @@
         "station_id": "7",
         "gtfs_stop_id": "R11"
       }
-    ],
-    "complex_id": "613"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "614",
     "divisions": [
       "IND",
       "IRT"
@@ -6584,11 +6585,11 @@
         "station_id": "161",
         "gtfs_stop_id": "A24"
       }
-    ],
-    "complex_id": "614"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "615",
     "divisions": [
       "BMT"
     ],
@@ -6605,11 +6606,11 @@
         "station_id": "73",
         "gtfs_stop_id": "N04"
       }
-    ],
-    "complex_id": "615"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "616",
     "divisions": [
       "IND",
       "IRT"
@@ -6630,11 +6631,11 @@
         "station_id": "267",
         "gtfs_stop_id": "G14"
       }
-    ],
-    "complex_id": "616"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "617",
     "divisions": [
       "BMT",
       "IRT"
@@ -6663,11 +6664,11 @@
         "station_id": "27",
         "gtfs_stop_id": "R31"
       }
-    ],
-    "complex_id": "617"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "618",
     "divisions": [
       "BMT",
       "IND"
@@ -6687,11 +6688,11 @@
         "station_id": "115",
         "gtfs_stop_id": "L01"
       }
-    ],
-    "complex_id": "618"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "619",
     "divisions": [
       "IND",
       "IRT"
@@ -6712,11 +6713,11 @@
         "station_id": "230",
         "gtfs_stop_id": "D21"
       }
-    ],
-    "complex_id": "619"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "62",
     "divisions": [
       "BMT"
     ],
@@ -6728,11 +6729,11 @@
         "station_id": "62",
         "gtfs_stop_id": "B15"
       }
-    ],
-    "complex_id": "62"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "620",
     "divisions": [
       "BMT",
       "IRT"
@@ -6757,11 +6758,11 @@
         "station_id": "24",
         "gtfs_stop_id": "R28"
       }
-    ],
-    "complex_id": "620"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "621",
     "divisions": [
       "BMT",
       "IND"
@@ -6786,11 +6787,11 @@
         "station_id": "132",
         "gtfs_stop_id": "L22"
       }
-    ],
-    "complex_id": "621"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "622",
     "divisions": [
       "BMT",
       "IRT"
@@ -6811,11 +6812,11 @@
         "station_id": "105",
         "gtfs_stop_id": "M21"
       }
-    ],
-    "complex_id": "622"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "623",
     "divisions": [
       "BMT",
       "IRT"
@@ -6846,11 +6847,11 @@
         "station_id": "18",
         "gtfs_stop_id": "R23"
       }
-    ],
-    "complex_id": "623"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "624",
     "divisions": [
       "BMT",
       "IND",
@@ -6882,11 +6883,11 @@
         "station_id": "21",
         "gtfs_stop_id": "R25"
       }
-    ],
-    "complex_id": "624"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "625",
     "divisions": [
       "BMT",
       "IND"
@@ -6906,11 +6907,11 @@
         "station_id": "102",
         "gtfs_stop_id": "M18"
       }
-    ],
-    "complex_id": "625"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "626",
     "divisions": [
       "BMT",
       "IRT"
@@ -6931,11 +6932,11 @@
         "station_id": "142",
         "gtfs_stop_id": "S04"
       }
-    ],
-    "complex_id": "626"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "627",
     "divisions": [
       "BMT",
       "IND"
@@ -6953,11 +6954,11 @@
         "station_id": "139",
         "gtfs_stop_id": "S01"
       }
-    ],
-    "complex_id": "627"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "628",
     "divisions": [
       "BMT",
       "IND",
@@ -6990,11 +6991,11 @@
         "station_id": "106",
         "gtfs_stop_id": "M22"
       }
-    ],
-    "complex_id": "628"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "629",
     "divisions": [
       "BMT",
       "IND"
@@ -7012,11 +7013,11 @@
         "station_id": "121",
         "gtfs_stop_id": "L10"
       }
-    ],
-    "complex_id": "629"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "630",
     "divisions": [
       "BMT"
     ],
@@ -7033,11 +7034,11 @@
         "station_id": "112",
         "gtfs_stop_id": "M08"
       }
-    ],
-    "complex_id": "630"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "635",
     "divisions": [
       "BMT",
       "IRT"
@@ -7056,11 +7057,11 @@
         "station_id": "23",
         "gtfs_stop_id": "R27"
       }
-    ],
-    "complex_id": "635"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "636",
     "divisions": [
       "BMT",
       "IND"
@@ -7080,11 +7081,11 @@
         "station_id": "25",
         "gtfs_stop_id": "R29"
       }
-    ],
-    "complex_id": "636"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "64",
     "divisions": [
       "BMT"
     ],
@@ -7096,11 +7097,11 @@
         "station_id": "64",
         "gtfs_stop_id": "B17"
       }
-    ],
-    "complex_id": "64"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "65",
     "divisions": [
       "BMT"
     ],
@@ -7112,11 +7113,11 @@
         "station_id": "65",
         "gtfs_stop_id": "B18"
       }
-    ],
-    "complex_id": "65"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "66",
     "divisions": [
       "BMT"
     ],
@@ -7128,11 +7129,11 @@
         "station_id": "66",
         "gtfs_stop_id": "B19"
       }
-    ],
-    "complex_id": "66"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "67",
     "divisions": [
       "BMT"
     ],
@@ -7144,11 +7145,11 @@
         "station_id": "67",
         "gtfs_stop_id": "B20"
       }
-    ],
-    "complex_id": "67"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "68",
     "divisions": [
       "BMT"
     ],
@@ -7160,11 +7161,11 @@
         "station_id": "68",
         "gtfs_stop_id": "B21"
       }
-    ],
-    "complex_id": "68"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "69",
     "divisions": [
       "BMT"
     ],
@@ -7176,11 +7177,11 @@
         "station_id": "69",
         "gtfs_stop_id": "B22"
       }
-    ],
-    "complex_id": "69"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "70",
     "divisions": [
       "BMT"
     ],
@@ -7192,11 +7193,11 @@
         "station_id": "70",
         "gtfs_stop_id": "B23"
       }
-    ],
-    "complex_id": "70"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "71",
     "divisions": [
       "BMT"
     ],
@@ -7208,11 +7209,11 @@
         "station_id": "71",
         "gtfs_stop_id": "N02"
       }
-    ],
-    "complex_id": "71"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "72",
     "divisions": [
       "BMT"
     ],
@@ -7224,11 +7225,11 @@
         "station_id": "72",
         "gtfs_stop_id": "N03"
       }
-    ],
-    "complex_id": "72"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "74",
     "divisions": [
       "BMT"
     ],
@@ -7240,11 +7241,11 @@
         "station_id": "74",
         "gtfs_stop_id": "N05"
       }
-    ],
-    "complex_id": "74"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "75",
     "divisions": [
       "BMT"
     ],
@@ -7256,11 +7257,11 @@
         "station_id": "75",
         "gtfs_stop_id": "N06"
       }
-    ],
-    "complex_id": "75"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "76",
     "divisions": [
       "BMT"
     ],
@@ -7272,11 +7273,11 @@
         "station_id": "76",
         "gtfs_stop_id": "N07"
       }
-    ],
-    "complex_id": "76"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "77",
     "divisions": [
       "BMT"
     ],
@@ -7288,11 +7289,11 @@
         "station_id": "77",
         "gtfs_stop_id": "N08"
       }
-    ],
-    "complex_id": "77"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "78",
     "divisions": [
       "BMT"
     ],
@@ -7304,11 +7305,11 @@
         "station_id": "78",
         "gtfs_stop_id": "N09"
       }
-    ],
-    "complex_id": "78"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "79",
     "divisions": [
       "BMT"
     ],
@@ -7320,11 +7321,11 @@
         "station_id": "79",
         "gtfs_stop_id": "N10"
       }
-    ],
-    "complex_id": "79"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "8",
     "divisions": [
       "BMT"
     ],
@@ -7338,11 +7339,11 @@
         "station_id": "8",
         "gtfs_stop_id": "R13"
       }
-    ],
-    "complex_id": "8"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "80",
     "divisions": [
       "BMT"
     ],
@@ -7355,11 +7356,11 @@
         "station_id": "80",
         "gtfs_stop_id": "J12"
       }
-    ],
-    "complex_id": "80"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "81",
     "divisions": [
       "BMT"
     ],
@@ -7371,11 +7372,11 @@
         "station_id": "81",
         "gtfs_stop_id": "J13"
       }
-    ],
-    "complex_id": "81"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "82",
     "divisions": [
       "BMT"
     ],
@@ -7388,11 +7389,11 @@
         "station_id": "82",
         "gtfs_stop_id": "J14"
       }
-    ],
-    "complex_id": "82"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "83",
     "divisions": [
       "BMT"
     ],
@@ -7405,11 +7406,11 @@
         "station_id": "83",
         "gtfs_stop_id": "J15"
       }
-    ],
-    "complex_id": "83"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "84",
     "divisions": [
       "BMT"
     ],
@@ -7421,11 +7422,11 @@
         "station_id": "84",
         "gtfs_stop_id": "J16"
       }
-    ],
-    "complex_id": "84"
+    ]
   },
   {
     "borough": "Queens",
+    "complex_id": "85",
     "divisions": [
       "BMT"
     ],
@@ -7438,11 +7439,11 @@
         "station_id": "85",
         "gtfs_stop_id": "J17"
       }
-    ],
-    "complex_id": "85"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "86",
     "divisions": [
       "BMT"
     ],
@@ -7454,11 +7455,11 @@
         "station_id": "86",
         "gtfs_stop_id": "J19"
       }
-    ],
-    "complex_id": "86"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "87",
     "divisions": [
       "BMT"
     ],
@@ -7471,11 +7472,11 @@
         "station_id": "87",
         "gtfs_stop_id": "J20"
       }
-    ],
-    "complex_id": "87"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "88",
     "divisions": [
       "BMT"
     ],
@@ -7488,11 +7489,11 @@
         "station_id": "88",
         "gtfs_stop_id": "J21"
       }
-    ],
-    "complex_id": "88"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "89",
     "divisions": [
       "BMT"
     ],
@@ -7504,11 +7505,11 @@
         "station_id": "89",
         "gtfs_stop_id": "J22"
       }
-    ],
-    "complex_id": "89"
+    ]
   },
   {
     "borough": "Manhattan",
+    "complex_id": "9",
     "divisions": [
       "BMT"
     ],
@@ -7523,11 +7524,11 @@
         "station_id": "9",
         "gtfs_stop_id": "R14"
       }
-    ],
-    "complex_id": "9"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "90",
     "divisions": [
       "BMT"
     ],
@@ -7540,11 +7541,11 @@
         "station_id": "90",
         "gtfs_stop_id": "J23"
       }
-    ],
-    "complex_id": "90"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "91",
     "divisions": [
       "BMT"
     ],
@@ -7556,11 +7557,11 @@
         "station_id": "91",
         "gtfs_stop_id": "J24"
       }
-    ],
-    "complex_id": "91"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "93",
     "divisions": [
       "BMT"
     ],
@@ -7573,11 +7574,11 @@
         "station_id": "93",
         "gtfs_stop_id": "J28"
       }
-    ],
-    "complex_id": "93"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "94",
     "divisions": [
       "BMT"
     ],
@@ -7589,11 +7590,11 @@
         "station_id": "94",
         "gtfs_stop_id": "J29"
       }
-    ],
-    "complex_id": "94"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "95",
     "divisions": [
       "BMT"
     ],
@@ -7606,11 +7607,11 @@
         "station_id": "95",
         "gtfs_stop_id": "J30"
       }
-    ],
-    "complex_id": "95"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "96",
     "divisions": [
       "BMT"
     ],
@@ -7622,11 +7623,11 @@
         "station_id": "96",
         "gtfs_stop_id": "J31"
       }
-    ],
-    "complex_id": "96"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "97",
     "divisions": [
       "BMT"
     ],
@@ -7640,11 +7641,11 @@
         "station_id": "97",
         "gtfs_stop_id": "M11"
       }
-    ],
-    "complex_id": "97"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "98",
     "divisions": [
       "BMT"
     ],
@@ -7657,11 +7658,11 @@
         "station_id": "98",
         "gtfs_stop_id": "M12"
       }
-    ],
-    "complex_id": "98"
+    ]
   },
   {
     "borough": "Brooklyn",
+    "complex_id": "99",
     "divisions": [
       "BMT"
     ],
@@ -7674,7 +7675,6 @@
         "station_id": "99",
         "gtfs_stop_id": "M13"
       }
-    ],
-    "complex_id": "99"
+    ]
   }
 ]

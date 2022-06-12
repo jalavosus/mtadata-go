@@ -7,6 +7,32 @@ import (
 	"github.com/jalavosus/mtadata/models"
 )
 
+type StationQueryBy uint
+
+const (
+	StationQueryByStationId StationQueryBy = iota
+	StationQueryByGtfsId
+)
+
+func Station(ctx context.Context, id string, queryBy StationQueryBy) (*models.Station, error) {
+	var model = &models.Station{}
+
+	switch queryBy {
+	case StationQueryByStationId:
+		model.StationId = id
+	case StationQueryByGtfsId:
+		model.GtfsStopId = id
+	}
+
+	conn := connection.ConnectionContext(ctx)
+
+	if err := conn.Find(model).Error; err != nil {
+		return nil, err
+	}
+
+	return model, nil
+}
+
 func Stations(ctx context.Context, queryParams StationQueryParams) (models.Stations, error) {
 	var res models.Stations
 

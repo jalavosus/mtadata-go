@@ -40,10 +40,10 @@ var (
 )
 
 var dbModels = []database.CustomDbTyper{
-	boroughs.Borough(""),
-	structures.Structure(""),
-	divisions.Division(""),
-	routes.Route(""),
+	boroughs.Borough(0),
+	structures.Structure(0),
+	divisions.Division(0),
+	routes.Route(0),
 	models.GtfsLocation{},
 	models.DirectionLabels{},
 	models.StationInfo{},

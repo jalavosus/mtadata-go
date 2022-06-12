@@ -7,17 +7,20 @@ import (
 	"gorm.io/gorm/schema"
 )
 
+type GenericEnum[T any] int32
+
 // Enum is a base interface which "basic" string enums,
 // ie. those which are just "const => "string"" can implement.
 // The following types must be
 // Enum.Deserialize, Enum.String, and Enum.CreateDbType
 // must be implemented by the deriving type.
-type Enum interface {
+type Enum[T any] interface {
+	Proto() T
 
 	// Deserialize sets the pointer value of a
 	// variable to the value of the passed []byte.
 	// How this is done is left up to the developer.
-	Deserialize([]byte) error
+	// Deserialize([]byte) error
 
 	// String returns the `string` representation of
 	// an implementing type, and implements fmt.Stringer.

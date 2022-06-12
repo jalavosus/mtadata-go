@@ -10,17 +10,20 @@ import (
 	"github.com/jalavosus/mtadata/internal/database/dialectors"
 	"github.com/jalavosus/mtadata/internal/utils"
 	"github.com/jalavosus/mtadata/models/enums"
+	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
 )
 
-type Borough enums.StringEnum
+//go:generate stringer -type Borough -linecomment
+
+type Borough enums.GenericEnum[protosv1.Borough]
 
 const (
-	Manhattan    = Borough("Manhattan")
-	Brooklyn     = Borough("Brooklyn")
-	Bronx        = Borough("Bronx")
-	Queens       = Borough("Queens")
-	StatenIsland = Borough("Staten Island")
-	Unknown      = Borough("")
+	Unknown      Borough = iota // Unknown
+	Manhattan                   // Manhattan
+	Brooklyn                    // Brooklyn
+	Bronx                       // Bronx
+	Queens                      // Queens
+	StatenIsland                // Staten Island
 )
 
 const (
@@ -56,13 +59,27 @@ func FromString(s string) Borough {
 	return utils.EnumFromString(s, AllBoroughs, Unknown)
 }
 
-func (b Borough) String() string {
-	return string(b)
+func FromProto(val protosv1.Borough) (b Borough) {
+	switch val {
+	case protosv1.Borough_MANHATTAN:
+		b = Manhattan
+	case protosv1.Borough_BROOKLYN:
+		b = Brooklyn
+	case protosv1.Borough_BRONX:
+		b = Bronx
+	case protosv1.Borough_QUEENS:
+		b = Queens
+	case protosv1.Borough_STATEN_ISLAND:
+		b = StatenIsland
+	default:
+		b = Unknown
+	}
+
+	return
 }
 
-func (b *Borough) Deserialize(data []byte) error {
-	*b = utils.DeserializeEnum(data, FromString)
-	return nil
+func (b Borough) Proto() protosv1.Borough {
+	return protosv1.Borough(b)
 }
 
 func (Borough) GormDataType() string {
@@ -96,6 +113,24 @@ func (b Borough) Value() (driver.Value, error) {
 	return utils.EnumToDbValue(b), nil
 }
 
+// MarshalJSON implements json.Marshaler.
+// Returns the JSON-encoded value of Borough.String.
+func (b Borough) MarshalJSON() ([]byte, error) {
+	return utils.SerializeEnum(b, utils.SerializeJson)
+}
+
+func (b *Borough) UnmarshalJSON(data []byte) error {
+	return utils.DeserializeEnum(data, b, utils.SerializeJson, FromString)
+}
+
+func (b Borough) MarshalYAML() ([]byte, error) {
+	return utils.SerializeEnum(b, utils.SerializeYaml)
+}
+
+func (b *Borough) UnmarshalYAML(data []byte) error {
+	return utils.DeserializeEnum(data, b, utils.SerializeYaml, FromString)
+}
+
 func (*Borough) QueryClause() string {
 	return "borough = ?"
 }
@@ -116,3 +151,7 @@ func (b *Borough) Invalid() bool {
 
 	return *b == Unknown
 }
+
+var (
+	_ enums.Enum[protosv1.Borough] = (*Borough)(nil)
+)

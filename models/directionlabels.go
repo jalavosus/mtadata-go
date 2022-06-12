@@ -10,6 +10,7 @@ import (
 
 	"github.com/jalavosus/mtadata/internal/database/dialectors"
 	"github.com/jalavosus/mtadata/internal/utils"
+	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
 )
 
 const (
@@ -23,6 +24,13 @@ type DirectionLabels struct {
 
 func NewDirectionLabels(north, south string) DirectionLabels {
 	return DirectionLabels{North: north, South: south}
+}
+
+func (d DirectionLabels) Proto() *protosv1.DirectionLabels {
+	return &protosv1.DirectionLabels{
+		North: d.North,
+		South: d.South,
+	}
 }
 
 func (DirectionLabels) GormDataType() string {
@@ -60,3 +68,7 @@ func (d *DirectionLabels) Scan(value any) error {
 func (d DirectionLabels) Value() (driver.Value, error) {
 	return fmt.Sprintf(`("%[1]s", "%[2]s")`, d.North, d.South), nil
 }
+
+var (
+	_ ProtoMessage[protosv1.DirectionLabels] = (*DirectionLabels)(nil)
+)

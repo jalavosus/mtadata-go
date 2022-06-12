@@ -23,9 +23,15 @@ func SerializeEnum(data fmt.Stringer, serializeType SerializeType) ([]byte, erro
 	return SerializeString(data.String(), serializeType)
 }
 
-func DeserializeEnum[T any](data []byte, fromStringFn IotaFromStringFn[T]) T {
-	s := fmt.Sprintf("%x", data)
-	return fromStringFn(s)
+func DeserializeEnum[T ~int32](data []byte, out *T, serializeType SerializeType, fn IotaFromStringFn[T]) error {
+	res, err := DeserializeStringEnum(data, serializeType)
+	if err != nil {
+		return err
+	}
+
+	*out = fn(res)
+
+	return nil
 }
 
 func SerializeString(s string, serializeType SerializeType) ([]byte, error) {
@@ -48,4 +54,25 @@ func SerializeString(s string, serializeType SerializeType) ([]byte, error) {
 	}
 
 	return buf.Bytes(), nil
+}
+
+func DeserializeStringEnum(b []byte, serializeType SerializeType) (string, error) {
+	var (
+		buf bytes.Buffer
+		err error
+		res string
+	)
+
+	if _, err = buf.Write(b); err != nil {
+		return res, err
+	}
+
+	switch serializeType {
+	case SerializeJson:
+		err = json.NewDecoder(&buf).Decode(&res)
+	case SerializeYaml:
+		err = yaml.NewDecoder(&buf).Decode(&res)
+	}
+
+	return res, nil
 }

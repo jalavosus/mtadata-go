@@ -9,16 +9,19 @@ import (
 	"github.com/jalavosus/mtadata/internal/database/dialectors"
 	"github.com/jalavosus/mtadata/internal/utils"
 	"github.com/jalavosus/mtadata/models/enums"
+	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
 )
 
-type Division enums.StringEnum
+//go:generate stringer -type Division -linecomment
+
+type Division enums.GenericEnum[protosv1.Division]
 
 const (
-	BMT     = Division("BMT")
-	IND     = Division("IND")
-	IRT     = Division("IRT")
-	SIR     = Division("SIR")
-	Unknown = Division("")
+	Unknown Division = iota // Unknown
+	BMT                     // BMT
+	IND                     // IND
+	IRT                     // IRT
+	SIR                     // SIR
 )
 
 const (
@@ -36,13 +39,25 @@ func FromString(s string) Division {
 	return utils.EnumFromString(s, AllDivisions, Unknown)
 }
 
-func (d Division) String() string {
-	return string(d)
+func FromProto(val protosv1.Division) (d Division) {
+	switch val {
+	case protosv1.Division_BMT:
+		d = BMT
+	case protosv1.Division_IND:
+		d = IND
+	case protosv1.Division_IRT:
+		d = IRT
+	case protosv1.Division_SIR_DIVISION:
+		d = SIR
+	default:
+		d = Unknown
+	}
+
+	return
 }
 
-func (d *Division) Deserialize(data []byte) error {
-	*d = utils.DeserializeEnum(data, FromString)
-	return nil
+func (d Division) Proto() protosv1.Division {
+	return protosv1.Division(d)
 }
 
 func (Division) GormDataType() string {
@@ -76,6 +91,24 @@ func (d Division) Value() (driver.Value, error) {
 	return utils.EnumToDbValue(d), nil
 }
 
+// MarshalJSON implements json.Marshaler.
+// Returns the JSON-encoded value of Division.String.
+func (d Division) MarshalJSON() ([]byte, error) {
+	return utils.SerializeEnum(d, utils.SerializeJson)
+}
+
+func (d *Division) UnmarshalJSON(data []byte) error {
+	return utils.DeserializeEnum(data, d, utils.SerializeJson, FromString)
+}
+
+func (d Division) MarshalYAML() ([]byte, error) {
+	return utils.SerializeEnum(d, utils.SerializeYaml)
+}
+
+func (d *Division) UnmarshalYAML(data []byte) error {
+	return utils.DeserializeEnum(data, d, utils.SerializeYaml, FromString)
+}
+
 func (d *Division) QueryClause() string {
 	return "division = ?"
 }
@@ -96,3 +129,7 @@ func (d *Division) Invalid() bool {
 
 	return *d == Unknown
 }
+
+var (
+	_ enums.Enum[protosv1.Division] = (*Division)(nil)
+)

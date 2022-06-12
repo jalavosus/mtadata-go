@@ -1,0 +1,4 @@
+version: v1
+
+directories:
+  - models/protos/v1/proto

@@ -1,0 +1,62 @@
+syntax = "proto3";
+
+package mtadata.v1;
+
+import "types.proto";
+import "queries.proto";
+
+import "google/protobuf/empty.proto";
+import "google/api/annotations.proto";
+
+
+service MtaDataService {
+  rpc GetStation (StationRequest) returns (Station) {
+    option (google.api.http) = {
+      get: "/v1/{station_id}"
+    };
+  }
+
+  rpc GetStations (StationsQuery) returns (StationsResult) {
+    option (google.api.http) = {
+      post: "/v1/stations"
+      body: "query_params"
+    };
+  }
+
+  rpc GetStationComplex (StationComplexRequest) returns (StationComplex) {
+    option (google.api.http) = {
+      get: "/v1/complexes/{complex_id}"
+    };
+  }
+
+  rpc GetStationComplexes (StationComplexesQuery) returns (StationComplexesResult) {
+    option (google.api.http) = {
+      post: "/v1/complexes"
+      body: "query_params"
+    };
+  }
+
+  rpc GetAllRoutes (google.protobuf.Empty) returns (AllRoutes) {
+    option (google.api.http) = {
+      get: "/v1/routes"
+    };
+  }
+
+  rpc GetAllBoroughs (google.protobuf.Empty) returns (AllBoroughs) {
+    option (google.api.http) = {
+      get: "/v1/boroughs"
+    };
+  }
+
+  rpc GetAllDivisions (google.protobuf.Empty) returns (AllDivisions) {
+    option (google.api.http) = {
+      get: "/v1/divisions"
+    };
+  }
+
+  rpc GetAllStructures (google.protobuf.Empty) returns (AllStructures) {
+    option (google.api.http) = {
+      get: "/v1/structures"
+    };
+  }
+}

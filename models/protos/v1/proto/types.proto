@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+package mtadata.v1;
+
+import "enums.proto";
+
+message DirectionLabels {
+  string north = 1;
+  string south = 2;
+}
+
+message GtfsLocation {
+  double latitude = 1;
+  double longitude = 2;
+}
+
+message StationInfo {
+  string station_id = 1;
+  string gtfs_stop_id = 2;
+}
+
+message Station {
+  DirectionLabels direction_labels = 1;
+  string gtfs_stop_id = 2;
+  string stop_name = 3;
+  string line = 4;
+  Division division = 5;
+  Borough borough = 6;
+  Structure structure = 7;
+  string station_id = 8;
+  string complex_id = 9;
+  repeated Route daytime_routes = 10;
+  GtfsLocation gtfs_location = 11;
+}
+
+message StationComplex {
+  string complex_id = 1;
+  Borough borough = 2;
+  repeated Division divisions = 3;
+  repeated Route daytime_routes = 4;
+  repeated StationInfo station_infos = 5;
+  optional Stations stations = 6;
+}
+
+message Stations {
+  repeated Station stations = 1;
+}

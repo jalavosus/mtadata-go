@@ -238,6 +238,7 @@ func insertStationsDbCmdAction(c *cli.Context) error {
 
 	if insertStations {
 		for _, p := range parsedStations {
+			// _ = p
 			err := conn.
 				Model(&models.Station{}).
 				Create(&p).

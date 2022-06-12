@@ -4,11 +4,16 @@ go 1.18
 
 require (
 	github.com/goccy/go-yaml v1.9.5
+	github.com/golang/protobuf v1.5.2
+	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/joho/godotenv v1.4.0
 	github.com/k0kubun/pp/v3 v3.1.0
 	github.com/lib/pq v1.10.2
 	github.com/pkg/errors v0.9.1
 	github.com/urfave/cli/v2 v2.8.1
+	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013
+	google.golang.org/grpc v1.47.0
+	google.golang.org/protobuf v1.28.0
 	gorm.io/driver/postgres v1.3.7
 	gorm.io/gorm v1.23.5
 )
@@ -31,6 +36,7 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/xrash/smetrics v0.0.0-20201216005158-039620a65673 // indirect
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
+	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110 // indirect
 	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
