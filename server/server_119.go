@@ -1,40 +1,41 @@
-//go:build !go1.19
+//go:build go1.19
 
 package server
 
 import (
 	"strconv"
 	"sync/atomic"
-
-	"github.com/jalavosus/mtadata/internal/utils"
 )
 
 type Server struct {
-	started  *uint32
+	started  *atomic.Bool
 	endpoint EndpointConfig
 }
 
 func NewServer(endpoint EndpointConfig) *Server {
+	started := new(atomic.Bool)
+	started.Store(false)
+
 	return &Server{
-		started:  utils.ToPointer[uint32](0),
+		started:  started,
 		endpoint: endpoint,
 	}
 }
 
 func (s *Server) Started() bool {
-	return atomic.LoadUint32(s.started) == 1
+	return s.started.Load()
 }
 
 func (s *Server) SetStarted() {
-	atomic.StoreUint32(s.started, 1)
+	s.started.Store(true)
 }
 
 func (s *Server) Stopped() bool {
-	return atomic.LoadUint32(s.started) == 0
+	return !s.started.Load()
 }
 
 func (s *Server) SetStopped() {
-	atomic.StoreUint32(s.started, 0)
+	s.started.Store(false)
 }
 
 func (s *Server) Endpoint() EndpointConfig {

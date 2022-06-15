@@ -2,7 +2,8 @@
 .PHONY: generate lint fieldalign fieldalign-fix fmt
 .PHONY: build-protos
 
-GO=$(shell which go)
+#GO=$(shell which go)
+GO=$(shell which gotip)
 CMD_DIR=./cmd
 BIN_DIR=./bin
 
