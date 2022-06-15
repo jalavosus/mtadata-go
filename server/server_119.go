@@ -14,7 +14,6 @@ type Server struct {
 
 func NewServer(endpoint EndpointConfig) *Server {
 	started := new(atomic.Bool)
-	started.Store(false)
 
 	return &Server{
 		started:  started,
@@ -27,7 +26,7 @@ func (s *Server) Started() bool {
 }
 
 func (s *Server) SetStarted() {
-	s.started.Store(true)
+	s.started.CompareAndSwap(false, true)
 }
 
 func (s *Server) Stopped() bool {
@@ -35,7 +34,7 @@ func (s *Server) Stopped() bool {
 }
 
 func (s *Server) SetStopped() {
-	s.started.Store(false)
+	s.started.CompareAndSwap(true, false)
 }
 
 func (s *Server) Endpoint() EndpointConfig {

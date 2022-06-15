@@ -26,7 +26,7 @@ func (s *Server) Started() bool {
 }
 
 func (s *Server) SetStarted() {
-	atomic.StoreUint32(s.started, 1)
+	atomic.CompareAndSwapUint32(s.started, 0, 1)
 }
 
 func (s *Server) Stopped() bool {
@@ -34,7 +34,7 @@ func (s *Server) Stopped() bool {
 }
 
 func (s *Server) SetStopped() {
-	atomic.StoreUint32(s.started, 0)
+	atomic.CompareAndSwapUint32(s.started, 1, 0)
 }
 
 func (s *Server) Endpoint() EndpointConfig {
