@@ -1,0 +1,5 @@
+[server]
+
+[server.gateway]
+host="test_localhost"
+port=9089

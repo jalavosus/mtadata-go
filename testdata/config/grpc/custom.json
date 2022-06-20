@@ -1,0 +1,8 @@
+{
+  "server": {
+    "grpc": {
+      "host": "test_localhost",
+      "port": 50050
+    }
+  }
+}

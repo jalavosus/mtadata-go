@@ -1,0 +1,7 @@
+{
+  "db": {
+    "host": "test_localhost",
+    "port": 5431,
+    "ssl_mode": "test_ssl_mode"
+  }
+}
