@@ -5,33 +5,24 @@ import (
 	"os"
 
 	"github.com/urfave/cli/v2"
-
-	"github.com/jalavosus/mtadata/cmd/cliutil"
-	"github.com/jalavosus/mtadata/server/grpcserver"
-	"github.com/jalavosus/mtadata/server/muxserver"
+	"go.uber.org/fx"
 
 	_ "github.com/joho/godotenv/autoload"
+
+	"github.com/jalavosus/mtadata/cmd/cliutil"
+	"github.com/jalavosus/mtadata/internal/config"
+	"github.com/jalavosus/mtadata/internal/database"
+	"github.com/jalavosus/mtadata/internal/logging"
+	"github.com/jalavosus/mtadata/server/grpcserver"
+	"github.com/jalavosus/mtadata/server/muxserver"
 )
 
-func portFlag(port int) cli.IntFlag {
-	return cli.IntFlag{
-		Name:     "port",
-		Usage:    "`port` for server to listen on",
-		Aliases:  []string{"p"},
-		Required: false,
-		Value:    port,
-	}
-}
-
 var (
-	hostFlag = cli.StringFlag{
-		Name:     "host",
-		Usage:    "`host` for server to listen on",
+	configFlag = cli.PathFlag{
+		Name:     "config",
+		Aliases:  []string{"c"},
 		Required: false,
-		Value:    "localhost",
 	}
-	grpcPortFlag = portFlag(grpcserver.DefaultServerPort)
-	// restPortFlag = portFlag(8080)
 )
 
 var (
@@ -39,16 +30,41 @@ var (
 		Name:  "start-grpc",
 		Usage: "Start the GRPC server",
 		Flags: []cli.Flag{
-			&hostFlag,
-			&grpcPortFlag,
+			&configFlag,
 		},
 		Action: apiGrpcCmdAction,
 	}
 )
 
 func apiGrpcCmdAction(c *cli.Context) error {
-	server := muxserver.NewServer()
-	return server.Start(c.Context)
+	errCh := make(chan error, 1)
+
+	app := fx.New(
+		fx.Supply(errCh, configFlag.Get(c)),
+		fx.Provide(logging.NewLogger),
+		logging.WithLogger,
+		fx.Module("config", config.Module),
+		fx.Module("grpc", grpcserver.Module),
+		fx.Module("mux", muxserver.Module),
+		fx.Module("database", database.Module),
+	)
+
+	if err := app.Start(c.Context); err != nil {
+		return err
+	}
+
+	for {
+		select {
+		case <-app.Done():
+			if app.Err() != nil {
+				return app.Err()
+			}
+
+			return nil
+		case err := <-errCh:
+			return err
+		}
+	}
 }
 
 func main() {

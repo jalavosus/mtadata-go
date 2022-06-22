@@ -2,30 +2,39 @@ package grpcserver
 
 import (
 	"context"
-	"log"
 	"net"
 
 	"github.com/pkg/errors"
+	"go.uber.org/fx"
+	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
+	"github.com/jalavosus/mtadata/internal/config"
+	"github.com/jalavosus/mtadata/internal/logging"
 	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
 	"github.com/jalavosus/mtadata/server"
 )
 
-const (
-	DefaultServerHost string = ""
-	DefaultServerPort int    = 50051
+var Module = fx.Options(
+	fx.Provide(NewServer),
+	fx.Invoke(serveGrpc),
 )
 
 type Server struct {
 	protosv1.UnimplementedMtaDataServiceServer
 	*server.Server
 	grpcServer *grpc.Server
+	logger     *zap.Logger
 }
 
-func NewServer() *Server {
+func NewServer(conf *config.AppConfig) *Server {
+	endpoint := server.MakeEndpointConfig(
+		conf.Server.Grpc.Host,
+		conf.Server.Grpc.Port,
+	)
+
 	s := &Server{
-		Server: server.NewServer(server.MakeEndpointConfig(DefaultServerHost, DefaultServerPort)),
+		Server: server.NewServer(endpoint),
 	}
 
 	var serverOpts []grpc.ServerOption
@@ -44,8 +53,10 @@ func (s *Server) Addr() string {
 func (s *Server) Start(ctx context.Context) error {
 	errCh := make(chan error, 1)
 
+	logger := logging.NewLogger()
+
 	go func(s *Server, ch chan<- error) {
-		ch <- s.Serve()
+		ch <- s.Serve(logger)
 	}(s, errCh)
 
 	for {
@@ -59,14 +70,15 @@ func (s *Server) Start(ctx context.Context) error {
 	}
 }
 
-func (s *Server) Serve() error {
+func (s *Server) Serve(logger *zap.Logger) error {
 	lis, err := net.Listen("tcp", s.Addr())
 	if err != nil {
 		return errors.WithMessage(err, "error creating net.Listener instance")
 	}
 
+	s.logger = logger
 	s.SetStarted()
-	log.Printf("MtaDataService grpc server running on %[1]s\n", s.Addr())
+	logger.Info("starting grpc server", zap.String("address", s.Endpoint().Addr()))
 
 	return s.grpcServer.Serve(lis)
 }
@@ -79,4 +91,20 @@ func (s *Server) Stop(graceful bool) {
 	}
 
 	s.SetStopped()
+}
+
+func serveGrpc(lc fx.Lifecycle, s *Server, logger *zap.Logger, errCh chan error) {
+	lc.Append(fx.Hook{
+		OnStart: func(_ context.Context) error {
+			go func(s *Server, logger *zap.Logger, ch chan<- error) {
+				ch <- s.Serve(logger)
+			}(s, logger, errCh)
+
+			return nil
+		},
+		OnStop: func(ctx context.Context) error {
+			s.Stop(true)
+			return nil
+		},
+	})
 }
