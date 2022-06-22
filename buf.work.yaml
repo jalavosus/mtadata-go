@@ -2,3 +2,4 @@ version: v1
 
 directories:
   - models/protos/v1/proto
+#  - models/protos/gtfs/proto
