@@ -1,0 +1,6 @@
+[server]
+[server.grpc]
+port=50052
+
+[server.gateway]
+port=9095
