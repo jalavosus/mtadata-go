@@ -11,8 +11,17 @@ import (
 )
 
 type AppConfig struct {
-	Db     *DbConfig     `fig:"db"`
-	Server *ServerConfig `fig:"server"`
+	Db     DbConfig `fig:"db"`
+	Server struct {
+		Grpc struct {
+			Host string `fig:"host" default:"localhost"`
+			Port int    `fig:"port" default:"50051"`
+		} `fig:"grpc"`
+		Gateway struct {
+			Host string `fig:"host" default:"localhost"`
+			Port int    `fig:"port" default:"9090"`
+		} `fig:"gateway"`
+	} `fig:"server"`
 }
 
 func (c *AppConfig) LoadEnv() error {
@@ -69,143 +78,36 @@ func (c *DbConfig) LoadEnv() error {
 	return nil
 }
 
-type ServerConfig struct {
-	Grpc    *GrpcServerConfig    `fig:"grpc"`
-	Gateway *GatewayServerConfig `fig:"gateway"`
-}
-
-func (c *ServerConfig) LoadEnv() error {
-	if err := c.Grpc.LoadEnv(); err != nil {
-		return err
-	}
-
-	if err := c.Gateway.LoadEnv(); err != nil {
-		return err
-	}
-
-	return nil
-}
-
-type GrpcServerConfig struct {
-	Host string `fig:"host" default:"localhost"`
-	Port int    `fig:"port" default:"50051"`
-}
-
-func (c *GrpcServerConfig) LoadEnv() error {
-	cfg, loadErr := loadEnv[GrpcServerConfig](env.PrefixGrpc)
-	if loadErr != nil {
-		return loadErr
-	}
-
-	if checkVal(cfg.Host, c.Host) && checkVal(cfg.Host, DefaultHost) {
-		c.Host = cfg.Host
-	}
-
-	if checkVal(cfg.Port, c.Port) && checkVal(cfg.Port, DefaultPortGrpc) {
-		c.Port = cfg.Port
-	}
-
-	return nil
-}
-
-type GatewayServerConfig struct {
-	Host string `fig:"host" default:"localhost"`
-	Port int    `fig:"port" default:"9090"`
-}
-
-func (c *GatewayServerConfig) LoadEnv() error {
-	cfg, loadErr := loadEnv[GatewayServerConfig](env.PrefixGateway)
-	if loadErr != nil {
-		return loadErr
-	}
-
-	if checkVal(cfg.Host, c.Host) && checkVal(cfg.Host, DefaultHost) {
-		c.Host = cfg.Host
-	}
-
-	if checkVal(cfg.Port, c.Port) && checkVal(cfg.Port, DefaultPortGateway) {
-		c.Port = cfg.Port
-	}
-
-	return nil
-}
-
-type rawConfig struct {
-	Db *struct {
-		Host     string `default:"localhost"`
-		Port     int    `default:"5432"`
-		SslMode  string `fig:"ssl_mode" default:"disable"`
-		Username string
-		Password string
-		Database string
-	} `fig:"db"`
-	Server *struct {
-		Grpc *struct {
-			Host string `fig:"host" default:"localhost"`
-			Port int    `fig:"port" default:"50051"`
-		} `fig:"grpc"`
-		Gateway *struct {
-			Host string `fig:"host" default:"localhost"`
-			Port int    `fig:"port" default:"9090"`
-		} `fig:"gateway"`
-	} `fig:"server"`
-}
-
 // ReadConfig reads configuration data from a file found
 // at the passed configPath, returning a populated AppConfig (or error).
 func ReadConfig(configPath string) (cfg *AppConfig, err error) {
 	var newCfg AppConfig
 
-	configPath, err = filepath.Abs(configPath)
-	if err != nil {
-		return
+	var figOpts []fig.Option
+
+	if configPath != "" {
+		configPath, err = filepath.Abs(configPath)
+		if err != nil {
+			return
+		}
+
+		fileName := filepath.Base(configPath)
+		dirName := filepath.Dir(configPath)
+
+		figOpts = []fig.Option{fig.File(fileName), fig.Dirs(dirName)}
+	} else {
+		figOpts = []fig.Option{fig.IgnoreFile()}
 	}
 
-	fileName := filepath.Base(configPath)
-	dirName := filepath.Dir(configPath)
-
-	err = fig.Load(
-		&newCfg,
-		fig.File(fileName),
-		fig.Dirs(dirName),
-	)
+	err = fig.Load(&newCfg, figOpts...)
 
 	if err != nil {
 		err = errors.WithMessagef(err, "error reading from file %[1]s", configPath)
 		return
 	}
 
-	// var (
-	// 	dbConf     *DbConfig
-	// 	serverConf *ServerConfig
-	// )
-	//
-	// if newCfg.Db != nil {
-	// 	var conf DbConfig = *newCfg.Db
-	// 	dbConf = &conf
-	// }
-	//
-	// if newCfg.Server != nil {
-	// 	serverConf = new(ServerConfig)
-	//
-	// 	if newCfg.Server.Grpc != nil {
-	// 		var conf GrpcServerConfig = *newCfg.Server.Grpc
-	// 		serverConf.Grpc = &conf
-	// 	}
-	//
-	// 	if newCfg.Server.Gateway != nil {
-	// 		var conf GatewayServerConfig = *newCfg.Server.Gateway
-	// 		serverConf.Gateway = &conf
-	// 	}
-	// }
-	//
-	// cfg = &AppConfig{
-	// 	Db:     dbConf,
-	// 	Server: serverConf,
-	// }
-
 	cfg = &newCfg
-
+	
 	return
 }
 
