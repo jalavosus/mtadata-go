@@ -14,7 +14,7 @@ import (
 	_ "github.com/joho/godotenv/autoload"
 
 	"github.com/jalavosus/mtadata/internal/database"
-	"github.com/jalavosus/mtadata/internal/database/connection"
+	"github.com/jalavosus/mtadata/internal/database/dbconn"
 	"github.com/jalavosus/mtadata/models"
 	"github.com/jalavosus/mtadata/models/boroughs"
 	"github.com/jalavosus/mtadata/models/divisions"
@@ -63,7 +63,7 @@ func migrateCmdAction(c *cli.Context) error {
 	ctx, cancel := context.WithTimeout(c.Context, 30*time.Second)
 	defer cancel()
 
-	conn := connection.ConnectionContext(ctx)
+	conn := dbconn.ConnectionContext(ctx)
 
 	for _, tableName := range tableNames {
 		cmd := "DROP TABLE " + tableName
@@ -98,7 +98,7 @@ func dropAllCmdAction(c *cli.Context) error {
 	ctx, cancel := context.WithTimeout(c.Context, 30*time.Second)
 	defer cancel()
 
-	conn := connection.ConnectionContext(ctx)
+	conn := dbconn.ConnectionContext(ctx)
 
 	for _, tableName := range tableNames {
 		cmd := "DROP TABLE " + tableName

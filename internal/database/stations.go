@@ -3,7 +3,7 @@ package database
 import (
 	"context"
 
-	"github.com/jalavosus/mtadata/internal/database/connection"
+	"github.com/jalavosus/mtadata/internal/database/dbconn"
 	"github.com/jalavosus/mtadata/models"
 )
 
@@ -24,7 +24,7 @@ func Station(ctx context.Context, id string, queryBy StationQueryBy) (*models.St
 		model.GtfsStopId = id
 	}
 
-	conn := connection.ConnectionContext(ctx)
+	conn := dbconn.ConnectionContext(ctx)
 
 	if err := conn.Find(model).Error; err != nil {
 		return nil, err
@@ -38,7 +38,7 @@ func Stations(ctx context.Context, queryParams StationQueryParams) (models.Stati
 
 	params, hasParams := queryParams.ToQuery()
 
-	conn := connection.ConnectionContext(ctx)
+	conn := dbconn.ConnectionContext(ctx)
 
 	tx := conn.Model(&models.Station{})
 	if hasParams {

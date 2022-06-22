@@ -12,7 +12,7 @@ import (
 	"github.com/urfave/cli/v2"
 
 	"github.com/jalavosus/mtadata/cmd/cliutil"
-	"github.com/jalavosus/mtadata/internal/database/connection"
+	"github.com/jalavosus/mtadata/internal/database/dbconn"
 	"github.com/jalavosus/mtadata/models"
 	"github.com/jalavosus/mtadata/models/divisions"
 	"github.com/jalavosus/mtadata/models/routes"
@@ -230,7 +230,7 @@ func insertStationsDbCmdAction(c *cli.Context) error {
 	ctx, cancel := context.WithTimeout(c.Context, 30*time.Second)
 	defer cancel()
 
-	conn := connection.ConnectionContext(ctx)
+	conn := dbconn.ConnectionContext(ctx)
 
 	checkConstraintErr := func(e error) bool {
 		return strings.Contains(e.Error(), "duplicate key value violates unique constraint")

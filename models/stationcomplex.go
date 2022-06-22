@@ -7,7 +7,7 @@ import (
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 
-	"github.com/jalavosus/mtadata/internal/database/connection"
+	"github.com/jalavosus/mtadata/internal/database/dbconn"
 	"github.com/jalavosus/mtadata/internal/database/dialectors"
 	"github.com/jalavosus/mtadata/internal/utils"
 	"github.com/jalavosus/mtadata/models/boroughs"
@@ -51,7 +51,7 @@ var stationComplexStationFields = []string{
 func (s StationComplex) Stations(ctx context.Context) (Stations, error) {
 	var res Stations
 
-	conn := connection.ConnectionContext(ctx)
+	conn := dbconn.ConnectionContext(ctx)
 
 	var stationIds = make([]string, len(s.StationInfos))
 	for i, station := range s.StationInfos {

@@ -3,7 +3,7 @@ package database
 import (
 	"context"
 
-	"github.com/jalavosus/mtadata/internal/database/connection"
+	"github.com/jalavosus/mtadata/internal/database/dbconn"
 	"github.com/jalavosus/mtadata/models"
 )
 
@@ -12,7 +12,7 @@ func StationComplex(ctx context.Context, complexId string) (*models.StationCompl
 		ComplexId: complexId,
 	}
 
-	conn := connection.ConnectionContext(ctx)
+	conn := dbconn.ConnectionContext(ctx)
 
 	if err := conn.Find(model).Error; err != nil {
 		return nil, err
@@ -26,7 +26,7 @@ func StationComplexes(ctx context.Context, queryParams StationComplexQueryParams
 
 	params, hasParams := queryParams.ToQuery()
 
-	conn := connection.ConnectionContext(ctx)
+	conn := dbconn.ConnectionContext(ctx)
 
 	tx := conn.
 		Model(&models.StationComplex{}).

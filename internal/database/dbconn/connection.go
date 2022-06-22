@@ -1,4 +1,4 @@
-package connection
+package dbconn
 
 import (
 	"context"
@@ -6,23 +6,12 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
+	"go.uber.org/zap"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 
+	"github.com/jalavosus/mtadata/internal/config"
 	"github.com/jalavosus/mtadata/internal/env"
-)
-
-const (
-	dbHostEnv     string = "DB_HOST"
-	dbPortEnv     string = "DB_PORT"
-	dbUsernameEnv string = "DB_USERNAME"
-	dbPasswordEnv string = "DB_PASSWORD"
-	dbDbNameEnv   string = "DB_DBNAME"
-)
-
-const (
-	defaultPort int    = 5432
-	sslMode     string = "disable"
 )
 
 var (
@@ -34,53 +23,50 @@ func errEnvKeyNotSet(envKey string) error {
 	return errors.Errorf("%[1]s not set in environment", envKey)
 }
 
-func buildDsn(host string, port int, username, password, dbName string) string {
+func buildDsn(dbConfig *config.DbConfig) string {
 	return fmt.Sprintf("host=%[1]s port=%[2]d user=%[3]s password=%[4]s dbname=%[5]s sslmode=%[6]s",
-		host,
-		port,
-		username,
-		password,
-		dbName,
-		sslMode,
+		dbConfig.Host,
+		dbConfig.Port,
+		dbConfig.Username,
+		dbConfig.Password,
+		dbConfig.Database,
+		dbConfig.SslMode,
 	)
 }
 
-func newConnection() {
-	var (
-		dbHost     = env.StringFromEnv(dbHostEnv, "localhost")
-		dbPort     = env.IntFromEnv(dbPortEnv, defaultPort)
-		dbUsername = env.StringFromEnv(dbUsernameEnv, "")
-		dbPassword = env.StringFromEnv(dbPasswordEnv, "")
-		dbName     = env.StringFromEnv(dbDbNameEnv, "")
-	)
+func InitConnection(config *config.AppConfig, logger *zap.Logger) {
+	connOnce.Do(func() {
+		dbConfig := &config.Db
+		if err := dbConfig.LoadEnv(); err != nil {
+			logger.Error("error setting db config fields from environment", zap.Error(err))
+		}
 
-	switch {
-	case dbUsername == "":
-		panic(errEnvKeyNotSet(dbUsernameEnv))
-	case dbPassword == "":
-		panic(errEnvKeyNotSet(dbPasswordEnv))
-	case dbName == "":
-		panic(errEnvKeyNotSet(dbDbNameEnv))
-	}
+		switch {
+		case dbConfig.Username == "":
+			panic(errEnvKeyNotSet(env.DbUsername))
+		case dbConfig.Password == "":
+			panic(errEnvKeyNotSet(env.DbPassword))
+		case dbConfig.Database == "":
+			panic(errEnvKeyNotSet(env.DbDatabase))
+		}
 
-	dsn := buildDsn(dbHost, dbPort, dbUsername, dbPassword, dbName)
+		dsn := buildDsn(dbConfig)
 
-	config := &gorm.Config{}
+		gormConf := &gorm.Config{}
 
-	db, err := gorm.Open(postgres.Open(dsn), config)
-	if err != nil {
-		panic(errors.WithMessage(err, "error opening database connection"))
-	}
+		db, err := gorm.Open(postgres.Open(dsn), gormConf)
+		if err != nil {
+			panic(errors.WithMessage(err, "error opening database connection"))
+		}
 
-	conn = db
+		conn = db
+	})
 }
 
 func Connection() *gorm.DB {
-	connOnce.Do(newConnection)
 	return conn
 }
 
 func ConnectionContext(ctx context.Context) *gorm.DB {
-	connOnce.Do(newConnection)
-	return conn.WithContext(ctx)
+	return Connection().WithContext(ctx)
 }
