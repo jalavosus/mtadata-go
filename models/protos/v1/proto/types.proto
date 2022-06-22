@@ -45,3 +45,11 @@ message StationComplex {
 message Stations {
   repeated Station stations = 1;
 }
+
+message TrainTimeUpdate {
+  string gtfs_stop_id = 1;
+  Station station = 2;
+  Route route = 3;
+  string direction = 4;
+  int64 departure_time = 5;
+}

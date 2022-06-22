@@ -1,0 +1,48 @@
+syntax = "proto3";
+
+package mtadata.v1;
+
+import "enums.proto";
+import "types.proto";
+import "errors.proto";
+
+message UpcomingTrainsResult {
+  repeated TrainTimeUpdate upcoming_trains = 1;
+  optional Error error = 2;
+}
+
+message StationResult {
+  Station station      = 1;
+  optional Error error = 2;
+}
+
+message StationsResult {
+  repeated Station stations = 1;
+  optional Error   error    = 2;
+}
+
+message StationComplexResult {
+  StationComplex station_complex = 1;
+  optional Error error           = 2;
+}
+
+message StationComplexesResult {
+  repeated StationComplex station_complexes = 1;
+  optional Error          error             = 2;
+}
+
+message AllRoutes {
+  repeated Route routes = 1;
+}
+
+message AllBoroughs {
+  repeated Borough boroughs = 1;
+}
+
+message AllDivisions {
+  repeated Division divisions = 1;
+}
+
+message AllStructures {
+  repeated Structure structures = 1;
+}

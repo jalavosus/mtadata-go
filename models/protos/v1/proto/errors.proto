@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package mtadata.v1;
+
+enum ErrorCode {
+  UnknownError    = 0;
+  BadRequest      = 400;
+  ImATeapot       = 418;
+  EnhanceYourCalm = 420;
+  InternalError   = 500;
+  NotImplemented  = 501;
+
+  MissingParameters   = 4000;
+  EntityNotFound      = 4040;
+  InternalServerError = 5000;
+}
+
+message Error {
+  ErrorCode code = 1;
+  string message = 2;
+  string method  = 3;
+}

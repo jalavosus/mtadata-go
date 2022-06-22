@@ -4,13 +4,14 @@ package mtadata.v1;
 
 import "types.proto";
 import "queries.proto";
+import "responses.proto";
 
 import "google/protobuf/empty.proto";
 import "google/api/annotations.proto";
 
 
 service MtaDataService {
-  rpc GetStation (StationRequest) returns (Station) {
+  rpc GetStation (StationRequest) returns (StationResult) {
     option (google.api.http) = {
       get: "/v1/{station_id}"
     };
@@ -23,7 +24,13 @@ service MtaDataService {
     };
   }
 
-  rpc GetStationComplex (StationComplexRequest) returns (StationComplex) {
+  rpc GetUpcomingTrains (UpcomingTrainsRequest) returns (UpcomingTrainsResult) {
+    option (google.api.http) = {
+      get: "/v1/stations/{station_id}"
+    };
+  }
+
+  rpc GetStationComplex (StationComplexRequest) returns (StationComplexResult) {
     option (google.api.http) = {
       get: "/v1/complexes/{complex_id}"
     };

@@ -23,9 +23,10 @@ const _ = grpc.SupportPackageIsVersion7
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
 type MtaDataServiceClient interface {
-	GetStation(ctx context.Context, in *StationRequest, opts ...grpc.CallOption) (*Station, error)
+	GetStation(ctx context.Context, in *StationRequest, opts ...grpc.CallOption) (*StationResult, error)
 	GetStations(ctx context.Context, in *StationsQuery, opts ...grpc.CallOption) (*StationsResult, error)
-	GetStationComplex(ctx context.Context, in *StationComplexRequest, opts ...grpc.CallOption) (*StationComplex, error)
+	GetUpcomingTrains(ctx context.Context, in *UpcomingTrainsRequest, opts ...grpc.CallOption) (*UpcomingTrainsResult, error)
+	GetStationComplex(ctx context.Context, in *StationComplexRequest, opts ...grpc.CallOption) (*StationComplexResult, error)
 	GetStationComplexes(ctx context.Context, in *StationComplexesQuery, opts ...grpc.CallOption) (*StationComplexesResult, error)
 	GetAllRoutes(ctx context.Context, in *emptypb.Empty, opts ...grpc.CallOption) (*AllRoutes, error)
 	GetAllBoroughs(ctx context.Context, in *emptypb.Empty, opts ...grpc.CallOption) (*AllBoroughs, error)
@@ -41,8 +42,8 @@ func NewMtaDataServiceClient(cc grpc.ClientConnInterface) MtaDataServiceClient {
 	return &mtaDataServiceClient{cc}
 }
 
-func (c *mtaDataServiceClient) GetStation(ctx context.Context, in *StationRequest, opts ...grpc.CallOption) (*Station, error) {
-	out := new(Station)
+func (c *mtaDataServiceClient) GetStation(ctx context.Context, in *StationRequest, opts ...grpc.CallOption) (*StationResult, error) {
+	out := new(StationResult)
 	err := c.cc.Invoke(ctx, "/mtadata.v1.MtaDataService/GetStation", in, out, opts...)
 	if err != nil {
 		return nil, err
@@ -59,8 +60,17 @@ func (c *mtaDataServiceClient) GetStations(ctx context.Context, in *StationsQuer
 	return out, nil
 }
 
-func (c *mtaDataServiceClient) GetStationComplex(ctx context.Context, in *StationComplexRequest, opts ...grpc.CallOption) (*StationComplex, error) {
-	out := new(StationComplex)
+func (c *mtaDataServiceClient) GetUpcomingTrains(ctx context.Context, in *UpcomingTrainsRequest, opts ...grpc.CallOption) (*UpcomingTrainsResult, error) {
+	out := new(UpcomingTrainsResult)
+	err := c.cc.Invoke(ctx, "/mtadata.v1.MtaDataService/GetUpcomingTrains", in, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+func (c *mtaDataServiceClient) GetStationComplex(ctx context.Context, in *StationComplexRequest, opts ...grpc.CallOption) (*StationComplexResult, error) {
+	out := new(StationComplexResult)
 	err := c.cc.Invoke(ctx, "/mtadata.v1.MtaDataService/GetStationComplex", in, out, opts...)
 	if err != nil {
 		return nil, err
@@ -117,9 +127,10 @@ func (c *mtaDataServiceClient) GetAllStructures(ctx context.Context, in *emptypb
 // All implementations must embed UnimplementedMtaDataServiceServer
 // for forward compatibility
 type MtaDataServiceServer interface {
-	GetStation(context.Context, *StationRequest) (*Station, error)
+	GetStation(context.Context, *StationRequest) (*StationResult, error)
 	GetStations(context.Context, *StationsQuery) (*StationsResult, error)
-	GetStationComplex(context.Context, *StationComplexRequest) (*StationComplex, error)
+	GetUpcomingTrains(context.Context, *UpcomingTrainsRequest) (*UpcomingTrainsResult, error)
+	GetStationComplex(context.Context, *StationComplexRequest) (*StationComplexResult, error)
 	GetStationComplexes(context.Context, *StationComplexesQuery) (*StationComplexesResult, error)
 	GetAllRoutes(context.Context, *emptypb.Empty) (*AllRoutes, error)
 	GetAllBoroughs(context.Context, *emptypb.Empty) (*AllBoroughs, error)
@@ -132,13 +143,16 @@ type MtaDataServiceServer interface {
 type UnimplementedMtaDataServiceServer struct {
 }
 
-func (UnimplementedMtaDataServiceServer) GetStation(context.Context, *StationRequest) (*Station, error) {
+func (UnimplementedMtaDataServiceServer) GetStation(context.Context, *StationRequest) (*StationResult, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method GetStation not implemented")
 }
 func (UnimplementedMtaDataServiceServer) GetStations(context.Context, *StationsQuery) (*StationsResult, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method GetStations not implemented")
 }
-func (UnimplementedMtaDataServiceServer) GetStationComplex(context.Context, *StationComplexRequest) (*StationComplex, error) {
+func (UnimplementedMtaDataServiceServer) GetUpcomingTrains(context.Context, *UpcomingTrainsRequest) (*UpcomingTrainsResult, error) {
+	return nil, status.Errorf(codes.Unimplemented, "method GetUpcomingTrains not implemented")
+}
+func (UnimplementedMtaDataServiceServer) GetStationComplex(context.Context, *StationComplexRequest) (*StationComplexResult, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method GetStationComplex not implemented")
 }
 func (UnimplementedMtaDataServiceServer) GetStationComplexes(context.Context, *StationComplexesQuery) (*StationComplexesResult, error) {
@@ -201,6 +215,24 @@ func _MtaDataService_GetStations_Handler(srv interface{}, ctx context.Context, d
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
 		return srv.(MtaDataServiceServer).GetStations(ctx, req.(*StationsQuery))
+	}
+	return interceptor(ctx, in, info, handler)
+}
+
+func _MtaDataService_GetUpcomingTrains_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+	in := new(UpcomingTrainsRequest)
+	if err := dec(in); err != nil {
+		return nil, err
+	}
+	if interceptor == nil {
+		return srv.(MtaDataServiceServer).GetUpcomingTrains(ctx, in)
+	}
+	info := &grpc.UnaryServerInfo{
+		Server:     srv,
+		FullMethod: "/mtadata.v1.MtaDataService/GetUpcomingTrains",
+	}
+	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
+		return srv.(MtaDataServiceServer).GetUpcomingTrains(ctx, req.(*UpcomingTrainsRequest))
 	}
 	return interceptor(ctx, in, info, handler)
 }
@@ -327,6 +359,10 @@ var MtaDataService_ServiceDesc = grpc.ServiceDesc{
 		{
 			MethodName: "GetStations",
 			Handler:    _MtaDataService_GetStations_Handler,
+		},
+		{
+			MethodName: "GetUpcomingTrains",
+			Handler:    _MtaDataService_GetUpcomingTrains_Handler,
 		},
 		{
 			MethodName: "GetStationComplex",
