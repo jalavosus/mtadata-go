@@ -9,7 +9,6 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/jalavosus/mtadata/internal/config"
 	"github.com/jalavosus/mtadata/internal/logging"
 	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
 	"github.com/jalavosus/mtadata/server"
@@ -27,23 +26,25 @@ type Server struct {
 	logger     *zap.Logger
 }
 
-func NewServer(conf *config.AppConfig) *Server {
-	endpoint := server.MakeEndpointConfig(
-		conf.Server.Grpc.Host,
-		conf.Server.Grpc.Port,
-	)
+func NewServer(params server.NewServerParams) (*Server, error) {
+	endpoint := server.MakeEndpoint(params.AppConfig.Server.Grpc)
 
 	s := &Server{
 		Server: server.NewServer(endpoint),
+		logger: params.Logger,
 	}
 
 	var serverOpts []grpc.ServerOption
+
+	serverOpts = append(serverOpts,
+		grpc.Creds(params.ServerAuth.TransportCredentials(false)),
+	)
 
 	s.grpcServer = grpc.NewServer(serverOpts...)
 
 	protosv1.RegisterMtaDataServiceServer(s.grpcServer, s)
 
-	return s
+	return s, nil
 }
 
 func (s *Server) Addr() string {

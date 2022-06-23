@@ -142,15 +142,17 @@ func (s *Server) GetStationComplex(ctx context.Context, req *protosv1.StationCom
 
 	dbRes, err := database.StationComplex(ctx, req.GetComplexId())
 	if err != nil {
-		res.Error = dbError(err, "StationComplex", req.GetComplexId(), apimethods.GetStationComplex).Proto()
+		apiErr := dbError(err, "StationComplex", req.GetComplexId(), apimethods.GetStationComplex)
+		s.logger.Error("error fetching complex", zap.Error(apiErr))
+		res.Error = apiErr.Proto()
 		return
 	}
-
-	var stations models.Stations
-
+	
 	data := dbRes.Proto()
 
 	if req.GetVerbose() {
+		var stations models.Stations
+
 		stations, err = dbRes.Stations(ctx)
 		if err != nil {
 			s.logger.Error("error fetching verbose station data", zap.Error(err))
