@@ -6,22 +6,11 @@ import (
 
 	"github.com/kkyr/fig"
 	"github.com/pkg/errors"
-
-	"github.com/jalavosus/mtadata/internal/env"
 )
 
 type AppConfig struct {
-	Db     DbConfig `fig:"db"`
-	Server struct {
-		Grpc struct {
-			Host string `fig:"host" default:"localhost"`
-			Port int    `fig:"port" default:"50051"`
-		} `fig:"grpc"`
-		Gateway struct {
-			Host string `fig:"host" default:"localhost"`
-			Port int    `fig:"port" default:"9090"`
-		} `fig:"gateway"`
-	} `fig:"server"`
+	Db     DbConfig     `fig:"db"`
+	Server ServerConfig `fig:"server"`
 }
 
 func (c *AppConfig) LoadEnv() error {
@@ -31,49 +20,6 @@ func (c *AppConfig) LoadEnv() error {
 	}
 
 	*c = cfg
-
-	return nil
-}
-
-// DbConfig contains configuration data
-type DbConfig struct {
-	Host     string `default:"localhost"`
-	Port     int    `default:"5432"`
-	SslMode  string `fig:"ssl_mode" default:"disable"`
-	Username string
-	Password string
-	Database string
-}
-
-func (c *DbConfig) LoadEnv() error {
-	cfg, loadErr := loadEnv[DbConfig](env.PrefixDb)
-	if loadErr != nil {
-		return loadErr
-	}
-
-	if checkVal(cfg.Host, c.Host) && checkVal(cfg.Host, DefaultHost) {
-		c.Host = cfg.Host
-	}
-
-	if checkVal(cfg.Port, c.Port) && checkVal(cfg.Port, DefaultPortDb) {
-		c.Port = cfg.Port
-	}
-
-	if checkVal(cfg.SslMode, c.SslMode) && checkVal(cfg.SslMode, DefaultSslModeDb) {
-		c.SslMode = cfg.SslMode
-	}
-
-	if checkVal(cfg.Username, c.Username) {
-		c.Username = cfg.Username
-	}
-
-	if checkVal(cfg.Password, c.Password) {
-		c.Password = cfg.Password
-	}
-
-	if checkVal(cfg.Database, c.Database) {
-		c.Database = cfg.Database
-	}
 
 	return nil
 }
@@ -107,7 +53,7 @@ func ReadConfig(configPath string) (cfg *AppConfig, err error) {
 	}
 
 	cfg = &newCfg
-	
+
 	return
 }
 
