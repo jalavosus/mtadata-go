@@ -9,10 +9,11 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/insecure"
 
+	"github.com/jalavosus/mtadata/internal/serverauth"
 	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
 	"github.com/jalavosus/mtadata/server/grpcserver"
+	"github.com/jalavosus/mtadata/server/grpcserver/compressor"
 )
 
 func newHttpServer(s *MuxServer, serveMux *runtime.ServeMux) *http.Server {
@@ -53,15 +54,20 @@ func runGateway(lc fx.Lifecycle, s *MuxServer, logger *zap.Logger) {
 	})
 }
 
-func setupMux(
-	lc fx.Lifecycle,
-	s *grpcserver.Server,
-	mux *runtime.ServeMux,
-	logger *zap.Logger,
-) {
+type SetupMuxParams struct {
+	fx.In
 
+	Server     *grpcserver.Server
+	Mux        *runtime.ServeMux
+	ServerAuth *serverauth.ServerAuth
+}
+
+func setupMux(lc fx.Lifecycle, logger *zap.Logger, params SetupMuxParams) {
 	opts := []grpc.DialOption{
-		grpc.WithTransportCredentials(insecure.NewCredentials()),
+		grpc.WithTransportCredentials(params.ServerAuth.TransportCredentials(true)),
+		grpc.WithDefaultCallOptions(
+			grpc.UseCompressor(compressor.Name),
+		),
 	}
 
 	startupTimeout := 20 * time.Second
@@ -78,13 +84,13 @@ func setupMux(
 				case <-startupCtx.Done():
 					return startupCtx.Err()
 				default:
-					if s.Started() {
+					if params.Server.Started() {
 						break WaitStart
 					}
 				}
 			}
 
-			err := protosv1.RegisterMtaDataServiceHandlerFromEndpoint(ctx, mux, s.Addr(), opts)
+			err := protosv1.RegisterMtaDataServiceHandlerFromEndpoint(ctx, params.Mux, params.Server.Addr(), opts)
 			if err != nil {
 				return err
 			}

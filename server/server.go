@@ -41,15 +41,27 @@ func (s *Server) Endpoint() EndpointConfig {
 	return s.endpoint
 }
 
-type EndpointConfig struct {
+type Endpoint struct {
 	Host string
 	Port int
 }
 
-func MakeEndpointConfig(host string, port int) EndpointConfig {
-	return EndpointConfig{host, port}
+func MakeEndpoint(endpointConfig config.EndpointConfig) Endpoint {
+	return Endpoint{
+		Host: endpointConfig.GetHost(),
+		Port: endpointConfig.GetPort(),
+	}
 }
 
-func (c EndpointConfig) Addr() string {
-	return c.Host + ":" + strconv.Itoa(c.Port)
+func (e Endpoint) Addr() string {
+	return e.Host + ":" + strconv.Itoa(e.Port)
+}
+
+type NewServerParams struct {
+	fx.In
+
+	Logger     *zap.Logger
+	AppConfig  *config.AppConfig
+	ServerAuth *serverauth.ServerAuth
+	Compressor *compressor.Compressor
 }

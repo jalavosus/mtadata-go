@@ -5,14 +5,21 @@ package server
 import (
 	"strconv"
 	"sync/atomic"
+
+	"go.uber.org/fx"
+	"go.uber.org/zap"
+
+	"github.com/jalavosus/mtadata/internal/config"
+	"github.com/jalavosus/mtadata/internal/serverauth"
+	"github.com/jalavosus/mtadata/server/grpcserver/compressor"
 )
 
 type Server struct {
 	started  *atomic.Bool
-	endpoint EndpointConfig
+	endpoint Endpoint
 }
 
-func NewServer(endpoint EndpointConfig) *Server {
+func NewServer(endpoint Endpoint) *Server {
 	started := new(atomic.Bool)
 
 	return &Server{
@@ -37,19 +44,31 @@ func (s *Server) SetStopped() {
 	s.started.CompareAndSwap(true, false)
 }
 
-func (s *Server) Endpoint() EndpointConfig {
+func (s *Server) Endpoint() Endpoint {
 	return s.endpoint
 }
 
-type EndpointConfig struct {
+type Endpoint struct {
 	Host string
 	Port int
 }
 
-func MakeEndpointConfig(host string, port int) EndpointConfig {
-	return EndpointConfig{host, port}
+func MakeEndpoint(endpointConfig config.EndpointConfig) Endpoint {
+	return Endpoint{
+		Host: endpointConfig.GetHost(),
+		Port: endpointConfig.GetPort(),
+	}
 }
 
-func (c EndpointConfig) Addr() string {
-	return c.Host + ":" + strconv.Itoa(c.Port)
+func (e Endpoint) Addr() string {
+	return e.Host + ":" + strconv.Itoa(e.Port)
+}
+
+type NewServerParams struct {
+	fx.In
+
+	Logger     *zap.Logger
+	AppConfig  *config.AppConfig
+	Compressor *compressor.Compressor
+	ServerAuth *serverauth.ServerAuth
 }
