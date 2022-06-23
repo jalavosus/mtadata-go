@@ -9,6 +9,7 @@ require (
 	github.com/joho/godotenv v1.4.0
 	github.com/k0kubun/pp/v3 v3.1.0
 	github.com/kkyr/fig v0.3.1-0.20220103220255-711af35e3ee2
+	github.com/klauspost/compress v1.15.6
 	github.com/lib/pq v1.10.2
 	github.com/pkg/errors v0.9.1
 	github.com/stretchr/testify v1.7.3
