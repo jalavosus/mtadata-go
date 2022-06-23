@@ -12,9 +12,9 @@ enum QueryOrderBy {
 }
 
 message UpcomingTrainsRequest {
-  string station_id   = 1;
-  string gtfs_stop_id = 2;
-  Route  route        = 3;
+  string station_id     = 1;
+  string gtfs_stop_id   = 2;
+  Route  route          = 3;
 }
 
 message StationRequest {
@@ -23,18 +23,18 @@ message StationRequest {
 }
 
 message BaseQueryParams {
-  optional Route route = 1;
-  optional Borough borough = 2;
-  optional Division division = 3;
+  optional Route route           = 1;
+  optional Borough borough       = 2;
+  optional Division division     = 3;
   optional QueryOrderBy order_by = 4;
-  optional int32 limit = 5;
+  optional int32 limit           = 5;
 }
 
 message StationsQueryParams {
   optional BaseQueryParams base_params = 1;
-  optional string station_id = 2;
-  optional string complex_id = 3;
-  optional string gtfs_stop_id = 4;
+  optional string station_id           = 2;
+  optional string complex_id           = 3;
+  optional string gtfs_stop_id         = 4;
 }
 
 message StationsQuery {
@@ -43,15 +43,15 @@ message StationsQuery {
 
 message StationComplexRequest {
   string complex_id = 1;
-  bool verbose = 2;
+  bool verbose      = 2;
 }
 
 message StationComplexesQueryParams {
   optional BaseQueryParams base_params = 1;
-  optional string complex_id = 2;
+  optional string complex_id           = 2;
 }
 
 message StationComplexesQuery {
   StationComplexesQueryParams query_params = 1;
-  bool verbose = 2;
+  optional bool verbose                    = 2;
 }

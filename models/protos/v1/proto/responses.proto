@@ -12,23 +12,23 @@ message UpcomingTrainsResult {
 }
 
 message StationResult {
-  Station station      = 1;
-  optional Error error = 2;
+  Station station = 1;
+  Error error     = 2;
 }
 
 message StationsResult {
   repeated Station stations = 1;
-  optional Error   error    = 2;
+  Error error               = 2;
 }
 
 message StationComplexResult {
   StationComplex station_complex = 1;
-  optional Error error           = 2;
+  Error error                    = 2;
 }
 
 message StationComplexesResult {
   repeated StationComplex station_complexes = 1;
-  optional Error          error             = 2;
+  Error error = 2;
 }
 
 message AllRoutes {
