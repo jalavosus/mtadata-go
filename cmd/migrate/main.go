@@ -9,12 +9,15 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/urfave/cli/v2"
+	"go.uber.org/fx"
 	"gorm.io/gorm"
 
 	_ "github.com/joho/godotenv/autoload"
 
+	"github.com/jalavosus/mtadata/internal/config"
 	"github.com/jalavosus/mtadata/internal/database"
 	"github.com/jalavosus/mtadata/internal/database/dbconn"
+	"github.com/jalavosus/mtadata/internal/logging"
 	"github.com/jalavosus/mtadata/models"
 	"github.com/jalavosus/mtadata/models/boroughs"
 	"github.com/jalavosus/mtadata/models/divisions"
@@ -31,11 +34,22 @@ var (
 		Name:   "run-all",
 		Usage:  "Run all migrations",
 		Action: migrateCmdAction,
+		Flags: []cli.Flag{
+			&configFlag,
+		},
 	}
 	dropAllCmd = cli.Command{
 		Name:   "drop-all",
 		Usage:  "Drop all tables and types",
 		Action: dropAllCmdAction,
+	}
+)
+
+var (
+	configFlag = cli.PathFlag{
+		Name:     "config",
+		Aliases:  []string{"c"},
+		Required: false,
 	}
 )
 
@@ -59,39 +73,64 @@ var typeMigrations = []any{
 	models.StationComplex{},
 }
 
+func migrateRunAll(lc fx.Lifecycle) {
+	lc.Append(fx.Hook{OnStart: func(ctx context.Context) error {
+		ctx, cancel := context.WithTimeout(ctx, 30*time.Second)
+		defer cancel()
+
+		conn := dbconn.ConnectionContext(ctx)
+
+		for _, tableName := range tableNames {
+			cmd := "DROP TABLE " + tableName
+			if err := conn.Exec(cmd).Error; err != nil {
+				log.Println(err)
+			}
+		}
+
+		for _, dbModel := range dbModels {
+			if err := dropType(conn, dbModel.GormDataType()); err != nil {
+				log.Println(err)
+			}
+		}
+
+		for _, dbModel := range dbModels {
+			cmd := dbModel.CreateDbType()
+			if err := conn.Exec(cmd).Error; err != nil {
+				return errors.WithMessagef(err, "error executing sql '%[1]s'", cmd)
+			}
+		}
+
+		for _, tm := range typeMigrations {
+			if err := conn.AutoMigrate(&tm); err != nil {
+				return err
+			}
+		}
+
+		return nil
+	}})
+}
+
 func migrateCmdAction(c *cli.Context) error {
-	ctx, cancel := context.WithTimeout(c.Context, 30*time.Second)
-	defer cancel()
 
-	conn := dbconn.ConnectionContext(ctx)
+	app := fx.New(
+		fx.Supply(configFlag.Get(c)),
+		fx.Provide(logging.NewLogger),
+		logging.WithLogger,
+		fx.Module("config", config.Module),
+		fx.Module("database", database.Module),
+		fx.Invoke(migrateRunAll),
+	)
 
-	for _, tableName := range tableNames {
-		cmd := "DROP TABLE " + tableName
-		if err := conn.Exec(cmd).Error; err != nil {
-			log.Println(err)
-		}
+	if err := app.Start(c.Context); err != nil {
+		return err
 	}
 
-	for _, dbModel := range dbModels {
-		if err := dropType(conn, dbModel.GormDataType()); err != nil {
-			log.Println(err)
+	for {
+		select {
+		case <-app.Done():
+			return app.Err()
 		}
 	}
-
-	for _, dbModel := range dbModels {
-		cmd := dbModel.CreateDbType()
-		if err := conn.Exec(cmd).Error; err != nil {
-			return errors.WithMessagef(err, "error executing sql '%[1]s'", cmd)
-		}
-	}
-
-	for _, tm := range typeMigrations {
-		if err := conn.AutoMigrate(&tm); err != nil {
-			return err
-		}
-	}
-
-	return nil
 }
 
 func dropAllCmdAction(c *cli.Context) error {

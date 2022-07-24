@@ -14,9 +14,6 @@ service MtaDataService {
   rpc GetStation (StationRequest) returns (StationResult) {
     option (google.api.http) = {
       get: "/v1/stations/{station_id}"
-      additional_bindings {
-        get: "/v1/stations/{gtfs_stop_id}"
-      }
     };
   }
 
@@ -30,9 +27,6 @@ service MtaDataService {
   rpc GetUpcomingTrains (UpcomingTrainsRequest) returns (UpcomingTrainsResult) {
     option (google.api.http) = {
       get: "/v1/stations/{station_id}/upcoming"
-      additional_bindings {
-        get: "/v1/stations/{gtfs_stop_id}/upcoming"
-      }
     };
   }
 

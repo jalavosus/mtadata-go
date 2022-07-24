@@ -7,12 +7,18 @@ import (
 	"path/filepath"
 	"sort"
 	"strings"
+	"sync"
 	"time"
 
 	"github.com/urfave/cli/v2"
+	"go.uber.org/fx"
+	"gorm.io/gorm"
 
 	"github.com/jalavosus/mtadata/cmd/cliutil"
+	"github.com/jalavosus/mtadata/internal/config"
+	"github.com/jalavosus/mtadata/internal/database"
 	"github.com/jalavosus/mtadata/internal/database/dbconn"
+	"github.com/jalavosus/mtadata/internal/logging"
 	"github.com/jalavosus/mtadata/models"
 	"github.com/jalavosus/mtadata/models/divisions"
 	"github.com/jalavosus/mtadata/models/routes"
@@ -28,16 +34,21 @@ const (
 
 var (
 	insertStationsFlag = cli.BoolFlag{
-		Name:     "insert-stations",
-		Aliases:  []string{"s"},
+		Name: "insert-stations",
+		// Aliases:  []string{"s"},
 		Required: false,
 		Value:    false,
 	}
 	insertComplexesFlag = cli.BoolFlag{
-		Name:     "insert-complexes",
-		Aliases:  []string{"c"},
+		Name: "insert-complexes",
+		// Aliases:  []string{"c"},
 		Required: false,
 		Value:    false,
+	}
+	configFlag = cli.PathFlag{
+		Name:     "config",
+		Aliases:  []string{"c"},
+		Required: false,
 	}
 )
 
@@ -63,6 +74,7 @@ var (
 		Flags: []cli.Flag{
 			&insertStationsFlag,
 			&insertComplexesFlag,
+			&configFlag,
 		},
 		Action: insertStationsDbCmdAction,
 	}
@@ -203,75 +215,96 @@ func readParsedCmdAction(c *cli.Context) error {
 	return nil
 }
 
+func checkConstraintErr(e error) bool {
+	return strings.Contains(e.Error(), "duplicate key value violates unique constraint")
+}
+
+func insert[T models.Station | models.StationComplex](conn *gorm.DB, wg *sync.WaitGroup, ch chan<- error, p []T) {
+	defer wg.Done()
+	err := conn.Create(p).Error
+
+	if err != nil {
+		if checkConstraintErr(err) {
+			return
+		}
+
+		ch <- err
+	}
+}
+
+func insertData(lc fx.Lifecycle, c *cli.Context) {
+	lc.Append(fx.Hook{OnStart: func(ctx context.Context) error {
+		var (
+			parsedStations  []models.Station
+			parsedComplexes []models.StationComplex
+			parseErr        error
+		)
+
+		insertStations := insertStationsFlag.Get(c)
+		insertComplexes := insertComplexesFlag.Get(c)
+
+		if insertStations {
+			parsedStations, parseErr = readOutputJson[models.Station](stationsOutFilename)
+			if parseErr != nil {
+				return parseErr
+			}
+		}
+
+		if insertComplexes {
+			parsedComplexes, parseErr = readOutputJson[models.StationComplex](complexesOutFilename)
+			if parseErr != nil {
+				return parseErr
+			}
+		}
+
+		// ctx, cancel := context.WithTimeout(c.Context, 30*time.Second)
+		// defer cancel()
+
+		conn := dbconn.ConnectionContext(ctx)
+
+		errCh := make(chan error)
+		var wg sync.WaitGroup
+
+		if insertStations {
+			wg.Add(1)
+			go insert(conn, &wg, errCh, parsedStations)
+		}
+
+		if insertComplexes {
+			wg.Add(1)
+			go insert(conn, &wg, errCh, parsedComplexes)
+		}
+
+		go func() {
+			defer close(errCh)
+			wg.Wait()
+		}()
+
+		return <-errCh
+	}})
+}
+
 func insertStationsDbCmdAction(c *cli.Context) error {
-	var (
-		parsedStations  []models.Station
-		parsedComplexes []models.StationComplex
-		parseErr        error
+	app := fx.New(
+		fx.Supply(configFlag.Get(c), c),
+		fx.Provide(logging.NewLogger),
+		logging.WithLogger,
+		fx.Module("config", config.Module),
+		fx.Module("database", database.Module),
+		fx.Invoke(insertData),
+		fx.StartTimeout(5*time.Minute),
 	)
 
-	insertStations := insertStationsFlag.Get(c)
-	insertComplexes := insertComplexesFlag.Get(c)
+	if err := app.Start(c.Context); err != nil {
+		return err
+	}
 
-	if insertStations {
-		parsedStations, parseErr = readOutputJson[models.Station](stationsOutFilename)
-		if parseErr != nil {
-			return parseErr
+	for {
+		select {
+		case <-app.Done():
+			return app.Err()
 		}
 	}
-
-	if insertComplexes {
-		parsedComplexes, parseErr = readOutputJson[models.StationComplex](complexesOutFilename)
-		if parseErr != nil {
-			return parseErr
-		}
-	}
-
-	ctx, cancel := context.WithTimeout(c.Context, 30*time.Second)
-	defer cancel()
-
-	conn := dbconn.ConnectionContext(ctx)
-
-	checkConstraintErr := func(e error) bool {
-		return strings.Contains(e.Error(), "duplicate key value violates unique constraint")
-	}
-
-	if insertStations {
-		for _, p := range parsedStations {
-			// _ = p
-			err := conn.
-				Model(&models.Station{}).
-				Create(&p).
-				Error
-
-			if err != nil {
-				if checkConstraintErr(err) {
-					continue
-				}
-
-				return err
-			}
-		}
-	}
-
-	if insertComplexes {
-		for _, p := range parsedComplexes {
-			err := conn.
-				Model(&models.StationComplex{}).
-				Create(&p).
-				Error
-
-			if err != nil {
-				if checkConstraintErr(err) {
-					continue
-				}
-
-				return err
-			}
-		}
-	}
-
-	return nil
 }
 
 func main() {

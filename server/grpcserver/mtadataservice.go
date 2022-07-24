@@ -147,7 +147,7 @@ func (s *Server) GetStationComplex(ctx context.Context, req *protosv1.StationCom
 		res.Error = apiErr.Proto()
 		return
 	}
-	
+
 	data := dbRes.Proto()
 
 	if req.GetVerbose() {
