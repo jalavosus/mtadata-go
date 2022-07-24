@@ -116,7 +116,7 @@ func parseKey(keyFile string) (*ecdsa.PrivateKey, error) {
 	}
 
 	block, _ := pem.Decode(keyBytes)
-	
+
 	key, err := x509.ParseECPrivateKey(block.Bytes)
 	if err != nil {
 		return nil, errors.WithMessagef(err, "error parsing key data from %[1]s", keyFile)
