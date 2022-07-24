@@ -1,0 +1,8 @@
+type StationComplex @goModel(model: "github.com/jalavosus/mtadata/models.StationComplex") {
+    complex_id:      Int!
+    borough:         Borough!
+    divisions:      [Division!]!
+    daytime_routes: [Route!]!
+    station_infos:  [StationInfo!]!
+    stations:       [Station!]! @goField(forceResolver: true)
+}

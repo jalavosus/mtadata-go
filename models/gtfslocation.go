@@ -18,8 +18,8 @@ const (
 )
 
 type GtfsLocation struct {
-	Latitude  float64 `json:"latitude" yaml:"latitude"`
-	Longitude float64 `json:"longitude" yaml:"longitude"`
+	Latitude  float64 `json:"latitude" yaml:"latitude" gqlgen:"latitude"`
+	Longitude float64 `json:"longitude" yaml:"longitude" gqlgen:"longitude"`
 }
 
 func NewGtfsLocation(lat, long float64) GtfsLocation {

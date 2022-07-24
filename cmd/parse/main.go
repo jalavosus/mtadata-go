@@ -102,7 +102,7 @@ func parseComplexesCmdAction(c *cli.Context) error {
 		return err
 	}
 
-	complexesMap := make(map[string]*models.StationComplex)
+	complexesMap := make(map[int64]*models.StationComplex)
 	for _, station := range parsedStations {
 		cmplx, ok := complexesMap[station.ComplexId]
 

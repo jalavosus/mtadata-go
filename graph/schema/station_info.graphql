@@ -1,0 +1,4 @@
+type StationInfo @goModel(model: "github.com/jalavosus/mtadata/models.StationInfo") {
+    station_id:   Int!
+    gtfs_stop_id: String!
+}

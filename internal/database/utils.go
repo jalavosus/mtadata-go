@@ -21,3 +21,15 @@ func checkValidParam[T any](val QueryParam[T]) (res any, ok bool) {
 
 	return
 }
+
+func removeInvalidFields(fieldSelection, invalidFields []string) []string {
+	var newFields []string
+
+	for i := range fieldSelection {
+		if !utils.SliceContains(invalidFields, fieldSelection[i]) {
+			newFields = append(newFields, fieldSelection[i])
+		}
+	}
+
+	return newFields
+}

@@ -1,0 +1,43 @@
+enum OrderBy @goModel(model: "github.com/jalavosus/mtadata/internal/database.OrderBy") {
+    GTFS_STOP_ID
+    STATION_ID
+    COMPLEX_ID
+}
+
+input StationQueryParams @goModel(model: "github.com/jalavosus/mtadata/internal/database.StationQueryParams") {
+    station_id:   Int
+    complex_id:   Int
+    gtfs_stop_id: String
+    route:        Route
+    borough:      Borough
+    division:     Division
+    structure:    Structure
+    order_by:     OrderBy
+    limit:        Int
+}
+
+input StationComplexQueryParams @goModel(model: "github.com/jalavosus/mtadata/internal/database.StationComplexQueryParams") {
+    complex_id:   Int
+    route:        Route
+    borough:      Borough
+    division:     Division
+    structure:    Structure
+    order_by:     OrderBy
+    limit:        Int
+}
+
+type Query {
+    boroughs:   [Borough!]!
+    divisions:  [Division!]!
+    routes:     [Route!]!
+    structures: [Structure!]!
+
+    station(
+        station_id:   Int,
+        gtfs_stop_id: String
+    ): Station
+    stations(params: StationQueryParams): [Station!]!
+
+    station_complex(complex_id: Int!): StationComplex
+    station_complexes(params: StationComplexQueryParams): [StationComplex!]!
+}

@@ -10,8 +10,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "1",
-    "complex_id": "1",
+    "station_id": 1,
+    "complex_id": 1,
     "daytime_routes": [
       "N",
       "W"
@@ -32,8 +32,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "2",
-    "complex_id": "2",
+    "station_id": 2,
+    "complex_id": 2,
     "daytime_routes": [
       "N",
       "W"
@@ -54,8 +54,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "3",
-    "complex_id": "3",
+    "station_id": 3,
+    "complex_id": 3,
     "daytime_routes": [
       "N",
       "W"
@@ -76,8 +76,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "4",
-    "complex_id": "4",
+    "station_id": 4,
+    "complex_id": 4,
     "daytime_routes": [
       "N",
       "W"
@@ -98,8 +98,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "5",
-    "complex_id": "5",
+    "station_id": 5,
+    "complex_id": 5,
     "daytime_routes": [
       "N",
       "W"
@@ -120,8 +120,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "6",
-    "complex_id": "6",
+    "station_id": 6,
+    "complex_id": 6,
     "daytime_routes": [
       "N",
       "W"
@@ -142,8 +142,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "7",
-    "complex_id": "613",
+    "station_id": 7,
+    "complex_id": 613,
     "daytime_routes": [
       "N",
       "W",
@@ -165,8 +165,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "8",
-    "complex_id": "8",
+    "station_id": 8,
+    "complex_id": 8,
     "daytime_routes": [
       "N",
       "W",
@@ -188,8 +188,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "9",
-    "complex_id": "9",
+    "station_id": 9,
+    "complex_id": 9,
     "daytime_routes": [
       "N",
       "Q",
@@ -212,8 +212,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "10",
-    "complex_id": "10",
+    "station_id": 10,
+    "complex_id": 10,
     "daytime_routes": [
       "N",
       "R",
@@ -235,8 +235,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "11",
-    "complex_id": "611",
+    "station_id": 11,
+    "complex_id": 611,
     "daytime_routes": [
       "N",
       "Q",
@@ -259,8 +259,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "12",
-    "complex_id": "607",
+    "station_id": 12,
+    "complex_id": 607,
     "daytime_routes": [
       "N",
       "Q",
@@ -283,8 +283,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "13",
-    "complex_id": "13",
+    "station_id": 13,
+    "complex_id": 13,
     "daytime_routes": [
       "R",
       "W"
@@ -305,8 +305,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "14",
-    "complex_id": "14",
+    "station_id": 14,
+    "complex_id": 14,
     "daytime_routes": [
       "R",
       "W"
@@ -327,8 +327,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "15",
-    "complex_id": "602",
+    "station_id": 15,
+    "complex_id": 602,
     "daytime_routes": [
       "N",
       "Q",
@@ -351,8 +351,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "16",
-    "complex_id": "16",
+    "station_id": 16,
+    "complex_id": 16,
     "daytime_routes": [
       "R",
       "W"
@@ -373,8 +373,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "17",
-    "complex_id": "17",
+    "station_id": 17,
+    "complex_id": 17,
     "daytime_routes": [
       "R",
       "W"
@@ -395,8 +395,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "18",
-    "complex_id": "623",
+    "station_id": 18,
+    "complex_id": 623,
     "daytime_routes": [
       "R",
       "W"
@@ -417,8 +417,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "19",
-    "complex_id": "623",
+    "station_id": 19,
+    "complex_id": 623,
     "daytime_routes": [
       "N",
       "Q"
@@ -439,8 +439,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "20",
-    "complex_id": "20",
+    "station_id": 20,
+    "complex_id": 20,
     "daytime_routes": [
       "R",
       "W"
@@ -461,8 +461,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "21",
-    "complex_id": "624",
+    "station_id": 21,
+    "complex_id": 624,
     "daytime_routes": [
       "R",
       "W"
@@ -483,8 +483,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "22",
-    "complex_id": "22",
+    "station_id": 22,
+    "complex_id": 22,
     "daytime_routes": [
       "R",
       "W"
@@ -505,8 +505,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "23",
-    "complex_id": "635",
+    "station_id": 23,
+    "complex_id": 635,
     "daytime_routes": [
       "R",
       "W"
@@ -527,8 +527,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "24",
-    "complex_id": "620",
+    "station_id": 24,
+    "complex_id": 620,
     "daytime_routes": [
       "R"
     ],
@@ -548,8 +548,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "25",
-    "complex_id": "636",
+    "station_id": 25,
+    "complex_id": 636,
     "daytime_routes": [
       "R"
     ],
@@ -569,8 +569,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "26",
-    "complex_id": "26",
+    "station_id": 26,
+    "complex_id": 26,
     "daytime_routes": [
       "B",
       "Q",
@@ -592,8 +592,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "27",
-    "complex_id": "617",
+    "station_id": 27,
+    "complex_id": 617,
     "daytime_routes": [
       "D",
       "N",
@@ -615,8 +615,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "28",
-    "complex_id": "28",
+    "station_id": 28,
+    "complex_id": 28,
     "daytime_routes": [
       "R"
     ],
@@ -636,8 +636,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "29",
-    "complex_id": "608",
+    "station_id": 29,
+    "complex_id": 608,
     "daytime_routes": [
       "R"
     ],
@@ -657,8 +657,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "30",
-    "complex_id": "30",
+    "station_id": 30,
+    "complex_id": 30,
     "daytime_routes": [
       "R"
     ],
@@ -678,8 +678,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "31",
-    "complex_id": "31",
+    "station_id": 31,
+    "complex_id": 31,
     "daytime_routes": [
       "R"
     ],
@@ -699,8 +699,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "32",
-    "complex_id": "32",
+    "station_id": 32,
+    "complex_id": 32,
     "daytime_routes": [
       "D",
       "N",
@@ -722,8 +722,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "33",
-    "complex_id": "33",
+    "station_id": 33,
+    "complex_id": 33,
     "daytime_routes": [
       "R"
     ],
@@ -743,8 +743,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "34",
-    "complex_id": "34",
+    "station_id": 34,
+    "complex_id": 34,
     "daytime_routes": [
       "R"
     ],
@@ -764,8 +764,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "35",
-    "complex_id": "35",
+    "station_id": 35,
+    "complex_id": 35,
     "daytime_routes": [
       "N",
       "R"
@@ -786,8 +786,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "36",
-    "complex_id": "36",
+    "station_id": 36,
+    "complex_id": 36,
     "daytime_routes": [
       "R"
     ],
@@ -807,8 +807,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "37",
-    "complex_id": "37",
+    "station_id": 37,
+    "complex_id": 37,
     "daytime_routes": [
       "R"
     ],
@@ -828,8 +828,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "38",
-    "complex_id": "38",
+    "station_id": 38,
+    "complex_id": 38,
     "daytime_routes": [
       "R"
     ],
@@ -849,8 +849,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "39",
-    "complex_id": "39",
+    "station_id": 39,
+    "complex_id": 39,
     "daytime_routes": [
       "R"
     ],
@@ -870,8 +870,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "40",
-    "complex_id": "617",
+    "station_id": 40,
+    "complex_id": 617,
     "daytime_routes": [
       "B",
       "Q"
@@ -892,8 +892,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "41",
-    "complex_id": "41",
+    "station_id": 41,
+    "complex_id": 41,
     "daytime_routes": [
       "B",
       "Q"
@@ -914,8 +914,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "42",
-    "complex_id": "42",
+    "station_id": 42,
+    "complex_id": 42,
     "daytime_routes": [
       "B",
       "Q",
@@ -937,8 +937,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "43",
-    "complex_id": "43",
+    "station_id": 43,
+    "complex_id": 43,
     "daytime_routes": [
       "B",
       "Q"
@@ -959,8 +959,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "44",
-    "complex_id": "44",
+    "station_id": 44,
+    "complex_id": 44,
     "daytime_routes": [
       "B",
       "Q"
@@ -981,8 +981,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "45",
-    "complex_id": "45",
+    "station_id": 45,
+    "complex_id": 45,
     "daytime_routes": [
       "Q"
     ],
@@ -1002,8 +1002,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "46",
-    "complex_id": "46",
+    "station_id": 46,
+    "complex_id": 46,
     "daytime_routes": [
       "Q"
     ],
@@ -1023,8 +1023,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "47",
-    "complex_id": "47",
+    "station_id": 47,
+    "complex_id": 47,
     "daytime_routes": [
       "B",
       "Q"
@@ -1045,8 +1045,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "48",
-    "complex_id": "48",
+    "station_id": 48,
+    "complex_id": 48,
     "daytime_routes": [
       "Q"
     ],
@@ -1066,8 +1066,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "49",
-    "complex_id": "49",
+    "station_id": 49,
+    "complex_id": 49,
     "daytime_routes": [
       "Q"
     ],
@@ -1087,8 +1087,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "50",
-    "complex_id": "50",
+    "station_id": 50,
+    "complex_id": 50,
     "daytime_routes": [
       "Q"
     ],
@@ -1108,8 +1108,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "51",
-    "complex_id": "51",
+    "station_id": 51,
+    "complex_id": 51,
     "daytime_routes": [
       "B",
       "Q"
@@ -1130,8 +1130,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "52",
-    "complex_id": "52",
+    "station_id": 52,
+    "complex_id": 52,
     "daytime_routes": [
       "Q"
     ],
@@ -1151,8 +1151,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "53",
-    "complex_id": "53",
+    "station_id": 53,
+    "complex_id": 53,
     "daytime_routes": [
       "Q"
     ],
@@ -1172,8 +1172,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "54",
-    "complex_id": "54",
+    "station_id": 54,
+    "complex_id": 54,
     "daytime_routes": [
       "B",
       "Q"
@@ -1194,8 +1194,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "55",
-    "complex_id": "55",
+    "station_id": 55,
+    "complex_id": 55,
     "daytime_routes": [
       "B",
       "Q"
@@ -1216,8 +1216,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "56",
-    "complex_id": "56",
+    "station_id": 56,
+    "complex_id": 56,
     "daytime_routes": [
       "Q"
     ],
@@ -1237,8 +1237,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "57",
-    "complex_id": "57",
+    "station_id": 57,
+    "complex_id": 57,
     "daytime_routes": [
       "F",
       "Q"
@@ -1259,8 +1259,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Viaduct",
-    "station_id": "58",
-    "complex_id": "58",
+    "station_id": 58,
+    "complex_id": 58,
     "daytime_routes": [
       "D",
       "F",
@@ -1283,8 +1283,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "59",
-    "complex_id": "59",
+    "station_id": 59,
+    "complex_id": 59,
     "daytime_routes": [
       "D"
     ],
@@ -1304,8 +1304,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "60",
-    "complex_id": "60",
+    "station_id": 60,
+    "complex_id": 60,
     "daytime_routes": [
       "D"
     ],
@@ -1325,8 +1325,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "61",
-    "complex_id": "61",
+    "station_id": 61,
+    "complex_id": 61,
     "daytime_routes": [
       "D"
     ],
@@ -1346,8 +1346,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "62",
-    "complex_id": "62",
+    "station_id": 62,
+    "complex_id": 62,
     "daytime_routes": [
       "D"
     ],
@@ -1367,8 +1367,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "63",
-    "complex_id": "615",
+    "station_id": 63,
+    "complex_id": 615,
     "daytime_routes": [
       "D"
     ],
@@ -1388,8 +1388,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "64",
-    "complex_id": "64",
+    "station_id": 64,
+    "complex_id": 64,
     "daytime_routes": [
       "D"
     ],
@@ -1409,8 +1409,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "65",
-    "complex_id": "65",
+    "station_id": 65,
+    "complex_id": 65,
     "daytime_routes": [
       "D"
     ],
@@ -1430,8 +1430,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "66",
-    "complex_id": "66",
+    "station_id": 66,
+    "complex_id": 66,
     "daytime_routes": [
       "D"
     ],
@@ -1451,8 +1451,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "67",
-    "complex_id": "67",
+    "station_id": 67,
+    "complex_id": 67,
     "daytime_routes": [
       "D"
     ],
@@ -1472,8 +1472,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "68",
-    "complex_id": "68",
+    "station_id": 68,
+    "complex_id": 68,
     "daytime_routes": [
       "D"
     ],
@@ -1493,8 +1493,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "69",
-    "complex_id": "69",
+    "station_id": 69,
+    "complex_id": 69,
     "daytime_routes": [
       "D"
     ],
@@ -1514,8 +1514,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "70",
-    "complex_id": "70",
+    "station_id": 70,
+    "complex_id": 70,
     "daytime_routes": [
       "D"
     ],
@@ -1535,8 +1535,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "71",
-    "complex_id": "71",
+    "station_id": 71,
+    "complex_id": 71,
     "daytime_routes": [
       "N"
     ],
@@ -1556,8 +1556,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "72",
-    "complex_id": "72",
+    "station_id": 72,
+    "complex_id": 72,
     "daytime_routes": [
       "N"
     ],
@@ -1577,8 +1577,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "73",
-    "complex_id": "615",
+    "station_id": 73,
+    "complex_id": 615,
     "daytime_routes": [
       "N"
     ],
@@ -1598,8 +1598,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "74",
-    "complex_id": "74",
+    "station_id": 74,
+    "complex_id": 74,
     "daytime_routes": [
       "N"
     ],
@@ -1619,8 +1619,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "75",
-    "complex_id": "75",
+    "station_id": 75,
+    "complex_id": 75,
     "daytime_routes": [
       "N"
     ],
@@ -1640,8 +1640,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "76",
-    "complex_id": "76",
+    "station_id": 76,
+    "complex_id": 76,
     "daytime_routes": [
       "N"
     ],
@@ -1661,8 +1661,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "77",
-    "complex_id": "77",
+    "station_id": 77,
+    "complex_id": 77,
     "daytime_routes": [
       "N"
     ],
@@ -1682,8 +1682,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "78",
-    "complex_id": "78",
+    "station_id": 78,
+    "complex_id": 78,
     "daytime_routes": [
       "N"
     ],
@@ -1703,8 +1703,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "79",
-    "complex_id": "79",
+    "station_id": 79,
+    "complex_id": 79,
     "daytime_routes": [
       "N"
     ],
@@ -1724,8 +1724,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "80",
-    "complex_id": "80",
+    "station_id": 80,
+    "complex_id": 80,
     "daytime_routes": [
       "J",
       "Z"
@@ -1746,8 +1746,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "81",
-    "complex_id": "81",
+    "station_id": 81,
+    "complex_id": 81,
     "daytime_routes": [
       "J"
     ],
@@ -1767,8 +1767,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "82",
-    "complex_id": "82",
+    "station_id": 82,
+    "complex_id": 82,
     "daytime_routes": [
       "J",
       "Z"
@@ -1789,8 +1789,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "83",
-    "complex_id": "83",
+    "station_id": 83,
+    "complex_id": 83,
     "daytime_routes": [
       "J",
       "Z"
@@ -1811,8 +1811,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "84",
-    "complex_id": "84",
+    "station_id": 84,
+    "complex_id": 84,
     "daytime_routes": [
       "J"
     ],
@@ -1832,8 +1832,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "85",
-    "complex_id": "85",
+    "station_id": 85,
+    "complex_id": 85,
     "daytime_routes": [
       "J",
       "Z"
@@ -1854,8 +1854,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "86",
-    "complex_id": "86",
+    "station_id": 86,
+    "complex_id": 86,
     "daytime_routes": [
       "J"
     ],
@@ -1875,8 +1875,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "87",
-    "complex_id": "87",
+    "station_id": 87,
+    "complex_id": 87,
     "daytime_routes": [
       "J",
       "Z"
@@ -1897,8 +1897,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "88",
-    "complex_id": "88",
+    "station_id": 88,
+    "complex_id": 88,
     "daytime_routes": [
       "J",
       "Z"
@@ -1919,8 +1919,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "89",
-    "complex_id": "89",
+    "station_id": 89,
+    "complex_id": 89,
     "daytime_routes": [
       "J"
     ],
@@ -1940,8 +1940,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "90",
-    "complex_id": "90",
+    "station_id": 90,
+    "complex_id": 90,
     "daytime_routes": [
       "J",
       "Z"
@@ -1962,8 +1962,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "91",
-    "complex_id": "91",
+    "station_id": 91,
+    "complex_id": 91,
     "daytime_routes": [
       "J"
     ],
@@ -1983,8 +1983,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "92",
-    "complex_id": "621",
+    "station_id": 92,
+    "complex_id": 621,
     "daytime_routes": [
       "J",
       "Z"
@@ -2005,8 +2005,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "93",
-    "complex_id": "93",
+    "station_id": 93,
+    "complex_id": 93,
     "daytime_routes": [
       "J",
       "Z"
@@ -2027,8 +2027,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "94",
-    "complex_id": "94",
+    "station_id": 94,
+    "complex_id": 94,
     "daytime_routes": [
       "J"
     ],
@@ -2048,8 +2048,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "95",
-    "complex_id": "95",
+    "station_id": 95,
+    "complex_id": 95,
     "daytime_routes": [
       "J",
       "Z"
@@ -2070,8 +2070,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "96",
-    "complex_id": "96",
+    "station_id": 96,
+    "complex_id": 96,
     "daytime_routes": [
       "J"
     ],
@@ -2091,8 +2091,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "97",
-    "complex_id": "97",
+    "station_id": 97,
+    "complex_id": 97,
     "daytime_routes": [
       "J",
       "M",
@@ -2114,8 +2114,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "98",
-    "complex_id": "98",
+    "station_id": 98,
+    "complex_id": 98,
     "daytime_routes": [
       "J",
       "M"
@@ -2136,8 +2136,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "99",
-    "complex_id": "99",
+    "station_id": 99,
+    "complex_id": 99,
     "daytime_routes": [
       "J",
       "M"
@@ -2158,8 +2158,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "100",
-    "complex_id": "100",
+    "station_id": 100,
+    "complex_id": 100,
     "daytime_routes": [
       "J",
       "M"
@@ -2180,8 +2180,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "101",
-    "complex_id": "101",
+    "station_id": 101,
+    "complex_id": 101,
     "daytime_routes": [
       "J",
       "M",
@@ -2203,8 +2203,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "102",
-    "complex_id": "625",
+    "station_id": 102,
+    "complex_id": 625,
     "daytime_routes": [
       "J",
       "M",
@@ -2226,8 +2226,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "103",
-    "complex_id": "103",
+    "station_id": 103,
+    "complex_id": 103,
     "daytime_routes": [
       "J",
       "Z"
@@ -2248,8 +2248,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "104",
-    "complex_id": "623",
+    "station_id": 104,
+    "complex_id": 623,
     "daytime_routes": [
       "J",
       "Z"
@@ -2270,8 +2270,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "105",
-    "complex_id": "622",
+    "station_id": 105,
+    "complex_id": 622,
     "daytime_routes": [
       "J",
       "Z"
@@ -2292,8 +2292,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "106",
-    "complex_id": "628",
+    "station_id": 106,
+    "complex_id": 628,
     "daytime_routes": [
       "J",
       "Z"
@@ -2314,8 +2314,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "107",
-    "complex_id": "107",
+    "station_id": 107,
+    "complex_id": 107,
     "daytime_routes": [
       "J",
       "Z"
@@ -2336,8 +2336,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "108",
-    "complex_id": "108",
+    "station_id": 108,
+    "complex_id": 108,
     "daytime_routes": [
       "M"
     ],
@@ -2357,8 +2357,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "109",
-    "complex_id": "109",
+    "station_id": 109,
+    "complex_id": 109,
     "daytime_routes": [
       "M"
     ],
@@ -2378,8 +2378,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "110",
-    "complex_id": "110",
+    "station_id": 110,
+    "complex_id": 110,
     "daytime_routes": [
       "M"
     ],
@@ -2399,8 +2399,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "111",
-    "complex_id": "111",
+    "station_id": 111,
+    "complex_id": 111,
     "daytime_routes": [
       "M"
     ],
@@ -2420,8 +2420,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "112",
-    "complex_id": "630",
+    "station_id": 112,
+    "complex_id": 630,
     "daytime_routes": [
       "M"
     ],
@@ -2441,8 +2441,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "113",
-    "complex_id": "113",
+    "station_id": 113,
+    "complex_id": 113,
     "daytime_routes": [
       "M"
     ],
@@ -2462,8 +2462,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "114",
-    "complex_id": "114",
+    "station_id": 114,
+    "complex_id": 114,
     "daytime_routes": [
       "M"
     ],
@@ -2483,8 +2483,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "115",
-    "complex_id": "618",
+    "station_id": 115,
+    "complex_id": 618,
     "daytime_routes": [
       "L"
     ],
@@ -2504,8 +2504,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "116",
-    "complex_id": "601",
+    "station_id": 116,
+    "complex_id": 601,
     "daytime_routes": [
       "L"
     ],
@@ -2525,8 +2525,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "117",
-    "complex_id": "602",
+    "station_id": 117,
+    "complex_id": 602,
     "daytime_routes": [
       "L"
     ],
@@ -2546,8 +2546,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "118",
-    "complex_id": "118",
+    "station_id": 118,
+    "complex_id": 118,
     "daytime_routes": [
       "L"
     ],
@@ -2567,8 +2567,8 @@
     "division": "BMT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "119",
-    "complex_id": "119",
+    "station_id": 119,
+    "complex_id": 119,
     "daytime_routes": [
       "L"
     ],
@@ -2588,8 +2588,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "120",
-    "complex_id": "120",
+    "station_id": 120,
+    "complex_id": 120,
     "daytime_routes": [
       "L"
     ],
@@ -2609,8 +2609,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "121",
-    "complex_id": "629",
+    "station_id": 121,
+    "complex_id": 629,
     "daytime_routes": [
       "L"
     ],
@@ -2630,8 +2630,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "122",
-    "complex_id": "122",
+    "station_id": 122,
+    "complex_id": 122,
     "daytime_routes": [
       "L"
     ],
@@ -2651,8 +2651,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "123",
-    "complex_id": "123",
+    "station_id": 123,
+    "complex_id": 123,
     "daytime_routes": [
       "L"
     ],
@@ -2672,8 +2672,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "124",
-    "complex_id": "124",
+    "station_id": 124,
+    "complex_id": 124,
     "daytime_routes": [
       "L"
     ],
@@ -2693,8 +2693,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "125",
-    "complex_id": "125",
+    "station_id": 125,
+    "complex_id": 125,
     "daytime_routes": [
       "L"
     ],
@@ -2714,8 +2714,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "126",
-    "complex_id": "126",
+    "station_id": 126,
+    "complex_id": 126,
     "daytime_routes": [
       "L"
     ],
@@ -2735,8 +2735,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "127",
-    "complex_id": "127",
+    "station_id": 127,
+    "complex_id": 127,
     "daytime_routes": [
       "L"
     ],
@@ -2756,8 +2756,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "128",
-    "complex_id": "630",
+    "station_id": 128,
+    "complex_id": 630,
     "daytime_routes": [
       "L"
     ],
@@ -2777,8 +2777,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "129",
-    "complex_id": "129",
+    "station_id": 129,
+    "complex_id": 129,
     "daytime_routes": [
       "L"
     ],
@@ -2798,8 +2798,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "130",
-    "complex_id": "130",
+    "station_id": 130,
+    "complex_id": 130,
     "daytime_routes": [
       "L"
     ],
@@ -2819,8 +2819,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "131",
-    "complex_id": "131",
+    "station_id": 131,
+    "complex_id": 131,
     "daytime_routes": [
       "L"
     ],
@@ -2840,8 +2840,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "132",
-    "complex_id": "621",
+    "station_id": 132,
+    "complex_id": 621,
     "daytime_routes": [
       "L"
     ],
@@ -2861,8 +2861,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "133",
-    "complex_id": "133",
+    "station_id": 133,
+    "complex_id": 133,
     "daytime_routes": [
       "L"
     ],
@@ -2882,8 +2882,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "134",
-    "complex_id": "134",
+    "station_id": 134,
+    "complex_id": 134,
     "daytime_routes": [
       "L"
     ],
@@ -2903,8 +2903,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "135",
-    "complex_id": "135",
+    "station_id": 135,
+    "complex_id": 135,
     "daytime_routes": [
       "L"
     ],
@@ -2924,8 +2924,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "136",
-    "complex_id": "136",
+    "station_id": 136,
+    "complex_id": 136,
     "daytime_routes": [
       "L"
     ],
@@ -2945,8 +2945,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "At Grade",
-    "station_id": "137",
-    "complex_id": "137",
+    "station_id": 137,
+    "complex_id": 137,
     "daytime_routes": [
       "L"
     ],
@@ -2966,8 +2966,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "At Grade",
-    "station_id": "138",
-    "complex_id": "138",
+    "station_id": 138,
+    "complex_id": 138,
     "daytime_routes": [
       "L"
     ],
@@ -2987,8 +2987,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "139",
-    "complex_id": "627",
+    "station_id": 139,
+    "complex_id": 627,
     "daytime_routes": [
       "S"
     ],
@@ -3008,8 +3008,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "141",
-    "complex_id": "141",
+    "station_id": 141,
+    "complex_id": 141,
     "daytime_routes": [
       "S"
     ],
@@ -3029,8 +3029,8 @@
     "division": "BMT",
     "borough": "Brooklyn",
     "structure": "Open Cut",
-    "station_id": "142",
-    "complex_id": "626",
+    "station_id": 142,
+    "complex_id": 626,
     "daytime_routes": [
       "S"
     ],
@@ -3050,8 +3050,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "143",
-    "complex_id": "143",
+    "station_id": 143,
+    "complex_id": 143,
     "daytime_routes": [
       "A"
     ],
@@ -3071,8 +3071,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "144",
-    "complex_id": "144",
+    "station_id": 144,
+    "complex_id": 144,
     "daytime_routes": [
       "A"
     ],
@@ -3092,8 +3092,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "145",
-    "complex_id": "145",
+    "station_id": 145,
+    "complex_id": 145,
     "daytime_routes": [
       "A"
     ],
@@ -3113,8 +3113,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "146",
-    "complex_id": "146",
+    "station_id": 146,
+    "complex_id": 146,
     "daytime_routes": [
       "A"
     ],
@@ -3134,8 +3134,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "147",
-    "complex_id": "147",
+    "station_id": 147,
+    "complex_id": 147,
     "daytime_routes": [
       "A"
     ],
@@ -3155,8 +3155,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "148",
-    "complex_id": "605",
+    "station_id": 148,
+    "complex_id": 605,
     "daytime_routes": [
       "A",
       "C"
@@ -3177,8 +3177,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "149",
-    "complex_id": "149",
+    "station_id": 149,
+    "complex_id": 149,
     "daytime_routes": [
       "C"
     ],
@@ -3198,8 +3198,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "150",
-    "complex_id": "150",
+    "station_id": 150,
+    "complex_id": 150,
     "daytime_routes": [
       "C"
     ],
@@ -3219,8 +3219,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "151",
-    "complex_id": "151",
+    "station_id": 151,
+    "complex_id": 151,
     "daytime_routes": [
       "A",
       "C"
@@ -3241,8 +3241,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "151",
-    "complex_id": "151",
+    "station_id": 151,
+    "complex_id": 151,
     "daytime_routes": [
       "B",
       "D"
@@ -3263,8 +3263,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "152",
-    "complex_id": "152",
+    "station_id": 152,
+    "complex_id": 152,
     "daytime_routes": [
       "B",
       "C"
@@ -3285,8 +3285,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "153",
-    "complex_id": "153",
+    "station_id": 153,
+    "complex_id": 153,
     "daytime_routes": [
       "A",
       "B",
@@ -3309,8 +3309,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "154",
-    "complex_id": "154",
+    "station_id": 154,
+    "complex_id": 154,
     "daytime_routes": [
       "B",
       "C"
@@ -3331,8 +3331,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "155",
-    "complex_id": "155",
+    "station_id": 155,
+    "complex_id": 155,
     "daytime_routes": [
       "B",
       "C"
@@ -3353,8 +3353,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "156",
-    "complex_id": "156",
+    "station_id": 156,
+    "complex_id": 156,
     "daytime_routes": [
       "B",
       "C"
@@ -3375,8 +3375,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "157",
-    "complex_id": "157",
+    "station_id": 157,
+    "complex_id": 157,
     "daytime_routes": [
       "B",
       "C"
@@ -3397,8 +3397,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "158",
-    "complex_id": "158",
+    "station_id": 158,
+    "complex_id": 158,
     "daytime_routes": [
       "B",
       "C"
@@ -3419,8 +3419,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "159",
-    "complex_id": "159",
+    "station_id": 159,
+    "complex_id": 159,
     "daytime_routes": [
       "B",
       "C"
@@ -3441,8 +3441,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "160",
-    "complex_id": "160",
+    "station_id": 160,
+    "complex_id": 160,
     "daytime_routes": [
       "B",
       "C"
@@ -3463,8 +3463,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "161",
-    "complex_id": "614",
+    "station_id": 161,
+    "complex_id": 614,
     "daytime_routes": [
       "A",
       "B",
@@ -3487,8 +3487,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "162",
-    "complex_id": "162",
+    "station_id": 162,
+    "complex_id": 162,
     "daytime_routes": [
       "C",
       "E"
@@ -3509,8 +3509,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "163",
-    "complex_id": "611",
+    "station_id": 163,
+    "complex_id": 611,
     "daytime_routes": [
       "A",
       "C",
@@ -3532,8 +3532,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "164",
-    "complex_id": "164",
+    "station_id": 164,
+    "complex_id": 164,
     "daytime_routes": [
       "A",
       "C",
@@ -3555,8 +3555,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "165",
-    "complex_id": "165",
+    "station_id": 165,
+    "complex_id": 165,
     "daytime_routes": [
       "C",
       "E"
@@ -3577,8 +3577,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "166",
-    "complex_id": "618",
+    "station_id": 166,
+    "complex_id": 618,
     "daytime_routes": [
       "A",
       "C",
@@ -3600,8 +3600,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "167",
-    "complex_id": "167",
+    "station_id": 167,
+    "complex_id": 167,
     "daytime_routes": [
       "A",
       "C",
@@ -3623,8 +3623,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "167",
-    "complex_id": "167",
+    "station_id": 167,
+    "complex_id": 167,
     "daytime_routes": [
       "B",
       "D",
@@ -3647,8 +3647,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "168",
-    "complex_id": "168",
+    "station_id": 168,
+    "complex_id": 168,
     "daytime_routes": [
       "C",
       "E"
@@ -3669,8 +3669,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "169",
-    "complex_id": "169",
+    "station_id": 169,
+    "complex_id": 169,
     "daytime_routes": [
       "A",
       "C",
@@ -3692,8 +3692,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "170",
-    "complex_id": "624",
+    "station_id": 170,
+    "complex_id": 624,
     "daytime_routes": [
       "A",
       "C"
@@ -3714,8 +3714,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "171",
-    "complex_id": "624",
+    "station_id": 171,
+    "complex_id": 624,
     "daytime_routes": [
       "E"
     ],
@@ -3735,8 +3735,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "172",
-    "complex_id": "628",
+    "station_id": 172,
+    "complex_id": 628,
     "daytime_routes": [
       "A",
       "C"
@@ -3757,8 +3757,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "173",
-    "complex_id": "173",
+    "station_id": 173,
+    "complex_id": 173,
     "daytime_routes": [
       "A",
       "C"
@@ -3779,8 +3779,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "174",
-    "complex_id": "636",
+    "station_id": 174,
+    "complex_id": 636,
     "daytime_routes": [
       "A",
       "C",
@@ -3802,8 +3802,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "175",
-    "complex_id": "175",
+    "station_id": 175,
+    "complex_id": 175,
     "daytime_routes": [
       "A",
       "C",
@@ -3825,8 +3825,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "176",
-    "complex_id": "176",
+    "station_id": 176,
+    "complex_id": 176,
     "daytime_routes": [
       "C"
     ],
@@ -3846,8 +3846,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "177",
-    "complex_id": "177",
+    "station_id": 177,
+    "complex_id": 177,
     "daytime_routes": [
       "C"
     ],
@@ -3867,8 +3867,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "178",
-    "complex_id": "627",
+    "station_id": 178,
+    "complex_id": 627,
     "daytime_routes": [
       "C"
     ],
@@ -3888,8 +3888,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "179",
-    "complex_id": "179",
+    "station_id": 179,
+    "complex_id": 179,
     "daytime_routes": [
       "A",
       "C"
@@ -3910,8 +3910,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "180",
-    "complex_id": "180",
+    "station_id": 180,
+    "complex_id": 180,
     "daytime_routes": [
       "C"
     ],
@@ -3931,8 +3931,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "181",
-    "complex_id": "181",
+    "station_id": 181,
+    "complex_id": 181,
     "daytime_routes": [
       "A",
       "C"
@@ -3953,8 +3953,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "182",
-    "complex_id": "182",
+    "station_id": 182,
+    "complex_id": 182,
     "daytime_routes": [
       "C"
     ],
@@ -3974,8 +3974,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "183",
-    "complex_id": "183",
+    "station_id": 183,
+    "complex_id": 183,
     "daytime_routes": [
       "C"
     ],
@@ -3995,8 +3995,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "184",
-    "complex_id": "621",
+    "station_id": 184,
+    "complex_id": 621,
     "daytime_routes": [
       "A",
       "C"
@@ -4017,8 +4017,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "185",
-    "complex_id": "185",
+    "station_id": 185,
+    "complex_id": 185,
     "daytime_routes": [
       "C"
     ],
@@ -4038,8 +4038,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "186",
-    "complex_id": "186",
+    "station_id": 186,
+    "complex_id": 186,
     "daytime_routes": [
       "C"
     ],
@@ -4059,8 +4059,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "187",
-    "complex_id": "187",
+    "station_id": 187,
+    "complex_id": 187,
     "daytime_routes": [
       "C"
     ],
@@ -4080,8 +4080,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "188",
-    "complex_id": "188",
+    "station_id": 188,
+    "complex_id": 188,
     "daytime_routes": [
       "A",
       "C"
@@ -4102,8 +4102,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "189",
-    "complex_id": "189",
+    "station_id": 189,
+    "complex_id": 189,
     "daytime_routes": [
       "A"
     ],
@@ -4123,8 +4123,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "190",
-    "complex_id": "190",
+    "station_id": 190,
+    "complex_id": 190,
     "daytime_routes": [
       "A"
     ],
@@ -4144,8 +4144,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "191",
-    "complex_id": "191",
+    "station_id": 191,
+    "complex_id": 191,
     "daytime_routes": [
       "A"
     ],
@@ -4165,8 +4165,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "192",
-    "complex_id": "192",
+    "station_id": 192,
+    "complex_id": 192,
     "daytime_routes": [
       "A"
     ],
@@ -4186,8 +4186,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "193",
-    "complex_id": "193",
+    "station_id": 193,
+    "complex_id": 193,
     "daytime_routes": [
       "A"
     ],
@@ -4207,8 +4207,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "194",
-    "complex_id": "194",
+    "station_id": 194,
+    "complex_id": 194,
     "daytime_routes": [
       "A"
     ],
@@ -4228,8 +4228,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "195",
-    "complex_id": "195",
+    "station_id": 195,
+    "complex_id": 195,
     "daytime_routes": [
       "A"
     ],
@@ -4249,8 +4249,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "At Grade",
-    "station_id": "196",
-    "complex_id": "196",
+    "station_id": 196,
+    "complex_id": 196,
     "daytime_routes": [
       "A"
     ],
@@ -4270,8 +4270,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "At Grade",
-    "station_id": "197",
-    "complex_id": "197",
+    "station_id": 197,
+    "complex_id": 197,
     "daytime_routes": [
       "A"
     ],
@@ -4291,8 +4291,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "At Grade",
-    "station_id": "198",
-    "complex_id": "198",
+    "station_id": 198,
+    "complex_id": 198,
     "daytime_routes": [
       "A"
     ],
@@ -4312,8 +4312,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "At Grade",
-    "station_id": "199",
-    "complex_id": "199",
+    "station_id": 199,
+    "complex_id": 199,
     "daytime_routes": [
       "A",
       "S"
@@ -4334,8 +4334,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
-    "station_id": "200",
-    "complex_id": "200",
+    "station_id": 200,
+    "complex_id": 200,
     "daytime_routes": [
       "A",
       "S"
@@ -4356,8 +4356,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
-    "station_id": "201",
-    "complex_id": "201",
+    "station_id": 201,
+    "complex_id": 201,
     "daytime_routes": [
       "A",
       "S"
@@ -4378,8 +4378,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
-    "station_id": "202",
-    "complex_id": "202",
+    "station_id": 202,
+    "complex_id": 202,
     "daytime_routes": [
       "A",
       "S"
@@ -4400,8 +4400,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "At Grade",
-    "station_id": "203",
-    "complex_id": "203",
+    "station_id": 203,
+    "complex_id": 203,
     "daytime_routes": [
       "A",
       "S"
@@ -4422,8 +4422,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
-    "station_id": "204",
-    "complex_id": "204",
+    "station_id": 204,
+    "complex_id": 204,
     "daytime_routes": [
       "A"
     ],
@@ -4443,8 +4443,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
-    "station_id": "205",
-    "complex_id": "205",
+    "station_id": 205,
+    "complex_id": 205,
     "daytime_routes": [
       "A"
     ],
@@ -4464,8 +4464,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
-    "station_id": "206",
-    "complex_id": "206",
+    "station_id": 206,
+    "complex_id": 206,
     "daytime_routes": [
       "A"
     ],
@@ -4485,8 +4485,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
-    "station_id": "207",
-    "complex_id": "207",
+    "station_id": 207,
+    "complex_id": 207,
     "daytime_routes": [
       "A"
     ],
@@ -4506,8 +4506,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
-    "station_id": "208",
-    "complex_id": "208",
+    "station_id": 208,
+    "complex_id": 208,
     "daytime_routes": [
       "A"
     ],
@@ -4527,8 +4527,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Viaduct",
-    "station_id": "209",
-    "complex_id": "209",
+    "station_id": 209,
+    "complex_id": 209,
     "daytime_routes": [
       "A"
     ],
@@ -4548,8 +4548,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "210",
-    "complex_id": "210",
+    "station_id": 210,
+    "complex_id": 210,
     "daytime_routes": [
       "D"
     ],
@@ -4569,8 +4569,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "211",
-    "complex_id": "211",
+    "station_id": 211,
+    "complex_id": 211,
     "daytime_routes": [
       "B",
       "D"
@@ -4591,8 +4591,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "212",
-    "complex_id": "212",
+    "station_id": 212,
+    "complex_id": 212,
     "daytime_routes": [
       "B",
       "D"
@@ -4613,8 +4613,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "213",
-    "complex_id": "213",
+    "station_id": 213,
+    "complex_id": 213,
     "daytime_routes": [
       "B",
       "D"
@@ -4635,8 +4635,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "214",
-    "complex_id": "214",
+    "station_id": 214,
+    "complex_id": 214,
     "daytime_routes": [
       "B",
       "D"
@@ -4657,8 +4657,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "215",
-    "complex_id": "215",
+    "station_id": 215,
+    "complex_id": 215,
     "daytime_routes": [
       "B",
       "D"
@@ -4679,8 +4679,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "216",
-    "complex_id": "216",
+    "station_id": 216,
+    "complex_id": 216,
     "daytime_routes": [
       "B",
       "D"
@@ -4701,8 +4701,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "217",
-    "complex_id": "217",
+    "station_id": 217,
+    "complex_id": 217,
     "daytime_routes": [
       "B",
       "D"
@@ -4723,8 +4723,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "218",
-    "complex_id": "218",
+    "station_id": 218,
+    "complex_id": 218,
     "daytime_routes": [
       "B",
       "D"
@@ -4745,8 +4745,8 @@
     "division": "IND",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "219",
-    "complex_id": "604",
+    "station_id": 219,
+    "complex_id": 604,
     "daytime_routes": [
       "B",
       "D"
@@ -4767,8 +4767,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "220",
-    "complex_id": "220",
+    "station_id": 220,
+    "complex_id": 220,
     "daytime_routes": [
       "B",
       "D"
@@ -4789,8 +4789,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "221",
-    "complex_id": "221",
+    "station_id": 221,
+    "complex_id": 221,
     "daytime_routes": [
       "F"
     ],
@@ -4810,8 +4810,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "222",
-    "complex_id": "222",
+    "station_id": 222,
+    "complex_id": 222,
     "daytime_routes": [
       "F"
     ],
@@ -4831,8 +4831,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "223",
-    "complex_id": "223",
+    "station_id": 223,
+    "complex_id": 223,
     "daytime_routes": [
       "F",
       "Q"
@@ -4853,8 +4853,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "224",
-    "complex_id": "224",
+    "station_id": 224,
+    "complex_id": 224,
     "daytime_routes": [
       "F"
     ],
@@ -4874,8 +4874,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "225",
-    "complex_id": "225",
+    "station_id": 225,
+    "complex_id": 225,
     "daytime_routes": [
       "B",
       "D",
@@ -4898,8 +4898,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "226",
-    "complex_id": "609",
+    "station_id": 226,
+    "complex_id": 609,
     "daytime_routes": [
       "B",
       "D",
@@ -4922,8 +4922,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "227",
-    "complex_id": "607",
+    "station_id": 227,
+    "complex_id": 607,
     "daytime_routes": [
       "B",
       "D",
@@ -4946,8 +4946,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "228",
-    "complex_id": "228",
+    "station_id": 228,
+    "complex_id": 228,
     "daytime_routes": [
       "F",
       "M"
@@ -4968,8 +4968,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "229",
-    "complex_id": "601",
+    "station_id": 229,
+    "complex_id": 601,
     "daytime_routes": [
       "F",
       "M"
@@ -4990,8 +4990,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "230",
-    "complex_id": "619",
+    "station_id": 230,
+    "complex_id": 619,
     "daytime_routes": [
       "B",
       "D",
@@ -5014,8 +5014,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "231",
-    "complex_id": "231",
+    "station_id": 231,
+    "complex_id": 231,
     "daytime_routes": [
       "B",
       "D"
@@ -5036,8 +5036,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "232",
-    "complex_id": "232",
+    "station_id": 232,
+    "complex_id": 232,
     "daytime_routes": [
       "F"
     ],
@@ -5057,8 +5057,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "233",
-    "complex_id": "625",
+    "station_id": 233,
+    "complex_id": 625,
     "daytime_routes": [
       "F"
     ],
@@ -5078,8 +5078,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "234",
-    "complex_id": "234",
+    "station_id": 234,
+    "complex_id": 234,
     "daytime_routes": [
       "F"
     ],
@@ -5099,8 +5099,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "235",
-    "complex_id": "235",
+    "station_id": 235,
+    "complex_id": 235,
     "daytime_routes": [
       "F"
     ],
@@ -5120,8 +5120,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "236",
-    "complex_id": "236",
+    "station_id": 236,
+    "complex_id": 236,
     "daytime_routes": [
       "F",
       "G"
@@ -5142,8 +5142,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "237",
-    "complex_id": "237",
+    "station_id": 237,
+    "complex_id": 237,
     "daytime_routes": [
       "F",
       "G"
@@ -5164,8 +5164,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Viaduct",
-    "station_id": "238",
-    "complex_id": "238",
+    "station_id": 238,
+    "complex_id": 238,
     "daytime_routes": [
       "F",
       "G"
@@ -5186,8 +5186,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Viaduct",
-    "station_id": "239",
-    "complex_id": "608",
+    "station_id": 239,
+    "complex_id": 608,
     "daytime_routes": [
       "F",
       "G"
@@ -5208,8 +5208,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "240",
-    "complex_id": "240",
+    "station_id": 240,
+    "complex_id": 240,
     "daytime_routes": [
       "F",
       "G"
@@ -5230,8 +5230,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "241",
-    "complex_id": "241",
+    "station_id": 241,
+    "complex_id": 241,
     "daytime_routes": [
       "F",
       "G"
@@ -5252,8 +5252,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "242",
-    "complex_id": "242",
+    "station_id": 242,
+    "complex_id": 242,
     "daytime_routes": [
       "F",
       "G"
@@ -5274,8 +5274,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "243",
-    "complex_id": "243",
+    "station_id": 243,
+    "complex_id": 243,
     "daytime_routes": [
       "F"
     ],
@@ -5295,8 +5295,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "244",
-    "complex_id": "244",
+    "station_id": 244,
+    "complex_id": 244,
     "daytime_routes": [
       "F"
     ],
@@ -5316,8 +5316,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "245",
-    "complex_id": "245",
+    "station_id": 245,
+    "complex_id": 245,
     "daytime_routes": [
       "F"
     ],
@@ -5337,8 +5337,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "246",
-    "complex_id": "246",
+    "station_id": 246,
+    "complex_id": 246,
     "daytime_routes": [
       "F"
     ],
@@ -5358,8 +5358,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "247",
-    "complex_id": "247",
+    "station_id": 247,
+    "complex_id": 247,
     "daytime_routes": [
       "F"
     ],
@@ -5379,8 +5379,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "248",
-    "complex_id": "248",
+    "station_id": 248,
+    "complex_id": 248,
     "daytime_routes": [
       "F"
     ],
@@ -5400,8 +5400,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "249",
-    "complex_id": "249",
+    "station_id": 249,
+    "complex_id": 249,
     "daytime_routes": [
       "F"
     ],
@@ -5421,8 +5421,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "250",
-    "complex_id": "250",
+    "station_id": 250,
+    "complex_id": 250,
     "daytime_routes": [
       "F"
     ],
@@ -5442,8 +5442,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "251",
-    "complex_id": "251",
+    "station_id": 251,
+    "complex_id": 251,
     "daytime_routes": [
       "F"
     ],
@@ -5463,8 +5463,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "252",
-    "complex_id": "252",
+    "station_id": 252,
+    "complex_id": 252,
     "daytime_routes": [
       "F"
     ],
@@ -5484,8 +5484,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "253",
-    "complex_id": "253",
+    "station_id": 253,
+    "complex_id": 253,
     "daytime_routes": [
       "F"
     ],
@@ -5505,8 +5505,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "254",
-    "complex_id": "254",
+    "station_id": 254,
+    "complex_id": 254,
     "daytime_routes": [
       "F"
     ],
@@ -5526,8 +5526,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "255",
-    "complex_id": "255",
+    "station_id": 255,
+    "complex_id": 255,
     "daytime_routes": [
       "F"
     ],
@@ -5547,8 +5547,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "256",
-    "complex_id": "256",
+    "station_id": 256,
+    "complex_id": 256,
     "daytime_routes": [
       "F"
     ],
@@ -5568,8 +5568,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "257",
-    "complex_id": "257",
+    "station_id": 257,
+    "complex_id": 257,
     "daytime_routes": [
       "F"
     ],
@@ -5589,8 +5589,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "258",
-    "complex_id": "258",
+    "station_id": 258,
+    "complex_id": 258,
     "daytime_routes": [
       "E",
       "F"
@@ -5611,8 +5611,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "259",
-    "complex_id": "259",
+    "station_id": 259,
+    "complex_id": 259,
     "daytime_routes": [
       "E",
       "F"
@@ -5633,8 +5633,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "260",
-    "complex_id": "260",
+    "station_id": 260,
+    "complex_id": 260,
     "daytime_routes": [
       "E",
       "F"
@@ -5655,8 +5655,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "261",
-    "complex_id": "261",
+    "station_id": 261,
+    "complex_id": 261,
     "daytime_routes": [
       "E",
       "F",
@@ -5679,8 +5679,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "262",
-    "complex_id": "262",
+    "station_id": 262,
+    "complex_id": 262,
     "daytime_routes": [
       "M",
       "R"
@@ -5701,8 +5701,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "263",
-    "complex_id": "263",
+    "station_id": 263,
+    "complex_id": 263,
     "daytime_routes": [
       "M",
       "R"
@@ -5723,8 +5723,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "264",
-    "complex_id": "264",
+    "station_id": 264,
+    "complex_id": 264,
     "daytime_routes": [
       "M",
       "R"
@@ -5745,8 +5745,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "265",
-    "complex_id": "265",
+    "station_id": 265,
+    "complex_id": 265,
     "daytime_routes": [
       "M",
       "R"
@@ -5767,8 +5767,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "266",
-    "complex_id": "266",
+    "station_id": 266,
+    "complex_id": 266,
     "daytime_routes": [
       "M",
       "R"
@@ -5789,8 +5789,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "267",
-    "complex_id": "616",
+    "station_id": 267,
+    "complex_id": 616,
     "daytime_routes": [
       "E",
       "F",
@@ -5813,8 +5813,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "268",
-    "complex_id": "268",
+    "station_id": 268,
+    "complex_id": 268,
     "daytime_routes": [
       "M",
       "R"
@@ -5835,8 +5835,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "269",
-    "complex_id": "269",
+    "station_id": 269,
+    "complex_id": 269,
     "daytime_routes": [
       "M",
       "R"
@@ -5857,8 +5857,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "270",
-    "complex_id": "270",
+    "station_id": 270,
+    "complex_id": 270,
     "daytime_routes": [
       "M",
       "R"
@@ -5879,8 +5879,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "271",
-    "complex_id": "271",
+    "station_id": 271,
+    "complex_id": 271,
     "daytime_routes": [
       "M",
       "R"
@@ -5901,8 +5901,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "272",
-    "complex_id": "272",
+    "station_id": 272,
+    "complex_id": 272,
     "daytime_routes": [
       "M",
       "R"
@@ -5923,8 +5923,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "273",
-    "complex_id": "273",
+    "station_id": 273,
+    "complex_id": 273,
     "daytime_routes": [
       "E",
       "M",
@@ -5946,8 +5946,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "274",
-    "complex_id": "606",
+    "station_id": 274,
+    "complex_id": 606,
     "daytime_routes": [
       "E",
       "M"
@@ -5968,8 +5968,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "275",
-    "complex_id": "612",
+    "station_id": 275,
+    "complex_id": 612,
     "daytime_routes": [
       "E",
       "M"
@@ -5990,8 +5990,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "276",
-    "complex_id": "276",
+    "station_id": 276,
+    "complex_id": 276,
     "daytime_routes": [
       "E",
       "M"
@@ -6012,8 +6012,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "277",
-    "complex_id": "277",
+    "station_id": 277,
+    "complex_id": 277,
     "daytime_routes": [
       "B",
       "D",
@@ -6035,8 +6035,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "278",
-    "complex_id": "278",
+    "station_id": 278,
+    "complex_id": 278,
     "daytime_routes": [
       "E",
       "J",
@@ -6058,8 +6058,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "279",
-    "complex_id": "279",
+    "station_id": 279,
+    "complex_id": 279,
     "daytime_routes": [
       "E",
       "J",
@@ -6081,8 +6081,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "280",
-    "complex_id": "280",
+    "station_id": 280,
+    "complex_id": 280,
     "daytime_routes": [
       "E"
     ],
@@ -6102,8 +6102,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "281",
-    "complex_id": "606",
+    "station_id": 281,
+    "complex_id": 606,
     "daytime_routes": [
       "G"
     ],
@@ -6123,8 +6123,8 @@
     "division": "IND",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "282",
-    "complex_id": "282",
+    "station_id": 282,
+    "complex_id": 282,
     "daytime_routes": [
       "G"
     ],
@@ -6144,8 +6144,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "283",
-    "complex_id": "283",
+    "station_id": 283,
+    "complex_id": 283,
     "daytime_routes": [
       "G"
     ],
@@ -6165,8 +6165,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "284",
-    "complex_id": "284",
+    "station_id": 284,
+    "complex_id": 284,
     "daytime_routes": [
       "G"
     ],
@@ -6186,8 +6186,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "285",
-    "complex_id": "629",
+    "station_id": 285,
+    "complex_id": 629,
     "daytime_routes": [
       "G"
     ],
@@ -6207,8 +6207,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "286",
-    "complex_id": "286",
+    "station_id": 286,
+    "complex_id": 286,
     "daytime_routes": [
       "G"
     ],
@@ -6228,8 +6228,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "287",
-    "complex_id": "287",
+    "station_id": 287,
+    "complex_id": 287,
     "daytime_routes": [
       "G"
     ],
@@ -6249,8 +6249,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "288",
-    "complex_id": "288",
+    "station_id": 288,
+    "complex_id": 288,
     "daytime_routes": [
       "G"
     ],
@@ -6270,8 +6270,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "289",
-    "complex_id": "289",
+    "station_id": 289,
+    "complex_id": 289,
     "daytime_routes": [
       "G"
     ],
@@ -6291,8 +6291,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "290",
-    "complex_id": "290",
+    "station_id": 290,
+    "complex_id": 290,
     "daytime_routes": [
       "G"
     ],
@@ -6312,8 +6312,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "291",
-    "complex_id": "291",
+    "station_id": 291,
+    "complex_id": 291,
     "daytime_routes": [
       "G"
     ],
@@ -6333,8 +6333,8 @@
     "division": "IND",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "292",
-    "complex_id": "292",
+    "station_id": 292,
+    "complex_id": 292,
     "daytime_routes": [
       "G"
     ],
@@ -6354,8 +6354,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "293",
-    "complex_id": "293",
+    "station_id": 293,
+    "complex_id": 293,
     "daytime_routes": [
       "1"
     ],
@@ -6375,8 +6375,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "294",
-    "complex_id": "294",
+    "station_id": 294,
+    "complex_id": 294,
     "daytime_routes": [
       "1"
     ],
@@ -6396,8 +6396,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "295",
-    "complex_id": "295",
+    "station_id": 295,
+    "complex_id": 295,
     "daytime_routes": [
       "1"
     ],
@@ -6417,8 +6417,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Elevated",
-    "station_id": "296",
-    "complex_id": "296",
+    "station_id": 296,
+    "complex_id": 296,
     "daytime_routes": [
       "1"
     ],
@@ -6438,8 +6438,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Elevated",
-    "station_id": "297",
-    "complex_id": "297",
+    "station_id": 297,
+    "complex_id": 297,
     "daytime_routes": [
       "1"
     ],
@@ -6459,8 +6459,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Elevated",
-    "station_id": "298",
-    "complex_id": "298",
+    "station_id": 298,
+    "complex_id": 298,
     "daytime_routes": [
       "1"
     ],
@@ -6480,8 +6480,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Elevated",
-    "station_id": "299",
-    "complex_id": "299",
+    "station_id": 299,
+    "complex_id": 299,
     "daytime_routes": [
       "1"
     ],
@@ -6501,8 +6501,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "300",
-    "complex_id": "300",
+    "station_id": 300,
+    "complex_id": 300,
     "daytime_routes": [
       "1"
     ],
@@ -6522,8 +6522,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "301",
-    "complex_id": "301",
+    "station_id": 301,
+    "complex_id": 301,
     "daytime_routes": [
       "1"
     ],
@@ -6543,8 +6543,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "302",
-    "complex_id": "605",
+    "station_id": 302,
+    "complex_id": 605,
     "daytime_routes": [
       "1"
     ],
@@ -6564,8 +6564,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "303",
-    "complex_id": "303",
+    "station_id": 303,
+    "complex_id": 303,
     "daytime_routes": [
       "1"
     ],
@@ -6585,8 +6585,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "304",
-    "complex_id": "304",
+    "station_id": 304,
+    "complex_id": 304,
     "daytime_routes": [
       "1"
     ],
@@ -6606,8 +6606,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "305",
-    "complex_id": "305",
+    "station_id": 305,
+    "complex_id": 305,
     "daytime_routes": [
       "1"
     ],
@@ -6627,8 +6627,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Elevated",
-    "station_id": "306",
-    "complex_id": "306",
+    "station_id": 306,
+    "complex_id": 306,
     "daytime_routes": [
       "1"
     ],
@@ -6648,8 +6648,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "307",
-    "complex_id": "307",
+    "station_id": 307,
+    "complex_id": 307,
     "daytime_routes": [
       "1"
     ],
@@ -6669,8 +6669,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "308",
-    "complex_id": "308",
+    "station_id": 308,
+    "complex_id": 308,
     "daytime_routes": [
       "1"
     ],
@@ -6690,8 +6690,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "309",
-    "complex_id": "309",
+    "station_id": 309,
+    "complex_id": 309,
     "daytime_routes": [
       "1"
     ],
@@ -6711,8 +6711,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "310",
-    "complex_id": "310",
+    "station_id": 310,
+    "complex_id": 310,
     "daytime_routes": [
       "1",
       "2",
@@ -6734,8 +6734,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "311",
-    "complex_id": "311",
+    "station_id": 311,
+    "complex_id": 311,
     "daytime_routes": [
       "1"
     ],
@@ -6755,8 +6755,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "312",
-    "complex_id": "312",
+    "station_id": 312,
+    "complex_id": 312,
     "daytime_routes": [
       "1"
     ],
@@ -6776,8 +6776,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "313",
-    "complex_id": "313",
+    "station_id": 313,
+    "complex_id": 313,
     "daytime_routes": [
       "1",
       "2",
@@ -6799,8 +6799,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "314",
-    "complex_id": "314",
+    "station_id": 314,
+    "complex_id": 314,
     "daytime_routes": [
       "1"
     ],
@@ -6820,8 +6820,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "315",
-    "complex_id": "614",
+    "station_id": 315,
+    "complex_id": 614,
     "daytime_routes": [
       "1"
     ],
@@ -6841,8 +6841,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "316",
-    "complex_id": "316",
+    "station_id": 316,
+    "complex_id": 316,
     "daytime_routes": [
       "1"
     ],
@@ -6862,8 +6862,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "317",
-    "complex_id": "611",
+    "station_id": 317,
+    "complex_id": 611,
     "daytime_routes": [
       "1",
       "2",
@@ -6885,8 +6885,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "318",
-    "complex_id": "318",
+    "station_id": 318,
+    "complex_id": 318,
     "daytime_routes": [
       "1",
       "2",
@@ -6908,8 +6908,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "319",
-    "complex_id": "319",
+    "station_id": 319,
+    "complex_id": 319,
     "daytime_routes": [
       "1"
     ],
@@ -6929,8 +6929,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "320",
-    "complex_id": "320",
+    "station_id": 320,
+    "complex_id": 320,
     "daytime_routes": [
       "1"
     ],
@@ -6950,8 +6950,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "321",
-    "complex_id": "321",
+    "station_id": 321,
+    "complex_id": 321,
     "daytime_routes": [
       "1"
     ],
@@ -6971,8 +6971,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "322",
-    "complex_id": "601",
+    "station_id": 322,
+    "complex_id": 601,
     "daytime_routes": [
       "1",
       "2",
@@ -6994,8 +6994,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "323",
-    "complex_id": "323",
+    "station_id": 323,
+    "complex_id": 323,
     "daytime_routes": [
       "1"
     ],
@@ -7015,8 +7015,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "324",
-    "complex_id": "324",
+    "station_id": 324,
+    "complex_id": 324,
     "daytime_routes": [
       "1"
     ],
@@ -7036,8 +7036,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "325",
-    "complex_id": "325",
+    "station_id": 325,
+    "complex_id": 325,
     "daytime_routes": [
       "1"
     ],
@@ -7057,8 +7057,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "326",
-    "complex_id": "326",
+    "station_id": 326,
+    "complex_id": 326,
     "daytime_routes": [
       "1"
     ],
@@ -7078,8 +7078,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "327",
-    "complex_id": "327",
+    "station_id": 327,
+    "complex_id": 327,
     "daytime_routes": [
       "1",
       "2",
@@ -7101,8 +7101,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "328",
-    "complex_id": "328",
+    "station_id": 328,
+    "complex_id": 328,
     "daytime_routes": [
       "1"
     ],
@@ -7122,8 +7122,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "329",
-    "complex_id": "329",
+    "station_id": 329,
+    "complex_id": 329,
     "daytime_routes": [
       "1"
     ],
@@ -7143,8 +7143,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "330",
-    "complex_id": "635",
+    "station_id": 330,
+    "complex_id": 635,
     "daytime_routes": [
       "1"
     ],
@@ -7164,8 +7164,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "331",
-    "complex_id": "624",
+    "station_id": 331,
+    "complex_id": 624,
     "daytime_routes": [
       "2",
       "3"
@@ -7186,8 +7186,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "332",
-    "complex_id": "628",
+    "station_id": 332,
+    "complex_id": 628,
     "daytime_routes": [
       "2",
       "3"
@@ -7208,8 +7208,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "333",
-    "complex_id": "333",
+    "station_id": 333,
+    "complex_id": 333,
     "daytime_routes": [
       "2",
       "3"
@@ -7230,8 +7230,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "334",
-    "complex_id": "334",
+    "station_id": 334,
+    "complex_id": 334,
     "daytime_routes": [
       "2",
       "3"
@@ -7252,8 +7252,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "335",
-    "complex_id": "620",
+    "station_id": 335,
+    "complex_id": 620,
     "daytime_routes": [
       "2",
       "3"
@@ -7274,8 +7274,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "336",
-    "complex_id": "336",
+    "station_id": 336,
+    "complex_id": 336,
     "daytime_routes": [
       "2",
       "3"
@@ -7296,8 +7296,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "337",
-    "complex_id": "337",
+    "station_id": 337,
+    "complex_id": 337,
     "daytime_routes": [
       "2",
       "3",
@@ -7320,8 +7320,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "338",
-    "complex_id": "617",
+    "station_id": 338,
+    "complex_id": 617,
     "daytime_routes": [
       "2",
       "3",
@@ -7344,8 +7344,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "339",
-    "complex_id": "339",
+    "station_id": 339,
+    "complex_id": 339,
     "daytime_routes": [
       "2",
       "3"
@@ -7366,8 +7366,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "340",
-    "complex_id": "340",
+    "station_id": 340,
+    "complex_id": 340,
     "daytime_routes": [
       "2",
       "3"
@@ -7388,8 +7388,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "341",
-    "complex_id": "341",
+    "station_id": 341,
+    "complex_id": 341,
     "daytime_routes": [
       "2",
       "3"
@@ -7410,8 +7410,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "342",
-    "complex_id": "626",
+    "station_id": 342,
+    "complex_id": 626,
     "daytime_routes": [
       "2",
       "3",
@@ -7434,8 +7434,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "343",
-    "complex_id": "343",
+    "station_id": 343,
+    "complex_id": 343,
     "daytime_routes": [
       "3"
     ],
@@ -7455,8 +7455,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "344",
-    "complex_id": "344",
+    "station_id": 344,
+    "complex_id": 344,
     "daytime_routes": [
       "3"
     ],
@@ -7476,8 +7476,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "345",
-    "complex_id": "345",
+    "station_id": 345,
+    "complex_id": 345,
     "daytime_routes": [
       "3",
       "4"
@@ -7498,8 +7498,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "346",
-    "complex_id": "346",
+    "station_id": 346,
+    "complex_id": 346,
     "daytime_routes": [
       "3"
     ],
@@ -7519,8 +7519,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "347",
-    "complex_id": "347",
+    "station_id": 347,
+    "complex_id": 347,
     "daytime_routes": [
       "3"
     ],
@@ -7540,8 +7540,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "348",
-    "complex_id": "348",
+    "station_id": 348,
+    "complex_id": 348,
     "daytime_routes": [
       "3"
     ],
@@ -7561,8 +7561,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "349",
-    "complex_id": "349",
+    "station_id": 349,
+    "complex_id": 349,
     "daytime_routes": [
       "3"
     ],
@@ -7582,8 +7582,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "350",
-    "complex_id": "350",
+    "station_id": 350,
+    "complex_id": 350,
     "daytime_routes": [
       "3"
     ],
@@ -7603,8 +7603,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "351",
-    "complex_id": "351",
+    "station_id": 351,
+    "complex_id": 351,
     "daytime_routes": [
       "3"
     ],
@@ -7624,8 +7624,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Elevated",
-    "station_id": "352",
-    "complex_id": "352",
+    "station_id": 352,
+    "complex_id": 352,
     "daytime_routes": [
       "3"
     ],
@@ -7645,8 +7645,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "353",
-    "complex_id": "353",
+    "station_id": 353,
+    "complex_id": 353,
     "daytime_routes": [
       "2",
       "5"
@@ -7667,8 +7667,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "354",
-    "complex_id": "354",
+    "station_id": 354,
+    "complex_id": 354,
     "daytime_routes": [
       "2",
       "5"
@@ -7689,8 +7689,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "355",
-    "complex_id": "355",
+    "station_id": 355,
+    "complex_id": 355,
     "daytime_routes": [
       "2",
       "5"
@@ -7711,8 +7711,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "356",
-    "complex_id": "356",
+    "station_id": 356,
+    "complex_id": 356,
     "daytime_routes": [
       "2",
       "5"
@@ -7733,8 +7733,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "357",
-    "complex_id": "357",
+    "station_id": 357,
+    "complex_id": 357,
     "daytime_routes": [
       "2",
       "5"
@@ -7755,8 +7755,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "358",
-    "complex_id": "358",
+    "station_id": 358,
+    "complex_id": 358,
     "daytime_routes": [
       "2",
       "5"
@@ -7777,8 +7777,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "359",
-    "complex_id": "359",
+    "station_id": 359,
+    "complex_id": 359,
     "daytime_routes": [
       "2",
       "5"
@@ -7799,8 +7799,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "360",
-    "complex_id": "360",
+    "station_id": 360,
+    "complex_id": 360,
     "daytime_routes": [
       "6"
     ],
@@ -7820,8 +7820,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "361",
-    "complex_id": "361",
+    "station_id": 361,
+    "complex_id": 361,
     "daytime_routes": [
       "6"
     ],
@@ -7841,8 +7841,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "362",
-    "complex_id": "362",
+    "station_id": 362,
+    "complex_id": 362,
     "daytime_routes": [
       "6"
     ],
@@ -7862,8 +7862,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "363",
-    "complex_id": "363",
+    "station_id": 363,
+    "complex_id": 363,
     "daytime_routes": [
       "6"
     ],
@@ -7883,8 +7883,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "364",
-    "complex_id": "364",
+    "station_id": 364,
+    "complex_id": 364,
     "daytime_routes": [
       "6"
     ],
@@ -7904,8 +7904,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "365",
-    "complex_id": "365",
+    "station_id": 365,
+    "complex_id": 365,
     "daytime_routes": [
       "6"
     ],
@@ -7925,8 +7925,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "366",
-    "complex_id": "366",
+    "station_id": 366,
+    "complex_id": 366,
     "daytime_routes": [
       "6"
     ],
@@ -7946,8 +7946,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "367",
-    "complex_id": "367",
+    "station_id": 367,
+    "complex_id": 367,
     "daytime_routes": [
       "6"
     ],
@@ -7967,8 +7967,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "368",
-    "complex_id": "368",
+    "station_id": 368,
+    "complex_id": 368,
     "daytime_routes": [
       "6"
     ],
@@ -7988,8 +7988,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "369",
-    "complex_id": "369",
+    "station_id": 369,
+    "complex_id": 369,
     "daytime_routes": [
       "6"
     ],
@@ -8009,8 +8009,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "370",
-    "complex_id": "370",
+    "station_id": 370,
+    "complex_id": 370,
     "daytime_routes": [
       "6"
     ],
@@ -8030,8 +8030,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "371",
-    "complex_id": "371",
+    "station_id": 371,
+    "complex_id": 371,
     "daytime_routes": [
       "6"
     ],
@@ -8051,8 +8051,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "372",
-    "complex_id": "372",
+    "station_id": 372,
+    "complex_id": 372,
     "daytime_routes": [
       "6"
     ],
@@ -8072,8 +8072,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "373",
-    "complex_id": "373",
+    "station_id": 373,
+    "complex_id": 373,
     "daytime_routes": [
       "6"
     ],
@@ -8093,8 +8093,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "374",
-    "complex_id": "374",
+    "station_id": 374,
+    "complex_id": 374,
     "daytime_routes": [
       "6"
     ],
@@ -8114,8 +8114,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "375",
-    "complex_id": "375",
+    "station_id": 375,
+    "complex_id": 375,
     "daytime_routes": [
       "6"
     ],
@@ -8135,8 +8135,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "376",
-    "complex_id": "376",
+    "station_id": 376,
+    "complex_id": 376,
     "daytime_routes": [
       "6"
     ],
@@ -8156,8 +8156,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "377",
-    "complex_id": "377",
+    "station_id": 377,
+    "complex_id": 377,
     "daytime_routes": [
       "6"
     ],
@@ -8177,8 +8177,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "378",
-    "complex_id": "378",
+    "station_id": 378,
+    "complex_id": 378,
     "daytime_routes": [
       "4"
     ],
@@ -8198,8 +8198,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "379",
-    "complex_id": "379",
+    "station_id": 379,
+    "complex_id": 379,
     "daytime_routes": [
       "4"
     ],
@@ -8219,8 +8219,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "380",
-    "complex_id": "380",
+    "station_id": 380,
+    "complex_id": 380,
     "daytime_routes": [
       "4"
     ],
@@ -8240,8 +8240,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "381",
-    "complex_id": "381",
+    "station_id": 381,
+    "complex_id": 381,
     "daytime_routes": [
       "4"
     ],
@@ -8261,8 +8261,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "382",
-    "complex_id": "382",
+    "station_id": 382,
+    "complex_id": 382,
     "daytime_routes": [
       "4"
     ],
@@ -8282,8 +8282,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "383",
-    "complex_id": "383",
+    "station_id": 383,
+    "complex_id": 383,
     "daytime_routes": [
       "4"
     ],
@@ -8303,8 +8303,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "384",
-    "complex_id": "384",
+    "station_id": 384,
+    "complex_id": 384,
     "daytime_routes": [
       "4"
     ],
@@ -8324,8 +8324,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "385",
-    "complex_id": "385",
+    "station_id": 385,
+    "complex_id": 385,
     "daytime_routes": [
       "4"
     ],
@@ -8345,8 +8345,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "386",
-    "complex_id": "386",
+    "station_id": 386,
+    "complex_id": 386,
     "daytime_routes": [
       "4"
     ],
@@ -8366,8 +8366,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "387",
-    "complex_id": "387",
+    "station_id": 387,
+    "complex_id": 387,
     "daytime_routes": [
       "4"
     ],
@@ -8387,8 +8387,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "388",
-    "complex_id": "388",
+    "station_id": 388,
+    "complex_id": 388,
     "daytime_routes": [
       "4"
     ],
@@ -8408,8 +8408,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "389",
-    "complex_id": "604",
+    "station_id": 389,
+    "complex_id": 604,
     "daytime_routes": [
       "4"
     ],
@@ -8429,8 +8429,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "390",
-    "complex_id": "603",
+    "station_id": 390,
+    "complex_id": 603,
     "daytime_routes": [
       "4"
     ],
@@ -8450,8 +8450,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "391",
-    "complex_id": "391",
+    "station_id": 391,
+    "complex_id": 391,
     "daytime_routes": [
       "4",
       "5"
@@ -8472,8 +8472,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "392",
-    "complex_id": "392",
+    "station_id": 392,
+    "complex_id": 392,
     "daytime_routes": [
       "4",
       "5",
@@ -8495,8 +8495,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "393",
-    "complex_id": "393",
+    "station_id": 393,
+    "complex_id": 393,
     "daytime_routes": [
       "6"
     ],
@@ -8516,8 +8516,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "394",
-    "complex_id": "394",
+    "station_id": 394,
+    "complex_id": 394,
     "daytime_routes": [
       "6"
     ],
@@ -8537,8 +8537,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "395",
-    "complex_id": "395",
+    "station_id": 395,
+    "complex_id": 395,
     "daytime_routes": [
       "6"
     ],
@@ -8558,8 +8558,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "396",
-    "complex_id": "396",
+    "station_id": 396,
+    "complex_id": 396,
     "daytime_routes": [
       "6"
     ],
@@ -8579,8 +8579,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "397",
-    "complex_id": "397",
+    "station_id": 397,
+    "complex_id": 397,
     "daytime_routes": [
       "4",
       "5",
@@ -8602,8 +8602,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "398",
-    "complex_id": "398",
+    "station_id": 398,
+    "complex_id": 398,
     "daytime_routes": [
       "6"
     ],
@@ -8623,8 +8623,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "399",
-    "complex_id": "399",
+    "station_id": 399,
+    "complex_id": 399,
     "daytime_routes": [
       "6"
     ],
@@ -8644,8 +8644,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "400",
-    "complex_id": "613",
+    "station_id": 400,
+    "complex_id": 613,
     "daytime_routes": [
       "4",
       "5",
@@ -8667,8 +8667,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "401",
-    "complex_id": "612",
+    "station_id": 401,
+    "complex_id": 612,
     "daytime_routes": [
       "6"
     ],
@@ -8688,8 +8688,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "402",
-    "complex_id": "610",
+    "station_id": 402,
+    "complex_id": 610,
     "daytime_routes": [
       "4",
       "5",
@@ -8711,8 +8711,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "403",
-    "complex_id": "403",
+    "station_id": 403,
+    "complex_id": 403,
     "daytime_routes": [
       "6"
     ],
@@ -8732,8 +8732,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "404",
-    "complex_id": "404",
+    "station_id": 404,
+    "complex_id": 404,
     "daytime_routes": [
       "6"
     ],
@@ -8753,8 +8753,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "405",
-    "complex_id": "405",
+    "station_id": 405,
+    "complex_id": 405,
     "daytime_routes": [
       "6"
     ],
@@ -8774,8 +8774,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "406",
-    "complex_id": "602",
+    "station_id": 406,
+    "complex_id": 602,
     "daytime_routes": [
       "4",
       "5",
@@ -8797,8 +8797,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "407",
-    "complex_id": "407",
+    "station_id": 407,
+    "complex_id": 407,
     "daytime_routes": [
       "6"
     ],
@@ -8818,8 +8818,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "408",
-    "complex_id": "619",
+    "station_id": 408,
+    "complex_id": 619,
     "daytime_routes": [
       "6"
     ],
@@ -8839,8 +8839,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "409",
-    "complex_id": "409",
+    "station_id": 409,
+    "complex_id": 409,
     "daytime_routes": [
       "6"
     ],
@@ -8860,8 +8860,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "410",
-    "complex_id": "623",
+    "station_id": 410,
+    "complex_id": 623,
     "daytime_routes": [
       "6"
     ],
@@ -8881,8 +8881,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "411",
-    "complex_id": "622",
+    "station_id": 411,
+    "complex_id": 622,
     "daytime_routes": [
       "4",
       "5",
@@ -8904,8 +8904,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "412",
-    "complex_id": "628",
+    "station_id": 412,
+    "complex_id": 628,
     "daytime_routes": [
       "4",
       "5"
@@ -8926,8 +8926,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "413",
-    "complex_id": "413",
+    "station_id": 413,
+    "complex_id": 413,
     "daytime_routes": [
       "4",
       "5"
@@ -8948,8 +8948,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "414",
-    "complex_id": "414",
+    "station_id": 414,
+    "complex_id": 414,
     "daytime_routes": [
       "4",
       "5"
@@ -8970,8 +8970,8 @@
     "division": "IRT",
     "borough": "Brooklyn",
     "structure": "Subway",
-    "station_id": "415",
-    "complex_id": "620",
+    "station_id": 415,
+    "complex_id": 620,
     "daytime_routes": [
       "4",
       "5"
@@ -8992,8 +8992,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "416",
-    "complex_id": "416",
+    "station_id": 416,
+    "complex_id": 416,
     "daytime_routes": [
       "2"
     ],
@@ -9013,8 +9013,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "417",
-    "complex_id": "417",
+    "station_id": 417,
+    "complex_id": 417,
     "daytime_routes": [
       "2",
       "5"
@@ -9035,8 +9035,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "418",
-    "complex_id": "418",
+    "station_id": 418,
+    "complex_id": 418,
     "daytime_routes": [
       "2",
       "5"
@@ -9057,8 +9057,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "419",
-    "complex_id": "419",
+    "station_id": 419,
+    "complex_id": 419,
     "daytime_routes": [
       "2",
       "5"
@@ -9079,8 +9079,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "420",
-    "complex_id": "420",
+    "station_id": 420,
+    "complex_id": 420,
     "daytime_routes": [
       "2",
       "5"
@@ -9101,8 +9101,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "421",
-    "complex_id": "421",
+    "station_id": 421,
+    "complex_id": 421,
     "daytime_routes": [
       "2",
       "5"
@@ -9123,8 +9123,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "422",
-    "complex_id": "422",
+    "station_id": 422,
+    "complex_id": 422,
     "daytime_routes": [
       "2",
       "5"
@@ -9145,8 +9145,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "423",
-    "complex_id": "423",
+    "station_id": 423,
+    "complex_id": 423,
     "daytime_routes": [
       "2",
       "5"
@@ -9167,8 +9167,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "424",
-    "complex_id": "424",
+    "station_id": 424,
+    "complex_id": 424,
     "daytime_routes": [
       "2",
       "5"
@@ -9189,8 +9189,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "425",
-    "complex_id": "425",
+    "station_id": 425,
+    "complex_id": 425,
     "daytime_routes": [
       "2",
       "5"
@@ -9211,8 +9211,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "426",
-    "complex_id": "426",
+    "station_id": 426,
+    "complex_id": 426,
     "daytime_routes": [
       "2",
       "5"
@@ -9233,8 +9233,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "427",
-    "complex_id": "427",
+    "station_id": 427,
+    "complex_id": 427,
     "daytime_routes": [
       "2",
       "5"
@@ -9255,8 +9255,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "428",
-    "complex_id": "428",
+    "station_id": 428,
+    "complex_id": 428,
     "daytime_routes": [
       "2",
       "5"
@@ -9277,8 +9277,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "429",
-    "complex_id": "429",
+    "station_id": 429,
+    "complex_id": 429,
     "daytime_routes": [
       "2",
       "5"
@@ -9299,8 +9299,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "430",
-    "complex_id": "430",
+    "station_id": 430,
+    "complex_id": 430,
     "daytime_routes": [
       "2",
       "5"
@@ -9321,8 +9321,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "431",
-    "complex_id": "431",
+    "station_id": 431,
+    "complex_id": 431,
     "daytime_routes": [
       "2",
       "5"
@@ -9343,8 +9343,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "432",
-    "complex_id": "432",
+    "station_id": 432,
+    "complex_id": 432,
     "daytime_routes": [
       "2",
       "5"
@@ -9365,8 +9365,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Elevated",
-    "station_id": "433",
-    "complex_id": "433",
+    "station_id": 433,
+    "complex_id": 433,
     "daytime_routes": [
       "2",
       "5"
@@ -9387,8 +9387,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "434",
-    "complex_id": "434",
+    "station_id": 434,
+    "complex_id": 434,
     "daytime_routes": [
       "2",
       "5"
@@ -9409,8 +9409,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Subway",
-    "station_id": "435",
-    "complex_id": "603",
+    "station_id": 435,
+    "complex_id": 603,
     "daytime_routes": [
       "2",
       "5"
@@ -9431,8 +9431,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "436",
-    "complex_id": "436",
+    "station_id": 436,
+    "complex_id": 436,
     "daytime_routes": [
       "3"
     ],
@@ -9452,8 +9452,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "437",
-    "complex_id": "437",
+    "station_id": 437,
+    "complex_id": 437,
     "daytime_routes": [
       "3"
     ],
@@ -9473,8 +9473,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "438",
-    "complex_id": "438",
+    "station_id": 438,
+    "complex_id": 438,
     "daytime_routes": [
       "2",
       "3"
@@ -9495,8 +9495,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "439",
-    "complex_id": "439",
+    "station_id": 439,
+    "complex_id": 439,
     "daytime_routes": [
       "2",
       "3"
@@ -9517,8 +9517,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "440",
-    "complex_id": "440",
+    "station_id": 440,
+    "complex_id": 440,
     "daytime_routes": [
       "2",
       "3"
@@ -9539,8 +9539,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "441",
-    "complex_id": "441",
+    "station_id": 441,
+    "complex_id": 441,
     "daytime_routes": [
       "2",
       "3"
@@ -9561,8 +9561,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "At Grade",
-    "station_id": "442",
-    "complex_id": "442",
+    "station_id": 442,
+    "complex_id": 442,
     "daytime_routes": [
       "5"
     ],
@@ -9582,8 +9582,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Open Cut",
-    "station_id": "443",
-    "complex_id": "443",
+    "station_id": 443,
+    "complex_id": 443,
     "daytime_routes": [
       "5"
     ],
@@ -9603,8 +9603,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Open Cut",
-    "station_id": "444",
-    "complex_id": "444",
+    "station_id": 444,
+    "complex_id": 444,
     "daytime_routes": [
       "5"
     ],
@@ -9624,8 +9624,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Open Cut",
-    "station_id": "445",
-    "complex_id": "445",
+    "station_id": 445,
+    "complex_id": 445,
     "daytime_routes": [
       "5"
     ],
@@ -9645,8 +9645,8 @@
     "division": "IRT",
     "borough": "Bronx",
     "structure": "Open Cut",
-    "station_id": "446",
-    "complex_id": "446",
+    "station_id": 446,
+    "complex_id": 446,
     "daytime_routes": [
       "5"
     ],
@@ -9666,8 +9666,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "447",
-    "complex_id": "447",
+    "station_id": 447,
+    "complex_id": 447,
     "daytime_routes": [
       "7"
     ],
@@ -9687,8 +9687,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "448",
-    "complex_id": "448",
+    "station_id": 448,
+    "complex_id": 448,
     "daytime_routes": [
       "7"
     ],
@@ -9708,8 +9708,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "449",
-    "complex_id": "449",
+    "station_id": 449,
+    "complex_id": 449,
     "daytime_routes": [
       "7"
     ],
@@ -9729,8 +9729,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "450",
-    "complex_id": "450",
+    "station_id": 450,
+    "complex_id": 450,
     "daytime_routes": [
       "7"
     ],
@@ -9750,8 +9750,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "451",
-    "complex_id": "451",
+    "station_id": 451,
+    "complex_id": 451,
     "daytime_routes": [
       "7"
     ],
@@ -9771,8 +9771,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "452",
-    "complex_id": "452",
+    "station_id": 452,
+    "complex_id": 452,
     "daytime_routes": [
       "7"
     ],
@@ -9792,8 +9792,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "453",
-    "complex_id": "453",
+    "station_id": 453,
+    "complex_id": 453,
     "daytime_routes": [
       "7"
     ],
@@ -9813,8 +9813,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "454",
-    "complex_id": "616",
+    "station_id": 454,
+    "complex_id": 616,
     "daytime_routes": [
       "7"
     ],
@@ -9834,8 +9834,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "455",
-    "complex_id": "455",
+    "station_id": 455,
+    "complex_id": 455,
     "daytime_routes": [
       "7"
     ],
@@ -9855,8 +9855,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "456",
-    "complex_id": "456",
+    "station_id": 456,
+    "complex_id": 456,
     "daytime_routes": [
       "7"
     ],
@@ -9876,8 +9876,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "457",
-    "complex_id": "457",
+    "station_id": 457,
+    "complex_id": 457,
     "daytime_routes": [
       "7"
     ],
@@ -9897,8 +9897,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "458",
-    "complex_id": "458",
+    "station_id": 458,
+    "complex_id": 458,
     "daytime_routes": [
       "7"
     ],
@@ -9918,8 +9918,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "459",
-    "complex_id": "459",
+    "station_id": 459,
+    "complex_id": 459,
     "daytime_routes": [
       "7"
     ],
@@ -9939,8 +9939,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "460",
-    "complex_id": "460",
+    "station_id": 460,
+    "complex_id": 460,
     "daytime_routes": [
       "7"
     ],
@@ -9960,8 +9960,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "461",
-    "complex_id": "461",
+    "station_id": 461,
+    "complex_id": 461,
     "daytime_routes": [
       "7"
     ],
@@ -9981,8 +9981,8 @@
     "division": "BMT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "461",
-    "complex_id": "461",
+    "station_id": 461,
+    "complex_id": 461,
     "daytime_routes": [
       "N",
       "W"
@@ -10003,8 +10003,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Elevated",
-    "station_id": "462",
-    "complex_id": "606",
+    "station_id": 462,
+    "complex_id": 606,
     "daytime_routes": [
       "7"
     ],
@@ -10024,8 +10024,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "463",
-    "complex_id": "463",
+    "station_id": 463,
+    "complex_id": 463,
     "daytime_routes": [
       "7"
     ],
@@ -10045,8 +10045,8 @@
     "division": "IRT",
     "borough": "Queens",
     "structure": "Subway",
-    "station_id": "464",
-    "complex_id": "464",
+    "station_id": 464,
+    "complex_id": 464,
     "daytime_routes": [
       "7"
     ],
@@ -10066,8 +10066,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "465",
-    "complex_id": "610",
+    "station_id": 465,
+    "complex_id": 610,
     "daytime_routes": [
       "7"
     ],
@@ -10087,8 +10087,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "466",
-    "complex_id": "609",
+    "station_id": 466,
+    "complex_id": 609,
     "daytime_routes": [
       "7"
     ],
@@ -10108,8 +10108,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "467",
-    "complex_id": "611",
+    "station_id": 467,
+    "complex_id": 611,
     "daytime_routes": [
       "7"
     ],
@@ -10129,8 +10129,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "468",
-    "complex_id": "611",
+    "station_id": 468,
+    "complex_id": 611,
     "daytime_routes": [
       "S"
     ],
@@ -10150,8 +10150,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "469",
-    "complex_id": "610",
+    "station_id": 469,
+    "complex_id": 610,
     "daytime_routes": [
       "S"
     ],
@@ -10171,8 +10171,8 @@
     "division": "IRT",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "471",
-    "complex_id": "471",
+    "station_id": 471,
+    "complex_id": 471,
     "daytime_routes": [
       "7"
     ],
@@ -10192,8 +10192,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "475",
-    "complex_id": "475",
+    "station_id": 475,
+    "complex_id": 475,
     "daytime_routes": [
       "Q"
     ],
@@ -10213,8 +10213,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "476",
-    "complex_id": "476",
+    "station_id": 476,
+    "complex_id": 476,
     "daytime_routes": [
       "Q"
     ],
@@ -10234,8 +10234,8 @@
     "division": "IND",
     "borough": "Manhattan",
     "structure": "Subway",
-    "station_id": "477",
-    "complex_id": "477",
+    "station_id": 477,
+    "complex_id": 477,
     "daytime_routes": [
       "Q"
     ],
@@ -10255,8 +10255,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
-    "station_id": "501",
-    "complex_id": "501",
+    "station_id": 501,
+    "complex_id": 501,
     "daytime_routes": [
       "SIR"
     ],
@@ -10276,8 +10276,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "At Grade",
-    "station_id": "502",
-    "complex_id": "502",
+    "station_id": 502,
+    "complex_id": 502,
     "daytime_routes": [
       "SIR"
     ],
@@ -10297,8 +10297,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Elevated",
-    "station_id": "503",
-    "complex_id": "503",
+    "station_id": 503,
+    "complex_id": 503,
     "daytime_routes": [
       "SIR"
     ],
@@ -10318,8 +10318,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Elevated",
-    "station_id": "504",
-    "complex_id": "504",
+    "station_id": 504,
+    "complex_id": 504,
     "daytime_routes": [
       "SIR"
     ],
@@ -10339,8 +10339,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
-    "station_id": "505",
-    "complex_id": "505",
+    "station_id": 505,
+    "complex_id": 505,
     "daytime_routes": [
       "SIR"
     ],
@@ -10360,8 +10360,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Embankment",
-    "station_id": "506",
-    "complex_id": "506",
+    "station_id": 506,
+    "complex_id": 506,
     "daytime_routes": [
       "SIR"
     ],
@@ -10381,8 +10381,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Embankment",
-    "station_id": "507",
-    "complex_id": "507",
+    "station_id": 507,
+    "complex_id": 507,
     "daytime_routes": [
       "SIR"
     ],
@@ -10402,8 +10402,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Embankment",
-    "station_id": "508",
-    "complex_id": "508",
+    "station_id": 508,
+    "complex_id": 508,
     "daytime_routes": [
       "SIR"
     ],
@@ -10423,8 +10423,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
-    "station_id": "509",
-    "complex_id": "509",
+    "station_id": 509,
+    "complex_id": 509,
     "daytime_routes": [
       "SIR"
     ],
@@ -10444,8 +10444,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
-    "station_id": "510",
-    "complex_id": "510",
+    "station_id": 510,
+    "complex_id": 510,
     "daytime_routes": [
       "SIR"
     ],
@@ -10465,8 +10465,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
-    "station_id": "511",
-    "complex_id": "511",
+    "station_id": 511,
+    "complex_id": 511,
     "daytime_routes": [
       "SIR"
     ],
@@ -10486,8 +10486,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Embankment",
-    "station_id": "512",
-    "complex_id": "512",
+    "station_id": 512,
+    "complex_id": 512,
     "daytime_routes": [
       "SIR"
     ],
@@ -10507,8 +10507,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
-    "station_id": "513",
-    "complex_id": "513",
+    "station_id": 513,
+    "complex_id": 513,
     "daytime_routes": [
       "SIR"
     ],
@@ -10528,8 +10528,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Embankment",
-    "station_id": "514",
-    "complex_id": "514",
+    "station_id": 514,
+    "complex_id": 514,
     "daytime_routes": [
       "SIR"
     ],
@@ -10549,8 +10549,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
-    "station_id": "515",
-    "complex_id": "515",
+    "station_id": 515,
+    "complex_id": 515,
     "daytime_routes": [
       "SIR"
     ],
@@ -10570,8 +10570,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
-    "station_id": "516",
-    "complex_id": "516",
+    "station_id": 516,
+    "complex_id": 516,
     "daytime_routes": [
       "SIR"
     ],
@@ -10591,8 +10591,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
-    "station_id": "517",
-    "complex_id": "517",
+    "station_id": 517,
+    "complex_id": 517,
     "daytime_routes": [
       "SIR"
     ],
@@ -10612,8 +10612,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Embankment",
-    "station_id": "518",
-    "complex_id": "518",
+    "station_id": 518,
+    "complex_id": 518,
     "daytime_routes": [
       "SIR"
     ],
@@ -10633,8 +10633,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "Open Cut",
-    "station_id": "519",
-    "complex_id": "519",
+    "station_id": 519,
+    "complex_id": 519,
     "daytime_routes": [
       "SIR"
     ],
@@ -10654,8 +10654,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "At Grade",
-    "station_id": "522",
-    "complex_id": "522",
+    "station_id": 522,
+    "complex_id": 522,
     "daytime_routes": [
       "SIR"
     ],
@@ -10675,8 +10675,8 @@
     "division": "SIR",
     "borough": "Staten Island",
     "structure": "At Grade",
-    "station_id": "523",
-    "complex_id": "523",
+    "station_id": 523,
+    "complex_id": 523,
     "daytime_routes": [
       "SIR"
     ],

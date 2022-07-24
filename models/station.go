@@ -21,17 +21,17 @@ const (
 )
 
 type Station struct {
-	DirectionLabels DirectionLabels      `json:"direction_labels" yaml:"direction_labels" gorm:"type:direction_labels" pp:",omitempty"`
-	GtfsStopId      string               `json:"gtfs_stop_id" yaml:"gtfs_stop_id" gorm:"primaryKey"`
-	StopName        string               `json:"stop_name" yaml:"stop_name" gorm:"type:text"`
-	Line            string               `json:"line" yaml:"line" gorm:"type:text"`
-	Division        divisions.Division   `json:"division" yaml:"division" gorm:"index;type:division"`
-	Borough         boroughs.Borough     `json:"borough" yaml:"borough" gorm:"index;type:borough" pp:",omitempty"`
-	Structure       structures.Structure `json:"structure" yaml:"structure" gorm:"type:structure"`
-	StationId       string               `json:"station_id" yaml:"station_id" gorm:"type:text;index"`
-	ComplexId       string               `json:"complex_id" yaml:"complex_id" gorm:"type:text" pp:",omitempty"`
-	DaytimeRoutes   routes.Routes        `json:"daytime_routes" yaml:"daytime_routes" gorm:"type:route[]"`
-	GtfsLocation    GtfsLocation         `json:"gtfs_location" yaml:"gtfs_location" gorm:"type:gtfs_location" pp:",omitempty"`
+	DirectionLabels DirectionLabels      `json:"direction_labels" yaml:"direction_labels" gorm:"type:direction_labels" gqlgen:"direction_labels" pp:",omitempty"`
+	GtfsStopId      string               `json:"gtfs_stop_id" yaml:"gtfs_stop_id" gorm:"primaryKey" gqlgen:"gtfs_stop_id"`
+	StopName        string               `json:"stop_name" yaml:"stop_name" gorm:"type:text" gqlgen:"stop_name"`
+	Line            string               `json:"line" yaml:"line" gorm:"type:text" gqlgen:"line"`
+	Division        divisions.Division   `json:"division" yaml:"division" gorm:"index;type:division" gqlgen:"division"`
+	Borough         boroughs.Borough     `json:"borough" yaml:"borough" gorm:"index;type:borough" gqlgen:"borough" pp:",omitempty"`
+	Structure       structures.Structure `json:"structure" yaml:"structure" gorm:"type:structure" gqlgen:"structure"`
+	StationId       int64                `json:"station_id" yaml:"station_id" gorm:"type:integer;index" gqlgen:"station_id"`
+	ComplexId       int64                `json:"complex_id" yaml:"complex_id" gorm:"type:integer;index"  gqlgen:"complex_id" pp:",omitempty"`
+	DaytimeRoutes   routes.Routes        `json:"daytime_routes" yaml:"daytime_routes" gorm:"type:route[]" gqlgen:"daytime_routes"`
+	GtfsLocation    GtfsLocation         `json:"gtfs_location" yaml:"gtfs_location" gorm:"type:gtfs_location" gqlgen:"gtfs_location" pp:",omitempty"`
 }
 
 func (s Station) Proto() *protosv1.Station {

@@ -1,0 +1,6 @@
+enum Division @goModel(model: "github.com/jalavosus/mtadata/models/divisions.Division") {
+    BMT
+    IND
+    IRT
+    SIR
+}

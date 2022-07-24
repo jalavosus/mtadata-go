@@ -1,11 +1,12 @@
 module github.com/jalavosus/mtadata
 
-go 1.18
+go 1.19
 
 require (
 	github.com/99designs/gqlgen v0.17.13
 	github.com/goccy/go-yaml v1.9.5
 	github.com/golang/protobuf v1.5.2
+	github.com/gorilla/mux v1.8.0
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0
 	github.com/joho/godotenv v1.4.0
 	github.com/k0kubun/pp/v3 v3.1.0
@@ -18,6 +19,7 @@ require (
 	github.com/vektah/gqlparser/v2 v2.4.6
 	go.uber.org/fx v1.17.1
 	go.uber.org/zap v1.16.0
+	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
 	google.golang.org/genproto v0.0.0-20200526211855-cb27e3aa2013
 	google.golang.org/grpc v1.47.0
 	google.golang.org/protobuf v1.28.0
@@ -31,6 +33,8 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.10.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
+	github.com/gorilla/websocket v1.5.0 // indirect
+	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgconn v1.12.1 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect

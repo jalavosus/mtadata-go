@@ -52,7 +52,7 @@ func request_MtaDataService_GetStation_0(ctx context.Context, marshaler runtime.
 		return nil, metadata, status.Errorf(codes.InvalidArgument, "missing parameter %s", "station_id")
 	}
 
-	protoReq.StationId, err = runtime.String(val)
+	protoReq.StationId, err = runtime.Int64(val)
 
 	if err != nil {
 		return nil, metadata, status.Errorf(codes.InvalidArgument, "type mismatch, parameter: %s, error: %v", "station_id", err)
@@ -86,7 +86,7 @@ func local_request_MtaDataService_GetStation_0(ctx context.Context, marshaler ru
 		return nil, metadata, status.Errorf(codes.InvalidArgument, "missing parameter %s", "station_id")
 	}
 
-	protoReq.StationId, err = runtime.String(val)
+	protoReq.StationId, err = runtime.Int64(val)
 
 	if err != nil {
 		return nil, metadata, status.Errorf(codes.InvalidArgument, "type mismatch, parameter: %s, error: %v", "station_id", err)
@@ -155,7 +155,7 @@ func request_MtaDataService_GetUpcomingTrains_0(ctx context.Context, marshaler r
 		return nil, metadata, status.Errorf(codes.InvalidArgument, "missing parameter %s", "station_id")
 	}
 
-	protoReq.StationId, err = runtime.String(val)
+	protoReq.StationId, err = runtime.Int64(val)
 
 	if err != nil {
 		return nil, metadata, status.Errorf(codes.InvalidArgument, "type mismatch, parameter: %s, error: %v", "station_id", err)
@@ -189,7 +189,7 @@ func local_request_MtaDataService_GetUpcomingTrains_0(ctx context.Context, marsh
 		return nil, metadata, status.Errorf(codes.InvalidArgument, "missing parameter %s", "station_id")
 	}
 
-	protoReq.StationId, err = runtime.String(val)
+	protoReq.StationId, err = runtime.Int64(val)
 
 	if err != nil {
 		return nil, metadata, status.Errorf(codes.InvalidArgument, "type mismatch, parameter: %s, error: %v", "station_id", err)
@@ -224,7 +224,7 @@ func request_MtaDataService_GetStationComplex_0(ctx context.Context, marshaler r
 		return nil, metadata, status.Errorf(codes.InvalidArgument, "missing parameter %s", "complex_id")
 	}
 
-	protoReq.ComplexId, err = runtime.String(val)
+	protoReq.ComplexId, err = runtime.Int64(val)
 
 	if err != nil {
 		return nil, metadata, status.Errorf(codes.InvalidArgument, "type mismatch, parameter: %s, error: %v", "complex_id", err)
@@ -258,7 +258,7 @@ func local_request_MtaDataService_GetStationComplex_0(ctx context.Context, marsh
 		return nil, metadata, status.Errorf(codes.InvalidArgument, "missing parameter %s", "complex_id")
 	}
 
-	protoReq.ComplexId, err = runtime.String(val)
+	protoReq.ComplexId, err = runtime.Int64(val)
 
 	if err != nil {
 		return nil, metadata, status.Errorf(codes.InvalidArgument, "type mismatch, parameter: %s, error: %v", "complex_id", err)

@@ -2,6 +2,7 @@ package divisions
 
 import (
 	"database/sql/driver"
+	"io"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
@@ -56,6 +57,16 @@ func FromProto(val protosv1.Division) (d Division) {
 	return
 }
 
+func (d Division) IsValid() bool {
+	for i := range AllDivisions {
+		if AllDivisions[i] == d {
+			return true
+		}
+	}
+
+	return false
+}
+
 func (d Division) Proto() protosv1.Division {
 	return protosv1.Division(d)
 }
@@ -107,6 +118,14 @@ func (d Division) MarshalYAML() ([]byte, error) {
 
 func (d *Division) UnmarshalYAML(data []byte) error {
 	return utils.DeserializeEnum(data, d, utils.SerializeYaml, FromString)
+}
+
+func (d Division) MarshalGQL(w io.Writer) {
+	utils.SerializeGQL(d.String(), w)
+}
+
+func (d *Division) UnmarshalGQL(data any) error {
+	return utils.DeserializeGQL(data, d, FromString)
 }
 
 func (d *Division) QueryClause() string {

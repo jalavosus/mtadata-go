@@ -2,6 +2,7 @@ package structures
 
 import (
 	"database/sql/driver"
+	"io"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
@@ -64,6 +65,16 @@ func FromProto(val protosv1.Structure) (s Structure) {
 	return
 }
 
+func (s Structure) IsValid() bool {
+	for i := range AllStructures {
+		if AllStructures[i] == s {
+			return true
+		}
+	}
+
+	return false
+}
+
 func (s Structure) Proto() protosv1.Structure {
 	return protosv1.Structure(s)
 }
@@ -115,6 +126,14 @@ func (s Structure) MarshalYAML() ([]byte, error) {
 
 func (s *Structure) UnmarshalYAML(data []byte) error {
 	return utils.DeserializeEnum(data, s, utils.SerializeYaml, FromString)
+}
+
+func (s Structure) MarshalGQL(w io.Writer) {
+	utils.SerializeGQL(s.String(), w)
+}
+
+func (s *Structure) UnmarshalGQL(data any) error {
+	return utils.DeserializeGQL(data, s, FromString)
 }
 
 func (*Structure) QueryClause() string {

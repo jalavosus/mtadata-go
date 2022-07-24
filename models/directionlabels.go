@@ -18,8 +18,8 @@ const (
 )
 
 type DirectionLabels struct {
-	North string `json:"north" yaml:"north" pp:",omitempty"`
-	South string `json:"south" yaml:"south" pp:",omitempty"`
+	North string `json:"north" yaml:"north" gqlgen:"north" pp:",omitempty"`
+	South string `json:"south" yaml:"south" gqlgen:"south" pp:",omitempty"`
 }
 
 func NewDirectionLabels(north, south string) DirectionLabels {

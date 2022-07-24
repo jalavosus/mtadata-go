@@ -3,6 +3,7 @@ package parser
 import (
 	"encoding/csv"
 	"os"
+	"strconv"
 	"strings"
 
 	"github.com/jalavosus/mtadata/internal/utils"
@@ -29,9 +30,12 @@ func ParseStationsCsv(csvPath string) (stations []models.Station, err error) {
 }
 
 func parseStationFromCsv(record []string) models.Station {
+	stationId, _ := strconv.Atoi(record[0])
+	complexId, _ := strconv.Atoi(record[1])
+
 	return models.Station{
-		StationId:       record[0],
-		ComplexId:       record[1],
+		StationId:       int64(stationId),
+		ComplexId:       int64(complexId),
 		GtfsStopId:      record[2],
 		Division:        divisions.FromString(record[3]),
 		Line:            record[4],

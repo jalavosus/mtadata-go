@@ -2,6 +2,7 @@ package boroughs
 
 import (
 	"database/sql/driver"
+	"io"
 	"strings"
 
 	"gorm.io/gorm"
@@ -78,6 +79,16 @@ func FromProto(val protosv1.Borough) (b Borough) {
 	return
 }
 
+func (b Borough) IsValid() bool {
+	for i := range AllBoroughs {
+		if AllBoroughs[i] == b {
+			return true
+		}
+	}
+
+	return false
+}
+
 func (b Borough) Proto() protosv1.Borough {
 	return protosv1.Borough(b)
 }
@@ -129,6 +140,14 @@ func (b Borough) MarshalYAML() ([]byte, error) {
 
 func (b *Borough) UnmarshalYAML(data []byte) error {
 	return utils.DeserializeEnum(data, b, utils.SerializeYaml, FromString)
+}
+
+func (b Borough) MarshalGQL(w io.Writer) {
+	utils.SerializeGQL(b.String(), w)
+}
+
+func (b *Borough) UnmarshalGQL(data any) error {
+	return utils.DeserializeGQL(data, b, FromString)
 }
 
 func (*Borough) QueryClause() string {

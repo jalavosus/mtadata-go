@@ -21,6 +21,21 @@ const (
 	OrderByUnknown    = OrderBy("")
 )
 
+func OrderByFromString(s string) (ob OrderBy) {
+	switch strings.ToLower(s) {
+	case string(OrderByStationId):
+		ob = OrderByStationId
+	case string(OrderByGtfsStopId):
+		ob = OrderByGtfsStopId
+	case string(OrderByComplexId):
+		ob = OrderByComplexId
+	default:
+		ob = OrderByStationId
+	}
+
+	return
+}
+
 type QueryParam[T any] interface {
 	QueryClause() string
 	Arg() *T
@@ -133,8 +148,8 @@ func (p *BaseQueryParams) FromProto(params *protosv1.BaseQueryParams, orderBySta
 
 type StationQueryParams struct {
 	BaseQueryParams
-	StationId  *string
-	ComplexId  *string
+	StationId  *int64
+	ComplexId  *int64
 	GtfsStopId *string
 }
 
@@ -165,10 +180,10 @@ func (p StationQueryParams) ToQuery() (params QueryParams, hasParams bool) {
 	queryParams, args = checkAppendParam(p.GtfsStopId, "gtfs_stop_id = ?", queryParams, args)
 
 	params, hasParams = p.BaseQueryParams.ToQuery(queryParams, args)
-	params.OrderBy = OrderByGtfsStopId
-
-	if orderBy, ok := checkValid(p.OrderBy, OrderByUnknown); ok {
-		params.OrderBy = orderBy
+	if p.OrderBy != nil && *p.OrderBy != OrderByUnknown {
+		params.OrderBy = *p.OrderBy
+	} else {
+		params.OrderBy = OrderByGtfsStopId
 	}
 
 	return
@@ -176,7 +191,7 @@ func (p StationQueryParams) ToQuery() (params QueryParams, hasParams bool) {
 
 type StationComplexQueryParams struct {
 	BaseQueryParams
-	ComplexId *string
+	ComplexId *int64
 }
 
 func (p *StationComplexQueryParams) FromProto(params *protosv1.StationComplexesQuery) StationComplexQueryParams {

@@ -1,0 +1,8 @@
+enum Structure @goModel(model: "github.com/jalavosus/mtadata/models/structures.Structure") {
+    AtGrade
+    Elevated
+    Embankment
+    OpenCut
+    Subway
+    Viaduct
+}

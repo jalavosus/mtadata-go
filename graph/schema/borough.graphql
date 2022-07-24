@@ -1,0 +1,7 @@
+enum Borough @goModel(model: "github.com/jalavosus/mtadata/models/boroughs.Borough") {
+    Manhattan
+    Brooklyn
+    Bronx
+    Queens
+    StatenIsland
+}

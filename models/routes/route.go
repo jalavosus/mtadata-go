@@ -2,6 +2,7 @@ package routes
 
 import (
 	"database/sql/driver"
+	"io"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
@@ -79,6 +80,16 @@ func FromString(s string) Route {
 	return utils.EnumFromString(s, AllRoutes, Unknown)
 }
 
+func (r Route) IsValid() bool {
+	for i := range AllRoutes {
+		if AllRoutes[i] == r {
+			return true
+		}
+	}
+
+	return false
+}
+
 func (r Route) Proto() protosv1.Route {
 	return protosv1.Route(r)
 }
@@ -130,6 +141,14 @@ func (r Route) MarshalYAML() ([]byte, error) {
 
 func (r *Route) UnmarshalYAML(data []byte) error {
 	return utils.DeserializeEnum(data, r, utils.SerializeYaml, FromString)
+}
+
+func (r Route) MarshalGQL(w io.Writer) {
+	utils.SerializeGQL(r.String(), w)
+}
+
+func (r *Route) UnmarshalGQL(data any) error {
+	return utils.DeserializeGQL(data, r, FromString)
 }
 
 func (r *Route) QueryClause() string {

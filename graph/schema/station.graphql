@@ -1,0 +1,27 @@
+# GraphQL schema example
+#
+# https://gqlgen.com/getting-started/
+
+type Station @goModel(model: "github.com/jalavosus/mtadata/models.Station") {
+  station_id:       Int!
+  complex_id:       Int!
+  gtfs_stop_id:     String!
+  stop_name:        String!
+  line:             String!
+  division:         Division!
+  borough:          Borough!
+  structure:        Structure!
+  daytime_routes:   [Route!]!
+  gtfs_location:    GtfsLocation!
+  direction_labels: DirectionLabels!
+}
+
+type GtfsLocation @goModel(model: "github.com/jalavosus/mtadata/models.GtfsLocation") {
+  latitude:  Float!
+  longitude: Float!
+}
+
+type DirectionLabels @goModel(model: "github.com/jalavosus/mtadata/models.DirectionLabels") {
+  north: String!
+  south: String!
+}

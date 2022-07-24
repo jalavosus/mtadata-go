@@ -15,7 +15,7 @@ message GtfsLocation {
 }
 
 message StationInfo {
-  string station_id = 1;
+  int64 station_id = 1;
   string gtfs_stop_id = 2;
 }
 
@@ -27,14 +27,14 @@ message Station {
   Division division = 5;
   Borough borough = 6;
   Structure structure = 7;
-  string station_id = 8;
-  string complex_id = 9;
+  int64 station_id = 8;
+  int64 complex_id = 9;
   repeated Route daytime_routes = 10;
   GtfsLocation gtfs_location = 11;
 }
 
 message StationComplex {
-  string complex_id = 1;
+  int64 complex_id = 1;
   Borough borough = 2;
   repeated Division divisions = 3;
   repeated Route daytime_routes = 4;

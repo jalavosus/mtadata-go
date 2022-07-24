@@ -20,7 +20,7 @@ var (
 		Aliases:  []string{"b"},
 		Required: false,
 	}
-	complexIdFlag = cli.StringFlag{
+	complexIdFlag = cli.Int64Flag{
 		Name:     "complex-id",
 		Usage:    "Filter stations and complexes by `complex_id`",
 		Aliases:  []string{"c"},
@@ -41,9 +41,9 @@ var (
 	}
 )
 
-func complexIdFromFlag(c *cli.Context) (complexId string, exists, valid bool) {
+func complexIdFromFlag(c *cli.Context) (complexId int64, exists, valid bool) {
 	val := complexIdFlag.Get(c)
-	exists = val != ""
+	exists = val != 0
 
 	if exists {
 		complexId = val

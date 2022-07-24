@@ -1,9 +1,9 @@
 .PHONY: clean build build-all build-macos build-linux
 .PHONY: generate lint fieldalign fieldalign-fix fmt
 .PHONY: build-protos
+.PHONY: gqlgen
 
-#GO=$(shell which go)
-GO=$(shell which gotip)
+GO=$(shell which go)
 CMD_DIR=./cmd
 BIN_DIR=./bin
 
@@ -68,6 +68,9 @@ build-linux :
 build-protos :
 	buf build
 	buf generate
+
+gqlgen :
+	$(GO) run github.com/99designs/gqlgen generate
 
 clean :
 	rm -rf $(BIN_DIR)

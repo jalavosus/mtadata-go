@@ -1,0 +1,26 @@
+enum Route @goModel(model: "github.com/jalavosus/mtadata/models/routes.Route") {
+    One
+    Two
+    Three
+    Four
+    Five
+    Six
+    Seven
+    A
+    B
+    C
+    D
+    E
+    F
+    G
+    J
+    L
+    M
+    N
+    Q
+    R
+    S
+    SIR
+    W
+    Z
+}

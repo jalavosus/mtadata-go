@@ -6,34 +6,22 @@ type EndpointConfig interface {
 }
 
 type ServerConfig struct {
-	Grpc         GrpcConfig    `fig:"grpc"`
-	Gateway      GatewayConfig `fig:"gateway"`
-	DnsHostnames []string      `fig:"dns_hostnames"`
+	Grpc         HostPortConfig `fig:"grpc"`
+	Gateway      HostPortConfig `fig:"gateway"`
+	Graphql      HostPortConfig `fig:"graphql"`
+	DnsHostnames []string       `fig:"dns_hostnames"`
 }
 
-type GrpcConfig struct {
+type HostPortConfig struct {
 	Host string `fig:"host" default:"localhost"`
-	Port int    `fig:"port" default:"50051"`
+	Port int    `fig:"port"`
 }
 
-func (c GrpcConfig) GetHost() string {
+func (c HostPortConfig) GetHost() string {
 	return c.Host
 }
 
-func (c GrpcConfig) GetPort() int {
-	return c.Port
-}
-
-type GatewayConfig struct {
-	Host string `fig:"host" default:"localhost"`
-	Port int    `fig:"port" default:"9090"`
-}
-
-func (c GatewayConfig) GetHost() string {
-	return c.Host
-}
-
-func (c GatewayConfig) GetPort() int {
+func (c HostPortConfig) GetPort() int {
 	return c.Port
 }
 

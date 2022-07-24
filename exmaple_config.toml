@@ -4,3 +4,6 @@
 
 [server.gateway]
 #port=9095
+
+[server.graphql]
+#port=8080

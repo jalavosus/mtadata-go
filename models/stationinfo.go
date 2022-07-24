@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"regexp"
+	"strconv"
 	"strings"
 
 	"github.com/lib/pq"
@@ -22,8 +23,8 @@ const (
 )
 
 type StationInfo struct {
-	StationId  string `json:"station_id" yaml:"station_id"`
-	GtfsStopId string `json:"gtfs_stop_id" yaml:"gtfs_stop_id"`
+	StationId  int64  `json:"station_id" yaml:"station_id" gqlgen:"station_id"`
+	GtfsStopId string `json:"gtfs_stop_id" yaml:"gtfs_stop_id" gqlgen:"gtfs_stop_id"`
 }
 
 func (s StationInfo) Proto() *protosv1.StationInfo {
@@ -48,7 +49,7 @@ func (StationInfo) GormDBDataType(db *gorm.DB, _ *schema.Field) string {
 
 func (StationInfo) CreateDbType() string {
 	return fmt.Sprintf(`CREATE TYPE public.%[1]s AS (
-	station_id TEXT,
+	station_id INTEGER,
 	gtfs_stop_id TEXT
 );`, stationInfoGormDataTypePg)
 }
@@ -59,14 +60,15 @@ func (s *StationInfo) Scan(value any) error {
 
 	split := utils.TrimWhitespaceSlice(strings.Split(val, ","))
 
-	s.StationId = split[0]
+	sid, _ := strconv.Atoi(split[0])
+	s.StationId = int64(sid)
 	s.GtfsStopId = split[1]
 
 	return nil
 }
 
 func (s StationInfo) Value() (driver.Value, error) {
-	return fmt.Sprintf(`("%[1]s","%[2]s")`, s.StationId, s.GtfsStopId), nil
+	return fmt.Sprintf(`("%[1]d","%[2]s")`, s.StationId, s.GtfsStopId), nil
 }
 
 type (

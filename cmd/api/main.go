@@ -18,6 +18,7 @@ import (
 	"github.com/jalavosus/mtadata/internal/logging"
 	"github.com/jalavosus/mtadata/internal/serverauth"
 	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
+	"github.com/jalavosus/mtadata/server/gqlserver"
 	"github.com/jalavosus/mtadata/server/grpcserver"
 	"github.com/jalavosus/mtadata/server/grpcserver/compressor"
 	"github.com/jalavosus/mtadata/server/muxserver"
@@ -28,6 +29,18 @@ var (
 		Name:     "config",
 		Aliases:  []string{"c"},
 		Required: false,
+	}
+	grpcServerFlag = cli.BoolFlag{
+		Name:     "nogrpc",
+		Usage:    "Specifies whether to start the grpc server",
+		Required: false,
+		Value:    false,
+	}
+	gqlServerFlag = cli.BoolFlag{
+		Name:     "nogql",
+		Usage:    "Specifies whether to start the GraphQL server",
+		Required: false,
+		Value:    false,
 	}
 	tlsCertFlag = cli.PathFlag{
 		Name:     "tls-cert",
@@ -115,7 +128,7 @@ func clientCmdAction(c *cli.Context) error {
 	defer cancel()
 
 	query := &protosv1.StationComplexRequest{
-		ComplexId: "611",
+		ComplexId: 611,
 	}
 
 	res, err := client.GetStationComplex(queryCtx, query)
@@ -130,21 +143,47 @@ func clientCmdAction(c *cli.Context) error {
 func apiCmdAction(c *cli.Context) error {
 	errCh := make(chan error, 1)
 
-	app := fx.New(
+	fxSupply := []fx.Option{
 		fx.Supply(
 			errCh,
 			configFlag.Get(c),
 			getTlsConfig(c),
 		),
+	}
+
+	fxDeps := []fx.Option{
 		fx.Provide(logging.NewLogger),
 		logging.WithLogger,
 		fx.Module("config", config.Module),
+		fx.Module("database", database.Module),
 		fx.Module("compressor", compressor.Module),
 		fx.Module("serverauth", serverauth.Module),
-		fx.Module("grpc", grpcserver.Module),
-		fx.Module("mux", muxserver.Module),
-		fx.Module("database", database.Module),
+	}
+
+	if !grpcServerFlag.Get(c) {
+		fxDeps = append(fxDeps, fx.Module("grpc", grpcserver.Module))
+		fxDeps = append(fxDeps, fx.Module("mux", muxserver.Module))
+	}
+	if !gqlServerFlag.Get(c) {
+		fxDeps = append(fxDeps, fx.Module("gql", gqlserver.Module))
+	}
+
+	var (
+		supplyCount = len(fxSupply)
+		depsCount   = len(fxDeps)
+		optsCount   = supplyCount + depsCount
 	)
+
+	var fxAppOpts = make([]fx.Option, optsCount)
+	for i, opt := range fxSupply {
+		fxAppOpts[i] = opt
+	}
+
+	for i, opt := range fxDeps {
+		fxAppOpts[i+supplyCount] = opt
+	}
+
+	app := fx.New(fxAppOpts...)
 
 	if err := app.Start(c.Context); err != nil {
 		return err
@@ -171,6 +210,8 @@ func main() {
 		Authors: []*cli.Author{&cliutil.AppAuthor},
 		Flags: []cli.Flag{
 			&configFlag,
+			&grpcServerFlag,
+			&gqlServerFlag,
 			&tlsCertFlag,
 			&tlsKeyFlag,
 			&tlsCaCertFlag,
