@@ -5,6 +5,7 @@ import (
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 
+	"github.com/jalavosus/mtadata/internal/config"
 	"github.com/jalavosus/mtadata/server"
 )
 
@@ -14,7 +15,12 @@ type MuxServer struct {
 }
 
 func NewServer(params server.NewServerParams) *MuxServer {
-	endpoint := server.MakeEndpoint(params.AppConfig.Server.Gateway)
+	endpointConf := params.AppConfig.Server.Gateway
+	if endpointConf.Port == 0 {
+		(&endpointConf).Port = config.DefaultPortGateway
+	}
+
+	endpoint := server.MakeEndpoint(endpointConf)
 
 	return &MuxServer{
 		Server: server.NewServer(endpoint),

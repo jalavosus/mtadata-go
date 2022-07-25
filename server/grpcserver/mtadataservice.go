@@ -2,6 +2,7 @@ package grpcserver
 
 import (
 	"context"
+	"strconv"
 	"time"
 
 	"go.uber.org/zap"
@@ -33,13 +34,13 @@ func (s *Server) GetStation(ctx context.Context, req *protosv1.StationRequest) (
 	)
 
 	switch {
-	case stationId != "":
+	case stationId != 0:
 		queryBy = database.StationQueryByStationId
-		queryId = stationId
+		queryId = strconv.Itoa(int(stationId))
 	case gtfsId != "":
 		queryBy = database.StationQueryByGtfsId
 		queryId = gtfsId
-	case stationId == "" && gtfsId == "":
+	case stationId == 0 && gtfsId == "":
 		res.Error = models.MissingParametersError(
 			apimethods.GetStation,
 			"station_id", "gtfs_stop_id",
@@ -91,10 +92,10 @@ func (s *Server) GetUpcomingTrains(ctx context.Context, req *protosv1.UpcomingTr
 	case gtfsStopId != "":
 		queryId = gtfsStopId
 		queryBy = database.StationQueryByGtfsId
-	case gtfsStopId == "" && stationId != "":
-		queryId = stationId
+	case gtfsStopId == "" && stationId != 0:
+		queryId = strconv.Itoa(int(stationId))
 		queryBy = database.StationQueryByStationId
-	case gtfsStopId == "" && stationId == "":
+	case gtfsStopId == "" && stationId == 0:
 		res.Error = models.MissingParametersError(
 			apimethods.GetUpcomingTrains,
 			"station_id", "gtfs_stop_id",
@@ -142,7 +143,7 @@ func (s *Server) GetStationComplex(ctx context.Context, req *protosv1.StationCom
 
 	dbRes, err := database.StationComplex(ctx, req.GetComplexId())
 	if err != nil {
-		apiErr := dbError(err, "StationComplex", req.GetComplexId(), apimethods.GetStationComplex)
+		apiErr := dbError(err, "StationComplex", strconv.Itoa(int(req.GetComplexId())), apimethods.GetStationComplex)
 		s.logger.Error("error fetching complex", zap.Error(apiErr))
 		res.Error = apiErr.Proto()
 		return
@@ -195,7 +196,7 @@ func (s *Server) GetStationComplexes(ctx context.Context, req *protosv1.StationC
 			if err != nil {
 				s.logger.Error(
 					"error fetching verbose station info for complex",
-					zap.String("complex_id", cmplx.ComplexId),
+					zap.Int64("complex_id", cmplx.ComplexId),
 					zap.Error(err),
 				)
 			} else {

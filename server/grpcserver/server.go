@@ -9,6 +9,7 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
+	"github.com/jalavosus/mtadata/internal/config"
 	"github.com/jalavosus/mtadata/internal/logging"
 	protosv1 "github.com/jalavosus/mtadata/models/protos/v1"
 	"github.com/jalavosus/mtadata/server"
@@ -27,7 +28,12 @@ type Server struct {
 }
 
 func NewServer(params server.NewServerParams) (*Server, error) {
-	endpoint := server.MakeEndpoint(params.AppConfig.Server.Grpc)
+	endpointConf := params.AppConfig.Server.Grpc
+	if endpointConf.Port == 0 {
+		(&endpointConf).Port = config.DefaultPortGrpc
+	}
+
+	endpoint := server.MakeEndpoint(endpointConf)
 
 	s := &Server{
 		Server: server.NewServer(endpoint),
